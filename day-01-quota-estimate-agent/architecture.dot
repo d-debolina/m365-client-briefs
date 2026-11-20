@@ -1,0 +1,25 @@
+digraph G {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=20, labelloc=t, pad=0.4, nodesep=0.45, ranksep=0.7, bgcolor="white",
+         label=<<b>Day 1 · QUOTA — Quote-Of-Today Assistant</b><br/><font point-size="13" color="#6B7280">Copilot Studio agent inside a standalone model-driven app, grounded in Dataverse<br/><font point-size="11"><font color="#7C3AED">■ Power Platform</font>   <font color="#0369A1">■ Microsoft 365</font>   <font color="#0F766E">■ Azure</font>   <font color="#C2410C">■ Copilot / AI</font>   <font color="#A16207">■ Repo files / outputs</font></font></font>>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, margin="0.18,0.10", penwidth=1.4];
+  edge  [fontname="Helvetica", fontsize=10, color="#4B5563", fontcolor="#374151", arrowsize=0.7];
+  rep [label=<<b>Sales rep</b>>, fillcolor="#F3F4F6", color="#6B7280"];
+  subgraph cluster_pp { label=<<b>Power Platform environment</b>>; fontsize=13; style="rounded,dashed"; color="#7C3AED"; fontcolor="#7C3AED";
+  mda [label=<<b>Model-driven app</b><br/><font point-size="10">standalone, agent pane</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  dv [label=<<b>Dataverse</b><br/><font point-size="10">qta_pricelist · qta_opportunity<br/>qta_pricingrule · qta_quote</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  flow [label=<<b>Agent flow</b><br/><font point-size="10">build quote · Word → PDF</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  }
+  subgraph cluster_cs { label=<<b>Copilot Studio</b>>; fontsize=13; style="rounded,dashed"; color="#C2410C"; fontcolor="#C2410C";
+  agent [label=<<b>QUOTA agent</b><br/><font point-size="10">generative orchestration</font>>, fillcolor="#FFF1E6", color="#C2410C"];
+  mcp [label=<<b>Dataverse MCP server</b><br/><font point-size="10">read_query · create_record</font>>, fillcolor="#FFF1E6", color="#C2410C"];
+  }
+  subgraph cluster_m365 { label=<<b>Microsoft 365</b>>; fontsize=13; style="rounded,dashed"; color="#0369A1"; fontcolor="#0369A1";
+  appr [label=<<b>Teams approval</b><br/><font point-size="10">discount &gt; rule threshold</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  pdf [label=<<b>Quote PDF</b><br/><font point-size="10">SharePoint / email</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  }
+  rep -> mda [label="asks for quote"];
+  mda -> agent [label="in-app chat"];
+  agent -> mcp [label="tool call"]; mcp -> dv [label="price lookup"];
+  agent -> flow [label="create quote"];
+  flow -> dv; flow -> appr [label="if over limit", style=dashed]; flow -> pdf;
+}
