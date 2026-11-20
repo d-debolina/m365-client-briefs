@@ -1,4 +1,12 @@
-"""Generate consistent architecture diagrams (Graphviz) for Days 1-7."""
+"""Consistent architecture diagrams (Graphviz) for the series.
+
+Usage for a new day:
+    import sys; sys.path.insert(0, "tools"); from diagrams import n, b, cluster, render
+    body = n("u", b("User"), "user") + cluster("pp", "Power Platform", "pp", n("app", b("App"), "pp")) + "  u -> app;\n"
+    render("day-08-xyz-slug", "Day 8 · XYZ — Expansion", "one-line subtitle", body)
+Kinds: user, pp (Power Platform), m365, azure, cs (Copilot/AI), doc (repo files/outputs).
+Escape & as &amp; and > as &gt; inside labels. Needs graphviz `dot` (apt-get install graphviz).
+"""
 import subprocess, pathlib, textwrap
 
 REPO = pathlib.Path(__file__).resolve().parents[1]
@@ -191,11 +199,19 @@ D["day-07-scout-agent-readiness-audit"] = ("Day 7 · SCOUT — Survey, Classify,
   score -> road; cost -> road; road -> pilot;
 """)
 
-for folder, (title, sub, body) in D.items():
+def render(folder, title, sub, body):
+    """Write architecture.dot/.svg/.png into REPO/folder. Reuse n(), b(), cluster() to build `body`."""
     dot = (HEAD % (title, sub + KEY)) + body + "}\n"
-    if folder.startswith("day-05"): dot = dot.replace("rankdir=LR", "rankdir=TB")
+    if folder.startswith("day-05"):
+        dot = dot.replace("rankdir=LR", "rankdir=TB")
     out = REPO / folder
+    out.mkdir(parents=True, exist_ok=True)
     (out / "architecture.dot").write_text(dot)
     subprocess.run(["dot", "-Tsvg", "-o", str(out / "architecture.svg"), str(out / "architecture.dot")], check=True)
     subprocess.run(["dot", "-Tpng", "-Gdpi=150", "-o", str(out / "architecture.png"), str(out / "architecture.dot")], check=True)
     print("ok", folder)
+
+
+if __name__ == "__main__":
+    for folder, (title, sub, body) in D.items():
+        render(folder, title, sub, body)
