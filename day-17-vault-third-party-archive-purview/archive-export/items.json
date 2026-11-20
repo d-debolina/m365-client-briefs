@@ -1,0 +1,990 @@
+[
+  {
+    "archiveId": "ARC-100001",
+    "source": "Mobile SMS archive",
+    "from": "aisha.khan@contoso.example",
+    "to": [
+      "marco.rossi@contoso.example",
+      "partner@fabrikam.example"
+    ],
+    "sentUtc": "2023-09-24T05:44:00Z",
+    "subject": "Fwd: invoice dispute",
+    "body": "Fictional message 1 about fwd: invoice dispute.",
+    "attachments": [],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "7Y-Finance",
+    "legalHold": false,
+    "sha256": "67018b19076530baa04bb3399a88cf8cf5c097bd3b0770c8693643443985fe99"
+  },
+  {
+    "archiveId": "ARC-100002",
+    "source": "Email (legacy Exchange 2010 journal)",
+    "from": "lena.huber@contoso.example",
+    "to": [
+      "aisha.khan@contoso.example",
+      "partner@fabrikam.example"
+    ],
+    "sentUtc": "2023-07-03T18:43:00Z",
+    "subject": "Board pack draft",
+    "body": "Fictional message 2 about merger rumours?.",
+    "attachments": [
+      {
+        "name": "doc-2-0.pdf",
+        "size": 164222,
+        "sha256": "a9ce007250cb86d0c06768febff7187036bea371637af66e10ed3d8adc8270fe"
+      },
+      {
+        "name": "doc-2-1.pdf",
+        "size": 597958,
+        "sha256": "e2433ac3278279ac90b51abed3d4dd9057d9e1f66541ad9cdfd13762a30e5a43"
+      }
+    ],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "lena.huber@contoso.example"
+    ],
+    "retentionClass": "7Y-Finance",
+    "legalHold": true,
+    "sha256": "98056184760be70228df235fc9dba7c8578cc3d634c51ea3a434ead223b0cf18"
+  },
+  {
+    "archiveId": "ARC-100003",
+    "source": "Bloomberg chat",
+    "from": "aisha.khan@contoso.example",
+    "to": [
+      "lena.huber@contoso.example",
+      "partner@fabrikam.example"
+    ],
+    "sentUtc": "2024-01-29T04:32:00Z",
+    "subject": "Expense approval",
+    "body": "Fictional message 3 about re: pricing exception.",
+    "attachments": [],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "lena.huber@contoso.example"
+    ],
+    "retentionClass": "7Y-Finance",
+    "legalHold": false,
+    "sha256": "e1387ce862d28f300174dc806c57a1c3a2ee160fb55f95244ce2db6508870fc3"
+  },
+  {
+    "archiveId": "ARC-100004",
+    "source": "Bloomberg chat",
+    "from": "marco.rossi@contoso.example",
+    "to": [
+      "lena.huber@contoso.example",
+      "partner@fabrikam.example"
+    ],
+    "sentUtc": "2024-08-15T06:48:00Z",
+    "subject": "Merger rumours?",
+    "body": "Fictional message 4 about merger rumours?.",
+    "attachments": [],
+    "custodians": [
+      "lena.huber@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "3Y-General",
+    "legalHold": true,
+    "sha256": "cdfafac97f246e7d2610caef907ccf8ac5551094ab5996497d2b7dd390025df1"
+  },
+  {
+    "archiveId": "ARC-100005",
+    "source": "Bloomberg chat",
+    "from": "aisha.khan@contoso.example",
+    "to": [
+      "marco.rossi@contoso.example"
+    ],
+    "sentUtc": "2023-12-14T12:19:00Z",
+    "subject": "Customer complaint #4411",
+    "body": "Fictional message 5 about merger rumours?.",
+    "attachments": [],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "7Y-Finance",
+    "legalHold": false,
+    "sha256": "e7b272017c125b5c23e3b159143f7af84260e93f78c282610c7a44c2229c8d0c"
+  },
+  {
+    "archiveId": "ARC-100006",
+    "source": "Mobile SMS archive",
+    "from": "lena.huber@contoso.example",
+    "to": [
+      "aisha.khan@contoso.example"
+    ],
+    "sentUtc": "2023-07-14T13:39:00Z",
+    "subject": "Board pack draft",
+    "body": "Fictional message 6 about re: pricing exception.",
+    "attachments": [
+      {
+        "name": "doc-6-0.pdf",
+        "size": 222110,
+        "sha256": "8aa57a7aecd32837f2b0ea5e3e7713559df949c19220870e9432c1546b9c1ba1"
+      }
+    ],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "lena.huber@contoso.example"
+    ],
+    "retentionClass": "10Y-Legal",
+    "legalHold": false,
+    "sha256": "5431a3b01f73c3581da4f0edd833e6e2dbeca88ec5e87b5413e48d9965ccd82d"
+  },
+  {
+    "archiveId": "ARC-100007",
+    "source": "Email (legacy Exchange 2010 journal)",
+    "from": "marco.rossi@contoso.example",
+    "to": [
+      "aisha.khan@contoso.example"
+    ],
+    "sentUtc": "2023-08-30T19:23:00Z",
+    "subject": "Q3 supplier contract",
+    "body": "Fictional message 7 about re: pricing exception.",
+    "attachments": [
+      {
+        "name": "doc-7-0.pdf",
+        "size": 371389,
+        "sha256": "b110d889e34e617e2b2bff57aac3557676c2f681f365bad5a89615d7a806f0f4"
+      }
+    ],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "10Y-Legal",
+    "legalHold": true,
+    "sha256": "4ba985a3dcf43b0d62bd8096c4b28932f421c4549b82b688a9cb44c5cb40de4e"
+  },
+  {
+    "archiveId": "ARC-100008",
+    "source": "Bloomberg chat",
+    "from": "aisha.khan@contoso.example",
+    "to": [
+      "marco.rossi@contoso.example",
+      "partner@fabrikam.example"
+    ],
+    "sentUtc": "2024-04-06T00:15:00Z",
+    "subject": "Fwd: invoice dispute",
+    "body": "Fictional message 8 about q3 supplier contract.",
+    "attachments": [],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "7Y-Finance",
+    "legalHold": false,
+    "sha256": "c3c135b3be524c176b6a83810a89f3e9e1b56e6a019b9e502397a485aea98e03"
+  },
+  {
+    "archiveId": "ARC-100009",
+    "source": "Mobile SMS archive",
+    "from": "aisha.khan@contoso.example",
+    "to": [
+      "marco.rossi@contoso.example"
+    ],
+    "sentUtc": "2024-03-28T05:45:00Z",
+    "subject": "Expense approval",
+    "body": "Fictional message 9 about board pack draft.",
+    "attachments": [
+      {
+        "name": "doc-9-0.pdf",
+        "size": 528442,
+        "sha256": "646c16b0f5f195b59415f1eb1dc6643ddfeecd75b0f4ecab65fb6864f04825ba"
+      },
+      {
+        "name": "doc-9-1.pdf",
+        "size": 787180,
+        "sha256": "87b2648195d4d6ee98755b55ea84a597a3067433c1b33c3db8e93156bc2e7247"
+      }
+    ],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "7Y-Finance",
+    "legalHold": true,
+    "sha256": "2553393d81514417c8b1af7a4496521a8e92579c99f60609ce005d114bf2321c"
+  },
+  {
+    "archiveId": "ARC-100010",
+    "source": "Mobile SMS archive",
+    "from": "marco.rossi@contoso.example",
+    "to": [
+      "lena.huber@contoso.example"
+    ],
+    "sentUtc": "2024-10-22T17:33:00Z",
+    "subject": "Fwd: invoice dispute",
+    "body": "Fictional message 10 about customer complaint #4411.",
+    "attachments": [],
+    "custodians": [
+      "lena.huber@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "10Y-Legal",
+    "legalHold": false,
+    "sha256": "d296231d6e2208586548bce98369a6e418b6f8eeb1b60d110cc8ef9656303679"
+  },
+  {
+    "archiveId": "ARC-100011",
+    "source": "Bloomberg chat",
+    "from": "lena.huber@contoso.example",
+    "to": [
+      "marco.rossi@contoso.example",
+      "partner@fabrikam.example"
+    ],
+    "sentUtc": "2023-03-09T13:39:00Z",
+    "subject": "Holiday cover",
+    "body": "Fictional message 11 about fwd: invoice dispute.",
+    "attachments": [
+      {
+        "name": "doc-11-0.pdf",
+        "size": 709387,
+        "sha256": "3e0e09c84da7fc381b2d858a8f3c5a20d6360eab7e331a045da01dd6c7957dd1"
+      }
+    ],
+    "custodians": [
+      "lena.huber@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "7Y-Finance",
+    "legalHold": false,
+    "sha256": "52b5a1ea0e8fe11d3043bcf83e57015942a8ee9399d35930c7f01e6fe4a7c7d7"
+  },
+  {
+    "archiveId": "ARC-100012",
+    "source": "Bloomberg chat",
+    "from": "aisha.khan@contoso.example",
+    "to": [
+      "lena.huber@contoso.example"
+    ],
+    "sentUtc": "2024-01-23T14:18:00Z",
+    "subject": "Q3 supplier contract",
+    "body": "Fictional message 12 about fwd: invoice dispute.",
+    "attachments": [],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "lena.huber@contoso.example"
+    ],
+    "retentionClass": "3Y-General",
+    "legalHold": false,
+    "sha256": "cd0faa1159af2074d4798cc4e15c60486783b36860bbdd663114836b836d67d6"
+  },
+  {
+    "archiveId": "ARC-100013",
+    "source": "Email (legacy Exchange 2010 journal)",
+    "from": "aisha.khan@contoso.example",
+    "to": [
+      "marco.rossi@contoso.example",
+      "partner@fabrikam.example"
+    ],
+    "sentUtc": "2023-06-12T00:00:00Z",
+    "subject": "Customer complaint #4411",
+    "body": "Fictional message 13 about expense approval.",
+    "attachments": [
+      {
+        "name": "doc-13-0.pdf",
+        "size": 101159,
+        "sha256": "1f157b02589f0849a9b763966420b9edd88932ef96a27e8ba3a5a63c648b1cfb"
+      },
+      {
+        "name": "doc-13-1.pdf",
+        "size": 501669,
+        "sha256": "fb7460786a8266cb60194c903b87989fa387e84de00174259654d8f3aa59d97f"
+      }
+    ],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "10Y-Legal",
+    "legalHold": false,
+    "sha256": "99838860ceb427ac3f8f18aa81a1c47e6667362bbc487c4d57acf7d8baa1a1fb"
+  },
+  {
+    "archiveId": "ARC-100014",
+    "source": "Bloomberg chat",
+    "from": "lena.huber@contoso.example",
+    "to": [
+      "aisha.khan@contoso.example"
+    ],
+    "sentUtc": "2024-06-26T03:08:00Z",
+    "subject": "Board pack draft",
+    "body": "Fictional message 14 about expense approval.",
+    "attachments": [],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "lena.huber@contoso.example"
+    ],
+    "retentionClass": "3Y-General",
+    "legalHold": false,
+    "sha256": "af7a125a74a058ea78fcfdce7500cf33839942c532e3cab5383e653bfcd2a431"
+  },
+  {
+    "archiveId": "ARC-100015",
+    "source": "Bloomberg chat",
+    "from": "marco.rossi@contoso.example",
+    "to": [
+      "aisha.khan@contoso.example"
+    ],
+    "sentUtc": "2024-07-03T14:46:00Z",
+    "subject": "Holiday cover",
+    "body": "Fictional message 15 about customer complaint #4411.",
+    "attachments": [
+      {
+        "name": "doc-15-0.pdf",
+        "size": 474889,
+        "sha256": "9a4783c6a775d3d51acea5b7bb5288daab54ea41b9dbd5f0ba6d085bef5d2072"
+      }
+    ],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "3Y-General",
+    "legalHold": true,
+    "sha256": "9dac4e8b2ce6a48b63d33001b55b5081bda02c2accb5820413a58559d1e6d3d2"
+  },
+  {
+    "archiveId": "ARC-100016",
+    "source": "Mobile SMS archive",
+    "from": "lena.huber@contoso.example",
+    "to": [
+      "marco.rossi@contoso.example"
+    ],
+    "sentUtc": "2024-11-17T02:15:00Z",
+    "subject": "Board pack draft",
+    "body": "Fictional message 16 about board pack draft.",
+    "attachments": [
+      {
+        "name": "doc-16-0.pdf",
+        "size": 506157,
+        "sha256": "3fd0d44c2332c0108669aa82d23ede413e57231ab1ddd99bb8ccbc96101d18e8"
+      },
+      {
+        "name": "doc-16-1.pdf",
+        "size": 487201,
+        "sha256": "f3a2577b1df83f1c9c235396f2425b66f9f9b965e210d102b576bf3227f980bb"
+      }
+    ],
+    "custodians": [
+      "lena.huber@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "3Y-General",
+    "legalHold": false,
+    "sha256": "f3a3c64a2a3d24cba1c9bfe24120c55e669d60805876461acbeac9107d3d12b6"
+  },
+  {
+    "archiveId": "ARC-100017",
+    "source": "Bloomberg chat",
+    "from": "marco.rossi@contoso.example",
+    "to": [
+      "lena.huber@contoso.example",
+      "partner@fabrikam.example"
+    ],
+    "sentUtc": "2023-07-11T19:43:00Z",
+    "subject": "Merger rumours?",
+    "body": "Fictional message 17 about board pack draft.",
+    "attachments": [],
+    "custodians": [
+      "lena.huber@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "10Y-Legal",
+    "legalHold": false,
+    "sha256": "244c3bfd2cbee55372df1b2e7a458a947bec8e05738dd4f94822c4f7f4061c8c"
+  },
+  {
+    "archiveId": "ARC-100018",
+    "source": "Mobile SMS archive",
+    "from": "marco.rossi@contoso.example",
+    "to": [
+      "lena.huber@contoso.example"
+    ],
+    "sentUtc": "2023-01-21T01:43:00Z",
+    "subject": "Customer complaint #4411",
+    "body": "Fictional message 18 about re: pricing exception.",
+    "attachments": [
+      {
+        "name": "doc-18-0.pdf",
+        "size": 764736,
+        "sha256": "37b3b16ebff1eb7c6b8afd17add5c200bde7dfb429d1de56625bcf43b62820b2"
+      },
+      {
+        "name": "doc-18-1.pdf",
+        "size": 336054,
+        "sha256": "ffc96b0440a64774609a280b5582c510414eef407245a369fc11c0987f2028fd"
+      }
+    ],
+    "custodians": [
+      "lena.huber@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "7Y-Finance",
+    "legalHold": false,
+    "sha256": "3245a64f1e3dc2f60ff3c52d7587a8ad79323183f291501737b45a42e9338858"
+  },
+  {
+    "archiveId": "ARC-100019",
+    "source": "Bloomberg chat",
+    "from": "lena.huber@contoso.example",
+    "to": [
+      "aisha.khan@contoso.example"
+    ],
+    "sentUtc": "2024-09-23T13:50:00Z",
+    "subject": "Q3 supplier contract",
+    "body": "Fictional message 19 about q3 supplier contract.",
+    "attachments": [
+      {
+        "name": "doc-19-0.pdf",
+        "size": 852513,
+        "sha256": "aa65502de905860e1960020099ac72ee9813d893c65dd95435435eb9c52af7fc"
+      },
+      {
+        "name": "doc-19-1.pdf",
+        "size": 148701,
+        "sha256": "955d493abc2c6d57de6f062db933c1e9a2ac0a8e22746c8484a2f468343fcf1c"
+      }
+    ],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "lena.huber@contoso.example"
+    ],
+    "retentionClass": "3Y-General",
+    "legalHold": false,
+    "sha256": "e79404cec00a168d32eef0c017b8b1774ea635da3e77f01f543b72220794d5bb"
+  },
+  {
+    "archiveId": "ARC-100020",
+    "source": "Mobile SMS archive",
+    "from": "lena.huber@contoso.example",
+    "to": [
+      "aisha.khan@contoso.example",
+      "partner@fabrikam.example"
+    ],
+    "sentUtc": "2023-09-17T21:14:00Z",
+    "subject": "Merger rumours?",
+    "body": "Fictional message 20 about merger rumours?.",
+    "attachments": [
+      {
+        "name": "doc-20-0.pdf",
+        "size": 445228,
+        "sha256": "e968afcbe67015bc57dc41114449c6665e002f473ed543b65fb582a1eeb47f93"
+      },
+      {
+        "name": "doc-20-1.pdf",
+        "size": 27817,
+        "sha256": "47041251b9cbe1e16137ad641ad3c3ea4a58d7494bcef0cf528a45179c7b6737"
+      }
+    ],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "lena.huber@contoso.example"
+    ],
+    "retentionClass": "7Y-Finance",
+    "legalHold": false,
+    "sha256": "72fbbc65e91bb8b8d5fdc249a9b29153e3ae030287cc0e46cfc0ef745a8b71be"
+  },
+  {
+    "archiveId": "ARC-100021",
+    "source": "Mobile SMS archive",
+    "from": "lena.huber@contoso.example",
+    "to": [
+      "aisha.khan@contoso.example",
+      "partner@fabrikam.example"
+    ],
+    "sentUtc": "2023-08-23T05:08:00Z",
+    "subject": "Customer complaint #4411",
+    "body": "Fictional message 21 about re: pricing exception.",
+    "attachments": [
+      {
+        "name": "doc-21-0.pdf",
+        "size": 153434,
+        "sha256": "b35db1ba1a312eb590bc144e45d075bda425923418e28b5ff6ac47e0c68aecce"
+      }
+    ],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "lena.huber@contoso.example"
+    ],
+    "retentionClass": "10Y-Legal",
+    "legalHold": false,
+    "sha256": "162a510899903b1eee15f7bd43c221f6f556e0525304c3774e1bf74edacc66de"
+  },
+  {
+    "archiveId": "ARC-100022",
+    "source": "Email (legacy Exchange 2010 journal)",
+    "from": "marco.rossi@contoso.example",
+    "to": [
+      "lena.huber@contoso.example",
+      "partner@fabrikam.example"
+    ],
+    "sentUtc": "2023-07-02T00:39:00Z",
+    "subject": "Holiday cover",
+    "body": "Fictional message 22 about re: pricing exception.",
+    "attachments": [
+      {
+        "name": "doc-22-0.pdf",
+        "size": 345600,
+        "sha256": "2702bac1b476b4750e4c0d91a599ab1f2bf0a8f5eeec13a1574ae70e02cb592b"
+      },
+      {
+        "name": "doc-22-1.pdf",
+        "size": 738140,
+        "sha256": "159b0f6bc3f33172d75defef8e1bbe5eaa74a1b9b4caa8ac8b9260f8dcf6aaee"
+      }
+    ],
+    "custodians": [
+      "lena.huber@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "10Y-Legal",
+    "legalHold": true,
+    "sha256": "55a262addd26e99c6463cfffe46d1908548af9afc3723f46f3bae0c2fe76400e"
+  },
+  {
+    "archiveId": "ARC-100023",
+    "source": "Mobile SMS archive",
+    "from": "aisha.khan@contoso.example",
+    "to": [
+      "lena.huber@contoso.example",
+      "partner@fabrikam.example"
+    ],
+    "sentUtc": "2023-03-02T14:17:00Z",
+    "subject": "Board pack draft",
+    "body": "Fictional message 23 about expense approval.",
+    "attachments": [
+      {
+        "name": "doc-23-0.pdf",
+        "size": 573726,
+        "sha256": "25afb5697f41ec7ee5deeace2f6a40d2f4ce282b3a59ca6a65bb765acf83be71"
+      },
+      {
+        "name": "doc-23-1.pdf",
+        "size": 427307,
+        "sha256": "4a0e28713d67dd9472bbb96f4a826f3da32f96287895be60de0a5b7b394784d8"
+      }
+    ],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "lena.huber@contoso.example"
+    ],
+    "retentionClass": "3Y-General",
+    "legalHold": false,
+    "sha256": "c8d9a78ef9c2382a2d83815c48f5a1b96d49e5c292281964ac18a524c3327e58"
+  },
+  {
+    "archiveId": "ARC-100024",
+    "source": "Email (legacy Exchange 2010 journal)",
+    "from": "lena.huber@contoso.example",
+    "to": [
+      "aisha.khan@contoso.example",
+      "partner@fabrikam.example"
+    ],
+    "sentUtc": "2024-08-07T20:22:00Z",
+    "subject": "Board pack draft",
+    "body": "Fictional message 24 about fwd: invoice dispute.",
+    "attachments": [
+      {
+        "name": "doc-24-0.pdf",
+        "size": 89048,
+        "sha256": "29c33a3753580302d39000c524c5d0a893bc977f17559bcb2a764b26e3569955"
+      },
+      {
+        "name": "doc-24-1.pdf",
+        "size": 666693,
+        "sha256": "890e372db871843ecebac1bfd577d7f9b2d8c46c0ab43c39bbca4bee5451be5e"
+      }
+    ],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "lena.huber@contoso.example"
+    ],
+    "retentionClass": "3Y-General",
+    "legalHold": true,
+    "sha256": "87024005ce021e0649f59f413f57ae2a8244ac5260ea38ab54c62df5d2052573"
+  },
+  {
+    "archiveId": "ARC-100025",
+    "source": "Bloomberg chat",
+    "from": "lena.huber@contoso.example",
+    "to": [
+      "aisha.khan@contoso.example",
+      "partner@fabrikam.example"
+    ],
+    "sentUtc": "2024-01-29T14:19:00Z",
+    "subject": "Customer complaint #4411",
+    "body": "Fictional message 25 about holiday cover.",
+    "attachments": [],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "lena.huber@contoso.example"
+    ],
+    "retentionClass": "10Y-Legal",
+    "legalHold": false,
+    "sha256": "27ba83facd1f505e5774274c47f558ef482c4659559d2b8c4bc8c511d7981db0"
+  },
+  {
+    "archiveId": "ARC-100026",
+    "source": "Email (legacy Exchange 2010 journal)",
+    "from": "lena.huber@contoso.example",
+    "to": [
+      "aisha.khan@contoso.example"
+    ],
+    "sentUtc": "2024-04-07T17:36:00Z",
+    "subject": "Expense approval",
+    "body": "Fictional message 26 about re: pricing exception.",
+    "attachments": [
+      {
+        "name": "doc-26-0.pdf",
+        "size": 536647,
+        "sha256": "28aafb4ca56edfa58bdc92d5675a6b7ccb3b4d80d12cb379a0052fc873830ccb"
+      }
+    ],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "lena.huber@contoso.example"
+    ],
+    "retentionClass": "7Y-Finance",
+    "legalHold": false,
+    "sha256": "1f186da5b1ffc5a9e7933c1acd21be44190a32a5011ec8d753a0f9e013062951"
+  },
+  {
+    "archiveId": "ARC-100027",
+    "source": "Bloomberg chat",
+    "from": "marco.rossi@contoso.example",
+    "to": [
+      "lena.huber@contoso.example"
+    ],
+    "sentUtc": "2023-02-21T09:34:00Z",
+    "subject": "Merger rumours?",
+    "body": "Fictional message 27 about fwd: invoice dispute.",
+    "attachments": [],
+    "custodians": [
+      "lena.huber@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "10Y-Legal",
+    "legalHold": false,
+    "sha256": "624a08723c41336b090997de516f4c5aa17dbfb188967cc8eb3f61727548e601"
+  },
+  {
+    "archiveId": "ARC-100028",
+    "source": "Bloomberg chat",
+    "from": "lena.huber@contoso.example",
+    "to": [
+      "aisha.khan@contoso.example",
+      "partner@fabrikam.example"
+    ],
+    "sentUtc": "2023-10-07T04:42:00Z",
+    "subject": "Re: pricing exception",
+    "body": "Fictional message 28 about merger rumours?.",
+    "attachments": [],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "lena.huber@contoso.example"
+    ],
+    "retentionClass": "3Y-General",
+    "legalHold": false,
+    "sha256": "f6b5557b2a3eb82b0028a15f296a3e983dcc2a34ca9d2f0b50459358f4494eeb"
+  },
+  {
+    "archiveId": "ARC-100029",
+    "source": "Email (legacy Exchange 2010 journal)",
+    "from": "marco.rossi@contoso.example",
+    "to": [
+      "lena.huber@contoso.example"
+    ],
+    "sentUtc": "2023-06-05T06:28:00Z",
+    "subject": "Fwd: invoice dispute",
+    "body": "Fictional message 29 about merger rumours?.",
+    "attachments": [
+      {
+        "name": "doc-29-0.pdf",
+        "size": 413688,
+        "sha256": "c54580c2d8839ccae6d61d702ba87ff5cff597c9892219035a800681a0a2a9ad"
+      },
+      {
+        "name": "doc-29-1.pdf",
+        "size": 303365,
+        "sha256": "0b2364cee0117c0cd5c22572802a28862e554866cb308c8fb1a7b7e7e46b61cd"
+      }
+    ],
+    "custodians": [
+      "lena.huber@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "10Y-Legal",
+    "legalHold": false,
+    "sha256": "b4b31f8e6de3f722a64dba6edf91a9271ba5b4801422fd94501c53788ddc3b4b"
+  },
+  {
+    "archiveId": "ARC-100030",
+    "source": "Bloomberg chat",
+    "from": "aisha.khan@contoso.example",
+    "to": [
+      "lena.huber@contoso.example",
+      "partner@fabrikam.example"
+    ],
+    "sentUtc": "2023-01-09T16:13:00Z",
+    "subject": "Holiday cover",
+    "body": "Fictional message 30 about q3 supplier contract.",
+    "attachments": [],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "lena.huber@contoso.example"
+    ],
+    "retentionClass": "10Y-Legal",
+    "legalHold": false,
+    "sha256": "bcd6cedc5f4dc8fbb1655ea20c3f908675f59db90061d9f3c2805913a0a94668"
+  },
+  {
+    "archiveId": "ARC-100031",
+    "source": "Email (legacy Exchange 2010 journal)",
+    "from": "marco.rossi@contoso.example",
+    "to": [
+      "aisha.khan@contoso.example",
+      "partner@fabrikam.example"
+    ],
+    "sentUtc": "2024-10-12T06:44:00Z",
+    "subject": "Merger rumours?",
+    "body": "Fictional message 31 about board pack draft.",
+    "attachments": [
+      {
+        "name": "doc-31-0.pdf",
+        "size": 243323,
+        "sha256": "f3286be29226b14352eb03ce123f9fbc7be7f0152a5128895cfad8bd8f7f6eef"
+      },
+      {
+        "name": "doc-31-1.pdf",
+        "size": 218546,
+        "sha256": "ae626bde226312377538e33917e3c9207d8436b22f9396e334ee8960462049c8"
+      }
+    ],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "3Y-General",
+    "legalHold": false,
+    "sha256": "9718fdd7a012fea0d49ff6c44ce51c6c0585dfc124f63aa2d2eeea4032e3c7db"
+  },
+  {
+    "archiveId": "ARC-100032",
+    "source": "Bloomberg chat",
+    "from": "lena.huber@contoso.example",
+    "to": [
+      "marco.rossi@contoso.example",
+      "partner@fabrikam.example"
+    ],
+    "sentUtc": "2023-02-21T22:50:00Z",
+    "subject": "Board pack draft",
+    "body": "Fictional message 32 about holiday cover.",
+    "attachments": [],
+    "custodians": [
+      "lena.huber@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "3Y-General",
+    "legalHold": false,
+    "sha256": "eba70a6529f61c5807a7a4fb0b5bbf5e6c7cd7235a197910f3f4e6677e027d09"
+  },
+  {
+    "archiveId": "ARC-100033",
+    "source": "Bloomberg chat",
+    "from": "marco.rossi@contoso.example",
+    "to": [
+      "lena.huber@contoso.example"
+    ],
+    "sentUtc": "2023-06-21T14:43:00Z",
+    "subject": "Expense approval",
+    "body": "Fictional message 33 about expense approval.",
+    "attachments": [
+      {
+        "name": "doc-33-0.pdf",
+        "size": 258802,
+        "sha256": "76690b9129b9895c87a9d16cde0a8d19732795eea9393f886ea7c10efb0133af"
+      },
+      {
+        "name": "doc-33-1.pdf",
+        "size": 738639,
+        "sha256": "61912c46f1261f6742cff54a8acdfb3ac1139ea10824966d5f64ffa7b3d0bc49"
+      }
+    ],
+    "custodians": [
+      "lena.huber@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "10Y-Legal",
+    "legalHold": false,
+    "sha256": "6890a6e51714bc346f767f5d19a714ae4a4f7009a94ee9b77a95c751fe5fb241"
+  },
+  {
+    "archiveId": "ARC-100034",
+    "source": "Email (legacy Exchange 2010 journal)",
+    "from": "aisha.khan@contoso.example",
+    "to": [
+      "lena.huber@contoso.example",
+      "partner@fabrikam.example"
+    ],
+    "sentUtc": "2024-11-23T14:23:00Z",
+    "subject": "Holiday cover",
+    "body": "Fictional message 34 about expense approval.",
+    "attachments": [],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "lena.huber@contoso.example"
+    ],
+    "retentionClass": "7Y-Finance",
+    "legalHold": false,
+    "sha256": "abdcaf8737e96aab0321d5f35fd0fb4925d8164814d4195cfdc214f3bc9968be"
+  },
+  {
+    "archiveId": "ARC-100035",
+    "source": "Bloomberg chat",
+    "from": "marco.rossi@contoso.example",
+    "to": [
+      "aisha.khan@contoso.example"
+    ],
+    "sentUtc": "2023-05-14T22:59:00Z",
+    "subject": "Holiday cover",
+    "body": "Fictional message 35 about holiday cover.",
+    "attachments": [],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "7Y-Finance",
+    "legalHold": true,
+    "sha256": "6c9f49bb2a4eb64f38724f558ea43fef686c017ac78ffdabca0dce57e380c40d"
+  },
+  {
+    "archiveId": "ARC-100036",
+    "source": "Email (legacy Exchange 2010 journal)",
+    "from": "marco.rossi@contoso.example",
+    "to": [
+      "lena.huber@contoso.example"
+    ],
+    "sentUtc": "2024-09-16T03:04:00Z",
+    "subject": "Re: pricing exception",
+    "body": "Fictional message 36 about re: pricing exception.",
+    "attachments": [
+      {
+        "name": "doc-36-0.pdf",
+        "size": 482534,
+        "sha256": "afd92779ee24f3ae5d6f0d005f8c7d310742a7af94887915b5bb08520437a9da"
+      }
+    ],
+    "custodians": [
+      "lena.huber@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "10Y-Legal",
+    "legalHold": false,
+    "sha256": "f5b7df511b23063ace9648ffeab4bf02a991873deb0010c10367069682eaf238"
+  },
+  {
+    "archiveId": "ARC-100037",
+    "source": "Mobile SMS archive",
+    "from": "aisha.khan@contoso.example",
+    "to": [
+      "marco.rossi@contoso.example",
+      "partner@fabrikam.example"
+    ],
+    "sentUtc": "2024-04-16T08:32:00Z",
+    "subject": "Q3 supplier contract",
+    "body": "Fictional message 37 about expense approval.",
+    "attachments": [
+      {
+        "name": "doc-37-0.pdf",
+        "size": 868551,
+        "sha256": "c419226b2d82b6d184e8201230cc5ac0bc895f4db26a581fca2cd58d57bf484f"
+      }
+    ],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "3Y-General",
+    "legalHold": true,
+    "sha256": "2febba5b6c8f0acd1555c1e2ca9b73d6c793458d60bfd6e5cba86a674b2391a3"
+  },
+  {
+    "archiveId": "ARC-100038",
+    "source": "Mobile SMS archive",
+    "from": "aisha.khan@contoso.example",
+    "to": [
+      "marco.rossi@contoso.example"
+    ],
+    "sentUtc": "2024-05-27T16:57:00Z",
+    "subject": "Merger rumours?",
+    "body": "Fictional message 38 about q3 supplier contract.",
+    "attachments": [
+      {
+        "name": "doc-38-0.pdf",
+        "size": 328863,
+        "sha256": "8b1726732a4d1362eb92b4777c42a236168cf8fb096d12abd81619b24f84e6c8"
+      }
+    ],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "marco.rossi@contoso.example"
+    ],
+    "retentionClass": "10Y-Legal",
+    "legalHold": false,
+    "sha256": "0c97a8ce9aea08b90dee1fc71e803569c5cf03d2567f986bc14ab39b0debf3e5"
+  },
+  {
+    "archiveId": "ARC-100039",
+    "source": "Bloomberg chat",
+    "from": "aisha.khan@contoso.example",
+    "to": [
+      "lena.huber@contoso.example"
+    ],
+    "sentUtc": "2023-09-28T19:57:00Z",
+    "subject": "Merger rumours?",
+    "body": "Fictional message 39 about merger rumours?.",
+    "attachments": [
+      {
+        "name": "doc-39-0.pdf",
+        "size": 488140,
+        "sha256": "b7c0e52e464e81339331d2065b345386332f89fbcba400f58a05ebe5fc525c40"
+      },
+      {
+        "name": "doc-39-1.pdf",
+        "size": 365260,
+        "sha256": "d8bcc6d14b454cb0f588cab9f7d34e3521e292287dd6545f0f222533fbb7ca60"
+      }
+    ],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "lena.huber@contoso.example"
+    ],
+    "retentionClass": "7Y-Finance",
+    "legalHold": true,
+    "sha256": "c874328a6e545dff172138b922ad0f10fa64371620b34fffa10fc333bc882128"
+  },
+  {
+    "archiveId": "ARC-100040",
+    "source": "Mobile SMS archive",
+    "from": "lena.huber@contoso.example",
+    "to": [
+      "aisha.khan@contoso.example"
+    ],
+    "sentUtc": "2024-09-12T01:49:00Z",
+    "subject": "Re: pricing exception",
+    "body": "Fictional message 40 about expense approval.",
+    "attachments": [],
+    "custodians": [
+      "aisha.khan@contoso.example",
+      "lena.huber@contoso.example"
+    ],
+    "retentionClass": "7Y-Finance",
+    "legalHold": false,
+    "sha256": "72481c863948c874b5ba6038d9f6f4501b103b75e4a185711dbff2e1420f2a45"
+  }
+]
