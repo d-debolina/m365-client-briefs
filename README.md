@@ -29,6 +29,7 @@ seen on a freelance marketplace and rebuilds it with Microsoft 365, Power Platfo
 | 17 | **VAULT** – Validate, Archive, Unify, Legal-hold, Trace | Third-party archive into Purview eDiscovery with Graph automation and hash checks | `day-17-vault-third-party-archive-purview` |
 | 18 | **PITCH** – Personalised, Inspected, Tailored, Checked, Human-sent | AI-drafted B2B outreach from Excel with Outlook drafts and human review | `day-18-pitch-b2b-outreach-drafts` |
 | 19 | **LIFT** – Locate, Inspect, Flatten, Transform | Classic to modern SharePoint: wave planner, PnP in-place, ShareGate restructure | `day-19-lift-classic-to-modern` |
+| 20 | **PROOF** – Prompt, Review, Own, Organise, Finalise | Reviewing AI-generated Power Automate specs before Copilot builds them | `day-20-proof-review-copilot-flow-spec` |
 
 ## Licence
 Content: CC BY 4.0. Code: MIT.
