@@ -45,7 +45,21 @@ Key properties: `Job title` (title), `Job link`, `Day` (number), `Planned date` 
 
 ## 3. Step A: re-plan the publishing schedule (do this first)
 
-Cadence: **one post every weekday (Mon–Fri)**. No posts from **24 December to 1 January** inclusive.
+Cadence: **two posts a week, on Tuesday and Thursday**. No posts from **24 December to 1 January** inclusive.
+
+Blog status meanings:
+- **Drafting** = Claude's AI draft, not yet rewritten by Debolina.
+- **Rewriting** = Debolina is rewriting it in her own voice. **Never edit the page content of a Rewriting
+  post** (only properties such as Day and Planned date). If its Day number changes, don't rename anything
+  inside the page; add a log item asking her to update the "Day N" mentions herself.
+- **Published** = live on Medium. Never touch it.
+
+Rewriting-first rule: if the post in either of the next 2 slots is still `Drafting` and a `Rewriting`
+post exists further back, move the Rewriting post forward into that slot and add a friendly nudge to the
+log ("Day N is due on <date> and is still an AI draft — please start rewriting it").
+
+Draft wording must stay time-neutral: no "this week", "yesterday", "tomorrow", "next week" or weekday
+names, so a post still reads correctly after it moves.
 
 1. Query every row that has a `Day`.
 2. **Published** rows (`Blog status` = Published) are fixed: never change their Day, date or content.
@@ -53,7 +67,7 @@ Cadence: **one post every weekday (Mon–Fri)**. No posts from **24 December to 
 3. **Late** rows are unpublished rows whose `Planned date` is before today. Today's post is not late yet,
    because she may publish later in the day.
 4. Build the new order for every unpublished row with a Day:
-   - Slots are weekdays starting from **today** (or the next weekday if today is a weekend or holiday),
+   - Slots are Tuesdays and Thursdays starting from **today** (or the next Tue/Thu if today isn't one),
      skipping the holiday window.
    - Keep the current order by default. Only change it when there's a good reason, and log the reason:
      a) a row is still `Idea` or `Outline ready` (not drafted) and a drafted row is behind it → move the drafted row forward;
@@ -63,7 +77,7 @@ Cadence: **one post every weekday (Mon–Fri)**. No posts from **24 December to 
    - Day numbers follow the order: the first unpublished post gets (highest published Day + 1), and so on.
 5. Apply the changes:
    - Update `Day` and `Planned date` on each row that changed.
-   - If a drafted row's Day number changed, also update `Blog title`, the "# ✍️ Medium draft – Day N" heading,
+   - If a drafted row (status Drafting, never Rewriting) had its Day number changed, also update `Blog title`, the "# ✍️ Medium draft – Day N" heading,
      the public "### Day N:" title, any "Day N" mentions in the draft text and the "What's next" teaser
      (it must name the post that is now next). In the repo, `git mv day-NN-slug day-MM-slug`
      (two-digit numbers), then fix the links in the Notion page and in `README.md`.
@@ -98,14 +112,14 @@ Cadence: **one post every weekday (Mon–Fri)**. No posts from **24 December to 
    Page body, in the same section order as the other briefs: **Client request** (in your own words),
    **Requirements (must have)**, **Signals**, **Proposed solution**, **Build steps**, **Blog outline**.
 6. **Pick the best 1–2 new jobs** for a full draft (Strong fit first, then blog potential, then client quality).
-   Give each one a Day at the **end** of the current schedule (next free weekday slot) and draft it (Step C).
+   Give each one a Day at the **end** of the current schedule (next free Tue/Thu slot) and draft it (Step C).
    The rest stay as `Idea` rows, with no Day, for later.
 
 ## 5. Step C: write full drafts
 
 Draft these posts:
 - (a) the 1–2 jobs picked in Step B, and
-- (b) a **safety net**: any post planned in the **next 5 weekday slots** that is still `Idea` or `Outline ready`.
+- (b) a **safety net**: any post planned in the **next 5 Tue/Thu slots** that is still `Idea` or `Outline ready`.
 
 Cap the run at **3 new drafts** in total. If more are due, log them as "still to draft".
 
