@@ -1,0 +1,1486 @@
+date,week,use_case,location,department,policy_mode,outcome,false_positive
+2026-09-11,Week 1,UC03,Microsoft Copilot,HR,Simulation,Would match,Yes
+2026-09-09,Week 1,UC09,Devices,HR,Simulation,Would match,No
+2026-09-11,Week 1,UC01,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-09-09,Week 1,UC02,Microsoft Copilot,HR,Simulation,Would match,Yes
+2026-09-10,Week 1,UC02,Microsoft Copilot,Legal,Simulation,Would match,No
+2026-09-08,Week 1,UC01,Microsoft Copilot,Sales,Simulation,Would match,No
+2026-09-07,Week 1,UC07,Teams,HR,Simulation,Would match,No
+2026-09-07,Week 1,UC08,Exchange,IT,Simulation,Would match,No
+2026-09-11,Week 1,UC01,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-09-07,Week 1,UC13,Exchange,HR,Simulation,Would match,No
+2026-09-07,Week 1,UC02,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-09-10,Week 1,UC07,Teams,Legal,Simulation,Would match,No
+2026-09-10,Week 1,UC13,Exchange,IT,Simulation,Would match,No
+2026-09-11,Week 1,UC02,Microsoft Copilot,HR,Simulation,Would match,No
+2026-09-11,Week 1,UC06,SharePoint,HR,Simulation,Would match,Yes
+2026-09-07,Week 1,UC05,Exchange,IT,Simulation,Would match,No
+2026-09-09,Week 1,UC09,Devices,Sales,Simulation,Would match,No
+2026-09-08,Week 1,UC06,SharePoint,Finance,Simulation,Would match,No
+2026-09-08,Week 1,UC10,Devices,Sales,Simulation,Would match,No
+2026-09-10,Week 1,UC09,Devices,Sales,Simulation,Would match,No
+2026-09-09,Week 1,UC08,Exchange,R&D,Simulation,Would match,Yes
+2026-09-08,Week 1,UC05,Exchange,IT,Simulation,Would match,No
+2026-09-08,Week 1,UC07,Teams,R&D,Simulation,Would match,Yes
+2026-09-07,Week 1,UC07,Teams,Sales,Simulation,Would match,No
+2026-09-07,Week 1,UC03,Microsoft Copilot,Sales,Simulation,Would match,No
+2026-09-10,Week 1,UC05,Exchange,IT,Simulation,Would match,No
+2026-09-09,Week 1,UC09,Devices,IT,Simulation,Would match,No
+2026-09-09,Week 1,UC09,Devices,HR,Simulation,Would match,Yes
+2026-09-11,Week 1,UC06,SharePoint,Legal,Simulation,Would match,Yes
+2026-09-11,Week 1,UC06,SharePoint,Legal,Simulation,Would match,No
+2026-09-07,Week 1,UC13,Exchange,R&D,Simulation,Would match,No
+2026-09-08,Week 1,UC09,Devices,Sales,Simulation,Would match,Yes
+2026-09-08,Week 1,UC05,Exchange,Legal,Simulation,Would match,No
+2026-09-10,Week 1,UC02,Microsoft Copilot,IT,Simulation,Would match,Yes
+2026-09-07,Week 1,UC07,Teams,Finance,Simulation,Would match,No
+2026-09-09,Week 1,UC09,Devices,HR,Simulation,Would match,Yes
+2026-09-11,Week 1,UC09,Devices,Finance,Simulation,Would match,No
+2026-09-09,Week 1,UC05,Exchange,IT,Simulation,Would match,No
+2026-09-11,Week 1,UC10,Devices,Finance,Simulation,Would match,No
+2026-09-08,Week 1,UC08,Exchange,Legal,Simulation,Would match,Yes
+2026-09-08,Week 1,UC08,Exchange,Finance,Simulation,Would match,No
+2026-09-10,Week 1,UC01,Microsoft Copilot,Legal,Simulation,Would match,No
+2026-09-09,Week 1,UC10,Devices,Legal,Simulation,Would match,No
+2026-09-07,Week 1,UC05,Exchange,Legal,Simulation,Would match,No
+2026-09-08,Week 1,UC02,Microsoft Copilot,R&D,Simulation,Would match,Yes
+2026-09-09,Week 1,UC02,Microsoft Copilot,Sales,Simulation,Would match,No
+2026-09-07,Week 1,UC06,SharePoint,HR,Simulation,Would match,Yes
+2026-09-10,Week 1,UC01,Microsoft Copilot,R&D,Simulation,Would match,Yes
+2026-09-10,Week 1,UC06,SharePoint,Finance,Simulation,Would match,No
+2026-09-10,Week 1,UC02,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-09-09,Week 1,UC10,Devices,Finance,Simulation,Would match,No
+2026-09-08,Week 1,UC09,Devices,Legal,Simulation,Would match,No
+2026-09-10,Week 1,UC10,Devices,R&D,Simulation,Would match,No
+2026-09-07,Week 1,UC13,Exchange,R&D,Simulation,Would match,No
+2026-09-11,Week 1,UC10,Devices,Legal,Simulation,Would match,Yes
+2026-09-08,Week 1,UC10,Devices,IT,Simulation,Would match,No
+2026-09-09,Week 1,UC06,SharePoint,IT,Simulation,Would match,No
+2026-09-09,Week 1,UC05,Exchange,IT,Simulation,Would match,No
+2026-09-09,Week 1,UC10,Devices,Finance,Simulation,Would match,No
+2026-09-11,Week 1,UC08,Exchange,HR,Simulation,Would match,Yes
+2026-09-10,Week 1,UC13,Exchange,HR,Simulation,Would match,Yes
+2026-09-10,Week 1,UC10,Devices,IT,Simulation,Would match,No
+2026-09-10,Week 1,UC02,Microsoft Copilot,Finance,Simulation,Would match,Yes
+2026-09-11,Week 1,UC02,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-09-08,Week 1,UC06,SharePoint,Finance,Simulation,Would match,No
+2026-09-10,Week 1,UC07,Teams,R&D,Simulation,Would match,No
+2026-09-09,Week 1,UC10,Devices,R&D,Simulation,Would match,Yes
+2026-09-07,Week 1,UC13,Exchange,Finance,Simulation,Would match,No
+2026-09-07,Week 1,UC01,Microsoft Copilot,Finance,Simulation,Would match,Yes
+2026-09-09,Week 1,UC01,Microsoft Copilot,Sales,Simulation,Would match,Yes
+2026-09-11,Week 1,UC05,Exchange,R&D,Simulation,Would match,No
+2026-09-07,Week 1,UC13,Exchange,IT,Simulation,Would match,No
+2026-09-08,Week 1,UC06,SharePoint,R&D,Simulation,Would match,No
+2026-09-10,Week 1,UC01,Microsoft Copilot,IT,Simulation,Would match,No
+2026-09-08,Week 1,UC13,Exchange,Legal,Simulation,Would match,No
+2026-09-08,Week 1,UC10,Devices,IT,Simulation,Would match,No
+2026-09-11,Week 1,UC13,Exchange,Finance,Simulation,Would match,No
+2026-09-08,Week 1,UC07,Teams,Sales,Simulation,Would match,Yes
+2026-09-08,Week 1,UC05,Exchange,Finance,Simulation,Would match,No
+2026-09-08,Week 1,UC02,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-09-09,Week 1,UC02,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-09-11,Week 1,UC08,Exchange,Finance,Simulation,Would match,No
+2026-09-10,Week 1,UC05,Exchange,HR,Simulation,Would match,No
+2026-09-08,Week 1,UC02,Microsoft Copilot,Sales,Simulation,Would match,No
+2026-09-07,Week 1,UC07,Teams,Legal,Simulation,Would match,No
+2026-09-11,Week 1,UC07,Teams,Finance,Simulation,Would match,No
+2026-09-10,Week 1,UC02,Microsoft Copilot,HR,Simulation,Would match,Yes
+2026-09-11,Week 1,UC10,Devices,IT,Simulation,Would match,No
+2026-09-08,Week 1,UC09,Devices,HR,Simulation,Would match,Yes
+2026-09-08,Week 1,UC05,Exchange,Sales,Simulation,Would match,No
+2026-09-11,Week 1,UC02,Microsoft Copilot,Legal,Simulation,Would match,Yes
+2026-09-07,Week 1,UC09,Devices,Sales,Simulation,Would match,No
+2026-09-10,Week 1,UC08,Exchange,Sales,Simulation,Would match,No
+2026-09-08,Week 1,UC08,Exchange,HR,Simulation,Would match,No
+2026-09-08,Week 1,UC01,Microsoft Copilot,R&D,Simulation,Would match,Yes
+2026-09-09,Week 1,UC07,Teams,Finance,Simulation,Would match,No
+2026-09-08,Week 1,UC13,Exchange,HR,Simulation,Would match,Yes
+2026-09-07,Week 1,UC07,Teams,Legal,Simulation,Would match,No
+2026-09-11,Week 1,UC08,Exchange,IT,Simulation,Would match,No
+2026-09-09,Week 1,UC13,Exchange,Sales,Simulation,Would match,No
+2026-09-07,Week 1,UC06,SharePoint,Finance,Simulation,Would match,No
+2026-09-08,Week 1,UC08,Exchange,IT,Simulation,Would match,No
+2026-09-10,Week 1,UC07,Teams,R&D,Simulation,Would match,No
+2026-09-08,Week 1,UC05,Exchange,Sales,Simulation,Would match,Yes
+2026-09-10,Week 1,UC06,SharePoint,Sales,Simulation,Would match,Yes
+2026-09-07,Week 1,UC13,Exchange,Legal,Simulation,Would match,Yes
+2026-09-09,Week 1,UC06,SharePoint,R&D,Simulation,Would match,Yes
+2026-09-08,Week 1,UC13,Exchange,R&D,Simulation,Would match,No
+2026-09-10,Week 1,UC10,Devices,Legal,Simulation,Would match,No
+2026-09-10,Week 1,UC02,Microsoft Copilot,HR,Simulation,Would match,No
+2026-09-11,Week 1,UC02,Microsoft Copilot,Finance,Simulation,Would match,Yes
+2026-09-10,Week 1,UC06,SharePoint,HR,Simulation,Would match,No
+2026-09-10,Week 1,UC05,Exchange,Sales,Simulation,Would match,Yes
+2026-09-09,Week 1,UC06,SharePoint,IT,Simulation,Would match,No
+2026-09-11,Week 1,UC10,Devices,IT,Simulation,Would match,No
+2026-09-07,Week 1,UC13,Exchange,Legal,Simulation,Would match,No
+2026-09-11,Week 1,UC02,Microsoft Copilot,HR,Simulation,Would match,No
+2026-09-08,Week 1,UC08,Exchange,Finance,Simulation,Would match,No
+2026-09-11,Week 1,UC09,Devices,HR,Simulation,Would match,No
+2026-09-10,Week 1,UC08,Exchange,IT,Simulation,Would match,No
+2026-09-11,Week 1,UC08,Exchange,IT,Simulation,Would match,Yes
+2026-09-10,Week 1,UC06,SharePoint,IT,Simulation,Would match,No
+2026-09-09,Week 1,UC06,SharePoint,Finance,Simulation,Would match,Yes
+2026-09-07,Week 1,UC13,Exchange,R&D,Simulation,Would match,No
+2026-09-07,Week 1,UC08,Exchange,Legal,Simulation,Would match,No
+2026-09-07,Week 1,UC08,Exchange,Legal,Simulation,Would match,No
+2026-09-07,Week 1,UC07,Teams,Finance,Simulation,Would match,No
+2026-09-10,Week 1,UC08,Exchange,Finance,Simulation,Would match,Yes
+2026-09-11,Week 1,UC01,Microsoft Copilot,Legal,Simulation,Would match,Yes
+2026-09-08,Week 1,UC09,Devices,Finance,Simulation,Would match,No
+2026-09-07,Week 1,UC13,Exchange,R&D,Simulation,Would match,Yes
+2026-09-07,Week 1,UC09,Devices,HR,Simulation,Would match,Yes
+2026-09-11,Week 1,UC07,Teams,Sales,Simulation,Would match,Yes
+2026-09-08,Week 1,UC09,Devices,R&D,Simulation,Would match,No
+2026-09-09,Week 1,UC13,Exchange,Legal,Simulation,Would match,No
+2026-09-09,Week 1,UC08,Exchange,IT,Simulation,Would match,No
+2026-09-09,Week 1,UC03,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-09-07,Week 1,UC09,Devices,Sales,Simulation,Would match,No
+2026-09-11,Week 1,UC10,Devices,Sales,Simulation,Would match,No
+2026-09-11,Week 1,UC06,SharePoint,IT,Simulation,Would match,No
+2026-09-08,Week 1,UC13,Exchange,Finance,Simulation,Would match,No
+2026-09-08,Week 1,UC05,Exchange,Legal,Simulation,Would match,No
+2026-09-07,Week 1,UC05,Exchange,HR,Simulation,Would match,No
+2026-09-09,Week 1,UC06,SharePoint,IT,Simulation,Would match,No
+2026-09-07,Week 1,UC01,Microsoft Copilot,Sales,Simulation,Would match,Yes
+2026-09-07,Week 1,UC02,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-09-08,Week 1,UC10,Devices,Sales,Simulation,Would match,No
+2026-09-10,Week 1,UC09,Devices,Sales,Simulation,Would match,No
+2026-09-10,Week 1,UC07,Teams,HR,Simulation,Would match,No
+2026-09-10,Week 1,UC02,Microsoft Copilot,IT,Simulation,Would match,No
+2026-09-10,Week 1,UC05,Exchange,Sales,Simulation,Would match,No
+2026-09-08,Week 1,UC08,Exchange,Legal,Simulation,Would match,No
+2026-09-09,Week 1,UC13,Exchange,Legal,Simulation,Would match,Yes
+2026-09-10,Week 1,UC03,Microsoft Copilot,IT,Simulation,Would match,No
+2026-09-10,Week 1,UC02,Microsoft Copilot,HR,Simulation,Would match,No
+2026-09-07,Week 1,UC10,Devices,IT,Simulation,Would match,No
+2026-09-10,Week 1,UC09,Devices,HR,Simulation,Would match,Yes
+2026-09-15,Week 2,UC06,SharePoint,IT,Simulation,Would match,No
+2026-09-16,Week 2,UC02,Microsoft Copilot,Legal,Simulation,Would match,No
+2026-09-16,Week 2,UC07,Teams,Finance,Simulation,Would match,No
+2026-09-16,Week 2,UC07,Teams,HR,Simulation,Would match,No
+2026-09-17,Week 2,UC07,Teams,Legal,Simulation,Would match,No
+2026-09-17,Week 2,UC06,SharePoint,Sales,Simulation,Would match,No
+2026-09-16,Week 2,UC09,Devices,Legal,Simulation,Would match,Yes
+2026-09-15,Week 2,UC10,Devices,Sales,Simulation,Would match,Yes
+2026-09-16,Week 2,UC01,Microsoft Copilot,IT,Simulation,Would match,No
+2026-09-15,Week 2,UC08,Exchange,Sales,Simulation,Would match,No
+2026-09-18,Week 2,UC08,Exchange,IT,Simulation,Would match,Yes
+2026-09-15,Week 2,UC13,Exchange,R&D,Simulation,Would match,Yes
+2026-09-14,Week 2,UC06,SharePoint,HR,Simulation,Would match,Yes
+2026-09-15,Week 2,UC10,Devices,HR,Simulation,Would match,No
+2026-09-14,Week 2,UC08,Exchange,Sales,Simulation,Would match,No
+2026-09-14,Week 2,UC10,Devices,Sales,Simulation,Would match,Yes
+2026-09-16,Week 2,UC02,Microsoft Copilot,Legal,Simulation,Would match,Yes
+2026-09-14,Week 2,UC03,Microsoft Copilot,Legal,Simulation,Would match,No
+2026-09-15,Week 2,UC08,Exchange,R&D,Simulation,Would match,No
+2026-09-16,Week 2,UC10,Devices,R&D,Simulation,Would match,No
+2026-09-16,Week 2,UC07,Teams,Sales,Simulation,Would match,No
+2026-09-17,Week 2,UC03,Microsoft Copilot,Legal,Simulation,Would match,No
+2026-09-18,Week 2,UC02,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-09-14,Week 2,UC07,Teams,HR,Simulation,Would match,No
+2026-09-18,Week 2,UC09,Devices,IT,Simulation,Would match,No
+2026-09-14,Week 2,UC07,Teams,R&D,Simulation,Would match,No
+2026-09-15,Week 2,UC08,Exchange,Finance,Simulation,Would match,Yes
+2026-09-15,Week 2,UC08,Exchange,R&D,Simulation,Would match,Yes
+2026-09-18,Week 2,UC08,Exchange,HR,Simulation,Would match,Yes
+2026-09-16,Week 2,UC09,Devices,Sales,Simulation,Would match,No
+2026-09-15,Week 2,UC03,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-09-18,Week 2,UC01,Microsoft Copilot,HR,Simulation,Would match,No
+2026-09-14,Week 2,UC07,Teams,Sales,Simulation,Would match,Yes
+2026-09-18,Week 2,UC05,Exchange,Legal,Simulation,Would match,Yes
+2026-09-18,Week 2,UC09,Devices,R&D,Simulation,Would match,No
+2026-09-16,Week 2,UC03,Microsoft Copilot,Sales,Simulation,Would match,No
+2026-09-18,Week 2,UC10,Devices,Sales,Simulation,Would match,No
+2026-09-17,Week 2,UC09,Devices,Sales,Simulation,Would match,No
+2026-09-14,Week 2,UC10,Devices,Finance,Simulation,Would match,No
+2026-09-14,Week 2,UC08,Exchange,Finance,Simulation,Would match,Yes
+2026-09-18,Week 2,UC08,Exchange,Sales,Simulation,Would match,No
+2026-09-15,Week 2,UC01,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-09-17,Week 2,UC07,Teams,Legal,Simulation,Would match,No
+2026-09-18,Week 2,UC08,Exchange,R&D,Simulation,Would match,No
+2026-09-16,Week 2,UC03,Microsoft Copilot,IT,Simulation,Would match,Yes
+2026-09-18,Week 2,UC03,Microsoft Copilot,IT,Simulation,Would match,Yes
+2026-09-15,Week 2,UC01,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-09-15,Week 2,UC01,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-09-14,Week 2,UC03,Microsoft Copilot,IT,Simulation,Would match,No
+2026-09-14,Week 2,UC10,Devices,Legal,Simulation,Would match,No
+2026-09-14,Week 2,UC09,Devices,IT,Simulation,Would match,No
+2026-09-18,Week 2,UC10,Devices,Finance,Simulation,Would match,Yes
+2026-09-15,Week 2,UC08,Exchange,HR,Simulation,Would match,No
+2026-09-15,Week 2,UC09,Devices,R&D,Simulation,Would match,Yes
+2026-09-17,Week 2,UC10,Devices,Sales,Simulation,Would match,Yes
+2026-09-16,Week 2,UC07,Teams,IT,Simulation,Would match,No
+2026-09-17,Week 2,UC06,SharePoint,HR,Simulation,Would match,No
+2026-09-14,Week 2,UC07,Teams,HR,Simulation,Would match,No
+2026-09-17,Week 2,UC08,Exchange,HR,Simulation,Would match,No
+2026-09-14,Week 2,UC09,Devices,Legal,Simulation,Would match,No
+2026-09-15,Week 2,UC09,Devices,HR,Simulation,Would match,Yes
+2026-09-14,Week 2,UC09,Devices,Legal,Simulation,Would match,No
+2026-09-18,Week 2,UC05,Exchange,Legal,Simulation,Would match,Yes
+2026-09-18,Week 2,UC08,Exchange,Sales,Simulation,Would match,No
+2026-09-18,Week 2,UC08,Exchange,Sales,Simulation,Would match,No
+2026-09-15,Week 2,UC05,Exchange,HR,Simulation,Would match,No
+2026-09-16,Week 2,UC07,Teams,IT,Simulation,Would match,No
+2026-09-16,Week 2,UC09,Devices,R&D,Simulation,Would match,No
+2026-09-14,Week 2,UC02,Microsoft Copilot,HR,Simulation,Would match,Yes
+2026-09-15,Week 2,UC03,Microsoft Copilot,R&D,Simulation,Would match,Yes
+2026-09-17,Week 2,UC01,Microsoft Copilot,HR,Simulation,Would match,No
+2026-09-15,Week 2,UC02,Microsoft Copilot,HR,Simulation,Would match,Yes
+2026-09-17,Week 2,UC08,Exchange,Sales,Simulation,Would match,No
+2026-09-18,Week 2,UC08,Exchange,Finance,Simulation,Would match,Yes
+2026-09-17,Week 2,UC03,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-09-14,Week 2,UC13,Exchange,IT,Simulation,Would match,No
+2026-09-15,Week 2,UC07,Teams,IT,Simulation,Would match,No
+2026-09-14,Week 2,UC10,Devices,Finance,Simulation,Would match,Yes
+2026-09-16,Week 2,UC07,Teams,HR,Simulation,Would match,No
+2026-09-17,Week 2,UC10,Devices,Sales,Simulation,Would match,Yes
+2026-09-14,Week 2,UC06,SharePoint,Finance,Simulation,Would match,No
+2026-09-18,Week 2,UC06,SharePoint,IT,Simulation,Would match,No
+2026-09-16,Week 2,UC05,Exchange,IT,Simulation,Would match,No
+2026-09-18,Week 2,UC03,Microsoft Copilot,IT,Simulation,Would match,No
+2026-09-18,Week 2,UC05,Exchange,Legal,Simulation,Would match,No
+2026-09-14,Week 2,UC05,Exchange,R&D,Simulation,Would match,Yes
+2026-09-17,Week 2,UC13,Exchange,Sales,Simulation,Would match,No
+2026-09-16,Week 2,UC02,Microsoft Copilot,HR,Simulation,Would match,Yes
+2026-09-15,Week 2,UC09,Devices,IT,Simulation,Would match,Yes
+2026-09-18,Week 2,UC10,Devices,IT,Simulation,Would match,No
+2026-09-15,Week 2,UC06,SharePoint,Sales,Simulation,Would match,No
+2026-09-15,Week 2,UC13,Exchange,HR,Simulation,Would match,Yes
+2026-09-16,Week 2,UC06,SharePoint,IT,Simulation,Would match,Yes
+2026-09-15,Week 2,UC07,Teams,IT,Simulation,Would match,Yes
+2026-09-17,Week 2,UC02,Microsoft Copilot,Finance,Simulation,Would match,Yes
+2026-09-16,Week 2,UC03,Microsoft Copilot,Legal,Simulation,Would match,No
+2026-09-18,Week 2,UC08,Exchange,HR,Simulation,Would match,No
+2026-09-15,Week 2,UC03,Microsoft Copilot,HR,Simulation,Would match,No
+2026-09-18,Week 2,UC03,Microsoft Copilot,IT,Simulation,Would match,No
+2026-09-15,Week 2,UC08,Exchange,Finance,Simulation,Would match,Yes
+2026-09-15,Week 2,UC06,SharePoint,Sales,Simulation,Would match,No
+2026-09-14,Week 2,UC01,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-09-17,Week 2,UC08,Exchange,R&D,Simulation,Would match,No
+2026-09-17,Week 2,UC07,Teams,Legal,Simulation,Would match,No
+2026-09-17,Week 2,UC13,Exchange,R&D,Simulation,Would match,No
+2026-09-17,Week 2,UC09,Devices,HR,Simulation,Would match,No
+2026-09-14,Week 2,UC13,Exchange,IT,Simulation,Would match,No
+2026-09-18,Week 2,UC07,Teams,R&D,Simulation,Would match,No
+2026-09-16,Week 2,UC01,Microsoft Copilot,Sales,Simulation,Would match,No
+2026-09-17,Week 2,UC13,Exchange,IT,Simulation,Would match,No
+2026-09-16,Week 2,UC07,Teams,HR,Simulation,Would match,No
+2026-09-14,Week 2,UC05,Exchange,Finance,Simulation,Would match,No
+2026-09-17,Week 2,UC10,Devices,R&D,Simulation,Would match,No
+2026-09-18,Week 2,UC02,Microsoft Copilot,IT,Simulation,Would match,No
+2026-09-17,Week 2,UC06,SharePoint,HR,Simulation,Would match,No
+2026-09-18,Week 2,UC07,Teams,Finance,Simulation,Would match,No
+2026-09-17,Week 2,UC05,Exchange,HR,Simulation,Would match,No
+2026-09-18,Week 2,UC02,Microsoft Copilot,HR,Simulation,Would match,No
+2026-09-18,Week 2,UC10,Devices,HR,Simulation,Would match,No
+2026-09-15,Week 2,UC06,SharePoint,HR,Simulation,Would match,No
+2026-09-15,Week 2,UC07,Teams,R&D,Simulation,Would match,Yes
+2026-09-17,Week 2,UC10,Devices,Legal,Simulation,Would match,Yes
+2026-09-15,Week 2,UC13,Exchange,HR,Simulation,Would match,Yes
+2026-09-16,Week 2,UC09,Devices,R&D,Simulation,Would match,Yes
+2026-09-22,Week 3,UC09,Devices,Legal,Simulation,Would match,Yes
+2026-09-22,Week 3,UC01,Microsoft Copilot,Sales,Simulation,Would match,Yes
+2026-09-21,Week 3,UC09,Devices,Legal,Simulation,Would match,Yes
+2026-09-22,Week 3,UC10,Devices,Finance,Simulation,Would match,No
+2026-09-21,Week 3,UC05,Exchange,Sales,Simulation,Would match,No
+2026-09-23,Week 3,UC07,Teams,Legal,Simulation,Would match,No
+2026-09-23,Week 3,UC03,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-09-21,Week 3,UC08,Exchange,Sales,Simulation,Would match,Yes
+2026-09-22,Week 3,UC02,Microsoft Copilot,Legal,Simulation,Would match,Yes
+2026-09-25,Week 3,UC05,Exchange,Sales,Simulation,Would match,No
+2026-09-25,Week 3,UC07,Teams,IT,Simulation,Would match,No
+2026-09-22,Week 3,UC10,Devices,Finance,Simulation,Would match,No
+2026-09-23,Week 3,UC05,Exchange,Legal,Simulation,Would match,Yes
+2026-09-24,Week 3,UC02,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-09-21,Week 3,UC10,Devices,HR,Simulation,Would match,No
+2026-09-25,Week 3,UC01,Microsoft Copilot,IT,Simulation,Would match,No
+2026-09-24,Week 3,UC06,SharePoint,HR,Simulation,Would match,No
+2026-09-23,Week 3,UC03,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-09-22,Week 3,UC05,Exchange,IT,Simulation,Would match,Yes
+2026-09-22,Week 3,UC01,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-09-25,Week 3,UC01,Microsoft Copilot,IT,Simulation,Would match,No
+2026-09-21,Week 3,UC08,Exchange,R&D,Simulation,Would match,No
+2026-09-22,Week 3,UC01,Microsoft Copilot,Legal,Simulation,Would match,Yes
+2026-09-23,Week 3,UC07,Teams,HR,Simulation,Would match,No
+2026-09-23,Week 3,UC10,Devices,Legal,Simulation,Would match,No
+2026-09-25,Week 3,UC10,Devices,Finance,Simulation,Would match,Yes
+2026-09-25,Week 3,UC02,Microsoft Copilot,Legal,Simulation,Would match,No
+2026-09-25,Week 3,UC09,Devices,Legal,Simulation,Would match,No
+2026-09-23,Week 3,UC05,Exchange,Finance,Simulation,Would match,No
+2026-09-25,Week 3,UC13,Exchange,HR,Simulation,Would match,No
+2026-09-25,Week 3,UC05,Exchange,HR,Simulation,Would match,No
+2026-09-24,Week 3,UC13,Exchange,Finance,Simulation,Would match,No
+2026-09-22,Week 3,UC07,Teams,IT,Simulation,Would match,No
+2026-09-24,Week 3,UC09,Devices,Legal,Simulation,Would match,No
+2026-09-21,Week 3,UC06,SharePoint,Finance,Simulation,Would match,Yes
+2026-09-25,Week 3,UC13,Exchange,Legal,Simulation,Would match,No
+2026-09-25,Week 3,UC05,Exchange,Sales,Simulation,Would match,Yes
+2026-09-21,Week 3,UC08,Exchange,IT,Simulation,Would match,No
+2026-09-23,Week 3,UC10,Devices,R&D,Simulation,Would match,No
+2026-09-25,Week 3,UC02,Microsoft Copilot,Sales,Simulation,Would match,Yes
+2026-09-22,Week 3,UC05,Exchange,Legal,Simulation,Would match,No
+2026-09-24,Week 3,UC13,Exchange,R&D,Simulation,Would match,Yes
+2026-09-23,Week 3,UC09,Devices,Legal,Simulation,Would match,No
+2026-09-22,Week 3,UC01,Microsoft Copilot,IT,Simulation,Would match,No
+2026-09-22,Week 3,UC03,Microsoft Copilot,IT,Simulation,Would match,No
+2026-09-21,Week 3,UC01,Microsoft Copilot,IT,Simulation,Would match,Yes
+2026-09-21,Week 3,UC03,Microsoft Copilot,Sales,Simulation,Would match,No
+2026-09-24,Week 3,UC09,Devices,HR,Simulation,Would match,No
+2026-09-22,Week 3,UC13,Exchange,HR,Simulation,Would match,Yes
+2026-09-22,Week 3,UC10,Devices,HR,Simulation,Would match,No
+2026-09-23,Week 3,UC05,Exchange,IT,Simulation,Would match,Yes
+2026-09-21,Week 3,UC05,Exchange,IT,Simulation,Would match,Yes
+2026-09-23,Week 3,UC01,Microsoft Copilot,IT,Simulation,Would match,No
+2026-09-24,Week 3,UC03,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-09-24,Week 3,UC08,Exchange,Finance,Simulation,Would match,No
+2026-09-23,Week 3,UC08,Exchange,IT,Simulation,Would match,Yes
+2026-09-24,Week 3,UC03,Microsoft Copilot,Finance,Simulation,Would match,Yes
+2026-09-24,Week 3,UC13,Exchange,R&D,Simulation,Would match,No
+2026-09-24,Week 3,UC09,Devices,Legal,Simulation,Would match,No
+2026-09-24,Week 3,UC03,Microsoft Copilot,R&D,Simulation,Would match,Yes
+2026-09-21,Week 3,UC08,Exchange,Sales,Simulation,Would match,Yes
+2026-09-23,Week 3,UC07,Teams,IT,Simulation,Would match,No
+2026-09-23,Week 3,UC03,Microsoft Copilot,IT,Simulation,Would match,No
+2026-09-23,Week 3,UC05,Exchange,HR,Simulation,Would match,Yes
+2026-09-23,Week 3,UC03,Microsoft Copilot,Finance,Simulation,Would match,Yes
+2026-09-21,Week 3,UC02,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-09-21,Week 3,UC09,Devices,R&D,Simulation,Would match,No
+2026-09-23,Week 3,UC07,Teams,IT,Simulation,Would match,No
+2026-09-23,Week 3,UC01,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-09-21,Week 3,UC09,Devices,IT,Simulation,Would match,Yes
+2026-09-22,Week 3,UC13,Exchange,Sales,Simulation,Would match,Yes
+2026-09-24,Week 3,UC08,Exchange,Legal,Simulation,Would match,No
+2026-09-25,Week 3,UC03,Microsoft Copilot,Sales,Simulation,Would match,No
+2026-09-24,Week 3,UC07,Teams,Finance,Simulation,Would match,No
+2026-09-23,Week 3,UC05,Exchange,R&D,Simulation,Would match,No
+2026-09-22,Week 3,UC08,Exchange,Sales,Simulation,Would match,No
+2026-09-21,Week 3,UC05,Exchange,Sales,Simulation,Would match,Yes
+2026-09-22,Week 3,UC13,Exchange,HR,Simulation,Would match,Yes
+2026-09-25,Week 3,UC09,Devices,Legal,Simulation,Would match,Yes
+2026-09-21,Week 3,UC06,SharePoint,Finance,Simulation,Would match,No
+2026-09-23,Week 3,UC10,Devices,Sales,Simulation,Would match,No
+2026-09-23,Week 3,UC05,Exchange,R&D,Simulation,Would match,Yes
+2026-09-24,Week 3,UC02,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-09-23,Week 3,UC08,Exchange,Legal,Simulation,Would match,Yes
+2026-09-22,Week 3,UC06,SharePoint,R&D,Simulation,Would match,Yes
+2026-09-24,Week 3,UC05,Exchange,Sales,Simulation,Would match,No
+2026-09-25,Week 3,UC05,Exchange,Sales,Simulation,Would match,Yes
+2026-09-22,Week 3,UC08,Exchange,Sales,Simulation,Would match,No
+2026-09-23,Week 3,UC10,Devices,HR,Simulation,Would match,No
+2026-09-21,Week 3,UC08,Exchange,HR,Simulation,Would match,No
+2026-09-23,Week 3,UC08,Exchange,R&D,Simulation,Would match,Yes
+2026-09-23,Week 3,UC13,Exchange,Sales,Simulation,Would match,No
+2026-09-21,Week 3,UC06,SharePoint,Sales,Simulation,Would match,Yes
+2026-09-23,Week 3,UC07,Teams,Sales,Simulation,Would match,No
+2026-09-24,Week 3,UC03,Microsoft Copilot,Sales,Simulation,Would match,No
+2026-09-21,Week 3,UC07,Teams,Finance,Simulation,Would match,No
+2026-09-21,Week 3,UC02,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-09-24,Week 3,UC13,Exchange,HR,Simulation,Would match,Yes
+2026-09-24,Week 3,UC09,Devices,R&D,Simulation,Would match,No
+2026-09-22,Week 3,UC01,Microsoft Copilot,Sales,Simulation,Would match,No
+2026-09-24,Week 3,UC06,SharePoint,HR,Simulation,Would match,No
+2026-09-25,Week 3,UC03,Microsoft Copilot,Finance,Simulation,Would match,Yes
+2026-09-22,Week 3,UC06,SharePoint,HR,Simulation,Would match,Yes
+2026-09-24,Week 3,UC10,Devices,IT,Simulation,Would match,Yes
+2026-09-25,Week 3,UC09,Devices,IT,Simulation,Would match,Yes
+2026-09-23,Week 3,UC07,Teams,HR,Simulation,Would match,Yes
+2026-09-22,Week 3,UC07,Teams,Legal,Simulation,Would match,No
+2026-09-22,Week 3,UC03,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-09-25,Week 3,UC07,Teams,IT,Simulation,Would match,No
+2026-09-23,Week 3,UC06,SharePoint,Sales,Simulation,Would match,No
+2026-09-24,Week 3,UC10,Devices,Finance,Simulation,Would match,Yes
+2026-09-23,Week 3,UC07,Teams,IT,Simulation,Would match,No
+2026-09-21,Week 3,UC03,Microsoft Copilot,HR,Simulation,Would match,No
+2026-09-21,Week 3,UC06,SharePoint,IT,Simulation,Would match,No
+2026-09-21,Week 3,UC09,Devices,R&D,Simulation,Would match,Yes
+2026-09-21,Week 3,UC09,Devices,R&D,Simulation,Would match,Yes
+2026-09-24,Week 3,UC10,Devices,Legal,Simulation,Would match,Yes
+2026-09-23,Week 3,UC06,SharePoint,Sales,Simulation,Would match,No
+2026-09-23,Week 3,UC03,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-09-22,Week 3,UC13,Exchange,R&D,Simulation,Would match,No
+2026-09-25,Week 3,UC03,Microsoft Copilot,Sales,Simulation,Would match,No
+2026-09-22,Week 3,UC03,Microsoft Copilot,IT,Simulation,Would match,Yes
+2026-09-22,Week 3,UC06,SharePoint,HR,Simulation,Would match,No
+2026-09-25,Week 3,UC09,Devices,Finance,Simulation,Would match,No
+2026-09-23,Week 3,UC06,SharePoint,Legal,Simulation,Would match,No
+2026-09-24,Week 3,UC08,Exchange,Finance,Simulation,Would match,No
+2026-09-22,Week 3,UC01,Microsoft Copilot,HR,Simulation,Would match,No
+2026-09-22,Week 3,UC01,Microsoft Copilot,Legal,Simulation,Would match,Yes
+2026-09-21,Week 3,UC10,Devices,HR,Simulation,Would match,No
+2026-10-01,Week 4,UC10,Devices,HR,Simulation,Would match,Yes
+2026-10-01,Week 4,UC06,SharePoint,Legal,Simulation,Would match,No
+2026-09-29,Week 4,UC06,SharePoint,IT,Simulation,Would match,No
+2026-09-29,Week 4,UC08,Exchange,R&D,Simulation,Would match,No
+2026-10-02,Week 4,UC05,Exchange,Finance,Simulation,Would match,No
+2026-09-29,Week 4,UC09,Devices,IT,Simulation,Would match,No
+2026-10-01,Week 4,UC06,SharePoint,Finance,Simulation,Would match,No
+2026-09-28,Week 4,UC07,Teams,IT,Simulation,Would match,No
+2026-09-30,Week 4,UC03,Microsoft Copilot,Sales,Simulation,Would match,No
+2026-09-29,Week 4,UC07,Teams,Finance,Simulation,Would match,Yes
+2026-10-02,Week 4,UC07,Teams,HR,Simulation,Would match,No
+2026-09-28,Week 4,UC03,Microsoft Copilot,Sales,Simulation,Would match,Yes
+2026-09-28,Week 4,UC02,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-09-29,Week 4,UC03,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-09-28,Week 4,UC09,Devices,IT,Simulation,Would match,No
+2026-10-02,Week 4,UC08,Exchange,IT,Simulation,Would match,Yes
+2026-10-02,Week 4,UC13,Exchange,Finance,Simulation,Would match,No
+2026-09-29,Week 4,UC06,SharePoint,R&D,Simulation,Would match,No
+2026-09-28,Week 4,UC13,Exchange,HR,Simulation,Would match,Yes
+2026-10-02,Week 4,UC03,Microsoft Copilot,HR,Simulation,Would match,Yes
+2026-09-30,Week 4,UC06,SharePoint,IT,Simulation,Would match,Yes
+2026-09-28,Week 4,UC06,SharePoint,HR,Simulation,Would match,No
+2026-09-28,Week 4,UC05,Exchange,HR,Simulation,Would match,No
+2026-09-30,Week 4,UC10,Devices,Legal,Simulation,Would match,No
+2026-10-01,Week 4,UC09,Devices,IT,Simulation,Would match,No
+2026-10-01,Week 4,UC02,Microsoft Copilot,Legal,Simulation,Would match,No
+2026-09-30,Week 4,UC08,Exchange,IT,Simulation,Would match,No
+2026-09-28,Week 4,UC01,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-10-01,Week 4,UC07,Teams,IT,Simulation,Would match,No
+2026-09-30,Week 4,UC06,SharePoint,R&D,Simulation,Would match,No
+2026-09-30,Week 4,UC07,Teams,Legal,Simulation,Would match,No
+2026-10-02,Week 4,UC07,Teams,Sales,Simulation,Would match,Yes
+2026-09-29,Week 4,UC05,Exchange,Legal,Simulation,Would match,No
+2026-10-02,Week 4,UC03,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-09-30,Week 4,UC03,Microsoft Copilot,Finance,Simulation,Would match,Yes
+2026-09-30,Week 4,UC07,Teams,HR,Simulation,Would match,No
+2026-10-01,Week 4,UC01,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-09-30,Week 4,UC02,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-09-29,Week 4,UC01,Microsoft Copilot,IT,Simulation,Would match,No
+2026-10-02,Week 4,UC02,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-09-29,Week 4,UC09,Devices,Legal,Simulation,Would match,No
+2026-09-30,Week 4,UC03,Microsoft Copilot,R&D,Simulation,Would match,Yes
+2026-09-29,Week 4,UC07,Teams,IT,Simulation,Would match,No
+2026-09-29,Week 4,UC01,Microsoft Copilot,Legal,Simulation,Would match,No
+2026-09-28,Week 4,UC08,Exchange,IT,Simulation,Would match,No
+2026-10-01,Week 4,UC07,Teams,Legal,Simulation,Would match,No
+2026-10-02,Week 4,UC08,Exchange,HR,Simulation,Would match,No
+2026-10-01,Week 4,UC02,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-10-01,Week 4,UC08,Exchange,R&D,Simulation,Would match,No
+2026-10-02,Week 4,UC13,Exchange,IT,Simulation,Would match,No
+2026-10-02,Week 4,UC01,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-10-02,Week 4,UC06,SharePoint,HR,Simulation,Would match,Yes
+2026-09-29,Week 4,UC07,Teams,Sales,Simulation,Would match,No
+2026-10-02,Week 4,UC06,SharePoint,Legal,Simulation,Would match,No
+2026-10-02,Week 4,UC09,Devices,Finance,Simulation,Would match,No
+2026-09-28,Week 4,UC09,Devices,Legal,Simulation,Would match,No
+2026-09-28,Week 4,UC03,Microsoft Copilot,IT,Simulation,Would match,No
+2026-09-30,Week 4,UC06,SharePoint,HR,Simulation,Would match,Yes
+2026-09-30,Week 4,UC07,Teams,Sales,Simulation,Would match,No
+2026-09-29,Week 4,UC09,Devices,R&D,Simulation,Would match,No
+2026-10-01,Week 4,UC05,Exchange,Legal,Simulation,Would match,No
+2026-09-28,Week 4,UC05,Exchange,R&D,Simulation,Would match,Yes
+2026-09-29,Week 4,UC09,Devices,R&D,Simulation,Would match,Yes
+2026-10-02,Week 4,UC01,Microsoft Copilot,HR,Simulation,Would match,No
+2026-09-30,Week 4,UC03,Microsoft Copilot,Sales,Simulation,Would match,Yes
+2026-09-30,Week 4,UC01,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-09-28,Week 4,UC06,SharePoint,IT,Simulation,Would match,No
+2026-09-28,Week 4,UC08,Exchange,IT,Simulation,Would match,No
+2026-10-01,Week 4,UC09,Devices,Legal,Simulation,Would match,Yes
+2026-10-02,Week 4,UC05,Exchange,Legal,Simulation,Would match,No
+2026-10-02,Week 4,UC05,Exchange,R&D,Simulation,Would match,No
+2026-09-28,Week 4,UC08,Exchange,Legal,Simulation,Would match,No
+2026-09-30,Week 4,UC07,Teams,Finance,Simulation,Would match,No
+2026-09-29,Week 4,UC05,Exchange,Finance,Simulation,Would match,No
+2026-10-01,Week 4,UC13,Exchange,Sales,Simulation,Would match,Yes
+2026-09-30,Week 4,UC02,Microsoft Copilot,IT,Simulation,Would match,No
+2026-09-30,Week 4,UC13,Exchange,HR,Simulation,Would match,No
+2026-09-29,Week 4,UC02,Microsoft Copilot,Sales,Simulation,Would match,No
+2026-10-01,Week 4,UC06,SharePoint,HR,Simulation,Would match,No
+2026-10-01,Week 4,UC06,SharePoint,IT,Simulation,Would match,No
+2026-09-30,Week 4,UC08,Exchange,IT,Simulation,Would match,No
+2026-09-28,Week 4,UC02,Microsoft Copilot,Legal,Simulation,Would match,No
+2026-09-29,Week 4,UC08,Exchange,HR,Simulation,Would match,No
+2026-09-28,Week 4,UC06,SharePoint,Sales,Simulation,Would match,No
+2026-10-01,Week 4,UC02,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-09-29,Week 4,UC08,Exchange,IT,Simulation,Would match,No
+2026-10-01,Week 4,UC05,Exchange,Sales,Simulation,Would match,No
+2026-09-30,Week 4,UC08,Exchange,R&D,Simulation,Would match,No
+2026-09-30,Week 4,UC06,SharePoint,HR,Simulation,Would match,No
+2026-09-29,Week 4,UC13,Exchange,Sales,Simulation,Would match,Yes
+2026-10-02,Week 4,UC03,Microsoft Copilot,Sales,Simulation,Would match,No
+2026-10-01,Week 4,UC08,Exchange,HR,Simulation,Would match,No
+2026-09-28,Week 4,UC13,Exchange,HR,Simulation,Would match,No
+2026-09-29,Week 4,UC09,Devices,Sales,Simulation,Would match,Yes
+2026-09-30,Week 4,UC01,Microsoft Copilot,IT,Simulation,Would match,Yes
+2026-09-28,Week 4,UC07,Teams,Finance,Simulation,Would match,No
+2026-09-28,Week 4,UC09,Devices,R&D,Simulation,Would match,No
+2026-09-30,Week 4,UC10,Devices,Legal,Simulation,Would match,No
+2026-09-28,Week 4,UC13,Exchange,HR,Simulation,Would match,No
+2026-10-01,Week 4,UC08,Exchange,Legal,Simulation,Would match,No
+2026-09-28,Week 4,UC10,Devices,HR,Simulation,Would match,No
+2026-10-01,Week 4,UC09,Devices,Finance,Simulation,Would match,No
+2026-10-02,Week 4,UC10,Devices,Sales,Simulation,Would match,No
+2026-10-02,Week 4,UC03,Microsoft Copilot,Legal,Simulation,Would match,No
+2026-09-28,Week 4,UC02,Microsoft Copilot,Legal,Simulation,Would match,Yes
+2026-09-30,Week 4,UC13,Exchange,Legal,Simulation,Would match,No
+2026-09-28,Week 4,UC09,Devices,Finance,Simulation,Would match,No
+2026-09-30,Week 4,UC01,Microsoft Copilot,HR,Simulation,Would match,No
+2026-09-30,Week 4,UC02,Microsoft Copilot,IT,Simulation,Would match,No
+2026-09-28,Week 4,UC10,Devices,HR,Simulation,Would match,No
+2026-10-02,Week 4,UC06,SharePoint,HR,Simulation,Would match,No
+2026-09-29,Week 4,UC13,Exchange,HR,Simulation,Would match,Yes
+2026-10-02,Week 4,UC10,Devices,Sales,Simulation,Would match,No
+2026-09-29,Week 4,UC05,Exchange,R&D,Simulation,Would match,No
+2026-09-29,Week 4,UC01,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-09-28,Week 4,UC10,Devices,HR,Simulation,Would match,No
+2026-09-29,Week 4,UC10,Devices,IT,Simulation,Would match,Yes
+2026-09-29,Week 4,UC10,Devices,IT,Simulation,Would match,No
+2026-10-01,Week 4,UC02,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-09-28,Week 4,UC03,Microsoft Copilot,Legal,Simulation,Would match,No
+2026-09-29,Week 4,UC08,Exchange,IT,Simulation,Would match,No
+2026-10-01,Week 4,UC01,Microsoft Copilot,Sales,Simulation,Would match,Yes
+2026-09-28,Week 4,UC10,Devices,Sales,Simulation,Would match,No
+2026-09-29,Week 4,UC02,Microsoft Copilot,HR,Simulation,Would match,No
+2026-09-30,Week 4,UC08,Exchange,Finance,Simulation,Would match,No
+2026-09-29,Week 4,UC10,Devices,IT,Simulation,Would match,No
+2026-10-01,Week 4,UC02,Microsoft Copilot,Sales,Simulation,Would match,No
+2026-09-30,Week 4,UC13,Exchange,HR,Simulation,Would match,No
+2026-10-01,Week 4,UC08,Exchange,Legal,Simulation,Would match,No
+2026-09-30,Week 4,UC08,Exchange,HR,Simulation,Would match,No
+2026-10-02,Week 4,UC06,SharePoint,IT,Simulation,Would match,Yes
+2026-10-02,Week 4,UC08,Exchange,Finance,Simulation,Would match,No
+2026-09-30,Week 4,UC02,Microsoft Copilot,Sales,Simulation,Would match,Yes
+2026-09-29,Week 4,UC09,Devices,IT,Simulation,Would match,No
+2026-09-28,Week 4,UC09,Devices,IT,Simulation,Would match,No
+2026-09-28,Week 4,UC02,Microsoft Copilot,Sales,Simulation,Would match,No
+2026-09-30,Week 4,UC05,Exchange,Legal,Simulation,Would match,No
+2026-09-30,Week 4,UC07,Teams,IT,Simulation,Would match,No
+2026-09-30,Week 4,UC01,Microsoft Copilot,HR,Simulation,Would match,No
+2026-09-30,Week 4,UC10,Devices,HR,Simulation,Would match,Yes
+2026-09-30,Week 4,UC05,Exchange,R&D,Simulation,Would match,No
+2026-10-01,Week 4,UC07,Teams,IT,Simulation,Would match,Yes
+2026-09-28,Week 4,UC02,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-09-30,Week 4,UC06,SharePoint,Finance,Simulation,Would match,Yes
+2026-09-30,Week 4,UC03,Microsoft Copilot,HR,Simulation,Would match,No
+2026-09-28,Week 4,UC09,Devices,HR,Simulation,Would match,No
+2026-09-29,Week 4,UC10,Devices,Legal,Simulation,Would match,No
+2026-10-02,Week 4,UC01,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-10-02,Week 4,UC13,Exchange,Legal,Simulation,Would match,Yes
+2026-10-01,Week 4,UC09,Devices,Legal,Simulation,Would match,No
+2026-09-29,Week 4,UC02,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-10-01,Week 4,UC03,Microsoft Copilot,Legal,Simulation,Would match,No
+2026-09-28,Week 4,UC08,Exchange,Legal,Simulation,Would match,No
+2026-09-28,Week 4,UC02,Microsoft Copilot,Sales,Simulation,Would match,No
+2026-09-28,Week 4,UC10,Devices,R&D,Simulation,Would match,No
+2026-10-02,Week 4,UC06,SharePoint,Finance,Simulation,Would match,Yes
+2026-10-01,Week 4,UC02,Microsoft Copilot,Finance,Simulation,Would match,No
+2026-09-29,Week 4,UC02,Microsoft Copilot,R&D,Simulation,Would match,No
+2026-09-28,Week 4,UC08,Exchange,R&D,Simulation,Would match,No
+2026-10-01,Week 4,UC05,Exchange,Legal,Simulation,Would match,No
+2026-10-02,Week 4,UC08,Exchange,HR,Simulation,Would match,No
+2026-09-29,Week 4,UC10,Devices,Sales,Simulation,Would match,No
+2026-09-28,Week 4,UC05,Exchange,Finance,Simulation,Would match,No
+2026-10-01,Week 4,UC07,Teams,IT,Simulation,Would match,No
+2026-10-01,Week 4,UC08,Exchange,R&D,Simulation,Would match,No
+2026-10-02,Week 4,UC07,Teams,Legal,Simulation,Would match,Yes
+2026-09-30,Week 4,UC08,Exchange,R&D,Simulation,Would match,Yes
+2026-09-30,Week 4,UC05,Exchange,R&D,Simulation,Would match,No
+2026-09-28,Week 4,UC13,Exchange,HR,Simulation,Would match,No
+2026-10-01,Week 4,UC06,SharePoint,Finance,Simulation,Would match,No
+2026-10-02,Week 4,UC08,Exchange,Finance,Simulation,Would match,Yes
+2026-10-02,Week 4,UC08,Exchange,R&D,Simulation,Would match,No
+2026-09-29,Week 4,UC02,Microsoft Copilot,IT,Simulation,Would match,No
+2026-10-09,Week 5,UC06,SharePoint,Legal,Warn,Policy tip shown,No
+2026-10-09,Week 5,UC07,Teams,R&D,Warn,Policy tip shown,Yes
+2026-10-08,Week 5,UC03,Microsoft Copilot,Sales,Warn,User cancelled,No
+2026-10-06,Week 5,UC02,Microsoft Copilot,Finance,Warn,Policy tip shown,No
+2026-10-09,Week 5,UC10,Devices,Finance,Warn,Policy tip shown,No
+2026-10-06,Week 5,UC13,Exchange,Legal,Warn,User cancelled,No
+2026-10-07,Week 5,UC07,Teams,Sales,Warn,User cancelled,Yes
+2026-10-07,Week 5,UC13,Exchange,Finance,Warn,Policy tip shown,Yes
+2026-10-07,Week 5,UC10,Devices,IT,Warn,Policy tip shown,No
+2026-10-07,Week 5,UC03,Microsoft Copilot,Sales,Warn,Policy tip shown,No
+2026-10-09,Week 5,UC06,SharePoint,IT,Warn,Policy tip shown,Yes
+2026-10-09,Week 5,UC03,Microsoft Copilot,Finance,Warn,User cancelled,Yes
+2026-10-09,Week 5,UC10,Devices,HR,Warn,Policy tip shown,No
+2026-10-07,Week 5,UC08,Exchange,R&D,Warn,Overridden with justification,No
+2026-10-07,Week 5,UC09,Devices,Legal,Warn,Policy tip shown,No
+2026-10-07,Week 5,UC10,Devices,Finance,Warn,Policy tip shown,No
+2026-10-09,Week 5,UC02,Microsoft Copilot,Legal,Warn,User cancelled,Yes
+2026-10-07,Week 5,UC02,Microsoft Copilot,IT,Warn,Policy tip shown,No
+2026-10-06,Week 5,UC02,Microsoft Copilot,Finance,Warn,Policy tip shown,No
+2026-10-05,Week 5,UC01,Microsoft Copilot,Finance,Warn,Policy tip shown,Yes
+2026-10-09,Week 5,UC10,Devices,Finance,Warn,Overridden with justification,Yes
+2026-10-09,Week 5,UC02,Microsoft Copilot,Finance,Warn,Overridden with justification,No
+2026-10-08,Week 5,UC02,Microsoft Copilot,Legal,Warn,Policy tip shown,Yes
+2026-10-05,Week 5,UC09,Devices,IT,Warn,User cancelled,No
+2026-10-06,Week 5,UC02,Microsoft Copilot,Finance,Warn,Policy tip shown,No
+2026-10-06,Week 5,UC06,SharePoint,Finance,Warn,User cancelled,No
+2026-10-05,Week 5,UC08,Exchange,Legal,Warn,User cancelled,No
+2026-10-09,Week 5,UC13,Exchange,Finance,Warn,Policy tip shown,No
+2026-10-09,Week 5,UC02,Microsoft Copilot,HR,Warn,User cancelled,Yes
+2026-10-07,Week 5,UC02,Microsoft Copilot,HR,Warn,User cancelled,No
+2026-10-05,Week 5,UC08,Exchange,IT,Warn,Policy tip shown,Yes
+2026-10-09,Week 5,UC10,Devices,HR,Warn,Overridden with justification,No
+2026-10-07,Week 5,UC01,Microsoft Copilot,R&D,Warn,User cancelled,Yes
+2026-10-08,Week 5,UC05,Exchange,R&D,Warn,Policy tip shown,No
+2026-10-06,Week 5,UC01,Microsoft Copilot,IT,Warn,Overridden with justification,No
+2026-10-09,Week 5,UC07,Teams,Finance,Warn,Policy tip shown,No
+2026-10-06,Week 5,UC08,Exchange,R&D,Warn,Policy tip shown,No
+2026-10-06,Week 5,UC09,Devices,Finance,Warn,Policy tip shown,No
+2026-10-07,Week 5,UC13,Exchange,IT,Warn,Overridden with justification,No
+2026-10-06,Week 5,UC01,Microsoft Copilot,IT,Warn,Policy tip shown,No
+2026-10-06,Week 5,UC07,Teams,IT,Warn,User cancelled,No
+2026-10-05,Week 5,UC02,Microsoft Copilot,R&D,Warn,Overridden with justification,No
+2026-10-05,Week 5,UC05,Exchange,Sales,Warn,User cancelled,No
+2026-10-05,Week 5,UC07,Teams,R&D,Warn,User cancelled,No
+2026-10-08,Week 5,UC03,Microsoft Copilot,Sales,Warn,User cancelled,No
+2026-10-08,Week 5,UC05,Exchange,Legal,Warn,Overridden with justification,No
+2026-10-08,Week 5,UC02,Microsoft Copilot,HR,Warn,User cancelled,No
+2026-10-05,Week 5,UC09,Devices,Finance,Warn,Policy tip shown,No
+2026-10-05,Week 5,UC03,Microsoft Copilot,Finance,Warn,User cancelled,No
+2026-10-07,Week 5,UC07,Teams,Legal,Warn,Policy tip shown,Yes
+2026-10-05,Week 5,UC07,Teams,Legal,Warn,Policy tip shown,No
+2026-10-08,Week 5,UC05,Exchange,Sales,Warn,User cancelled,No
+2026-10-05,Week 5,UC03,Microsoft Copilot,Legal,Warn,User cancelled,No
+2026-10-05,Week 5,UC01,Microsoft Copilot,HR,Warn,Policy tip shown,No
+2026-10-09,Week 5,UC06,SharePoint,R&D,Warn,User cancelled,No
+2026-10-07,Week 5,UC10,Devices,Finance,Warn,Policy tip shown,No
+2026-10-05,Week 5,UC01,Microsoft Copilot,Legal,Warn,User cancelled,No
+2026-10-06,Week 5,UC10,Devices,IT,Warn,Policy tip shown,Yes
+2026-10-07,Week 5,UC02,Microsoft Copilot,IT,Warn,User cancelled,No
+2026-10-07,Week 5,UC09,Devices,R&D,Warn,User cancelled,No
+2026-10-06,Week 5,UC01,Microsoft Copilot,Legal,Warn,Policy tip shown,Yes
+2026-10-08,Week 5,UC01,Microsoft Copilot,HR,Warn,Policy tip shown,No
+2026-10-06,Week 5,UC06,SharePoint,Finance,Warn,Policy tip shown,Yes
+2026-10-05,Week 5,UC01,Microsoft Copilot,R&D,Warn,User cancelled,No
+2026-10-05,Week 5,UC13,Exchange,HR,Warn,Policy tip shown,No
+2026-10-07,Week 5,UC03,Microsoft Copilot,IT,Warn,Policy tip shown,No
+2026-10-07,Week 5,UC10,Devices,Legal,Warn,Policy tip shown,No
+2026-10-06,Week 5,UC07,Teams,IT,Warn,User cancelled,No
+2026-10-08,Week 5,UC13,Exchange,Sales,Warn,Overridden with justification,No
+2026-10-08,Week 5,UC07,Teams,Legal,Warn,User cancelled,No
+2026-10-08,Week 5,UC03,Microsoft Copilot,Sales,Warn,User cancelled,No
+2026-10-07,Week 5,UC03,Microsoft Copilot,Finance,Warn,Overridden with justification,No
+2026-10-07,Week 5,UC07,Teams,HR,Warn,Overridden with justification,No
+2026-10-08,Week 5,UC07,Teams,IT,Warn,Policy tip shown,No
+2026-10-05,Week 5,UC08,Exchange,R&D,Warn,Policy tip shown,No
+2026-10-09,Week 5,UC13,Exchange,R&D,Warn,Policy tip shown,No
+2026-10-05,Week 5,UC09,Devices,Sales,Warn,User cancelled,No
+2026-10-08,Week 5,UC10,Devices,HR,Warn,Policy tip shown,Yes
+2026-10-09,Week 5,UC05,Exchange,Sales,Warn,User cancelled,No
+2026-10-09,Week 5,UC05,Exchange,HR,Warn,Policy tip shown,Yes
+2026-10-08,Week 5,UC02,Microsoft Copilot,Sales,Warn,Policy tip shown,No
+2026-10-09,Week 5,UC10,Devices,Finance,Warn,Policy tip shown,No
+2026-10-07,Week 5,UC09,Devices,Legal,Warn,User cancelled,No
+2026-10-07,Week 5,UC05,Exchange,Finance,Warn,User cancelled,No
+2026-10-08,Week 5,UC02,Microsoft Copilot,HR,Warn,Policy tip shown,No
+2026-10-07,Week 5,UC10,Devices,Legal,Warn,Overridden with justification,No
+2026-10-05,Week 5,UC08,Exchange,Sales,Warn,Policy tip shown,No
+2026-10-08,Week 5,UC06,SharePoint,Legal,Warn,Policy tip shown,No
+2026-10-09,Week 5,UC06,SharePoint,Legal,Warn,User cancelled,No
+2026-10-08,Week 5,UC01,Microsoft Copilot,HR,Warn,User cancelled,No
+2026-10-07,Week 5,UC13,Exchange,R&D,Warn,Overridden with justification,No
+2026-10-08,Week 5,UC05,Exchange,Finance,Warn,Policy tip shown,No
+2026-10-06,Week 5,UC09,Devices,HR,Warn,Overridden with justification,No
+2026-10-09,Week 5,UC03,Microsoft Copilot,Legal,Warn,Policy tip shown,No
+2026-10-05,Week 5,UC03,Microsoft Copilot,HR,Warn,Overridden with justification,No
+2026-10-07,Week 5,UC07,Teams,Sales,Warn,User cancelled,No
+2026-10-09,Week 5,UC10,Devices,HR,Warn,User cancelled,No
+2026-10-05,Week 5,UC07,Teams,R&D,Warn,Overridden with justification,No
+2026-10-05,Week 5,UC02,Microsoft Copilot,HR,Warn,User cancelled,Yes
+2026-10-09,Week 5,UC09,Devices,IT,Warn,Policy tip shown,No
+2026-10-06,Week 5,UC07,Teams,Sales,Warn,Policy tip shown,No
+2026-10-07,Week 5,UC01,Microsoft Copilot,Legal,Warn,User cancelled,No
+2026-10-08,Week 5,UC10,Devices,R&D,Warn,User cancelled,No
+2026-10-05,Week 5,UC02,Microsoft Copilot,R&D,Warn,Policy tip shown,No
+2026-10-09,Week 5,UC10,Devices,IT,Warn,Policy tip shown,No
+2026-10-05,Week 5,UC08,Exchange,HR,Warn,Policy tip shown,No
+2026-10-06,Week 5,UC13,Exchange,Legal,Warn,User cancelled,No
+2026-10-07,Week 5,UC13,Exchange,HR,Warn,User cancelled,No
+2026-10-08,Week 5,UC01,Microsoft Copilot,R&D,Warn,User cancelled,Yes
+2026-10-07,Week 5,UC05,Exchange,HR,Warn,Policy tip shown,No
+2026-10-07,Week 5,UC01,Microsoft Copilot,Finance,Warn,Overridden with justification,No
+2026-10-08,Week 5,UC08,Exchange,R&D,Warn,User cancelled,No
+2026-10-09,Week 5,UC05,Exchange,IT,Warn,Policy tip shown,No
+2026-10-06,Week 5,UC03,Microsoft Copilot,HR,Warn,Policy tip shown,Yes
+2026-10-05,Week 5,UC08,Exchange,IT,Warn,User cancelled,No
+2026-10-06,Week 5,UC02,Microsoft Copilot,R&D,Warn,User cancelled,No
+2026-10-07,Week 5,UC13,Exchange,Sales,Warn,Overridden with justification,No
+2026-10-05,Week 5,UC06,SharePoint,IT,Warn,User cancelled,No
+2026-10-08,Week 5,UC13,Exchange,Finance,Warn,User cancelled,No
+2026-10-05,Week 5,UC06,SharePoint,R&D,Warn,User cancelled,No
+2026-10-07,Week 5,UC05,Exchange,R&D,Warn,Policy tip shown,No
+2026-10-06,Week 5,UC07,Teams,Sales,Warn,Policy tip shown,No
+2026-10-05,Week 5,UC13,Exchange,IT,Warn,Policy tip shown,No
+2026-10-08,Week 5,UC09,Devices,R&D,Warn,Overridden with justification,No
+2026-10-06,Week 5,UC02,Microsoft Copilot,IT,Warn,User cancelled,No
+2026-10-08,Week 5,UC09,Devices,IT,Warn,Policy tip shown,No
+2026-10-16,Week 6,UC02,Microsoft Copilot,IT,Warn,User cancelled,No
+2026-10-12,Week 6,UC08,Exchange,R&D,Warn,Policy tip shown,No
+2026-10-12,Week 6,UC06,SharePoint,R&D,Warn,Policy tip shown,No
+2026-10-13,Week 6,UC06,SharePoint,R&D,Warn,Policy tip shown,No
+2026-10-12,Week 6,UC13,Exchange,R&D,Warn,User cancelled,No
+2026-10-16,Week 6,UC02,Microsoft Copilot,Sales,Warn,User cancelled,No
+2026-10-16,Week 6,UC07,Teams,Legal,Warn,Policy tip shown,No
+2026-10-15,Week 6,UC10,Devices,Finance,Warn,User cancelled,No
+2026-10-14,Week 6,UC13,Exchange,HR,Warn,Overridden with justification,No
+2026-10-16,Week 6,UC06,SharePoint,Sales,Warn,User cancelled,No
+2026-10-15,Week 6,UC03,Microsoft Copilot,R&D,Warn,Policy tip shown,No
+2026-10-12,Week 6,UC03,Microsoft Copilot,IT,Warn,Policy tip shown,No
+2026-10-15,Week 6,UC10,Devices,Sales,Warn,User cancelled,No
+2026-10-12,Week 6,UC08,Exchange,Legal,Warn,Policy tip shown,Yes
+2026-10-14,Week 6,UC03,Microsoft Copilot,Sales,Warn,Policy tip shown,No
+2026-10-14,Week 6,UC03,Microsoft Copilot,IT,Warn,Overridden with justification,No
+2026-10-15,Week 6,UC07,Teams,Sales,Warn,Policy tip shown,No
+2026-10-13,Week 6,UC13,Exchange,HR,Warn,Policy tip shown,No
+2026-10-13,Week 6,UC01,Microsoft Copilot,Legal,Warn,Policy tip shown,No
+2026-10-12,Week 6,UC13,Exchange,Sales,Warn,Policy tip shown,No
+2026-10-16,Week 6,UC05,Exchange,Sales,Warn,Overridden with justification,No
+2026-10-15,Week 6,UC05,Exchange,IT,Warn,Policy tip shown,No
+2026-10-16,Week 6,UC06,SharePoint,IT,Warn,Policy tip shown,No
+2026-10-16,Week 6,UC05,Exchange,Sales,Warn,Policy tip shown,No
+2026-10-15,Week 6,UC09,Devices,IT,Warn,Policy tip shown,Yes
+2026-10-15,Week 6,UC03,Microsoft Copilot,Finance,Warn,User cancelled,No
+2026-10-13,Week 6,UC07,Teams,R&D,Warn,Policy tip shown,No
+2026-10-12,Week 6,UC01,Microsoft Copilot,IT,Warn,Overridden with justification,No
+2026-10-12,Week 6,UC01,Microsoft Copilot,R&D,Warn,Overridden with justification,No
+2026-10-16,Week 6,UC13,Exchange,HR,Warn,Policy tip shown,No
+2026-10-12,Week 6,UC08,Exchange,IT,Warn,Overridden with justification,No
+2026-10-12,Week 6,UC06,SharePoint,Sales,Warn,Overridden with justification,No
+2026-10-15,Week 6,UC01,Microsoft Copilot,HR,Warn,Policy tip shown,No
+2026-10-13,Week 6,UC07,Teams,Sales,Warn,Policy tip shown,No
+2026-10-14,Week 6,UC06,SharePoint,R&D,Warn,Policy tip shown,Yes
+2026-10-13,Week 6,UC13,Exchange,HR,Warn,Policy tip shown,No
+2026-10-16,Week 6,UC09,Devices,IT,Warn,Overridden with justification,No
+2026-10-16,Week 6,UC09,Devices,Sales,Warn,User cancelled,No
+2026-10-14,Week 6,UC10,Devices,IT,Warn,Overridden with justification,No
+2026-10-14,Week 6,UC05,Exchange,HR,Warn,Policy tip shown,Yes
+2026-10-16,Week 6,UC01,Microsoft Copilot,Sales,Warn,Overridden with justification,No
+2026-10-15,Week 6,UC10,Devices,R&D,Warn,User cancelled,No
+2026-10-15,Week 6,UC02,Microsoft Copilot,IT,Warn,Policy tip shown,No
+2026-10-12,Week 6,UC05,Exchange,Sales,Warn,Overridden with justification,Yes
+2026-10-15,Week 6,UC10,Devices,Sales,Warn,Policy tip shown,No
+2026-10-14,Week 6,UC10,Devices,HR,Warn,Policy tip shown,No
+2026-10-13,Week 6,UC01,Microsoft Copilot,HR,Warn,User cancelled,No
+2026-10-16,Week 6,UC09,Devices,IT,Warn,User cancelled,No
+2026-10-16,Week 6,UC10,Devices,HR,Warn,User cancelled,Yes
+2026-10-13,Week 6,UC09,Devices,R&D,Warn,Policy tip shown,No
+2026-10-14,Week 6,UC10,Devices,IT,Warn,User cancelled,No
+2026-10-12,Week 6,UC01,Microsoft Copilot,Finance,Warn,Overridden with justification,No
+2026-10-12,Week 6,UC13,Exchange,Finance,Warn,Policy tip shown,No
+2026-10-16,Week 6,UC10,Devices,Sales,Warn,Overridden with justification,Yes
+2026-10-13,Week 6,UC05,Exchange,HR,Warn,Policy tip shown,No
+2026-10-13,Week 6,UC03,Microsoft Copilot,R&D,Warn,User cancelled,No
+2026-10-14,Week 6,UC07,Teams,Sales,Warn,User cancelled,No
+2026-10-16,Week 6,UC02,Microsoft Copilot,IT,Warn,Overridden with justification,Yes
+2026-10-15,Week 6,UC06,SharePoint,R&D,Warn,Overridden with justification,No
+2026-10-15,Week 6,UC03,Microsoft Copilot,Finance,Warn,User cancelled,No
+2026-10-14,Week 6,UC13,Exchange,HR,Warn,Policy tip shown,No
+2026-10-14,Week 6,UC02,Microsoft Copilot,Sales,Warn,Policy tip shown,No
+2026-10-15,Week 6,UC02,Microsoft Copilot,HR,Warn,Policy tip shown,No
+2026-10-15,Week 6,UC01,Microsoft Copilot,IT,Warn,Policy tip shown,No
+2026-10-12,Week 6,UC06,SharePoint,IT,Warn,Policy tip shown,Yes
+2026-10-16,Week 6,UC07,Teams,IT,Warn,Policy tip shown,No
+2026-10-13,Week 6,UC13,Exchange,Legal,Warn,Policy tip shown,No
+2026-10-13,Week 6,UC13,Exchange,HR,Warn,Policy tip shown,No
+2026-10-16,Week 6,UC02,Microsoft Copilot,Finance,Warn,Policy tip shown,No
+2026-10-15,Week 6,UC08,Exchange,R&D,Warn,Policy tip shown,No
+2026-10-14,Week 6,UC03,Microsoft Copilot,HR,Warn,Policy tip shown,No
+2026-10-14,Week 6,UC03,Microsoft Copilot,HR,Warn,Policy tip shown,Yes
+2026-10-15,Week 6,UC05,Exchange,Finance,Warn,User cancelled,Yes
+2026-10-16,Week 6,UC07,Teams,IT,Warn,User cancelled,No
+2026-10-13,Week 6,UC02,Microsoft Copilot,HR,Warn,Policy tip shown,No
+2026-10-13,Week 6,UC08,Exchange,HR,Warn,Overridden with justification,Yes
+2026-10-16,Week 6,UC03,Microsoft Copilot,R&D,Warn,Policy tip shown,No
+2026-10-16,Week 6,UC13,Exchange,Sales,Warn,Policy tip shown,Yes
+2026-10-16,Week 6,UC01,Microsoft Copilot,HR,Warn,User cancelled,Yes
+2026-10-16,Week 6,UC08,Exchange,Sales,Warn,Policy tip shown,No
+2026-10-13,Week 6,UC03,Microsoft Copilot,Sales,Warn,User cancelled,No
+2026-10-12,Week 6,UC02,Microsoft Copilot,Finance,Warn,Policy tip shown,No
+2026-10-13,Week 6,UC02,Microsoft Copilot,Sales,Warn,User cancelled,No
+2026-10-12,Week 6,UC06,SharePoint,R&D,Warn,Policy tip shown,No
+2026-10-16,Week 6,UC07,Teams,IT,Warn,User cancelled,No
+2026-10-13,Week 6,UC06,SharePoint,IT,Warn,Overridden with justification,No
+2026-10-14,Week 6,UC03,Microsoft Copilot,Finance,Warn,Overridden with justification,No
+2026-10-15,Week 6,UC01,Microsoft Copilot,Sales,Warn,Policy tip shown,No
+2026-10-15,Week 6,UC13,Exchange,HR,Warn,Policy tip shown,No
+2026-10-13,Week 6,UC06,SharePoint,Finance,Warn,Overridden with justification,No
+2026-10-14,Week 6,UC10,Devices,Sales,Warn,Overridden with justification,No
+2026-10-12,Week 6,UC01,Microsoft Copilot,Sales,Warn,Policy tip shown,Yes
+2026-10-15,Week 6,UC06,SharePoint,HR,Warn,Overridden with justification,No
+2026-10-13,Week 6,UC08,Exchange,R&D,Warn,Policy tip shown,No
+2026-10-15,Week 6,UC09,Devices,Finance,Warn,Overridden with justification,No
+2026-10-15,Week 6,UC07,Teams,Legal,Warn,Overridden with justification,No
+2026-10-13,Week 6,UC05,Exchange,HR,Warn,Policy tip shown,No
+2026-10-15,Week 6,UC08,Exchange,Finance,Warn,Overridden with justification,No
+2026-10-14,Week 6,UC13,Exchange,HR,Warn,Policy tip shown,No
+2026-10-13,Week 6,UC01,Microsoft Copilot,Legal,Warn,User cancelled,No
+2026-10-16,Week 6,UC06,SharePoint,HR,Warn,User cancelled,No
+2026-10-12,Week 6,UC01,Microsoft Copilot,IT,Warn,Policy tip shown,No
+2026-10-12,Week 6,UC03,Microsoft Copilot,HR,Warn,Policy tip shown,Yes
+2026-10-14,Week 6,UC13,Exchange,Legal,Warn,Policy tip shown,No
+2026-10-15,Week 6,UC07,Teams,HR,Warn,Overridden with justification,No
+2026-10-14,Week 6,UC10,Devices,Legal,Warn,User cancelled,No
+2026-10-15,Week 6,UC08,Exchange,Sales,Warn,Policy tip shown,No
+2026-10-16,Week 6,UC09,Devices,Sales,Warn,Policy tip shown,No
+2026-10-16,Week 6,UC01,Microsoft Copilot,Legal,Warn,Overridden with justification,Yes
+2026-10-14,Week 6,UC02,Microsoft Copilot,R&D,Warn,Overridden with justification,Yes
+2026-10-15,Week 6,UC06,SharePoint,R&D,Warn,Overridden with justification,No
+2026-10-14,Week 6,UC09,Devices,Legal,Warn,Policy tip shown,Yes
+2026-10-16,Week 6,UC08,Exchange,Finance,Warn,Overridden with justification,Yes
+2026-10-13,Week 6,UC09,Devices,Finance,Warn,Policy tip shown,No
+2026-10-15,Week 6,UC03,Microsoft Copilot,R&D,Warn,Policy tip shown,No
+2026-10-12,Week 6,UC05,Exchange,Finance,Warn,Policy tip shown,Yes
+2026-10-13,Week 6,UC03,Microsoft Copilot,Legal,Warn,User cancelled,Yes
+2026-10-16,Week 6,UC02,Microsoft Copilot,R&D,Warn,Policy tip shown,No
+2026-10-16,Week 6,UC03,Microsoft Copilot,HR,Warn,Policy tip shown,No
+2026-10-13,Week 6,UC07,Teams,IT,Warn,Policy tip shown,No
+2026-10-14,Week 6,UC01,Microsoft Copilot,Finance,Warn,User cancelled,No
+2026-10-16,Week 6,UC01,Microsoft Copilot,Sales,Warn,Policy tip shown,Yes
+2026-10-13,Week 6,UC08,Exchange,R&D,Warn,User cancelled,No
+2026-10-15,Week 6,UC03,Microsoft Copilot,Legal,Warn,Policy tip shown,No
+2026-10-12,Week 6,UC08,Exchange,IT,Warn,Policy tip shown,No
+2026-10-16,Week 6,UC10,Devices,IT,Warn,Policy tip shown,No
+2026-10-14,Week 6,UC10,Devices,Sales,Warn,Overridden with justification,No
+2026-10-14,Week 6,UC05,Exchange,Legal,Warn,User cancelled,No
+2026-10-15,Week 6,UC05,Exchange,Finance,Warn,Overridden with justification,Yes
+2026-10-13,Week 6,UC03,Microsoft Copilot,Legal,Warn,Policy tip shown,No
+2026-10-14,Week 6,UC09,Devices,Finance,Warn,Policy tip shown,No
+2026-10-16,Week 6,UC13,Exchange,IT,Warn,Policy tip shown,No
+2026-10-16,Week 6,UC13,Exchange,IT,Warn,User cancelled,No
+2026-10-15,Week 6,UC08,Exchange,R&D,Warn,User cancelled,No
+2026-10-12,Week 6,UC07,Teams,Sales,Warn,Policy tip shown,No
+2026-10-14,Week 6,UC10,Devices,Sales,Warn,Overridden with justification,No
+2026-10-12,Week 6,UC08,Exchange,HR,Warn,Policy tip shown,No
+2026-10-14,Week 6,UC03,Microsoft Copilot,Legal,Warn,Overridden with justification,No
+2026-10-16,Week 6,UC03,Microsoft Copilot,Sales,Warn,Policy tip shown,No
+2026-10-13,Week 6,UC09,Devices,Legal,Warn,Policy tip shown,Yes
+2026-10-13,Week 6,UC09,Devices,Sales,Warn,User cancelled,No
+2026-10-15,Week 6,UC06,SharePoint,Sales,Warn,Overridden with justification,Yes
+2026-10-13,Week 6,UC09,Devices,HR,Warn,Policy tip shown,Yes
+2026-10-16,Week 6,UC13,Exchange,IT,Warn,Policy tip shown,Yes
+2026-10-14,Week 6,UC09,Devices,R&D,Warn,Overridden with justification,No
+2026-10-14,Week 6,UC07,Teams,Legal,Warn,Policy tip shown,No
+2026-10-12,Week 6,UC13,Exchange,HR,Warn,User cancelled,Yes
+2026-10-16,Week 6,UC03,Microsoft Copilot,Finance,Warn,Overridden with justification,No
+2026-10-16,Week 6,UC08,Exchange,IT,Warn,User cancelled,Yes
+2026-10-14,Week 6,UC06,SharePoint,Legal,Warn,User cancelled,No
+2026-10-15,Week 6,UC01,Microsoft Copilot,HR,Warn,Policy tip shown,Yes
+2026-10-16,Week 6,UC03,Microsoft Copilot,IT,Warn,Policy tip shown,No
+2026-10-16,Week 6,UC13,Exchange,R&D,Warn,User cancelled,No
+2026-10-13,Week 6,UC02,Microsoft Copilot,Sales,Warn,User cancelled,No
+2026-10-15,Week 6,UC02,Microsoft Copilot,IT,Warn,Policy tip shown,Yes
+2026-10-16,Week 6,UC06,SharePoint,R&D,Warn,User cancelled,No
+2026-10-15,Week 6,UC01,Microsoft Copilot,Finance,Warn,Policy tip shown,No
+2026-10-14,Week 6,UC02,Microsoft Copilot,IT,Warn,User cancelled,No
+2026-10-15,Week 6,UC03,Microsoft Copilot,R&D,Warn,Overridden with justification,No
+2026-10-12,Week 6,UC09,Devices,HR,Warn,Overridden with justification,No
+2026-10-13,Week 6,UC10,Devices,IT,Warn,Overridden with justification,No
+2026-10-15,Week 6,UC13,Exchange,Legal,Warn,User cancelled,Yes
+2026-10-13,Week 6,UC08,Exchange,R&D,Warn,Overridden with justification,No
+2026-10-15,Week 6,UC03,Microsoft Copilot,HR,Warn,Policy tip shown,No
+2026-10-13,Week 6,UC07,Teams,HR,Warn,User cancelled,No
+2026-10-15,Week 6,UC01,Microsoft Copilot,HR,Warn,User cancelled,No
+2026-10-14,Week 6,UC05,Exchange,Sales,Warn,User cancelled,No
+2026-10-15,Week 6,UC08,Exchange,R&D,Warn,User cancelled,Yes
+2026-10-14,Week 6,UC10,Devices,Finance,Warn,Overridden with justification,No
+2026-10-22,Week 7,UC10,Devices,IT,Warn,User cancelled,No
+2026-10-22,Week 7,UC02,Microsoft Copilot,Sales,Warn,Policy tip shown,No
+2026-10-19,Week 7,UC01,Microsoft Copilot,Sales,Warn,Policy tip shown,No
+2026-10-19,Week 7,UC03,Microsoft Copilot,R&D,Warn,User cancelled,No
+2026-10-20,Week 7,UC07,Teams,R&D,Warn,Policy tip shown,No
+2026-10-20,Week 7,UC05,Exchange,HR,Warn,User cancelled,No
+2026-10-20,Week 7,UC05,Exchange,HR,Warn,Policy tip shown,No
+2026-10-19,Week 7,UC06,SharePoint,R&D,Warn,Policy tip shown,No
+2026-10-21,Week 7,UC02,Microsoft Copilot,Sales,Warn,Policy tip shown,No
+2026-10-21,Week 7,UC13,Exchange,Finance,Warn,User cancelled,No
+2026-10-20,Week 7,UC07,Teams,R&D,Warn,Policy tip shown,No
+2026-10-22,Week 7,UC06,SharePoint,Sales,Warn,Overridden with justification,No
+2026-10-19,Week 7,UC05,Exchange,IT,Warn,User cancelled,No
+2026-10-19,Week 7,UC01,Microsoft Copilot,R&D,Warn,User cancelled,No
+2026-10-19,Week 7,UC08,Exchange,HR,Warn,User cancelled,No
+2026-10-20,Week 7,UC08,Exchange,R&D,Warn,Overridden with justification,No
+2026-10-22,Week 7,UC05,Exchange,R&D,Warn,Policy tip shown,Yes
+2026-10-23,Week 7,UC06,SharePoint,IT,Warn,User cancelled,No
+2026-10-21,Week 7,UC06,SharePoint,Sales,Warn,Overridden with justification,Yes
+2026-10-22,Week 7,UC13,Exchange,IT,Warn,Policy tip shown,No
+2026-10-19,Week 7,UC01,Microsoft Copilot,HR,Warn,Policy tip shown,No
+2026-10-19,Week 7,UC05,Exchange,Legal,Warn,Overridden with justification,No
+2026-10-21,Week 7,UC01,Microsoft Copilot,Finance,Warn,Overridden with justification,Yes
+2026-10-22,Week 7,UC01,Microsoft Copilot,IT,Warn,User cancelled,No
+2026-10-19,Week 7,UC09,Devices,IT,Warn,User cancelled,No
+2026-10-20,Week 7,UC08,Exchange,IT,Warn,Policy tip shown,No
+2026-10-23,Week 7,UC13,Exchange,HR,Warn,User cancelled,No
+2026-10-23,Week 7,UC13,Exchange,HR,Warn,User cancelled,No
+2026-10-22,Week 7,UC13,Exchange,IT,Warn,Policy tip shown,No
+2026-10-23,Week 7,UC03,Microsoft Copilot,R&D,Warn,User cancelled,No
+2026-10-21,Week 7,UC02,Microsoft Copilot,Sales,Warn,Policy tip shown,No
+2026-10-22,Week 7,UC05,Exchange,Sales,Warn,User cancelled,No
+2026-10-22,Week 7,UC02,Microsoft Copilot,HR,Warn,User cancelled,No
+2026-10-23,Week 7,UC13,Exchange,Finance,Warn,Policy tip shown,No
+2026-10-20,Week 7,UC07,Teams,R&D,Warn,User cancelled,No
+2026-10-22,Week 7,UC02,Microsoft Copilot,IT,Warn,Overridden with justification,No
+2026-10-20,Week 7,UC02,Microsoft Copilot,R&D,Warn,Policy tip shown,No
+2026-10-22,Week 7,UC10,Devices,HR,Warn,Policy tip shown,No
+2026-10-20,Week 7,UC10,Devices,Legal,Warn,Policy tip shown,No
+2026-10-23,Week 7,UC09,Devices,Sales,Warn,Overridden with justification,No
+2026-10-19,Week 7,UC06,SharePoint,Legal,Warn,User cancelled,No
+2026-10-20,Week 7,UC01,Microsoft Copilot,HR,Warn,Policy tip shown,No
+2026-10-23,Week 7,UC06,SharePoint,Legal,Warn,User cancelled,No
+2026-10-22,Week 7,UC13,Exchange,IT,Warn,Policy tip shown,No
+2026-10-23,Week 7,UC06,SharePoint,Legal,Warn,User cancelled,No
+2026-10-20,Week 7,UC03,Microsoft Copilot,Finance,Warn,User cancelled,No
+2026-10-19,Week 7,UC05,Exchange,R&D,Warn,User cancelled,No
+2026-10-23,Week 7,UC07,Teams,Legal,Warn,User cancelled,No
+2026-10-19,Week 7,UC01,Microsoft Copilot,R&D,Warn,Overridden with justification,No
+2026-10-23,Week 7,UC01,Microsoft Copilot,Legal,Warn,Policy tip shown,No
+2026-10-21,Week 7,UC05,Exchange,Legal,Warn,Policy tip shown,No
+2026-10-22,Week 7,UC02,Microsoft Copilot,R&D,Warn,User cancelled,No
+2026-10-20,Week 7,UC05,Exchange,IT,Warn,Overridden with justification,No
+2026-10-20,Week 7,UC02,Microsoft Copilot,Finance,Warn,Policy tip shown,Yes
+2026-10-20,Week 7,UC05,Exchange,Legal,Warn,Policy tip shown,No
+2026-10-20,Week 7,UC13,Exchange,Legal,Warn,Policy tip shown,No
+2026-10-20,Week 7,UC13,Exchange,Sales,Warn,Overridden with justification,No
+2026-10-21,Week 7,UC02,Microsoft Copilot,HR,Warn,Policy tip shown,No
+2026-10-19,Week 7,UC10,Devices,HR,Warn,Overridden with justification,No
+2026-10-22,Week 7,UC09,Devices,IT,Warn,Overridden with justification,No
+2026-10-23,Week 7,UC03,Microsoft Copilot,Legal,Warn,Policy tip shown,No
+2026-10-23,Week 7,UC07,Teams,Finance,Warn,Policy tip shown,No
+2026-10-23,Week 7,UC01,Microsoft Copilot,Legal,Warn,Policy tip shown,No
+2026-10-19,Week 7,UC08,Exchange,HR,Warn,User cancelled,No
+2026-10-22,Week 7,UC13,Exchange,HR,Warn,Policy tip shown,No
+2026-10-21,Week 7,UC13,Exchange,HR,Warn,User cancelled,No
+2026-10-23,Week 7,UC13,Exchange,Sales,Warn,User cancelled,No
+2026-10-20,Week 7,UC13,Exchange,Sales,Warn,Policy tip shown,No
+2026-10-23,Week 7,UC01,Microsoft Copilot,Sales,Warn,User cancelled,No
+2026-10-22,Week 7,UC07,Teams,Legal,Warn,Overridden with justification,No
+2026-10-21,Week 7,UC10,Devices,Sales,Warn,Policy tip shown,Yes
+2026-10-20,Week 7,UC13,Exchange,HR,Warn,User cancelled,No
+2026-10-20,Week 7,UC07,Teams,IT,Warn,Policy tip shown,No
+2026-10-20,Week 7,UC13,Exchange,R&D,Warn,Policy tip shown,No
+2026-10-22,Week 7,UC13,Exchange,IT,Warn,User cancelled,No
+2026-10-19,Week 7,UC06,SharePoint,HR,Warn,Policy tip shown,No
+2026-10-21,Week 7,UC01,Microsoft Copilot,R&D,Warn,Policy tip shown,No
+2026-10-22,Week 7,UC13,Exchange,IT,Warn,Overridden with justification,No
+2026-10-21,Week 7,UC05,Exchange,IT,Warn,Policy tip shown,No
+2026-10-19,Week 7,UC13,Exchange,Legal,Warn,Overridden with justification,No
+2026-10-20,Week 7,UC03,Microsoft Copilot,HR,Warn,Overridden with justification,No
+2026-10-19,Week 7,UC03,Microsoft Copilot,Legal,Warn,User cancelled,No
+2026-10-22,Week 7,UC09,Devices,Sales,Warn,Policy tip shown,No
+2026-10-23,Week 7,UC01,Microsoft Copilot,HR,Warn,Policy tip shown,Yes
+2026-10-20,Week 7,UC07,Teams,IT,Warn,Policy tip shown,No
+2026-10-22,Week 7,UC03,Microsoft Copilot,Sales,Warn,User cancelled,No
+2026-10-21,Week 7,UC06,SharePoint,Finance,Warn,Policy tip shown,No
+2026-10-19,Week 7,UC05,Exchange,IT,Warn,Policy tip shown,No
+2026-10-19,Week 7,UC09,Devices,Legal,Warn,User cancelled,No
+2026-10-21,Week 7,UC13,Exchange,Sales,Warn,User cancelled,No
+2026-10-20,Week 7,UC06,SharePoint,HR,Warn,Policy tip shown,No
+2026-10-22,Week 7,UC03,Microsoft Copilot,IT,Warn,Policy tip shown,No
+2026-10-21,Week 7,UC07,Teams,HR,Warn,Overridden with justification,No
+2026-10-19,Week 7,UC09,Devices,IT,Warn,Overridden with justification,No
+2026-10-20,Week 7,UC01,Microsoft Copilot,Legal,Warn,Policy tip shown,No
+2026-10-20,Week 7,UC05,Exchange,R&D,Warn,Overridden with justification,No
+2026-10-20,Week 7,UC02,Microsoft Copilot,Sales,Warn,Policy tip shown,No
+2026-10-19,Week 7,UC05,Exchange,HR,Warn,Overridden with justification,No
+2026-10-19,Week 7,UC07,Teams,R&D,Warn,Policy tip shown,No
+2026-10-23,Week 7,UC05,Exchange,Sales,Warn,Policy tip shown,No
+2026-10-21,Week 7,UC10,Devices,Legal,Warn,Policy tip shown,Yes
+2026-10-22,Week 7,UC06,SharePoint,R&D,Warn,Policy tip shown,No
+2026-10-19,Week 7,UC06,SharePoint,Finance,Warn,Policy tip shown,No
+2026-10-20,Week 7,UC09,Devices,Finance,Warn,Policy tip shown,No
+2026-10-22,Week 7,UC02,Microsoft Copilot,HR,Warn,Policy tip shown,No
+2026-10-21,Week 7,UC10,Devices,HR,Warn,Policy tip shown,No
+2026-10-22,Week 7,UC01,Microsoft Copilot,Finance,Warn,Policy tip shown,No
+2026-10-19,Week 7,UC03,Microsoft Copilot,Finance,Warn,User cancelled,No
+2026-10-20,Week 7,UC01,Microsoft Copilot,IT,Warn,Policy tip shown,No
+2026-10-22,Week 7,UC09,Devices,Finance,Warn,Overridden with justification,No
+2026-10-20,Week 7,UC06,SharePoint,IT,Warn,Policy tip shown,Yes
+2026-10-23,Week 7,UC03,Microsoft Copilot,R&D,Warn,Policy tip shown,No
+2026-10-19,Week 7,UC10,Devices,Legal,Warn,Policy tip shown,No
+2026-10-20,Week 7,UC09,Devices,Finance,Warn,User cancelled,No
+2026-10-21,Week 7,UC07,Teams,R&D,Warn,Policy tip shown,No
+2026-10-22,Week 7,UC09,Devices,R&D,Warn,Policy tip shown,No
+2026-10-20,Week 7,UC06,SharePoint,Sales,Warn,User cancelled,No
+2026-10-23,Week 7,UC06,SharePoint,IT,Warn,User cancelled,No
+2026-10-23,Week 7,UC10,Devices,HR,Warn,Overridden with justification,No
+2026-10-22,Week 7,UC07,Teams,R&D,Warn,User cancelled,No
+2026-10-19,Week 7,UC05,Exchange,R&D,Warn,Policy tip shown,No
+2026-10-19,Week 7,UC01,Microsoft Copilot,Finance,Warn,Policy tip shown,No
+2026-10-26,Week 8,UC09,Devices,Legal,Enforce,Blocked,No
+2026-10-26,Week 8,UC08,Exchange,IT,Enforce,Policy tip shown,No
+2026-10-29,Week 8,UC02,Microsoft Copilot,Sales,Enforce,Blocked,No
+2026-10-30,Week 8,UC13,Exchange,IT,Enforce,Blocked,No
+2026-10-26,Week 8,UC01,Microsoft Copilot,Legal,Enforce,Blocked,No
+2026-10-30,Week 8,UC03,Microsoft Copilot,Finance,Enforce,Blocked,Yes
+2026-10-28,Week 8,UC10,Devices,Finance,Enforce,Policy tip shown,No
+2026-10-27,Week 8,UC09,Devices,HR,Enforce,Blocked,No
+2026-10-27,Week 8,UC08,Exchange,Sales,Enforce,Blocked,No
+2026-10-27,Week 8,UC05,Exchange,Legal,Enforce,Policy tip shown,No
+2026-10-28,Week 8,UC10,Devices,Sales,Enforce,Blocked,No
+2026-10-28,Week 8,UC05,Exchange,Finance,Enforce,Policy tip shown,No
+2026-10-28,Week 8,UC10,Devices,HR,Enforce,Blocked,No
+2026-10-26,Week 8,UC06,SharePoint,HR,Enforce,Blocked,No
+2026-10-30,Week 8,UC13,Exchange,Finance,Enforce,Blocked,No
+2026-10-29,Week 8,UC03,Microsoft Copilot,HR,Enforce,Blocked,No
+2026-10-30,Week 8,UC03,Microsoft Copilot,Finance,Enforce,Blocked,No
+2026-10-30,Week 8,UC13,Exchange,IT,Enforce,Blocked,No
+2026-10-27,Week 8,UC06,SharePoint,Finance,Enforce,Blocked,No
+2026-10-26,Week 8,UC05,Exchange,Finance,Enforce,Blocked,No
+2026-10-28,Week 8,UC10,Devices,IT,Enforce,Blocked,No
+2026-10-27,Week 8,UC01,Microsoft Copilot,Finance,Enforce,Blocked,No
+2026-10-26,Week 8,UC06,SharePoint,HR,Enforce,Blocked,No
+2026-10-26,Week 8,UC06,SharePoint,R&D,Enforce,Blocked,No
+2026-10-27,Week 8,UC09,Devices,Legal,Enforce,Blocked,No
+2026-10-28,Week 8,UC05,Exchange,Legal,Enforce,Blocked,No
+2026-10-27,Week 8,UC02,Microsoft Copilot,Legal,Enforce,Blocked,No
+2026-10-30,Week 8,UC13,Exchange,Finance,Enforce,Blocked,No
+2026-10-30,Week 8,UC06,SharePoint,Finance,Enforce,Overridden with justification,No
+2026-10-26,Week 8,UC06,SharePoint,IT,Enforce,Policy tip shown,No
+2026-10-30,Week 8,UC06,SharePoint,Sales,Enforce,Blocked,No
+2026-10-29,Week 8,UC07,Teams,IT,Enforce,Policy tip shown,No
+2026-10-28,Week 8,UC03,Microsoft Copilot,R&D,Enforce,Policy tip shown,No
+2026-10-28,Week 8,UC10,Devices,HR,Enforce,Blocked,No
+2026-10-26,Week 8,UC02,Microsoft Copilot,IT,Enforce,Overridden with justification,No
+2026-10-29,Week 8,UC05,Exchange,Legal,Enforce,Blocked,No
+2026-10-28,Week 8,UC10,Devices,HR,Enforce,Blocked,No
+2026-10-26,Week 8,UC10,Devices,R&D,Enforce,Policy tip shown,No
+2026-10-29,Week 8,UC03,Microsoft Copilot,Finance,Enforce,Blocked,No
+2026-10-27,Week 8,UC01,Microsoft Copilot,Finance,Enforce,Overridden with justification,No
+2026-10-30,Week 8,UC13,Exchange,Legal,Enforce,Blocked,No
+2026-10-26,Week 8,UC09,Devices,R&D,Enforce,Blocked,No
+2026-10-29,Week 8,UC02,Microsoft Copilot,Sales,Enforce,Policy tip shown,No
+2026-10-28,Week 8,UC09,Devices,IT,Enforce,Blocked,No
+2026-10-30,Week 8,UC09,Devices,R&D,Enforce,Blocked,Yes
+2026-10-27,Week 8,UC07,Teams,Sales,Enforce,Blocked,No
+2026-10-30,Week 8,UC07,Teams,Legal,Enforce,Blocked,No
+2026-10-29,Week 8,UC05,Exchange,R&D,Enforce,Blocked,No
+2026-10-27,Week 8,UC05,Exchange,IT,Enforce,Blocked,No
+2026-10-29,Week 8,UC06,SharePoint,Finance,Enforce,Blocked,No
+2026-10-30,Week 8,UC05,Exchange,Sales,Enforce,Blocked,No
+2026-10-28,Week 8,UC07,Teams,R&D,Enforce,Policy tip shown,No
+2026-10-30,Week 8,UC06,SharePoint,R&D,Enforce,Blocked,No
+2026-10-29,Week 8,UC08,Exchange,IT,Enforce,Blocked,No
+2026-10-30,Week 8,UC08,Exchange,Finance,Enforce,Blocked,No
+2026-10-28,Week 8,UC02,Microsoft Copilot,HR,Enforce,Blocked,No
+2026-10-26,Week 8,UC06,SharePoint,HR,Enforce,Policy tip shown,No
+2026-10-26,Week 8,UC09,Devices,Legal,Enforce,Blocked,No
+2026-10-29,Week 8,UC01,Microsoft Copilot,IT,Enforce,Blocked,No
+2026-10-30,Week 8,UC05,Exchange,IT,Enforce,Blocked,No
+2026-10-29,Week 8,UC05,Exchange,HR,Enforce,Blocked,No
+2026-10-29,Week 8,UC08,Exchange,R&D,Enforce,Blocked,No
+2026-10-28,Week 8,UC09,Devices,IT,Enforce,Blocked,No
+2026-10-26,Week 8,UC05,Exchange,Legal,Enforce,Blocked,No
+2026-10-27,Week 8,UC02,Microsoft Copilot,Sales,Enforce,Policy tip shown,Yes
+2026-10-28,Week 8,UC01,Microsoft Copilot,Finance,Enforce,Blocked,No
+2026-10-27,Week 8,UC10,Devices,HR,Enforce,Overridden with justification,No
+2026-10-26,Week 8,UC01,Microsoft Copilot,Finance,Enforce,Blocked,No
+2026-10-30,Week 8,UC06,SharePoint,Legal,Enforce,Blocked,No
+2026-10-30,Week 8,UC10,Devices,Finance,Enforce,Overridden with justification,No
+2026-10-30,Week 8,UC08,Exchange,HR,Enforce,Policy tip shown,No
+2026-10-26,Week 8,UC03,Microsoft Copilot,IT,Enforce,Blocked,No
+2026-10-28,Week 8,UC06,SharePoint,Legal,Enforce,Blocked,Yes
+2026-10-28,Week 8,UC09,Devices,R&D,Enforce,Blocked,No
+2026-10-26,Week 8,UC06,SharePoint,Sales,Enforce,Overridden with justification,No
+2026-10-28,Week 8,UC08,Exchange,R&D,Enforce,Policy tip shown,Yes
+2026-10-28,Week 8,UC05,Exchange,IT,Enforce,Blocked,Yes
+2026-10-29,Week 8,UC03,Microsoft Copilot,R&D,Enforce,Blocked,No
+2026-10-27,Week 8,UC01,Microsoft Copilot,Legal,Enforce,Blocked,No
+2026-10-29,Week 8,UC10,Devices,Legal,Enforce,Blocked,No
+2026-10-29,Week 8,UC02,Microsoft Copilot,Sales,Enforce,Blocked,No
+2026-10-30,Week 8,UC08,Exchange,Finance,Enforce,Overridden with justification,No
+2026-10-26,Week 8,UC13,Exchange,Legal,Enforce,Policy tip shown,No
+2026-10-27,Week 8,UC01,Microsoft Copilot,Sales,Enforce,Policy tip shown,No
+2026-10-29,Week 8,UC01,Microsoft Copilot,R&D,Enforce,Blocked,No
+2026-10-29,Week 8,UC02,Microsoft Copilot,Finance,Enforce,Policy tip shown,No
+2026-10-30,Week 8,UC09,Devices,Finance,Enforce,Blocked,Yes
+2026-10-30,Week 8,UC10,Devices,Finance,Enforce,Blocked,No
+2026-10-30,Week 8,UC06,SharePoint,R&D,Enforce,Blocked,No
+2026-10-30,Week 8,UC13,Exchange,IT,Enforce,Blocked,No
+2026-10-27,Week 8,UC07,Teams,Legal,Enforce,Policy tip shown,No
+2026-10-30,Week 8,UC10,Devices,Legal,Enforce,Blocked,No
+2026-10-27,Week 8,UC06,SharePoint,R&D,Enforce,Blocked,No
+2026-10-28,Week 8,UC13,Exchange,Sales,Enforce,Blocked,No
+2026-10-27,Week 8,UC01,Microsoft Copilot,R&D,Enforce,Blocked,No
+2026-10-29,Week 8,UC02,Microsoft Copilot,HR,Enforce,Policy tip shown,No
+2026-10-30,Week 8,UC10,Devices,R&D,Enforce,Blocked,No
+2026-10-28,Week 8,UC10,Devices,R&D,Enforce,Policy tip shown,No
+2026-10-30,Week 8,UC05,Exchange,Sales,Enforce,Blocked,No
+2026-10-28,Week 8,UC01,Microsoft Copilot,Finance,Enforce,Blocked,No
+2026-10-26,Week 8,UC02,Microsoft Copilot,HR,Enforce,Blocked,No
+2026-10-26,Week 8,UC03,Microsoft Copilot,Legal,Enforce,Blocked,No
+2026-10-30,Week 8,UC10,Devices,IT,Enforce,Blocked,No
+2026-10-29,Week 8,UC02,Microsoft Copilot,Legal,Enforce,Blocked,No
+2026-10-27,Week 8,UC06,SharePoint,IT,Enforce,Overridden with justification,No
+2026-10-30,Week 8,UC13,Exchange,R&D,Enforce,Blocked,No
+2026-10-26,Week 8,UC08,Exchange,Finance,Enforce,Policy tip shown,No
+2026-10-28,Week 8,UC10,Devices,Sales,Enforce,Blocked,No
+2026-10-26,Week 8,UC09,Devices,Finance,Enforce,Blocked,No
+2026-10-30,Week 8,UC05,Exchange,IT,Enforce,Policy tip shown,No
+2026-10-28,Week 8,UC06,SharePoint,HR,Enforce,Blocked,No
+2026-10-30,Week 8,UC07,Teams,Sales,Enforce,Blocked,No
+2026-10-26,Week 8,UC05,Exchange,R&D,Enforce,Blocked,No
+2026-10-27,Week 8,UC08,Exchange,Sales,Enforce,Blocked,No
+2026-10-27,Week 8,UC07,Teams,R&D,Enforce,Blocked,No
+2026-10-26,Week 8,UC03,Microsoft Copilot,R&D,Enforce,Blocked,No
+2026-10-29,Week 8,UC07,Teams,Finance,Enforce,Blocked,No
+2026-10-27,Week 8,UC03,Microsoft Copilot,Sales,Enforce,Blocked,No
+2026-10-27,Week 8,UC06,SharePoint,HR,Enforce,Policy tip shown,No
+2026-10-28,Week 8,UC09,Devices,R&D,Enforce,Policy tip shown,No
+2026-10-30,Week 8,UC03,Microsoft Copilot,IT,Enforce,Blocked,No
+2026-10-29,Week 8,UC07,Teams,R&D,Enforce,Blocked,No
+2026-10-29,Week 8,UC02,Microsoft Copilot,HR,Enforce,Overridden with justification,Yes
+2026-10-27,Week 8,UC02,Microsoft Copilot,Legal,Enforce,Blocked,No
+2026-10-27,Week 8,UC13,Exchange,R&D,Enforce,Policy tip shown,No
+2026-10-28,Week 8,UC05,Exchange,Sales,Enforce,Policy tip shown,No
+2026-10-28,Week 8,UC07,Teams,Legal,Enforce,Blocked,No
+2026-10-28,Week 8,UC02,Microsoft Copilot,Legal,Enforce,Policy tip shown,No
+2026-10-30,Week 8,UC02,Microsoft Copilot,Sales,Enforce,Blocked,Yes
+2026-10-27,Week 8,UC05,Exchange,Sales,Enforce,Overridden with justification,No
+2026-10-30,Week 8,UC01,Microsoft Copilot,Legal,Enforce,Policy tip shown,No
+2026-10-29,Week 8,UC02,Microsoft Copilot,R&D,Enforce,Blocked,No
+2026-10-28,Week 8,UC03,Microsoft Copilot,Legal,Enforce,Blocked,No
+2026-10-28,Week 8,UC10,Devices,HR,Enforce,Blocked,No
+2026-10-27,Week 8,UC08,Exchange,R&D,Enforce,Blocked,No
+2026-10-30,Week 8,UC10,Devices,R&D,Enforce,Overridden with justification,No
+2026-10-29,Week 8,UC06,SharePoint,IT,Enforce,Overridden with justification,No
+2026-10-29,Week 8,UC03,Microsoft Copilot,R&D,Enforce,Policy tip shown,No
+2026-10-30,Week 8,UC09,Devices,HR,Enforce,Blocked,Yes
+2026-10-29,Week 8,UC08,Exchange,Sales,Enforce,Blocked,No
+2026-10-28,Week 8,UC10,Devices,Sales,Enforce,Blocked,No
+2026-10-26,Week 8,UC01,Microsoft Copilot,Sales,Enforce,Policy tip shown,No
+2026-10-26,Week 8,UC10,Devices,HR,Enforce,Overridden with justification,No
+2026-10-29,Week 8,UC13,Exchange,HR,Enforce,Blocked,No
+2026-10-29,Week 8,UC07,Teams,R&D,Enforce,Blocked,No
+2026-10-29,Week 8,UC09,Devices,Legal,Enforce,Policy tip shown,No
+2026-10-30,Week 8,UC05,Exchange,IT,Enforce,Blocked,No
+2026-10-30,Week 8,UC07,Teams,R&D,Enforce,Policy tip shown,No
+2026-10-29,Week 8,UC08,Exchange,Legal,Enforce,Blocked,No
+2026-10-27,Week 8,UC09,Devices,Legal,Enforce,Blocked,No
+2026-10-26,Week 8,UC03,Microsoft Copilot,HR,Enforce,Overridden with justification,No
+2026-10-30,Week 8,UC01,Microsoft Copilot,HR,Enforce,Blocked,No
+2026-10-27,Week 8,UC08,Exchange,R&D,Enforce,Policy tip shown,No
+2026-10-26,Week 8,UC10,Devices,R&D,Enforce,Overridden with justification,No
+2026-10-29,Week 8,UC03,Microsoft Copilot,IT,Enforce,Blocked,No
+2026-10-29,Week 8,UC03,Microsoft Copilot,R&D,Enforce,Blocked,No
+2026-10-27,Week 8,UC03,Microsoft Copilot,HR,Enforce,Policy tip shown,No
+2026-10-28,Week 8,UC05,Exchange,R&D,Enforce,Overridden with justification,No
+2026-10-26,Week 8,UC03,Microsoft Copilot,Legal,Enforce,Blocked,No
+2026-10-26,Week 8,UC06,SharePoint,Legal,Enforce,Blocked,No
+2026-10-26,Week 8,UC13,Exchange,Finance,Enforce,Overridden with justification,No
+2026-10-30,Week 8,UC01,Microsoft Copilot,Sales,Enforce,Overridden with justification,No
+2026-10-26,Week 8,UC13,Exchange,HR,Enforce,Blocked,No
+2026-11-04,Week 9,UC05,Exchange,R&D,Enforce,Policy tip shown,No
+2026-11-05,Week 9,UC05,Exchange,Finance,Enforce,Blocked,No
+2026-11-02,Week 9,UC07,Teams,Finance,Enforce,Blocked,No
+2026-11-04,Week 9,UC09,Devices,HR,Enforce,Blocked,No
+2026-11-02,Week 9,UC06,SharePoint,Legal,Enforce,Blocked,No
+2026-11-05,Week 9,UC13,Exchange,R&D,Enforce,Policy tip shown,No
+2026-11-05,Week 9,UC08,Exchange,Sales,Enforce,Policy tip shown,No
+2026-11-05,Week 9,UC13,Exchange,R&D,Enforce,Blocked,No
+2026-11-02,Week 9,UC07,Teams,Legal,Enforce,Blocked,No
+2026-11-06,Week 9,UC10,Devices,Legal,Enforce,Blocked,No
+2026-11-03,Week 9,UC09,Devices,Legal,Enforce,Policy tip shown,No
+2026-11-06,Week 9,UC06,SharePoint,Legal,Enforce,Policy tip shown,No
+2026-11-02,Week 9,UC03,Microsoft Copilot,HR,Enforce,Policy tip shown,No
+2026-11-05,Week 9,UC06,SharePoint,HR,Enforce,Blocked,No
+2026-11-05,Week 9,UC07,Teams,Legal,Enforce,Blocked,No
+2026-11-06,Week 9,UC13,Exchange,HR,Enforce,Blocked,No
+2026-11-06,Week 9,UC09,Devices,Finance,Enforce,Blocked,No
+2026-11-06,Week 9,UC05,Exchange,Sales,Enforce,Blocked,No
+2026-11-06,Week 9,UC09,Devices,Finance,Enforce,Policy tip shown,No
+2026-11-05,Week 9,UC13,Exchange,Finance,Enforce,Overridden with justification,No
+2026-11-06,Week 9,UC13,Exchange,IT,Enforce,Policy tip shown,No
+2026-11-04,Week 9,UC13,Exchange,Sales,Enforce,Blocked,No
+2026-11-03,Week 9,UC07,Teams,HR,Enforce,Blocked,No
+2026-11-06,Week 9,UC08,Exchange,Sales,Enforce,Blocked,No
+2026-11-04,Week 9,UC07,Teams,R&D,Enforce,Blocked,No
+2026-11-04,Week 9,UC07,Teams,Sales,Enforce,Blocked,No
+2026-11-06,Week 9,UC08,Exchange,HR,Enforce,Blocked,No
+2026-11-05,Week 9,UC06,SharePoint,Sales,Enforce,Blocked,Yes
+2026-11-06,Week 9,UC02,Microsoft Copilot,HR,Enforce,Blocked,No
+2026-11-03,Week 9,UC09,Devices,IT,Enforce,Policy tip shown,No
+2026-11-02,Week 9,UC07,Teams,HR,Enforce,Blocked,No
+2026-11-05,Week 9,UC05,Exchange,Finance,Enforce,Blocked,No
+2026-11-02,Week 9,UC13,Exchange,Legal,Enforce,Blocked,No
+2026-11-02,Week 9,UC13,Exchange,HR,Enforce,Blocked,No
+2026-11-05,Week 9,UC02,Microsoft Copilot,IT,Enforce,Blocked,No
+2026-11-06,Week 9,UC13,Exchange,Finance,Enforce,Blocked,No
+2026-11-04,Week 9,UC10,Devices,Legal,Enforce,Blocked,Yes
+2026-11-02,Week 9,UC02,Microsoft Copilot,IT,Enforce,Blocked,No
+2026-11-05,Week 9,UC13,Exchange,HR,Enforce,Blocked,No
+2026-11-04,Week 9,UC10,Devices,IT,Enforce,Blocked,Yes
+2026-11-06,Week 9,UC10,Devices,Sales,Enforce,Blocked,No
+2026-11-02,Week 9,UC08,Exchange,Finance,Enforce,Blocked,No
+2026-11-05,Week 9,UC03,Microsoft Copilot,HR,Enforce,Blocked,No
+2026-11-03,Week 9,UC08,Exchange,Legal,Enforce,Policy tip shown,No
+2026-11-03,Week 9,UC09,Devices,Finance,Enforce,Blocked,No
+2026-11-04,Week 9,UC10,Devices,Finance,Enforce,Blocked,No
+2026-11-06,Week 9,UC01,Microsoft Copilot,IT,Enforce,Blocked,No
+2026-11-04,Week 9,UC03,Microsoft Copilot,Finance,Enforce,Policy tip shown,No
+2026-11-06,Week 9,UC06,SharePoint,Sales,Enforce,Blocked,No
+2026-11-03,Week 9,UC10,Devices,Sales,Enforce,Blocked,No
+2026-11-04,Week 9,UC01,Microsoft Copilot,Finance,Enforce,Blocked,No
+2026-11-03,Week 9,UC06,SharePoint,IT,Enforce,Blocked,No
+2026-11-05,Week 9,UC01,Microsoft Copilot,Sales,Enforce,Blocked,No
+2026-11-03,Week 9,UC02,Microsoft Copilot,IT,Enforce,Blocked,No
+2026-11-04,Week 9,UC09,Devices,Finance,Enforce,Policy tip shown,No
+2026-11-05,Week 9,UC09,Devices,HR,Enforce,Overridden with justification,No
+2026-11-03,Week 9,UC07,Teams,Finance,Enforce,Blocked,No
+2026-11-05,Week 9,UC08,Exchange,Sales,Enforce,Overridden with justification,No
+2026-11-05,Week 9,UC09,Devices,IT,Enforce,Blocked,No
+2026-11-04,Week 9,UC02,Microsoft Copilot,Legal,Enforce,Overridden with justification,No
+2026-11-06,Week 9,UC09,Devices,R&D,Enforce,Policy tip shown,No
+2026-11-04,Week 9,UC10,Devices,Finance,Enforce,Blocked,No
+2026-11-06,Week 9,UC01,Microsoft Copilot,Sales,Enforce,Blocked,No
+2026-11-02,Week 9,UC09,Devices,R&D,Enforce,Blocked,No
+2026-11-05,Week 9,UC09,Devices,R&D,Enforce,Policy tip shown,No
+2026-11-02,Week 9,UC07,Teams,IT,Enforce,Blocked,No
+2026-11-06,Week 9,UC03,Microsoft Copilot,Legal,Enforce,Blocked,No
+2026-11-04,Week 9,UC08,Exchange,HR,Enforce,Overridden with justification,No
+2026-11-02,Week 9,UC05,Exchange,Finance,Enforce,Policy tip shown,No
+2026-11-05,Week 9,UC13,Exchange,Finance,Enforce,Blocked,No
+2026-11-02,Week 9,UC13,Exchange,Finance,Enforce,Blocked,Yes
+2026-11-02,Week 9,UC13,Exchange,Sales,Enforce,Blocked,No
+2026-11-03,Week 9,UC06,SharePoint,HR,Enforce,Policy tip shown,No
+2026-11-04,Week 9,UC06,SharePoint,Sales,Enforce,Overridden with justification,No
+2026-11-02,Week 9,UC06,SharePoint,Legal,Enforce,Blocked,No
+2026-11-06,Week 9,UC13,Exchange,HR,Enforce,Blocked,No
+2026-11-05,Week 9,UC08,Exchange,IT,Enforce,Blocked,No
+2026-11-04,Week 9,UC01,Microsoft Copilot,HR,Enforce,Blocked,No
+2026-11-06,Week 9,UC01,Microsoft Copilot,Sales,Enforce,Overridden with justification,No
+2026-11-05,Week 9,UC03,Microsoft Copilot,IT,Enforce,Blocked,No
+2026-11-03,Week 9,UC02,Microsoft Copilot,HR,Enforce,Policy tip shown,No
+2026-11-06,Week 9,UC05,Exchange,IT,Enforce,Blocked,No
+2026-11-02,Week 9,UC05,Exchange,HR,Enforce,Overridden with justification,No
+2026-11-02,Week 9,UC02,Microsoft Copilot,Sales,Enforce,Blocked,No
+2026-11-03,Week 9,UC13,Exchange,HR,Enforce,Blocked,No
+2026-11-03,Week 9,UC13,Exchange,Finance,Enforce,Overridden with justification,No
+2026-11-06,Week 9,UC13,Exchange,Legal,Enforce,Blocked,No
+2026-11-03,Week 9,UC03,Microsoft Copilot,IT,Enforce,Blocked,No
+2026-11-02,Week 9,UC05,Exchange,HR,Enforce,Blocked,No
+2026-11-06,Week 9,UC08,Exchange,IT,Enforce,Blocked,No
+2026-11-02,Week 9,UC09,Devices,HR,Enforce,Overridden with justification,No
+2026-11-05,Week 9,UC13,Exchange,HR,Enforce,Blocked,No
+2026-11-04,Week 9,UC01,Microsoft Copilot,R&D,Enforce,Blocked,No
+2026-11-04,Week 9,UC08,Exchange,Finance,Enforce,Blocked,No
+2026-11-02,Week 9,UC07,Teams,R&D,Enforce,Blocked,No
+2026-11-05,Week 9,UC09,Devices,Finance,Enforce,Blocked,No
+2026-11-04,Week 9,UC13,Exchange,Sales,Enforce,Blocked,No
+2026-11-05,Week 9,UC02,Microsoft Copilot,HR,Enforce,Blocked,No
+2026-11-02,Week 9,UC07,Teams,HR,Enforce,Blocked,No
+2026-11-03,Week 9,UC05,Exchange,Finance,Enforce,Overridden with justification,No
+2026-11-03,Week 9,UC01,Microsoft Copilot,IT,Enforce,Blocked,Yes
+2026-11-05,Week 9,UC10,Devices,HR,Enforce,Policy tip shown,No
+2026-11-02,Week 9,UC01,Microsoft Copilot,R&D,Enforce,Blocked,Yes
+2026-11-02,Week 9,UC07,Teams,HR,Enforce,Blocked,No
+2026-11-03,Week 9,UC13,Exchange,IT,Enforce,Blocked,No
+2026-11-02,Week 9,UC07,Teams,Finance,Enforce,Blocked,No
+2026-11-03,Week 9,UC02,Microsoft Copilot,Sales,Enforce,Overridden with justification,No
+2026-11-06,Week 9,UC02,Microsoft Copilot,HR,Enforce,Blocked,No
+2026-11-06,Week 9,UC08,Exchange,Finance,Enforce,Blocked,No
+2026-11-03,Week 9,UC10,Devices,HR,Enforce,Blocked,Yes
+2026-11-03,Week 9,UC01,Microsoft Copilot,Legal,Enforce,Policy tip shown,No
+2026-11-02,Week 9,UC06,SharePoint,Sales,Enforce,Overridden with justification,No
+2026-11-05,Week 9,UC10,Devices,Legal,Enforce,Blocked,No
+2026-11-05,Week 9,UC01,Microsoft Copilot,Sales,Enforce,Blocked,No
+2026-11-02,Week 9,UC07,Teams,Legal,Enforce,Blocked,No
+2026-11-05,Week 9,UC08,Exchange,Sales,Enforce,Policy tip shown,No
+2026-11-05,Week 9,UC02,Microsoft Copilot,Finance,Enforce,Blocked,No
+2026-11-05,Week 9,UC10,Devices,R&D,Enforce,Blocked,No
+2026-11-04,Week 9,UC09,Devices,Sales,Enforce,Blocked,No
+2026-11-03,Week 9,UC10,Devices,Finance,Enforce,Blocked,No
+2026-11-05,Week 9,UC03,Microsoft Copilot,Sales,Enforce,Policy tip shown,No
+2026-11-05,Week 9,UC09,Devices,R&D,Enforce,Blocked,No
+2026-11-04,Week 9,UC07,Teams,HR,Enforce,Policy tip shown,No
+2026-11-03,Week 9,UC13,Exchange,HR,Enforce,Blocked,No
+2026-11-04,Week 9,UC02,Microsoft Copilot,Sales,Enforce,Overridden with justification,No
+2026-11-05,Week 9,UC13,Exchange,HR,Enforce,Policy tip shown,No
+2026-11-05,Week 9,UC08,Exchange,Legal,Enforce,Policy tip shown,No
+2026-11-05,Week 9,UC02,Microsoft Copilot,Sales,Enforce,Blocked,No
+2026-11-06,Week 9,UC09,Devices,Sales,Enforce,Policy tip shown,No
+2026-11-02,Week 9,UC08,Exchange,HR,Enforce,Blocked,No
+2026-11-04,Week 9,UC03,Microsoft Copilot,HR,Enforce,Policy tip shown,No
+2026-11-03,Week 9,UC10,Devices,Legal,Enforce,Policy tip shown,No
+2026-11-05,Week 9,UC03,Microsoft Copilot,HR,Enforce,Blocked,No
+2026-11-06,Week 9,UC07,Teams,Finance,Enforce,Blocked,No
+2026-11-04,Week 9,UC08,Exchange,Finance,Enforce,Blocked,No
+2026-11-04,Week 9,UC09,Devices,Legal,Enforce,Blocked,No
+2026-11-06,Week 9,UC06,SharePoint,IT,Enforce,Blocked,No
+2026-11-04,Week 9,UC01,Microsoft Copilot,Legal,Enforce,Blocked,No
+2026-11-06,Week 9,UC13,Exchange,IT,Enforce,Blocked,No
+2026-11-06,Week 9,UC08,Exchange,R&D,Enforce,Blocked,No
+2026-11-04,Week 9,UC10,Devices,Finance,Enforce,Blocked,No
+2026-11-02,Week 9,UC02,Microsoft Copilot,R&D,Enforce,Blocked,No
+2026-11-06,Week 9,UC06,SharePoint,Legal,Enforce,Overridden with justification,No
+2026-11-06,Week 9,UC06,SharePoint,IT,Enforce,Policy tip shown,No
+2026-11-04,Week 9,UC07,Teams,HR,Enforce,Policy tip shown,No
+2026-11-06,Week 9,UC05,Exchange,Legal,Enforce,Blocked,No
+2026-11-02,Week 9,UC06,SharePoint,Finance,Enforce,Blocked,No
+2026-11-03,Week 9,UC07,Teams,Legal,Enforce,Blocked,No
+2026-11-04,Week 9,UC03,Microsoft Copilot,Finance,Enforce,Policy tip shown,No
+2026-11-06,Week 9,UC07,Teams,Legal,Enforce,Blocked,No
+2026-11-02,Week 9,UC07,Teams,Sales,Enforce,Blocked,No
+2026-11-06,Week 9,UC10,Devices,IT,Enforce,Blocked,No
+2026-11-04,Week 9,UC13,Exchange,Sales,Enforce,Blocked,No
+2026-11-04,Week 9,UC05,Exchange,IT,Enforce,Blocked,No
+2026-11-06,Week 9,UC09,Devices,Finance,Enforce,Overridden with justification,No
+2026-11-02,Week 9,UC10,Devices,HR,Enforce,Blocked,Yes
+2026-11-05,Week 9,UC02,Microsoft Copilot,R&D,Enforce,Blocked,No
+2026-11-03,Week 9,UC02,Microsoft Copilot,HR,Enforce,Blocked,No
+2026-11-03,Week 9,UC05,Exchange,Finance,Enforce,Blocked,No
+2026-11-03,Week 9,UC01,Microsoft Copilot,IT,Enforce,Blocked,No
+2026-11-02,Week 9,UC07,Teams,HR,Enforce,Policy tip shown,No
+2026-11-02,Week 9,UC13,Exchange,R&D,Enforce,Blocked,No
+2026-11-02,Week 9,UC13,Exchange,Legal,Enforce,Blocked,Yes
+2026-11-05,Week 9,UC06,SharePoint,Finance,Enforce,Blocked,No
+2026-11-05,Week 9,UC01,Microsoft Copilot,HR,Enforce,Blocked,No
+2026-11-02,Week 9,UC01,Microsoft Copilot,Finance,Enforce,Blocked,No
+2026-11-02,Week 9,UC03,Microsoft Copilot,Sales,Enforce,Blocked,No
+2026-11-06,Week 9,UC08,Exchange,HR,Enforce,Overridden with justification,No
+2026-11-06,Week 9,UC10,Devices,IT,Enforce,Policy tip shown,No
+2026-11-04,Week 9,UC02,Microsoft Copilot,Legal,Enforce,Blocked,No
+2026-11-03,Week 9,UC05,Exchange,Sales,Enforce,Policy tip shown,No
+2026-11-03,Week 9,UC03,Microsoft Copilot,Finance,Enforce,Blocked,No
+2026-11-03,Week 9,UC09,Devices,HR,Enforce,Blocked,No
+2026-11-05,Week 9,UC02,Microsoft Copilot,HR,Enforce,Blocked,No
+2026-11-10,Week 10,UC08,Exchange,IT,Enforce,Blocked,No
+2026-11-09,Week 10,UC13,Exchange,Sales,Enforce,Blocked,No
+2026-11-11,Week 10,UC01,Microsoft Copilot,HR,Enforce,Blocked,No
+2026-11-12,Week 10,UC10,Devices,HR,Enforce,Policy tip shown,No
+2026-11-10,Week 10,UC09,Devices,Finance,Enforce,Blocked,Yes
+2026-11-11,Week 10,UC01,Microsoft Copilot,R&D,Enforce,Blocked,Yes
+2026-11-09,Week 10,UC13,Exchange,Legal,Enforce,Blocked,No
+2026-11-11,Week 10,UC13,Exchange,Legal,Enforce,Blocked,No
+2026-11-09,Week 10,UC02,Microsoft Copilot,R&D,Enforce,Blocked,No
+2026-11-13,Week 10,UC06,SharePoint,IT,Enforce,Blocked,No
+2026-11-09,Week 10,UC09,Devices,Finance,Enforce,Blocked,No
+2026-11-11,Week 10,UC01,Microsoft Copilot,IT,Enforce,Policy tip shown,No
+2026-11-12,Week 10,UC09,Devices,Legal,Enforce,Blocked,No
+2026-11-13,Week 10,UC08,Exchange,Legal,Enforce,Blocked,No
+2026-11-13,Week 10,UC03,Microsoft Copilot,IT,Enforce,Blocked,No
+2026-11-11,Week 10,UC05,Exchange,R&D,Enforce,Blocked,Yes
+2026-11-12,Week 10,UC06,SharePoint,Finance,Enforce,Policy tip shown,No
+2026-11-13,Week 10,UC03,Microsoft Copilot,R&D,Enforce,Blocked,No
+2026-11-12,Week 10,UC02,Microsoft Copilot,R&D,Enforce,Blocked,No
+2026-11-11,Week 10,UC08,Exchange,Finance,Enforce,Blocked,No
+2026-11-12,Week 10,UC10,Devices,IT,Enforce,Policy tip shown,No
+2026-11-13,Week 10,UC06,SharePoint,IT,Enforce,Blocked,Yes
+2026-11-13,Week 10,UC06,SharePoint,IT,Enforce,Overridden with justification,No
+2026-11-11,Week 10,UC13,Exchange,Legal,Enforce,Blocked,No
+2026-11-10,Week 10,UC09,Devices,HR,Enforce,Blocked,No
+2026-11-09,Week 10,UC06,SharePoint,IT,Enforce,Blocked,No
+2026-11-11,Week 10,UC01,Microsoft Copilot,IT,Enforce,Blocked,No
+2026-11-13,Week 10,UC03,Microsoft Copilot,HR,Enforce,Overridden with justification,No
+2026-11-13,Week 10,UC07,Teams,Sales,Enforce,Blocked,No
+2026-11-11,Week 10,UC05,Exchange,HR,Enforce,Blocked,No
+2026-11-12,Week 10,UC13,Exchange,Sales,Enforce,Blocked,No
+2026-11-09,Week 10,UC03,Microsoft Copilot,IT,Enforce,Policy tip shown,No
+2026-11-13,Week 10,UC05,Exchange,Sales,Enforce,Blocked,No
+2026-11-12,Week 10,UC03,Microsoft Copilot,R&D,Enforce,Overridden with justification,No
+2026-11-13,Week 10,UC08,Exchange,Sales,Enforce,Blocked,No
+2026-11-12,Week 10,UC06,SharePoint,Legal,Enforce,Blocked,No
+2026-11-09,Week 10,UC02,Microsoft Copilot,R&D,Enforce,Overridden with justification,No
+2026-11-10,Week 10,UC02,Microsoft Copilot,Finance,Enforce,Policy tip shown,No
+2026-11-12,Week 10,UC06,SharePoint,Legal,Enforce,Policy tip shown,No
+2026-11-13,Week 10,UC01,Microsoft Copilot,R&D,Enforce,Blocked,No
+2026-11-10,Week 10,UC02,Microsoft Copilot,HR,Enforce,Blocked,Yes
+2026-11-13,Week 10,UC02,Microsoft Copilot,IT,Enforce,Blocked,No
+2026-11-11,Week 10,UC09,Devices,IT,Enforce,Blocked,No
+2026-11-13,Week 10,UC06,SharePoint,R&D,Enforce,Blocked,No
+2026-11-13,Week 10,UC08,Exchange,Legal,Enforce,Blocked,No
+2026-11-09,Week 10,UC06,SharePoint,HR,Enforce,Blocked,No
+2026-11-10,Week 10,UC02,Microsoft Copilot,IT,Enforce,Blocked,No
+2026-11-12,Week 10,UC09,Devices,Sales,Enforce,Blocked,No
+2026-11-13,Week 10,UC06,SharePoint,Finance,Enforce,Blocked,No
+2026-11-11,Week 10,UC09,Devices,Sales,Enforce,Blocked,No
+2026-11-13,Week 10,UC02,Microsoft Copilot,Sales,Enforce,Blocked,Yes
+2026-11-12,Week 10,UC05,Exchange,Finance,Enforce,Overridden with justification,No
+2026-11-12,Week 10,UC09,Devices,Sales,Enforce,Blocked,No
+2026-11-11,Week 10,UC03,Microsoft Copilot,Finance,Enforce,Policy tip shown,No
+2026-11-09,Week 10,UC06,SharePoint,Finance,Enforce,Blocked,No
+2026-11-13,Week 10,UC07,Teams,Finance,Enforce,Policy tip shown,No
+2026-11-12,Week 10,UC02,Microsoft Copilot,HR,Enforce,Blocked,No
+2026-11-11,Week 10,UC08,Exchange,Finance,Enforce,Policy tip shown,No
+2026-11-13,Week 10,UC05,Exchange,IT,Enforce,Blocked,No
+2026-11-09,Week 10,UC03,Microsoft Copilot,IT,Enforce,Blocked,No
+2026-11-12,Week 10,UC13,Exchange,HR,Enforce,Policy tip shown,No
+2026-11-09,Week 10,UC09,Devices,R&D,Enforce,Blocked,No
+2026-11-11,Week 10,UC09,Devices,R&D,Enforce,Blocked,No
+2026-11-09,Week 10,UC05,Exchange,Finance,Enforce,Policy tip shown,No
+2026-11-10,Week 10,UC08,Exchange,HR,Enforce,Blocked,No
+2026-11-12,Week 10,UC07,Teams,Finance,Enforce,Policy tip shown,No
+2026-11-13,Week 10,UC05,Exchange,Sales,Enforce,Blocked,Yes
+2026-11-12,Week 10,UC10,Devices,Legal,Enforce,Blocked,No
+2026-11-11,Week 10,UC05,Exchange,Legal,Enforce,Blocked,No
+2026-11-12,Week 10,UC07,Teams,IT,Enforce,Blocked,No
+2026-11-11,Week 10,UC06,SharePoint,HR,Enforce,Blocked,No
+2026-11-09,Week 10,UC13,Exchange,Finance,Enforce,Blocked,No
+2026-11-12,Week 10,UC08,Exchange,HR,Enforce,Blocked,No
+2026-11-09,Week 10,UC13,Exchange,Legal,Enforce,Blocked,Yes
+2026-11-11,Week 10,UC02,Microsoft Copilot,HR,Enforce,Blocked,No
+2026-11-13,Week 10,UC05,Exchange,Legal,Enforce,Blocked,No
+2026-11-13,Week 10,UC06,SharePoint,Legal,Enforce,Blocked,No
+2026-11-10,Week 10,UC13,Exchange,HR,Enforce,Blocked,No
+2026-11-11,Week 10,UC07,Teams,Legal,Enforce,Blocked,No
+2026-11-10,Week 10,UC03,Microsoft Copilot,HR,Enforce,Blocked,No
+2026-11-09,Week 10,UC03,Microsoft Copilot,Finance,Enforce,Policy tip shown,No
+2026-11-11,Week 10,UC10,Devices,IT,Enforce,Blocked,No
+2026-11-13,Week 10,UC09,Devices,Sales,Enforce,Overridden with justification,No
+2026-11-13,Week 10,UC10,Devices,Legal,Enforce,Blocked,No
+2026-11-10,Week 10,UC02,Microsoft Copilot,IT,Enforce,Blocked,No
+2026-11-11,Week 10,UC08,Exchange,Finance,Enforce,Blocked,No
+2026-11-12,Week 10,UC06,SharePoint,IT,Enforce,Blocked,No
+2026-11-12,Week 10,UC07,Teams,Legal,Enforce,Blocked,No
+2026-11-11,Week 10,UC10,Devices,R&D,Enforce,Blocked,No
+2026-11-09,Week 10,UC06,SharePoint,Legal,Enforce,Overridden with justification,No
+2026-11-09,Week 10,UC08,Exchange,Sales,Enforce,Blocked,No
+2026-11-11,Week 10,UC10,Devices,R&D,Enforce,Blocked,No
+2026-11-09,Week 10,UC10,Devices,Finance,Enforce,Policy tip shown,No
+2026-11-11,Week 10,UC05,Exchange,IT,Enforce,Overridden with justification,No
+2026-11-09,Week 10,UC10,Devices,Legal,Enforce,Blocked,No
+2026-11-09,Week 10,UC05,Exchange,IT,Enforce,Blocked,No
+2026-11-09,Week 10,UC05,Exchange,IT,Enforce,Policy tip shown,No
+2026-11-09,Week 10,UC08,Exchange,IT,Enforce,Policy tip shown,No
+2026-11-13,Week 10,UC10,Devices,IT,Enforce,Blocked,No
+2026-11-11,Week 10,UC02,Microsoft Copilot,Legal,Enforce,Overridden with justification,Yes
+2026-11-09,Week 10,UC03,Microsoft Copilot,HR,Enforce,Blocked,No
+2026-11-10,Week 10,UC08,Exchange,Legal,Enforce,Overridden with justification,No
+2026-11-09,Week 10,UC08,Exchange,Sales,Enforce,Blocked,No
+2026-11-12,Week 10,UC10,Devices,HR,Enforce,Blocked,Yes
+2026-11-09,Week 10,UC13,Exchange,IT,Enforce,Blocked,No
+2026-11-10,Week 10,UC06,SharePoint,IT,Enforce,Overridden with justification,No
+2026-11-10,Week 10,UC02,Microsoft Copilot,R&D,Enforce,Policy tip shown,No
+2026-11-12,Week 10,UC07,Teams,IT,Enforce,Blocked,No
+2026-11-13,Week 10,UC07,Teams,R&D,Enforce,Blocked,No
+2026-11-12,Week 10,UC03,Microsoft Copilot,HR,Enforce,Blocked,No
+2026-11-09,Week 10,UC03,Microsoft Copilot,HR,Enforce,Blocked,No
+2026-11-10,Week 10,UC06,SharePoint,Finance,Enforce,Overridden with justification,No
+2026-11-10,Week 10,UC07,Teams,Finance,Enforce,Blocked,No
+2026-11-10,Week 10,UC05,Exchange,R&D,Enforce,Policy tip shown,No
+2026-11-12,Week 10,UC13,Exchange,Legal,Enforce,Overridden with justification,No
+2026-11-12,Week 10,UC10,Devices,R&D,Enforce,Policy tip shown,No
+2026-11-11,Week 10,UC08,Exchange,Finance,Enforce,Blocked,No
+2026-11-09,Week 10,UC08,Exchange,HR,Enforce,Policy tip shown,No
+2026-11-12,Week 10,UC01,Microsoft Copilot,Sales,Enforce,Policy tip shown,No
+2026-11-10,Week 10,UC07,Teams,Legal,Enforce,Blocked,No
+2026-11-10,Week 10,UC01,Microsoft Copilot,Legal,Enforce,Blocked,No
+2026-11-11,Week 10,UC02,Microsoft Copilot,IT,Enforce,Blocked,No
+2026-11-12,Week 10,UC06,SharePoint,Finance,Enforce,Policy tip shown,No
+2026-11-11,Week 10,UC08,Exchange,IT,Enforce,Blocked,No
+2026-11-11,Week 10,UC10,Devices,R&D,Enforce,Blocked,No
+2026-11-12,Week 10,UC03,Microsoft Copilot,Legal,Enforce,Policy tip shown,No
+2026-11-12,Week 10,UC06,SharePoint,Legal,Enforce,Policy tip shown,No
+2026-11-12,Week 10,UC03,Microsoft Copilot,Legal,Enforce,Overridden with justification,No
+2026-11-13,Week 10,UC05,Exchange,Sales,Enforce,Blocked,Yes
+2026-11-09,Week 10,UC02,Microsoft Copilot,Finance,Enforce,Overridden with justification,No
+2026-11-09,Week 10,UC09,Devices,IT,Enforce,Blocked,No
+2026-11-11,Week 10,UC07,Teams,Legal,Enforce,Blocked,No
+2026-11-10,Week 10,UC06,SharePoint,HR,Enforce,Overridden with justification,No
+2026-11-10,Week 10,UC02,Microsoft Copilot,Finance,Enforce,Blocked,No
+2026-11-09,Week 10,UC03,Microsoft Copilot,Legal,Enforce,Policy tip shown,No
+2026-11-10,Week 10,UC13,Exchange,Legal,Enforce,Blocked,No
+2026-11-12,Week 10,UC10,Devices,HR,Enforce,Blocked,No
+2026-11-12,Week 10,UC07,Teams,Finance,Enforce,Blocked,No
+2026-11-10,Week 10,UC01,Microsoft Copilot,Finance,Enforce,Blocked,No
+2026-11-11,Week 10,UC08,Exchange,Legal,Enforce,Blocked,No
+2026-11-09,Week 10,UC05,Exchange,Legal,Enforce,Blocked,No
+2026-11-13,Week 10,UC07,Teams,Sales,Enforce,Blocked,Yes
+2026-11-11,Week 10,UC02,Microsoft Copilot,R&D,Enforce,Overridden with justification,No
+2026-11-09,Week 10,UC01,Microsoft Copilot,HR,Enforce,Overridden with justification,No
+2026-11-09,Week 10,UC06,SharePoint,Sales,Enforce,Blocked,No
+2026-11-11,Week 10,UC13,Exchange,IT,Enforce,Policy tip shown,No
+2026-11-10,Week 10,UC01,Microsoft Copilot,Sales,Enforce,Blocked,No
+2026-11-12,Week 10,UC06,SharePoint,Finance,Enforce,Overridden with justification,No

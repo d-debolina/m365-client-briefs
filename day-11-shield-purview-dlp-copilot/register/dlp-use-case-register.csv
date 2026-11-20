@@ -1,0 +1,16 @@
+id,use_case,location,condition,action,scope,wave,current_mode,owner,kpi,test_evidence
+UC01,Copilot must not use Highly Confidential files,Microsoft Copilot location,Sensitivity label = Highly Confidential,Prevent Copilot from processing content,All,Wave 1,Simulate,Finance lead,Matches / false positives / overrides per week,tests/UC01.md
+UC02,Block prompts containing customer IBANs / card numbers,Microsoft Copilot location,"SIT: IBAN, Credit card",Prevent processing prompts,All,Wave 1,Simulate,Sales ops,Matches / false positives / overrides per week,tests/UC02.md
+UC03,No web search for prompts with employee IDs,Microsoft Copilot location,Custom SIT: Contoso Employee ID,Prevent web searches,All,Wave 1,Simulate,Finance lead,Matches / false positives / overrides per week,tests/UC03.md
+UC04,Exclude external emails from Copilot grounding (preview),Microsoft Copilot location,Email received from external users,Prevent processing,Pilot group,Wave 1,Simulate,Finance lead,Matches / false positives / overrides per week,tests/UC04.md
+UC05,Warn when emailing customer lists externally,Exchange,EDM: Customer master (name + account no.),Policy tip + override with justification,Sales,Wave 2,Warn,Sales ops,Matches / false positives / overrides per week,tests/UC05.md
+UC06,Block external sharing of HR files,SharePoint/OneDrive,Label = HR Confidential,Block external sharing,HR,Wave 2,Block,Sales ops,Matches / false positives / overrides per week,tests/UC06.md
+UC07,Detect salary data in Teams chats,Teams,SIT: Salary keywords + amounts,"Policy tip, alert HR",All,Wave 2,Warn,CISO office,Matches / false positives / overrides per week,tests/UC07.md
+UC08,Project codenames leaving the company,"Exchange, Teams",Keyword dictionary: project codenames,Warn + justify,R&D,Wave 2,Warn,CISO office,Matches / false positives / overrides per week,tests/UC08.md
+UC09,Copy of labelled files to USB,Devices,Label = Confidential+,Block with override,All,Wave 3,Simulate,Sales ops,Matches / false positives / overrides per week,tests/UC09.md
+UC10,Paste of card numbers into generative AI websites,Devices (Edge/Chrome),SIT: Credit card,Block paste to unallowed AI sites,All,Wave 3,Simulate,Finance lead,Matches / false positives / overrides per week,tests/UC10.md
+UC11,Upload of Highly Confidential files to personal cloud,Devices,Label = Highly Confidential,Block upload to unallowed domains,All,Wave 3,Simulate,Sales ops,Matches / false positives / overrides per week,tests/UC11.md
+UC12,Printing of passport scans,Devices,SIT: Passport numbers (EU),Audit only,HR,Wave 3,Monitor,CISO office,Matches / false positives / overrides per week,tests/UC12.md
+UC13,Health data in email to non-HR,Exchange,SIT: medical terms + employee ID,Warn,All,Wave 2,Warn,Data protection officer,Matches / false positives / overrides per week,tests/UC13.md
+UC14,Bank details changes by email (fraud),Exchange,SIT: IBAN + keywords 'new bank details',Alert Finance,Finance,Wave 2,Monitor,Finance lead,Matches / false positives / overrides per week,tests/UC14.md
+UC15,Board papers to personal email,Exchange,Label = Board,Block,Executives,Wave 2,Block,HR lead,Matches / false positives / overrides per week,tests/UC15.md
