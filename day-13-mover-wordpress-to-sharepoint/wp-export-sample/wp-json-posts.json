@@ -1,0 +1,194 @@
+[
+  {
+    "id": 3,
+    "type": "page",
+    "slug": "website-relaunch-updated-3",
+    "title": {
+      "rendered": "Website relaunch (updated)"
+    },
+    "modified": "2020-07-02T09:00:00",
+    "content": {
+      "rendered": "<p>This is the fictional body of <strong>Website relaunch (updated)</strong>.</p><p>Contact the Projects team for questions.</p>"
+    },
+    "categories_names": [
+      "Projects"
+    ],
+    "link": "https://intranet.contoso.example/website-relaunch-updated-3/"
+  },
+  {
+    "id": 4,
+    "type": "post",
+    "slug": "lunch-and-learn-v2-4",
+    "title": {
+      "rendered": "Lunch & learn (v2)"
+    },
+    "modified": "2023-01-30T09:00:00",
+    "content": {
+      "rendered": "<p>This is the fictional body of <strong>Lunch & learn (v2)</strong>.</p><p>Contact the Events team for questions.</p>"
+    },
+    "categories_names": [
+      "Events"
+    ],
+    "link": "https://intranet.contoso.example/lunch-and-learn-v2-4/"
+  },
+  {
+    "id": 7,
+    "type": "post",
+    "slug": "website-relaunch-2024-7",
+    "title": {
+      "rendered": "Website relaunch (2024)"
+    },
+    "modified": "2025-05-12T09:00:00",
+    "content": {
+      "rendered": "<p>This is the fictional body of <strong>Website relaunch (2024)</strong>.</p><p>Contact the Projects team for questions.</p>"
+    },
+    "categories_names": [
+      "Projects"
+    ],
+    "link": "https://intranet.contoso.example/website-relaunch-2024-7/"
+  },
+  {
+    "id": 8,
+    "type": "post",
+    "slug": "summer-party-8",
+    "title": {
+      "rendered": "Summer party"
+    },
+    "modified": "2023-03-20T09:00:00",
+    "content": {
+      "rendered": "<p>This is the fictional body of <strong>Summer party</strong>.</p><p>Contact the Events team for questions.</p>"
+    },
+    "categories_names": [
+      "Events"
+    ],
+    "link": "https://intranet.contoso.example/summer-party-8/"
+  },
+  {
+    "id": 9,
+    "type": "page",
+    "slug": "new-laptop-request-9",
+    "title": {
+      "rendered": "New laptop request"
+    },
+    "modified": "2022-11-10T09:00:00",
+    "content": {
+      "rendered": "<p>This is the fictional body of <strong>New laptop request</strong>.</p><p>Contact the IT team for questions.</p>"
+    },
+    "categories_names": [
+      "IT"
+    ],
+    "link": "https://intranet.contoso.example/new-laptop-request-9/"
+  },
+  {
+    "id": 11,
+    "type": "page",
+    "slug": "parental-leave-11",
+    "title": {
+      "rendered": "Parental leave"
+    },
+    "modified": "2019-04-10T09:00:00",
+    "content": {
+      "rendered": "<p>This is the fictional body of <strong>Parental leave</strong>.</p><p>Contact the HR team for questions.</p>"
+    },
+    "categories_names": [
+      "HR"
+    ],
+    "link": "https://intranet.contoso.example/parental-leave-11/"
+  },
+  {
+    "id": 12,
+    "type": "post",
+    "slug": "linkedin-learning-access-12",
+    "title": {
+      "rendered": "LinkedIn Learning access"
+    },
+    "modified": "2022-07-24T09:00:00",
+    "content": {
+      "rendered": "<p>This is the fictional body of <strong>LinkedIn Learning access</strong>.</p><p>Contact the Learning team for questions.</p>"
+    },
+    "categories_names": [
+      "Learning"
+    ],
+    "link": "https://intranet.contoso.example/linkedin-learning-access-12/"
+  },
+  {
+    "id": 13,
+    "type": "post",
+    "slug": "award-win-13",
+    "title": {
+      "rendered": "Award win"
+    },
+    "modified": "2024-08-16T09:00:00",
+    "content": {
+      "rendered": "<p>This is the fictional body of <strong>Award win</strong>.</p><p>Contact the News team for questions.</p>"
+    },
+    "categories_names": [
+      "News"
+    ],
+    "link": "https://intranet.contoso.example/award-win-13/"
+  },
+  {
+    "id": 14,
+    "type": "page",
+    "slug": "printer-setup-14",
+    "title": {
+      "rendered": "Printer setup"
+    },
+    "modified": "2026-01-21T09:00:00",
+    "content": {
+      "rendered": "<p>This is the fictional body of <strong>Printer setup</strong>.</p><p>Contact the IT team for questions.</p>"
+    },
+    "categories_names": [
+      "IT"
+    ],
+    "link": "https://intranet.contoso.example/printer-setup-14/"
+  },
+  {
+    "id": 15,
+    "type": "page",
+    "slug": "year-end-close-15",
+    "title": {
+      "rendered": "Year-end close"
+    },
+    "modified": "2024-08-22T09:00:00",
+    "content": {
+      "rendered": "<p>This is the fictional body of <strong>Year-end close</strong>.</p><p>Contact the Finance team for questions.</p>"
+    },
+    "categories_names": [
+      "Finance"
+    ],
+    "link": "https://intranet.contoso.example/year-end-close-15/"
+  },
+  {
+    "id": 18,
+    "type": "page",
+    "slug": "linkedin-learning-access-2024-18",
+    "title": {
+      "rendered": "LinkedIn Learning access (2024)"
+    },
+    "modified": "2023-08-02T09:00:00",
+    "content": {
+      "rendered": "<p>This is the fictional body of <strong>LinkedIn Learning access (2024)</strong>.</p><p>Contact the Learning team for questions.</p>"
+    },
+    "categories_names": [
+      "Learning"
+    ],
+    "link": "https://intranet.contoso.example/linkedin-learning-access-2024-18/"
+  },
+  {
+    "id": 22,
+    "type": "page",
+    "slug": "code-of-conduct-22",
+    "title": {
+      "rendered": "Code of conduct"
+    },
+    "modified": "2026-04-03T09:00:00",
+    "content": {
+      "rendered": "<p>This is the fictional body of <strong>Code of conduct</strong>.</p><p>Contact the Policies team for questions.</p>"
+    },
+    "categories_names": [
+      "Policies"
+    ],
+    "link": "https://intranet.contoso.example/code-of-conduct-22/"
+  }
+]

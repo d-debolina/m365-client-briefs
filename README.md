@@ -22,6 +22,7 @@ seen on a freelance marketplace and rebuilds it with Microsoft 365, Power Platfo
 | 10 | **PARCEL** – Parse, Assemble, Route, Check, Emit, Log | Outlook emails to a REST API with AI extraction, schema checks and retries | `day-10-parcel-email-to-api` |
 | 11 | **SHIELD** – Simulate, Hunt, Inform, Enforce, Label, Dashboard | Purview DLP rollout kit for the Copilot era | `day-11-shield-purview-dlp-copilot` |
 | 12 | **LEDGER** – Lookup, Engage, Document, Guide, Escalate, Report | Fintech onboarding agent: SharePoint knowledge + custom CRM connector + governance | `day-12-ledger-fintech-crm-agent` |
+| 13 | **MOVER** – Map, Organise, Verify, Export, Redirect | WordPress intranet to SharePoint: IA, term set, PnP migration script | `day-13-mover-wordpress-to-sharepoint` |
 
 ## Licence
 Content: CC BY 4.0. Code: MIT.

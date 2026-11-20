@@ -1,0 +1,13 @@
+site,pageName,title,isNews,topic,html,originalModified
+corporate,website-relaunch-updated-3.aspx,Website relaunch (updated),False,Projects,<p>This is the fictional body of <strong>Website relaunch (updated)</strong>.</p><p>Contact the Projects team for questions.</p>,2020-07-02T09:00:00
+intranet,lunch-and-learn-v2-4.aspx,Lunch & learn (v2),True,Events,<p>This is the fictional body of <strong>Lunch & learn (v2)</strong>.</p><p>Contact the Events team for questions.</p>,2023-01-30T09:00:00
+corporate,website-relaunch-2024-7.aspx,Website relaunch (2024),True,Projects,<p>This is the fictional body of <strong>Website relaunch (2024)</strong>.</p><p>Contact the Projects team for questions.</p>,2025-05-12T09:00:00
+intranet,summer-party-8.aspx,Summer party,True,Events,<p>This is the fictional body of <strong>Summer party</strong>.</p><p>Contact the Events team for questions.</p>,2023-03-20T09:00:00
+it,new-laptop-request-9.aspx,New laptop request,False,IT & Tools,<p>This is the fictional body of <strong>New laptop request</strong>.</p><p>Contact the IT team for questions.</p>,2022-11-10T09:00:00
+hr,parental-leave-11.aspx,Parental leave,False,People & HR,<p>This is the fictional body of <strong>Parental leave</strong>.</p><p>Contact the HR team for questions.</p>,2019-04-10T09:00:00
+hr,linkedin-learning-access-12.aspx,LinkedIn Learning access,True,Learning,<p>This is the fictional body of <strong>LinkedIn Learning access</strong>.</p><p>Contact the Learning team for questions.</p>,2022-07-24T09:00:00
+intranet,award-win-13.aspx,Award win,True,Announcements,<p>This is the fictional body of <strong>Award win</strong>.</p><p>Contact the News team for questions.</p>,2024-08-16T09:00:00
+it,printer-setup-14.aspx,Printer setup,False,IT & Tools,<p>This is the fictional body of <strong>Printer setup</strong>.</p><p>Contact the IT team for questions.</p>,2026-01-21T09:00:00
+finance,year-end-close-15.aspx,Year-end close,False,Money,<p>This is the fictional body of <strong>Year-end close</strong>.</p><p>Contact the Finance team for questions.</p>,2024-08-22T09:00:00
+hr,linkedin-learning-access-2024-18.aspx,LinkedIn Learning access (2024),False,Learning,<p>This is the fictional body of <strong>LinkedIn Learning access (2024)</strong>.</p><p>Contact the Learning team for questions.</p>,2023-08-02T09:00:00
+corporate,code-of-conduct-22.aspx,Code of conduct,False,Policies,<p>This is the fictional body of <strong>Code of conduct</strong>.</p><p>Contact the Policies team for questions.</p>,2026-04-03T09:00:00
