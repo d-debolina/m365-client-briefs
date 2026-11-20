@@ -30,6 +30,7 @@ seen on a freelance marketplace and rebuilds it with Microsoft 365, Power Platfo
 | 18 | **PITCH** – Personalised, Inspected, Tailored, Checked, Human-sent | AI-drafted B2B outreach from Excel with Outlook drafts and human review | `day-18-pitch-b2b-outreach-drafts` |
 | 19 | **LIFT** – Locate, Inspect, Flatten, Transform | Classic to modern SharePoint: wave planner, PnP in-place, ShareGate restructure | `day-19-lift-classic-to-modern` |
 | 20 | **PROOF** – Prompt, Review, Own, Organise, Finalise | Reviewing AI-generated Power Automate specs before Copilot builds them | `day-20-proof-review-copilot-flow-spec` |
+| 21 | **TALLY** – Track, Assign, List, Log, Yes/no-go | Microsoft Lists validation tracker for an Azure migration | `day-21-tally-migration-validation-tracker` |
 
 ## Licence
 Content: CC BY 4.0. Code: MIT.

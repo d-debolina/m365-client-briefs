@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "txtContent": "=toLocaleDateString(@currentField)",
+  "style": {
+    "color": "=if(@currentField < @now && [$Status] != 'Passed' && [$Status] != 'N/A','#C2410C','')",
+    "font-weight": "=if(@currentField < @now && [$Status] != 'Passed','600','')"
+  }
+}
