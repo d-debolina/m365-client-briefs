@@ -7,8 +7,8 @@ digraph G {
   subgraph cluster_m365 { label=<<b>Microsoft 365</b>>; fontsize=13; style="rounded,dashed"; color="#0369A1"; fontcolor="#0369A1";
   list [label=<<b>Microsoft List</b><br/><font point-size="10">120 checks · evidence required</font>>, fillcolor="#E0F2FE", color="#0369A1"];
   lib [label=<<b>Evidence library</b><br/><font point-size="10">PDF / screenshots</font>>, fillcolor="#E0F2FE", color="#0369A1"];
-  teams [label=<<b>Teams</b><br/><font point-size="10">reminders · alerts · go/no-go</font>>, fillcolor="#E0F2FE", color="#0369A1"];
   }
+  teams [label=<<b>Teams</b><br/><font point-size="10">reminders · alerts · go/no-go</font>>, fillcolor="#E0F2FE", color="#0369A1"];
   subgraph cluster_pp { label=<<b>Power Automate (standard)</b>>; fontsize=13; style="rounded,dashed"; color="#7C3AED"; fontcolor="#7C3AED";
   rem [label=<<b>Monday reminder</b><br/><font point-size="10">per owner</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
   alert [label=<<b>Failed/blocked alert</b><br/><font point-size="10">trigger condition</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
