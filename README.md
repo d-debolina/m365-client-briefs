@@ -34,6 +34,7 @@ seen on a freelance marketplace and rebuilds it with Microsoft 365, Power Platfo
 | 22 | **BATON** – Build, Assert, Test, Own, Note | Dataverse implementation spec, test matrix, CLI checks and handoff pack | `day-22-baton-dataverse-spec-tests-handoff` |
 | 23 | **CAMPUS** – Courses, Assets, Members, Permissions, Upkeep, Strategy | SharePoint academy site: asset metadata, permissions model, governance rhythm | `day-23-campus-sharepoint-academy-site` |
 | 24 | **ECHO** – Embedded, Cross-tenant-safe, Handoff-ready Operator | Multi-tenant AI support copilot with tenant isolation tests and human handoff | `day-24-echo-multitenant-support-copilot` |
+| 25 | **STEWARD** – Steady, Tuned, Evidence-based, Watchful, Accountable, Reported, Documented | What a Microsoft Purview retainer looks like month by month | `day-25-steward-purview-retainer` |
 
 ## Licence
 Content: CC BY 4.0. Code: MIT.

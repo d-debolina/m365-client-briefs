@@ -47,7 +47,12 @@ LEGEND = """  subgraph cluster_legend { label=<<b>Legend</b>>; fontsize=11; styl
   }
 """
 
+import re as _re
+def _esc(t):
+    return _re.sub(r"&(?![a-zA-Z]+;|#\d+;)", "&amp;", t) if t else t
+
 def b(t, sub=None):
+    t, sub = _esc(t), _esc(sub)
     return f"<b>{t}</b>" + (f'<br/><font point-size="10">{sub}</font>' if sub else "")
 
 D = {}
