@@ -1,7 +1,30 @@
-// WARDEN – list Copilot Studio agents from Power Platform inventory via Azure Resource Graph.
-// Verify resource type and property names against "Power Platform inventory schema reference" on Microsoft Learn.
-powerplatformresources
+// WARDEN – Copilot Studio agent risk report from Power Platform inventory (Azure Resource Graph).
+// Fields from "Microsoft Copilot Studio Agent inventory" on Microsoft Learn (several are preview).
+// Run in Azure Resource Graph Explorer. Rules R01–R04 map to risk-rules.json.
+PowerPlatformResources
 | where type == "microsoft.copilotstudio/agents"
-| project name, environmentId = tostring(properties.environmentId),
-          createdBy = tostring(properties.createdBy), lastPublished = tostring(properties.lastPublishedAt),
-          authMode = tostring(properties.authenticationMode), channels = properties.channels
+| extend p = parse_json(properties)
+| extend agent = tostring(p.displayName),
+         environmentId = tostring(p.environmentId),
+         ownerId = tostring(p.ownerId),
+         lastPublishedAt = todatetime(p.lastPublishedAt),
+         orchestration = tostring(p.orchestration),
+         authentication = tostring(p.authentication),
+         channels = p.channels,
+         sharedWithEntireTenant = tobool(p.sharedWithViewers.entireTenant),
+         webSearch = tobool(p.IsWebSearchEnabledForKnowledge)
+// Count connector operations that run with the maker's connection (R03)
+| mv-apply c = p.powerPlatformConnectors on (
+    mv-apply op = c.operations on (
+        summarize makerOps = countif(tostring(op.connectionProvider) == "Maker")
+    )
+    | summarize makerCredentialOps = sum(makerOps)
+  )
+| extend R01_NoAuth = authentication == "None",
+         R02_SharedWithEveryone = sharedWithEntireTenant == true,
+         R03_MakerCredentials = makerCredentialOps > 0,
+         R07_GenerativeNoGuardCheck = orchestration == "Generative"   // informational: these agents are evaluated by the external guard
+| extend riskScore = toint(R01_NoAuth) * 3 + toint(R02_SharedWithEveryone) * 2 + toint(R03_MakerCredentials) * 3
+| project agent, environmentId, ownerId, lastPublishedAt, orchestration, authentication, channels,
+          R01_NoAuth, R02_SharedWithEveryone, R03_MakerCredentials, makerCredentialOps, webSearch, riskScore
+| order by riskScore desc
