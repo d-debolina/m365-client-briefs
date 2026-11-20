@@ -1,0 +1,20 @@
+{
+  "customer_ref": "CUST-1011",
+  "po_number": "PO-40510",
+  "pickup": {
+    "city": "Zurich",
+    "postcode": "8001",
+    "country": "CH"
+  },
+  "delivery": {
+    "city": "Munich",
+    "postcode": "80331",
+    "country": "DE"
+  },
+  "pallets": 25,
+  "weight_kg": 6000,
+  "ready_date": "2026-12-04",
+  "service": "express",
+  "hazardous": false,
+  "notes": "Fragile glassware"
+}

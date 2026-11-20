@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Fabrikam Freight booking request",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "customer_ref",
+    "pickup",
+    "delivery",
+    "pallets",
+    "weight_kg",
+    "ready_date",
+    "service"
+  ],
+  "properties": {
+    "customer_ref": {
+      "type": "string",
+      "pattern": "^CUST-[0-9]{4}$"
+    },
+    "po_number": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "pickup": {
+      "type": "object",
+      "required": [
+        "city",
+        "postcode",
+        "country"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "city": {
+          "type": "string"
+        },
+        "postcode": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$"
+        }
+      }
+    },
+    "delivery": {
+      "type": "object",
+      "required": [
+        "city",
+        "postcode",
+        "country"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "city": {
+          "type": "string"
+        },
+        "postcode": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$"
+        }
+      }
+    },
+    "pallets": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 33
+    },
+    "weight_kg": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "ready_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "service": {
+      "type": "string",
+      "enum": [
+        "standard",
+        "express",
+        "temperature_controlled"
+      ]
+    },
+    "hazardous": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 300
+    }
+  }
+}

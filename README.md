@@ -19,6 +19,7 @@ seen on a freelance marketplace and rebuilds it with Microsoft 365, Power Platfo
 | 7 | **SCOUT** – Survey, Classify, Order Use-cases, Then build | AI agent readiness audit kit | `day-07-scout-agent-readiness-audit` |
 | 8 | **TRIAD** – Three Routed, Independent Agents, Delivered | Multi-agent Copilot Studio: child vs connected agents with shared state | `day-08-triad-multi-agent` |
 | 9 | **SHELF** – Sync, Health, Explorer & Library Fixes | File server to SharePoint: readiness scan, sync and Copilot fixes | `day-09-shelf-fileserver-to-sharepoint` |
+| 10 | **PARCEL** – Parse, Assemble, Route, Check, Emit, Log | Outlook emails to a REST API with AI extraction, schema checks and retries | `day-10-parcel-email-to-api` |
 
 ## Licence
 Content: CC BY 4.0. Code: MIT.

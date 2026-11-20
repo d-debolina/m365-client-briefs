@@ -1,0 +1,7 @@
+From: ops@contoso-foods.example
+To: bookings@fabrikam-freight.example
+Subject: New pickup #07
+Date: 9 Nov 2026 09:38:00 +0100
+
+Hi there! Customer CUST-1042 here. Could you collect 16 pallets (total around 4960 kilos) from Munich, 80331 in Germany and take them to Zurich (8001, Switzerland)? Goods are ready from 11 Dec 2026. We'd like chilled (2-8°C). Call 30 min before arrival
+Cheers

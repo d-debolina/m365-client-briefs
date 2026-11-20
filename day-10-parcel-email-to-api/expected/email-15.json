@@ -1,0 +1,20 @@
+{
+  "customer_ref": "CUST-1046",
+  "po_number": "PO-45701",
+  "pickup": {
+    "city": "Rotterdam",
+    "postcode": "3011",
+    "country": "NL"
+  },
+  "delivery": {
+    "city": "Hamburg",
+    "postcode": "20095",
+    "country": "DE"
+  },
+  "pallets": 3,
+  "weight_kg": 1260,
+  "ready_date": "2026-12-26",
+  "service": "standard",
+  "hazardous": false,
+  "notes": "Fragile glassware"
+}

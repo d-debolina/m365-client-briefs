@@ -1,0 +1,20 @@
+{
+  "customer_ref": "CUST-1015",
+  "po_number": null,
+  "pickup": {
+    "city": "Rotterdam",
+    "postcode": "3011",
+    "country": "NL"
+  },
+  "delivery": {
+    "city": "Zurich",
+    "postcode": "8001",
+    "country": "CH"
+  },
+  "pallets": 15,
+  "weight_kg": 3600,
+  "ready_date": "2026-12-22",
+  "service": "express",
+  "hazardous": true,
+  "notes": "Call 30 min before arrival"
+}

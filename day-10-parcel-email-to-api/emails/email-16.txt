@@ -1,0 +1,23 @@
+From: j.novak@tailspin-tools.example
+To: bookings@fabrikam-freight.example
+Subject: AW: pickup #16
+Date: 3 Nov 2026 09:54:00 +0100
+
+Hello team,
+
+please book the following:
+
+| Field | Value |
+|---|---|
+| Customer | CUST-1061 |
+| PO | PO-45717 |
+| Collect from | 20121 Milan, Italy |
+| Deliver to | 1000 Ljubljana, Slovenia |
+| Pallets | 16 |
+| Gross weight | 4,960 kg |
+| Ready | 13.12.2026 |
+| Service | chilled (2-8°C) |
+| ADR | no |
+
+Fragile glassware
+Thanks, Ops

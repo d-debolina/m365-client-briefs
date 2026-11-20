@@ -1,0 +1,14 @@
+From: anna.berger@fabrikam-retail.example
+To: bookings@fabrikam-freight.example
+Subject: AW: pickup #20
+Date: 2 Nov 2026 09:19:00 +0100
+
+FYI see below, can you sort this out?
+
+-----Original Message-----
+From: warehouse@contoso-foods.example
+Subject: pickup
+
+We have 25 pallets (6000 kg) ready 4 December at our Zurich site, postcode 8001 (Switzerland).
+They go to our customer in Munich 80331 (Germany). EXPRESS please. Our ref CUST-1011, your PO PO-40510.
+ Fragile glassware

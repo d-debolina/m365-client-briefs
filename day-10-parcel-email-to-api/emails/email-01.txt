@@ -1,0 +1,7 @@
+From: j.novak@tailspin-tools.example
+To: bookings@fabrikam-freight.example
+Subject: Booking request #01
+Date: 11 Nov 2026 09:14:00 +0100
+
+Hi there! Customer CUST-1083 here. Could you collect 14 pallets (total around 5880 kilos) from Zurich, 8001 in Switzerland and take them to Vienna (1100, Austria)? Goods are ready from 19 Dec 2026. We'd like standard road. PO number is PO-48049. Tail-lift needed at delivery
+Cheers

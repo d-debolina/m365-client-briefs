@@ -1,0 +1,23 @@
+From: anna.berger@fabrikam-retail.example
+To: bookings@fabrikam-freight.example
+Subject: AW: pickup #06
+Date: 6 Nov 2026 09:52:00 +0100
+
+Hello team,
+
+please book the following:
+
+| Field | Value |
+|---|---|
+| Customer | CUST-1015 |
+| PO | - |
+| Collect from | 3011 Rotterdam, Netherlands |
+| Deliver to | 8001 Zurich, Switzerland |
+| Pallets | 15 |
+| Gross weight | 3,600 kg |
+| Ready | 22.12.2026 |
+| Service | EXPRESS please |
+| ADR | yes |
+
+Call 30 min before arrival
+Thanks, Ops

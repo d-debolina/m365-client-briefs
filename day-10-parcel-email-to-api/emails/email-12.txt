@@ -1,0 +1,13 @@
+From: ops@contoso-foods.example
+To: bookings@fabrikam-freight.example
+Subject: Buchung #12
+Date: 10 Nov 2026 09:20:00 +0100
+
+FYI see below, can you sort this out?
+
+-----Original Message-----
+From: warehouse@contoso-foods.example
+Subject: pickup
+
+We have 1 pallets (180 kg) ready 10 December at our Zurich site, postcode 8001 (Switzerland).
+They go to our customer in Brno 60200 (Czech Republic). chilled (2-8°C). Our ref CUST-1011, your PO PO-44039.

@@ -1,0 +1,20 @@
+{
+  "customer_ref": "CUST-1080",
+  "po_number": null,
+  "pickup": {
+    "city": "Milan",
+    "postcode": "20121",
+    "country": "IT"
+  },
+  "delivery": {
+    "city": "Brno",
+    "postcode": "60200",
+    "country": "CZ"
+  },
+  "pallets": 24,
+  "weight_kg": 10080,
+  "ready_date": "2026-12-15",
+  "service": "standard",
+  "hazardous": false,
+  "notes": null
+}

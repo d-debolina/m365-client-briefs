@@ -1,0 +1,20 @@
+{
+  "customer_ref": "CUST-1011",
+  "po_number": "PO-44039",
+  "pickup": {
+    "city": "Zurich",
+    "postcode": "8001",
+    "country": "CH"
+  },
+  "delivery": {
+    "city": "Brno",
+    "postcode": "60200",
+    "country": "CZ"
+  },
+  "pallets": 1,
+  "weight_kg": 180,
+  "ready_date": "2026-12-10",
+  "service": "temperature_controlled",
+  "hazardous": false,
+  "notes": null
+}

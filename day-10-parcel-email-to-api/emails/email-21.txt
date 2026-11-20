@@ -1,0 +1,5 @@
+From: ops@contoso-foods.example
+To: bookings@fabrikam-freight.example
+Subject: urgent!!
+
+Hi, need a truck tomorrow for some pallets to Milan. Call me.

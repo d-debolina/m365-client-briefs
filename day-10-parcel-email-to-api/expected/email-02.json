@@ -1,0 +1,20 @@
+{
+  "customer_ref": "CUST-1036",
+  "po_number": "PO-46252",
+  "pickup": {
+    "city": "Hamburg",
+    "postcode": "20095",
+    "country": "DE"
+  },
+  "delivery": {
+    "city": "Lyon",
+    "postcode": "69002",
+    "country": "FR"
+  },
+  "pallets": 2,
+  "weight_kg": 840,
+  "ready_date": "2026-12-28",
+  "service": "standard",
+  "hazardous": false,
+  "notes": "Call 30 min before arrival"
+}

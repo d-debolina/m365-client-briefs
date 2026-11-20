@@ -1,0 +1,23 @@
+From: logistics@northwind-parts.example
+To: bookings@fabrikam-freight.example
+Subject: Booking request #08
+Date: 16 Nov 2026 09:53:00 +0100
+
+Hello team,
+
+please book the following:
+
+| Field | Value |
+|---|---|
+| Customer | CUST-1077 |
+| PO | PO-44451 |
+| Collect from | 3011 Rotterdam, Netherlands |
+| Deliver to | 80331 Munich, Germany |
+| Pallets | 13 |
+| Gross weight | 5,460 kg |
+| Ready | 22.12.2026 |
+| Service | standard road |
+| ADR | no |
+
+Fragile glassware
+Thanks, Ops

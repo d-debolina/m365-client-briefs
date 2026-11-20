@@ -1,0 +1,15 @@
+From: anna.berger@fabrikam-retail.example
+To: bookings@fabrikam-freight.example
+Subject: Transport order #03
+Date: 8 Nov 2026 09:30:00 +0100
+
+Hi,
+- account CUST-1017
+- from: Lyon (69002), France
+- to: Munich (80331), Germany
+- 15 pallets / approx 3.6 t
+- ready on Dec 15
+- chilled (2-8°C), dangerous goods (ADR)
+
+Note: Tail-lift needed at delivery
+BR

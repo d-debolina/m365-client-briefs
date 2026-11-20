@@ -1,0 +1,7 @@
+From: j.novak@tailspin-tools.example
+To: bookings@fabrikam-freight.example
+Subject: Booking request #09
+Date: 2 Nov 2026 09:10:00 +0100
+
+Hi there! Customer CUST-1071 here. Could you collect 5 pallets (total around 2100 kilos) from Brno, 60200 in Czech Republic and take them to Rotterdam (3011, Netherlands)? Goods are ready from 18 Dec 2026. We'd like EXPRESS please. Fragile glassware
+Cheers

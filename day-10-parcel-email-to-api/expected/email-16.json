@@ -1,0 +1,20 @@
+{
+  "customer_ref": "CUST-1061",
+  "po_number": "PO-45717",
+  "pickup": {
+    "city": "Milan",
+    "postcode": "20121",
+    "country": "IT"
+  },
+  "delivery": {
+    "city": "Ljubljana",
+    "postcode": "1000",
+    "country": "SI"
+  },
+  "pallets": 16,
+  "weight_kg": 4960,
+  "ready_date": "2026-12-13",
+  "service": "temperature_controlled",
+  "hazardous": false,
+  "notes": "Fragile glassware"
+}

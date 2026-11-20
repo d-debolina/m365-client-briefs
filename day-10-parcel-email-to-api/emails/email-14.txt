@@ -1,0 +1,23 @@
+From: j.novak@tailspin-tools.example
+To: bookings@fabrikam-freight.example
+Subject: New pickup #14
+Date: 20 Nov 2026 09:36:00 +0100
+
+Hello team,
+
+please book the following:
+
+| Field | Value |
+|---|---|
+| Customer | CUST-1080 |
+| PO | - |
+| Collect from | 20121 Milan, Italy |
+| Deliver to | 60200 Brno, Czech Republic |
+| Pallets | 24 |
+| Gross weight | 10,080 kg |
+| Ready | 15.12.2026 |
+| Service | standard road |
+| ADR | no |
+
+
+Thanks, Ops

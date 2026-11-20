@@ -1,0 +1,5 @@
+From: newsletter@tailspin-tools.example
+To: bookings@fabrikam-freight.example
+Subject: Our December offers
+
+Don't miss 20% off all hand tools this month!

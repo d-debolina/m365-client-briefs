@@ -1,0 +1,25 @@
+digraph G {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=20, labelloc=t, pad=0.4, nodesep=0.45, ranksep=0.7, bgcolor="white",
+         label=<<b>Day 10 · PARCEL — Parse, Assemble, Route, Check, Emit, Log</b><br/><font point-size="13" color="#6B7280">Outlook emails to a REST API: AI extraction, schema validation, retries and a dead-letter list<br/><font point-size="11"><font color="#7C3AED">■ Power Platform</font>   <font color="#0369A1">■ Microsoft 365</font>   <font color="#0F766E">■ Azure</font>   <font color="#C2410C">■ Copilot / AI</font>   <font color="#A16207">■ Repo files / outputs</font></font></font>>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, margin="0.18,0.10", penwidth=1.4];
+  edge  [fontname="Helvetica", fontsize=10, color="#4B5563", fontcolor="#374151", arrowsize=0.7];
+  cust [label=<<b>Customers</b><br/><font point-size="10">booking emails</font>>, fillcolor="#F3F4F6", color="#6B7280"];
+  mbx [label=<<b>Shared mailbox</b><br/><font point-size="10">Outlook · Bookings folder</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  subgraph cluster_m365 { label=<<b>Microsoft 365</b>>; fontsize=13; style="rounded,dashed"; color="#0369A1"; fontcolor="#0369A1";
+  dl [label=<<b>Dead-letter list</b><br/><font point-size="10">Microsoft Lists</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  teams [label=<<b>Teams alert</b><br/><font point-size="10">Ops channel</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  }
+  subgraph cluster_pp { label=<<b>Power Automate cloud flow</b>>; fontsize=13; style="rounded,dashed"; color="#7C3AED"; fontcolor="#7C3AED";
+  h2t [label=<<b>Html to text</b>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  ai [label=<<b>Run a prompt</b><br/><font point-size="10">extract-booking → JSON</font>>, fillcolor="#FFF1E6", color="#C2410C"];
+  pj [label=<<b>Parse JSON</b><br/><font point-size="10">api-schema.json</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  http [label=<<b>HTTP POST</b><br/><font point-size="10">retry: exponential ×4<br/>Idempotency-Key</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  catch [label=<<b>Catch scope</b><br/><font point-size="10">result('Try') → log</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  }
+  api [label=<<b>Freight REST API</b><br/><font point-size="10">/v1/bookings</font>>, fillcolor="#E0F7F4", color="#0F766E"];
+  kv [label=<<b>Secret</b><br/><font point-size="10">env variable / Key Vault</font>>, fillcolor="#E0F7F4", color="#0F766E"];
+  cust -> mbx; mbx -> h2t [label="new email"]; h2t -> ai; ai -> pj [label="is_booking, nothing missing"];
+  ai -> dl [label="missing fields", style=dashed]; pj -> http; http -> api; kv -> http [style=dotted];
+  http -> catch [label="fails", style=dashed]; pj -> catch [style=dashed]; catch -> dl; catch -> teams;
+  api -> teams [style=invis];
+}

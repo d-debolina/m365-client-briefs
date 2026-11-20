@@ -1,0 +1,20 @@
+{
+  "customer_ref": "CUST-1077",
+  "po_number": "PO-44451",
+  "pickup": {
+    "city": "Rotterdam",
+    "postcode": "3011",
+    "country": "NL"
+  },
+  "delivery": {
+    "city": "Munich",
+    "postcode": "80331",
+    "country": "DE"
+  },
+  "pallets": 13,
+  "weight_kg": 5460,
+  "ready_date": "2026-12-22",
+  "service": "standard",
+  "hazardous": false,
+  "notes": "Fragile glassware"
+}

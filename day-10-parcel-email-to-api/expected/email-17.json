@@ -1,0 +1,20 @@
+{
+  "customer_ref": "CUST-1076",
+  "po_number": null,
+  "pickup": {
+    "city": "Ljubljana",
+    "postcode": "1000",
+    "country": "SI"
+  },
+  "delivery": {
+    "city": "Lyon",
+    "postcode": "69002",
+    "country": "FR"
+  },
+  "pallets": 26,
+  "weight_kg": 10920,
+  "ready_date": "2026-12-26",
+  "service": "standard",
+  "hazardous": false,
+  "notes": "Call 30 min before arrival"
+}

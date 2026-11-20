@@ -1,0 +1,14 @@
+From: ops@contoso-foods.example
+To: bookings@fabrikam-freight.example
+Subject: Booking request #04
+Date: 16 Nov 2026 09:29:00 +0100
+
+FYI see below, can you sort this out?
+
+-----Original Message-----
+From: warehouse@contoso-foods.example
+Subject: pickup
+
+We have 14 pallets (5880 kg) ready 3 December at our Ljubljana site, postcode 1000 (Slovenia).
+They go to our customer in Brno 60200 (Czech Republic). EXPRESS please. Our ref CUST-1052.
+ Tail-lift needed at delivery

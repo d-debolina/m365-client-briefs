@@ -1,0 +1,15 @@
+From: anna.berger@fabrikam-retail.example
+To: bookings@fabrikam-freight.example
+Subject: Booking request #19
+Date: 13 Nov 2026 09:30:00 +0100
+
+Hi,
+- account CUST-1006
+- from: Brno (60200), Czech Republic
+- to: Vienna (1100), Austria
+- 13 pallets / approx 3.1 t
+- ready on Dec 11
+- standard road
+- PO PO-49241
+
+BR

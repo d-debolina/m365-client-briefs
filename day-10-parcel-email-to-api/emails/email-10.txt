@@ -1,0 +1,7 @@
+From: j.novak@tailspin-tools.example
+To: bookings@fabrikam-freight.example
+Subject: AW: pickup #10
+Date: 17 Nov 2026 09:38:00 +0100
+
+Hi there! Customer CUST-1062 here. Could you collect 3 pallets (total around 540 kilos) from Brno, 60200 in Czech Republic and take them to Ljubljana (1000, Slovenia)? Goods are ready from 12 Dec 2026. We'd like standard road. PO number is PO-49965. Tail-lift needed at delivery
+Cheers

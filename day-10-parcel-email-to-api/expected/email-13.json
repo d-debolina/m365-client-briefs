@@ -1,0 +1,20 @@
+{
+  "customer_ref": "CUST-1075",
+  "po_number": null,
+  "pickup": {
+    "city": "Brno",
+    "postcode": "60200",
+    "country": "CZ"
+  },
+  "delivery": {
+    "city": "Munich",
+    "postcode": "80331",
+    "country": "DE"
+  },
+  "pallets": 12,
+  "weight_kg": 5040,
+  "ready_date": "2026-12-26",
+  "service": "standard",
+  "hazardous": false,
+  "notes": "Tail-lift needed at delivery"
+}

@@ -1,0 +1,20 @@
+{
+  "customer_ref": "CUST-1028",
+  "po_number": null,
+  "pickup": {
+    "city": "Rotterdam",
+    "postcode": "3011",
+    "country": "NL"
+  },
+  "delivery": {
+    "city": "Lyon",
+    "postcode": "69002",
+    "country": "FR"
+  },
+  "pallets": 10,
+  "weight_kg": 2400,
+  "ready_date": "2026-12-08",
+  "service": "standard",
+  "hazardous": false,
+  "notes": null
+}

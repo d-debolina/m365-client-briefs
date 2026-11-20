@@ -1,0 +1,7 @@
+From: logistics@northwind-parts.example
+To: bookings@fabrikam-freight.example
+Subject: AW: pickup #15
+Date: 10 Nov 2026 09:39:00 +0100
+
+Hi there! Customer CUST-1046 here. Could you collect 3 pallets (total around 1260 kilos) from Rotterdam, 3011 in Netherlands and take them to Hamburg (20095, Germany)? Goods are ready from 26 Dec 2026. We'd like standard road. PO number is PO-45701. Fragile glassware
+Cheers

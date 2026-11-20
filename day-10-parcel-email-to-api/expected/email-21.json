@@ -1,0 +1,4 @@
+{
+  "_expected": "needs_human",
+  "reason": "missing customer_ref, pickup, pallets, weight, date"
+}

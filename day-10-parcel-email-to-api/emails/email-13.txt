@@ -1,0 +1,11 @@
+From: logistics@northwind-parts.example
+To: bookings@fabrikam-freight.example
+Subject: AW: pickup #13
+Date: 4 Nov 2026 09:53:00 +0100
+
+Guten Tag,
+
+bitte Abholung buchen: Kundennr. CUST-1075, 12 Paletten, 5040 kg, ab 60200 Brno (Czech Republic) nach 80331 Munich (Germany).
+Bereit am 26.12.2026, Service Standard.  
+Tail-lift needed at delivery
+Mit freundlichen Grüßen

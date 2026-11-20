@@ -1,0 +1,15 @@
+From: ops@contoso-foods.example
+To: bookings@fabrikam-freight.example
+Subject: Transport order #11
+Date: 7 Nov 2026 09:51:00 +0100
+
+Hi,
+- account CUST-1094
+- from: Lyon (69002), France
+- to: Milan (20121), Italy
+- 26 pallets / approx 10.9 t
+- ready on Dec 14
+- EXPRESS please
+
+Note: Tail-lift needed at delivery
+BR
