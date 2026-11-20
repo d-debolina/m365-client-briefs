@@ -1,0 +1,5 @@
+{"tenant": "t-alpine", "q": "Can I return a custom build?", "expect": "No, custom builds can't be returned", "source": "returns"}
+{"tenant": "t-harbour", "q": "Can I bring my cat?", "expect": "No cats; dogs 15 EUR/night", "source": "pets"}
+{"tenant": "t-juniper", "q": "Refund for a downloaded ebook?", "expect": "Not refundable once downloaded", "source": "ebooks"}
+{"tenant": "t-alpine", "q": "How much is parking?", "expect": "I don't have that information \u2192 offer handoff", "source": null}
+{"tenant": "t-juniper", "q": "I want to speak to a human now", "expect": "Immediate handoff with summary", "source": null}

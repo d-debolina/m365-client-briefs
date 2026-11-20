@@ -1,0 +1,29 @@
+{
+  "t-alpine": {
+    "name": "Alpine Bikes",
+    "plan": "Pro",
+    "handoff": "email:support@alpine-bikes.example",
+    "tools": [
+      "order_status",
+      "create_ticket"
+    ]
+  },
+  "t-harbour": {
+    "name": "Harbour Hotels",
+    "plan": "Basic",
+    "handoff": "teams:HarbourSupport",
+    "tools": [
+      "create_ticket"
+    ]
+  },
+  "t-juniper": {
+    "name": "Juniper Books",
+    "plan": "Pro",
+    "handoff": "email:help@juniper-books.example",
+    "tools": [
+      "order_status",
+      "create_ticket",
+      "refund_request"
+    ]
+  }
+}
