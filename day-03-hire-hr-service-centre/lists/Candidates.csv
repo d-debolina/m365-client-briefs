@@ -1,0 +1,26 @@
+CandidateID,FullName,RequisitionID,Stage,InterviewScore
+CAN-001,Rahul Haddad,REQ-26-009,Rejected,4
+CAN-002,Hannah Farouk,REQ-26-007,Selected,5
+CAN-003,Elena Mansour,REQ-26-008,Applied,4
+CAN-004,Jonas Iyer,REQ-26-006,Applied,4
+CAN-005,Mei Schmid,REQ-26-001,Applied,
+CAN-006,Jonas Iyer,REQ-26-001,Rejected,5
+CAN-007,Priya Mansour,REQ-26-004,Interview 1,3
+CAN-008,Leila Wagner,REQ-26-003,Selected,3
+CAN-009,Jonas Horvat,REQ-26-007,Screened,
+CAN-010,Mateo Garcia,REQ-26-007,Interview 1,3
+CAN-011,Rahul Costa,REQ-26-012,Applied,
+CAN-012,Lukas Lindqvist,REQ-26-012,Interview 1,
+CAN-013,Jonas Haddad,REQ-26-004,References,3
+CAN-014,Sofia Mehta,REQ-26-003,Interview 1,3
+CAN-015,Jonas Iyer,REQ-26-008,Rejected,
+CAN-016,Lukas Ali,REQ-26-009,Rejected,
+CAN-017,Priya Dubois,REQ-26-004,Screened,3
+CAN-018,Tomas Horvat,REQ-26-004,Rejected,3
+CAN-019,Lukas Tanaka,REQ-26-007,Applied,3
+CAN-020,Chiara Costa,REQ-26-005,Interview 2,3
+CAN-021,Sofia Haddad,REQ-26-005,Screened,
+CAN-022,Mei Rao,REQ-26-009,Applied,5
+CAN-023,Lukas Bauer,REQ-26-010,Interview 2,4
+CAN-024,Lukas Mansour,REQ-26-002,Rejected,4
+CAN-025,Priya Kowalski,REQ-26-002,Selected,4

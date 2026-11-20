@@ -1,0 +1,31 @@
+cv_id,name,current_role,years_experience,location,skills
+CV-01,Ingrid Rossi,Project Coordinator,4,Munich,ITIL; SQL; Python; Azure; Payroll; Customer service
+CV-02,Jonas Romano,IT Support Specialist,3,Remote,Recruitment; Customer service; Payroll; Python; Power BI; German C1
+CV-03,Leila Mansour,Finance Associate,3,Bratislava,Accounting; Python; German C1; Procurement; Recruitment; ITIL
+CV-04,Amara Garcia,Project Coordinator,5,Remote,SharePoint; Power Apps; French B2; Procurement; Copywriting; Accounting
+CV-05,Leila Fischer,Finance Associate,4,Bratislava,French B2; Copywriting; Data analysis; Procurement; SQL; Agile
+CV-06,Lea Novak,Marketing Executive,5,Vienna,Project management; Customer service; Agile; Azure; Power BI; SQL
+CV-07,Ethan Chen,Project Coordinator,3,Vienna,Azure; Power Apps; SQL; Recruitment; Accounting; Customer service
+CV-08,Pablo Rossi,Finance Associate,13,Graz,Agile; Azure; Power Apps; German C1; Project management; Salesforce
+CV-09,Rahul Garcia,Marketing Executive,13,Vienna,German C1; French B2; Project management; SharePoint; Salesforce; Azure
+CV-10,Ethan Farouk,HR Officer,4,Vienna,Power BI; Excel; Salesforce; Payroll; French B2; Azure
+CV-11,Ingrid Garcia,Project Coordinator,6,Vienna,Power BI; SharePoint; French B2; Project management; Agile; Procurement
+CV-12,Rahul Kowalski,Project Coordinator,2,Bratislava,Salesforce; ITIL; Excel; French B2; SQL; Accounting
+CV-13,Priya Garcia,Finance Associate,10,Bratislava,Payroll; SharePoint; Recruitment; Copywriting; Agile; Procurement
+CV-14,Felix Novak,HR Officer,7,Munich,Salesforce; Project management; Recruitment; Procurement; Power BI; Power Apps
+CV-15,Zainab Petrova,IT Support Specialist,8,Vienna,Customer service; Excel; Copywriting; Data analysis; Project management; Payroll
+CV-16,Nadia Iyer,HR Officer,11,Graz,Recruitment; German C1; Excel; Power Apps; Power BI; Data analysis
+CV-17,Rahul Ali,Project Coordinator,4,Vienna,Salesforce; Data analysis; Procurement; German C1; Power Apps; Payroll
+CV-18,Hannah Mansour,IT Support Specialist,1,Bratislava,Agile; German C1; SharePoint; Customer service; Power Apps; Salesforce
+CV-19,Arjun Mansour,IT Support Specialist,14,Graz,Agile; Customer service; Project management; Data analysis; ITIL; Power Apps
+CV-20,Zainab Schmid,Finance Associate,8,Remote,Python; Recruitment; German C1; French B2; Payroll; Project management
+CV-21,Ingrid Fischer,HR Officer,12,Bratislava,Excel; Python; Azure; Agile; Payroll; French B2
+CV-22,Ingrid Dubois,Project Coordinator,12,Munich,Power BI; ITIL; Salesforce; Data analysis; Procurement; Project management
+CV-23,Arjun Rao,Project Coordinator,13,Bratislava,Procurement; German C1; Data analysis; ITIL; French B2; Excel
+CV-24,Arjun Tanaka,IT Support Specialist,15,Bratislava,Power Apps; Agile; Power BI; Salesforce; ITIL; SQL
+CV-25,Chiara Lindqvist,Finance Associate,4,Bratislava,Customer service; Payroll; ITIL; Salesforce; French B2; Copywriting
+CV-26,Arjun Wagner,Data Analyst,6,Vienna,German C1; Python; SQL; Power BI; Procurement; SharePoint
+CV-27,Tomas Garcia,Data Analyst,10,Remote,Excel; Customer service; French B2; Accounting; Project management; Recruitment
+CV-28,Omar Rossi,Project Coordinator,1,Remote,Recruitment; ITIL; Salesforce; Agile; Excel; SQL
+CV-29,Pablo Kowalski,Data Analyst,13,Remote,ITIL; SQL; Accounting; Azure; Agile; Procurement
+CV-30,Tomas Rossi,IT Support Specialist,6,Remote,Customer service; Power Apps; Azure; Project management; French B2; Recruitment

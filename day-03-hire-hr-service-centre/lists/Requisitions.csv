@@ -1,0 +1,13 @@
+RequisitionID,JobTitle,Department,EmploymentType,SalaryMin,SalaryMax,Location,Status
+REQ-26-001,Data Analyst,Finance,Permanent,48000,60000,Hybrid – Vienna,Pending approval
+REQ-26-002,Data Analyst,Legal,Fixed-term,80000,92000,Remote,Approved to hire
+REQ-26-003,IT Support Specialist,Legal,Temporary,80000,92000,Vienna,Onboarding
+REQ-26-004,IT Support Specialist,Finance,Temporary,80000,92000,Remote,Draft
+REQ-26-005,Project Officer,Operations,Fixed-term,70000,82000,Vienna,Onboarding
+REQ-26-006,Project Officer,Operations,Temporary,80000,92000,Vienna,Onboarding
+REQ-26-007,Comms Officer,Operations,Permanent,80000,92000,Vienna,Approved to recruit
+REQ-26-008,Comms Officer,IT,Permanent,80000,92000,Hybrid – Vienna,Approved to recruit
+REQ-26-009,Data Analyst,Legal,Fixed-term,48000,60000,Remote,Pending approval
+REQ-26-010,Comms Officer,Finance,Permanent,55000,67000,Vienna,Onboarding
+REQ-26-011,Comms Officer,Legal,Permanent,48000,60000,Vienna,Onboarding
+REQ-26-012,Project Officer,Legal,Fixed-term,80000,92000,Hybrid – Vienna,Approved to hire

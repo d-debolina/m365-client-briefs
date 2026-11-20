@@ -1,0 +1,11 @@
+property_id,client_id,address,type
+PROP-01,CLI-03,83 Elm Street,Commercial
+PROP-02,CLI-04,84 Elm Street,Residential
+PROP-03,CLI-03,153 Lake Street,School
+PROP-04,CLI-04,126 Park Street,Commercial
+PROP-05,CLI-04,178 Elm Street,Residential
+PROP-06,CLI-03,91 Hill Street,Residential
+PROP-07,CLI-02,50 Elm Street,School
+PROP-08,CLI-03,59 Lake Street,Commercial
+PROP-09,CLI-03,179 Elm Street,School
+PROP-10,CLI-04,88 Elm Street,Commercial

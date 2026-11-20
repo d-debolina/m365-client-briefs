@@ -1,0 +1,7 @@
+id,use_case,users,description,value_1to5,feasibility_1to5,risk_1to5,notes
+UC01,Supplier Q&A agent,Procurement team,Answers questions on supplier contracts from SharePoint,4,5,1,Knowledge only
+UC02,RFQ drafting agent,Category managers,Drafts RFQs from a template + requirements,4,4,2,Prompt + Word template
+UC03,PO status agent,All staff,Looks up PO status in ERP,5,3,3,Needs ERP connector
+UC04,Invoice 3-way match,Accounts payable,"Matches invoice, PO and receipt",5,2,4,High risk – human approval
+UC05,Supplier onboarding,Procurement ops,"Collects documents, runs checks, creates vendor",3,3,3,Multistage approval
+UC06,Spend analytics Q&A,Management,Natural-language questions over spend data,3,4,2,Power BI + Copilot

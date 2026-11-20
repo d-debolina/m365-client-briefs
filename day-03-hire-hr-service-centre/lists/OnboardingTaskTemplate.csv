@@ -1,0 +1,9 @@
+TaskName,Owner,DueOffsetDaysFromStart
+Offer letter issued,HR,1
+Employment agreement signed,HR,3
+Tax form (TD1 or local equivalent) received,Payroll,5
+Direct deposit details received,Payroll,5
+Benefits enrolment completed,HR,10
+Payroll submission,Payroll,12
+Laptop ordered,IT,-5
+Accounts created,IT,-2

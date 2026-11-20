@@ -1,0 +1,11 @@
+product_code,name,category,unit,unit_price_eur
+PRD-001,Discovery workshop (1 day),Service,Day,1200
+PRD-002,Power Apps canvas app – standard,Build,Each,6500
+PRD-003,Power Automate flow – simple,Build,Each,900
+PRD-004,Power Automate flow – complex,Build,Each,2400
+PRD-005,Copilot Studio agent – knowledge only,Build,Each,3500
+PRD-006,Copilot Studio agent – with tools,Build,Each,7800
+PRD-007,Dataverse table design,Build,Table,450
+PRD-008,User training session (2h),Service,Session,600
+PRD-009,Hypercare support,Service,Week,1800
+PRD-010,Licence advisory,Service,Hour,150

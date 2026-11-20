@@ -1,0 +1,21 @@
+opportunity_id,name,account,contact,scope_summary,stage,est_close_date,complexity
+OPP-1001,Alpine Ski House – Onboarding automation,Alpine Ski House,Mateo Okafor,Onboarding automation,Develop,2027-01-01,Low
+OPP-1002,Fabrikam Logistics – Onboarding automation,Fabrikam Logistics,Arjun Rossi,Onboarding automation,Propose,2027-02-08,Low
+OPP-1003,Lamna Healthcare – Expense approval app + 2 flows,Lamna Healthcare,Rahul Bauer,Expense approval app + 2 flows,Qualify,2026-12-28,Low
+OPP-1004,Woodgrove Retail – Intranet search agent,Woodgrove Retail,David Okafor,Intranet search agent,Qualify,2027-02-22,High
+OPP-1005,Woodgrove Retail – Procurement agent with Dataverse writes,Woodgrove Retail,Rahul Schmid,Procurement agent with Dataverse writes,Propose,2027-01-05,Low
+OPP-1006,Fabrikam Logistics – Field inspection app with offline,Fabrikam Logistics,Hannah Mehta,Field inspection app with offline,Develop,2026-12-20,Low
+OPP-1007,Adatum Health – Procurement agent with Dataverse writes,Adatum Health,Mateo Iyer,Procurement agent with Dataverse writes,Qualify,2027-01-15,Medium
+OPP-1008,Lamna Healthcare – Onboarding automation,Lamna Healthcare,Chiara Bauer,Onboarding automation,Develop,2027-02-07,Low
+OPP-1009,Litware Energy – Field inspection app with offline,Litware Energy,Priya Wagner,Field inspection app with offline,Propose,2027-02-18,Medium
+OPP-1010,Lamna Healthcare – Expense approval app + 2 flows,Lamna Healthcare,Leila Fischer,Expense approval app + 2 flows,Qualify,2027-02-23,Low
+OPP-1011,Wingtip Facilities – Expense approval app + 2 flows,Wingtip Facilities,Priya Schmid,Expense approval app + 2 flows,Develop,2027-01-05,Medium
+OPP-1012,Alpine Ski House – Field inspection app with offline,Alpine Ski House,Ethan Tanaka,Field inspection app with offline,Develop,2026-12-27,High
+OPP-1013,Wingtip Facilities – Onboarding automation,Wingtip Facilities,Hannah Garcia,Onboarding automation,Qualify,2027-02-16,High
+OPP-1014,Fabrikam Logistics – HR knowledge agent over SharePoint,Fabrikam Logistics,Felix Rao,HR knowledge agent over SharePoint,Qualify,2027-01-29,Medium
+OPP-1015,Wingtip Facilities – Intranet search agent,Wingtip Facilities,Zainab Fischer,Intranet search agent,Qualify,2027-02-26,Medium
+OPP-1016,Northwind Traders – Field inspection app with offline,Northwind Traders,Jonas Bauer,Field inspection app with offline,Develop,2027-01-04,Low
+OPP-1017,Tailspin Toys – Field inspection app with offline,Tailspin Toys,Mei Fischer,Field inspection app with offline,Qualify,2027-02-22,Medium
+OPP-1018,Litware Energy – HR knowledge agent over SharePoint,Litware Energy,Zainab Costa,HR knowledge agent over SharePoint,Develop,2026-12-18,Low
+OPP-1019,Coho Winery – Field inspection app with offline,Coho Winery,Felix Wagner,Field inspection app with offline,Propose,2027-02-13,Medium
+OPP-1020,Lamna Healthcare – HR knowledge agent over SharePoint,Lamna Healthcare,Ingrid Clarke,HR knowledge agent over SharePoint,Qualify,2027-02-04,Medium

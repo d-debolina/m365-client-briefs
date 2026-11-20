@@ -1,0 +1,9 @@
+template,order,question,answer_type
+Controller inspection v1,1,Controller powers on,Yes/No
+Controller inspection v1,2,Correct date and time,Yes/No
+Controller inspection v1,3,Rain sensor connected,Yes/No
+Controller inspection v1,4,Backup battery OK,Yes/No
+Controller inspection v1,5,Programs match seasonal schedule,Yes/No
+Controller inspection v1,6,Wiring and enclosure condition,Rating 1-5
+Controller inspection v1,7,Visible leaks at valves,Yes/No
+Controller inspection v1,8,Notes,Text

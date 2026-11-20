@@ -1,0 +1,7 @@
+// WARDEN – list Copilot Studio agents from Power Platform inventory via Azure Resource Graph.
+// Verify resource type and property names against "Power Platform inventory schema reference" on Microsoft Learn.
+powerplatformresources
+| where type == "microsoft.copilotstudio/agents"
+| project name, environmentId = tostring(properties.environmentId),
+          createdBy = tostring(properties.createdBy), lastPublished = tostring(properties.lastPublishedAt),
+          authMode = tostring(properties.authenticationMode), channels = properties.channels

@@ -1,0 +1,40 @@
+{
+  "rules": [
+    {
+      "id": "R01",
+      "name": "Agent has no end-user authentication",
+      "severity": "High",
+      "check": "authentication mode == 'None'"
+    },
+    {
+      "id": "R02",
+      "name": "Shared with everyone in the organisation",
+      "severity": "Medium",
+      "check": "sharing scope == 'Everyone'"
+    },
+    {
+      "id": "R03",
+      "name": "Tools use maker-provided credentials",
+      "severity": "High",
+      "check": "any tool credential == 'Maker'"
+    },
+    {
+      "id": "R04",
+      "name": "Autonomous trigger with write actions",
+      "severity": "High",
+      "check": "has trigger AND any tool verb in [create, update, delete, send]"
+    },
+    {
+      "id": "R05",
+      "name": "HTTP request tool to non-allowlisted domain",
+      "severity": "Medium",
+      "check": "http tool host not in allowlist"
+    },
+    {
+      "id": "R06",
+      "name": "Published but no owner in the directory",
+      "severity": "Medium",
+      "check": "owner disabled or deleted"
+    }
+  ]
+}

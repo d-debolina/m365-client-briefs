@@ -1,0 +1,11 @@
+Process,StageOrder,StageName,Approver,Delegate,Condition
+Requisition,1,Hiring Manager,requester's manager,,
+Requisition,2,Department Head,dept head of requesting dept,,
+Requisition,3,HR,hr-approvers@contoso.example,,
+Requisition,4,Finance,finance-approvers@contoso.example,,only if salary_max > 70000
+Requisition,5,Senior Administrator,senior-admin@contoso.example,deputy-admin@contoso.example,
+Hire,1,Hiring Manager,requester's manager,,
+Hire,2,Department Head,dept head,,
+Hire,3,HR,hr-approvers@contoso.example,,
+Hire,4,Finance,finance-approvers@contoso.example,,
+Hire,5,Senior Administrator,senior-admin@contoso.example,deputy-admin@contoso.example,
