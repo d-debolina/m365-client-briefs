@@ -1,0 +1,295 @@
+[
+  {
+    "merchantId": "MER-10001",
+    "legalName": "Alpine Coffee Roasters GmbH",
+    "country": "AT",
+    "stage": "Risk review",
+    "riskTier": "High",
+    "missingDocuments": [
+      "Processing history",
+      "Proof of address",
+      "Bank statement (3 months)"
+    ],
+    "accountManager": "David Kim",
+    "lastUpdated": "2026-11-09"
+  },
+  {
+    "merchantId": "MER-10002",
+    "legalName": "Bluewave Travel Ltd",
+    "country": "NL",
+    "stage": "Live",
+    "riskTier": "Medium",
+    "missingDocuments": [],
+    "accountManager": "Ben Okafor",
+    "lastUpdated": "2026-11-18"
+  },
+  {
+    "merchantId": "MER-10003",
+    "legalName": "Cedar & Co Furniture Ltd",
+    "country": "DE",
+    "stage": "Application",
+    "riskTier": "Low",
+    "missingDocuments": [
+      "UBO declaration",
+      "Bank statement (3 months)",
+      "PCI SAQ"
+    ],
+    "accountManager": "Ben Okafor",
+    "lastUpdated": "2026-11-02"
+  },
+  {
+    "merchantId": "MER-10004",
+    "legalName": "Danube Bikes GmbH",
+    "country": "DE",
+    "stage": "Contract",
+    "riskTier": "Low",
+    "missingDocuments": [],
+    "accountManager": "Chloe Martin",
+    "lastUpdated": "2026-11-13"
+  },
+  {
+    "merchantId": "MER-10005",
+    "legalName": "Edelweiss Pharmacy Ltd",
+    "country": "AT",
+    "stage": "Live",
+    "riskTier": "Low",
+    "missingDocuments": [],
+    "accountManager": "Ana Ruiz",
+    "lastUpdated": "2026-11-17"
+  },
+  {
+    "merchantId": "MER-10006",
+    "legalName": "Fjord Outdoor Ltd",
+    "country": "NL",
+    "stage": "KYC review",
+    "riskTier": "High",
+    "missingDocuments": [
+      "PCI SAQ",
+      "Certificate of incorporation"
+    ],
+    "accountManager": "Chloe Martin",
+    "lastUpdated": "2026-11-18"
+  },
+  {
+    "merchantId": "MER-10007",
+    "legalName": "Granite Games GmbH",
+    "country": "US",
+    "stage": "KYC review",
+    "riskTier": "Medium",
+    "missingDocuments": [
+      "Certificate of incorporation",
+      "Director ID",
+      "Proof of address"
+    ],
+    "accountManager": "David Kim",
+    "lastUpdated": "2026-11-14"
+  },
+  {
+    "merchantId": "MER-10008",
+    "legalName": "Harbour Fish Market Ltd",
+    "country": "NL",
+    "stage": "Live",
+    "riskTier": "Low",
+    "missingDocuments": [],
+    "accountManager": "David Kim",
+    "lastUpdated": "2026-11-18"
+  },
+  {
+    "merchantId": "MER-10009",
+    "legalName": "Ivy Yoga Studio Ltd",
+    "country": "IE",
+    "stage": "Application",
+    "riskTier": "Low",
+    "missingDocuments": [
+      "Proof of address",
+      "PCI SAQ",
+      "Processing history"
+    ],
+    "accountManager": "Chloe Martin",
+    "lastUpdated": "2026-11-13"
+  },
+  {
+    "merchantId": "MER-10010",
+    "legalName": "Juniper Books GmbH",
+    "country": "AT",
+    "stage": "Live",
+    "riskTier": "Low",
+    "missingDocuments": [],
+    "accountManager": "Chloe Martin",
+    "lastUpdated": "2026-11-12"
+  },
+  {
+    "merchantId": "MER-10011",
+    "legalName": "Kestrel Electronics Ltd",
+    "country": "NL",
+    "stage": "Risk review",
+    "riskTier": "Low",
+    "missingDocuments": [
+      "UBO declaration",
+      "Certificate of incorporation",
+      "Bank statement (3 months)"
+    ],
+    "accountManager": "Ana Ruiz",
+    "lastUpdated": "2026-11-08"
+  },
+  {
+    "merchantId": "MER-10012",
+    "legalName": "Linden Bakery Ltd",
+    "country": "AT",
+    "stage": "Live",
+    "riskTier": "Low",
+    "missingDocuments": [],
+    "accountManager": "Ana Ruiz",
+    "lastUpdated": "2026-11-18"
+  },
+  {
+    "merchantId": "MER-10013",
+    "legalName": "Marble Fitness GmbH",
+    "country": "AT",
+    "stage": "KYC review",
+    "riskTier": "Low",
+    "missingDocuments": [
+      "Director ID"
+    ],
+    "accountManager": "David Kim",
+    "lastUpdated": "2026-11-12"
+  },
+  {
+    "merchantId": "MER-10014",
+    "legalName": "Nova Tickets Ltd",
+    "country": "AT",
+    "stage": "Live",
+    "riskTier": "Low",
+    "missingDocuments": [],
+    "accountManager": "Chloe Martin",
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "merchantId": "MER-10015",
+    "legalName": "Orchard Organics Ltd",
+    "country": "NL",
+    "stage": "Risk review",
+    "riskTier": "Low",
+    "missingDocuments": [
+      "PCI SAQ",
+      "Processing history"
+    ],
+    "accountManager": "Ben Okafor",
+    "lastUpdated": "2026-11-15"
+  },
+  {
+    "merchantId": "MER-10016",
+    "legalName": "Pine Ridge Hotel GmbH",
+    "country": "IE",
+    "stage": "Rejected",
+    "riskTier": "Low",
+    "missingDocuments": [],
+    "accountManager": "Ben Okafor",
+    "lastUpdated": "2026-11-01"
+  },
+  {
+    "merchantId": "MER-10017",
+    "legalName": "Quartz Jewellery Ltd",
+    "country": "IE",
+    "stage": "Rejected",
+    "riskTier": "Low",
+    "missingDocuments": [],
+    "accountManager": "Ana Ruiz",
+    "lastUpdated": "2026-11-17"
+  },
+  {
+    "merchantId": "MER-10018",
+    "legalName": "Riverbend Wines Ltd",
+    "country": "US",
+    "stage": "Application",
+    "riskTier": "Low",
+    "missingDocuments": [
+      "Proof of address",
+      "UBO declaration",
+      "Director ID"
+    ],
+    "accountManager": "Chloe Martin",
+    "lastUpdated": "2026-11-09"
+  },
+  {
+    "merchantId": "MER-10019",
+    "legalName": "Saffron Kitchen GmbH",
+    "country": "DE",
+    "stage": "Live",
+    "riskTier": "Medium",
+    "missingDocuments": [],
+    "accountManager": "David Kim",
+    "lastUpdated": "2026-11-16"
+  },
+  {
+    "merchantId": "MER-10020",
+    "legalName": "Tidal Surf Shop Ltd",
+    "country": "IE",
+    "stage": "Live",
+    "riskTier": "Medium",
+    "missingDocuments": [],
+    "accountManager": "David Kim",
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "merchantId": "MER-10021",
+    "legalName": "Umber Art Supplies Ltd",
+    "country": "US",
+    "stage": "Risk review",
+    "riskTier": "Medium",
+    "missingDocuments": [
+      "Certificate of incorporation",
+      "UBO declaration",
+      "Website T&Cs"
+    ],
+    "accountManager": "David Kim",
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "merchantId": "MER-10022",
+    "legalName": "Vale Pet Care GmbH",
+    "country": "US",
+    "stage": "Live",
+    "riskTier": "Low",
+    "missingDocuments": [],
+    "accountManager": "Ana Ruiz",
+    "lastUpdated": "2026-11-01"
+  },
+  {
+    "merchantId": "MER-10023",
+    "legalName": "Willow Florist Ltd",
+    "country": "DE",
+    "stage": "KYC review",
+    "riskTier": "Low",
+    "missingDocuments": [
+      "Website T&Cs",
+      "Proof of address"
+    ],
+    "accountManager": "David Kim",
+    "lastUpdated": "2026-11-02"
+  },
+  {
+    "merchantId": "MER-10024",
+    "legalName": "Xylo Music Ltd",
+    "country": "US",
+    "stage": "Contract",
+    "riskTier": "Medium",
+    "missingDocuments": [],
+    "accountManager": "Chloe Martin",
+    "lastUpdated": "2026-11-02"
+  },
+  {
+    "merchantId": "MER-10025",
+    "legalName": "Yarrow Tea House GmbH",
+    "country": "US",
+    "stage": "Risk review",
+    "riskTier": "Low",
+    "missingDocuments": [
+      "Proof of address",
+      "Bank statement (3 months)",
+      "PCI SAQ"
+    ],
+    "accountManager": "Chloe Martin",
+    "lastUpdated": "2026-11-13"
+  }
+]

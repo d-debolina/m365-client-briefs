@@ -1,0 +1,83 @@
+swagger: "2.0"
+info:
+  title: Fabrikam CRM (LEDGER demo)
+  description: Fictional CRM API used by the LEDGER merchant onboarding agent. Read merchants, list onboarding tasks, create follow-up tasks.
+  version: "1.0"
+host: fabrikam-crm-demo.azurewebsites.net
+basePath: /api/v1
+schemes: [https]
+consumes: [application/json]
+produces: [application/json]
+securityDefinitions:
+  apiKey:
+    type: apiKey
+    in: header
+    name: X-API-Key
+security:
+  - apiKey: []
+paths:
+  /merchants/{merchantId}:
+    get:
+      operationId: GetMerchant
+      summary: Get merchant status
+      description: Returns onboarding status, risk tier and missing documents for one merchant. Use when the user asks about a specific merchant by ID (MER-12345).
+      parameters:
+        - {name: merchantId, in: path, required: true, type: string, description: "Merchant ID, format MER-12345", x-ms-summary: Merchant ID}
+      responses:
+        "200": {description: OK, schema: {$ref: "#/definitions/Merchant"}}
+        "404": {description: Not found}
+  /merchants:
+    get:
+      operationId: SearchMerchants
+      summary: Search merchants by name
+      description: Finds merchants whose legal name contains the search text. Use when the user gives a name instead of an ID.
+      parameters:
+        - {name: q, in: query, required: true, type: string, x-ms-summary: Name contains}
+      responses:
+        "200": {description: OK, schema: {type: array, items: {$ref: "#/definitions/Merchant"}}}
+  /merchants/{merchantId}/tasks:
+    get:
+      operationId: ListTasks
+      summary: List open onboarding tasks
+      description: Lists open follow-up tasks for a merchant.
+      parameters:
+        - {name: merchantId, in: path, required: true, type: string, x-ms-summary: Merchant ID}
+      responses:
+        "200": {description: OK, schema: {type: array, items: {$ref: "#/definitions/Task"}}}
+    post:
+      operationId: CreateTask
+      summary: Create follow-up task
+      description: Creates a follow-up task for the merchant's account manager. Only call after the user has confirmed the task text and due date.
+      parameters:
+        - {name: merchantId, in: path, required: true, type: string, x-ms-summary: Merchant ID}
+        - name: body
+          in: body
+          required: true
+          schema: {$ref: "#/definitions/NewTask"}
+      responses:
+        "201": {description: Created, schema: {$ref: "#/definitions/Task"}}
+definitions:
+  Merchant:
+    type: object
+    properties:
+      merchantId: {type: string}
+      legalName: {type: string}
+      country: {type: string}
+      stage: {type: string, enum: [Application, KYC review, Risk review, Contract, Live, Rejected]}
+      riskTier: {type: string, enum: [Low, Medium, High]}
+      missingDocuments: {type: array, items: {type: string}}
+      accountManager: {type: string}
+      lastUpdated: {type: string, format: date}
+  Task:
+    type: object
+    properties:
+      taskId: {type: string}
+      title: {type: string}
+      dueDate: {type: string, format: date}
+      status: {type: string}
+  NewTask:
+    type: object
+    required: [title, dueDate]
+    properties:
+      title: {type: string, maxLength: 120}
+      dueDate: {type: string, format: date}

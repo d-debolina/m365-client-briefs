@@ -1,0 +1,26 @@
+merchantId,legalName,country,stage,riskTier,missingDocuments,accountManager,lastUpdated
+MER-10001,Alpine Coffee Roasters GmbH,AT,Risk review,High,Processing history; Proof of address; Bank statement (3 months),David Kim,2026-11-09
+MER-10002,Bluewave Travel Ltd,NL,Live,Medium,,Ben Okafor,2026-11-18
+MER-10003,Cedar & Co Furniture Ltd,DE,Application,Low,UBO declaration; Bank statement (3 months); PCI SAQ,Ben Okafor,2026-11-02
+MER-10004,Danube Bikes GmbH,DE,Contract,Low,,Chloe Martin,2026-11-13
+MER-10005,Edelweiss Pharmacy Ltd,AT,Live,Low,,Ana Ruiz,2026-11-17
+MER-10006,Fjord Outdoor Ltd,NL,KYC review,High,PCI SAQ; Certificate of incorporation,Chloe Martin,2026-11-18
+MER-10007,Granite Games GmbH,US,KYC review,Medium,Certificate of incorporation; Director ID; Proof of address,David Kim,2026-11-14
+MER-10008,Harbour Fish Market Ltd,NL,Live,Low,,David Kim,2026-11-18
+MER-10009,Ivy Yoga Studio Ltd,IE,Application,Low,Proof of address; PCI SAQ; Processing history,Chloe Martin,2026-11-13
+MER-10010,Juniper Books GmbH,AT,Live,Low,,Chloe Martin,2026-11-12
+MER-10011,Kestrel Electronics Ltd,NL,Risk review,Low,UBO declaration; Certificate of incorporation; Bank statement (3 months),Ana Ruiz,2026-11-08
+MER-10012,Linden Bakery Ltd,AT,Live,Low,,Ana Ruiz,2026-11-18
+MER-10013,Marble Fitness GmbH,AT,KYC review,Low,Director ID,David Kim,2026-11-12
+MER-10014,Nova Tickets Ltd,AT,Live,Low,,Chloe Martin,2026-11-07
+MER-10015,Orchard Organics Ltd,NL,Risk review,Low,PCI SAQ; Processing history,Ben Okafor,2026-11-15
+MER-10016,Pine Ridge Hotel GmbH,IE,Rejected,Low,,Ben Okafor,2026-11-01
+MER-10017,Quartz Jewellery Ltd,IE,Rejected,Low,,Ana Ruiz,2026-11-17
+MER-10018,Riverbend Wines Ltd,US,Application,Low,Proof of address; UBO declaration; Director ID,Chloe Martin,2026-11-09
+MER-10019,Saffron Kitchen GmbH,DE,Live,Medium,,David Kim,2026-11-16
+MER-10020,Tidal Surf Shop Ltd,IE,Live,Medium,,David Kim,2026-11-06
+MER-10021,Umber Art Supplies Ltd,US,Risk review,Medium,Certificate of incorporation; UBO declaration; Website T&Cs,David Kim,2026-11-07
+MER-10022,Vale Pet Care GmbH,US,Live,Low,,Ana Ruiz,2026-11-01
+MER-10023,Willow Florist Ltd,DE,KYC review,Low,Website T&Cs; Proof of address,David Kim,2026-11-02
+MER-10024,Xylo Music Ltd,US,Contract,Medium,,Chloe Martin,2026-11-02
+MER-10025,Yarrow Tea House GmbH,US,Risk review,Low,Proof of address; Bank statement (3 months); PCI SAQ,Chloe Martin,2026-11-13
