@@ -1,0 +1,8 @@
+check,pass_rule
+Specific first line,"References Trigger/Notes or industry pain, nothing invented"
+Length,≤ 110 words
+Language,Matches city rule
+Opt-out line,Present
+No hallucinated numbers,Only the Offer.Proof number
+DNC respected,No draft for 'Do not contact'
+Tone,"No buzzwords, no emojis"

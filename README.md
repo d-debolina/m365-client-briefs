@@ -27,6 +27,7 @@ seen on a freelance marketplace and rebuilds it with Microsoft 365, Power Platfo
 | 15 | **CARGO** – Cloud Attachments Routed to Guarded Objects | Power Pages large file uploads with Azure Blob Storage | `day-15-cargo-power-pages-large-files` |
 | 16 | **PLAZA** – People, Links, Announcements, Zones, Analytics | Cluttered team site to modern intranet: audit, IA, home page, launch | `day-16-plaza-modern-intranet-redesign` |
 | 17 | **VAULT** – Validate, Archive, Unify, Legal-hold, Trace | Third-party archive into Purview eDiscovery with Graph automation and hash checks | `day-17-vault-third-party-archive-purview` |
+| 18 | **PITCH** – Personalised, Inspected, Tailored, Checked, Human-sent | AI-drafted B2B outreach from Excel with Outlook drafts and human review | `day-18-pitch-b2b-outreach-drafts` |
 
 ## Licence
 Content: CC BY 4.0. Code: MIT.
