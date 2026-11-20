@@ -24,6 +24,7 @@ seen on a freelance marketplace and rebuilds it with Microsoft 365, Power Platfo
 | 12 | **LEDGER** – Lookup, Engage, Document, Guide, Escalate, Report | Fintech onboarding agent: SharePoint knowledge + custom CRM connector + governance | `day-12-ledger-fintech-crm-agent` |
 | 13 | **MOVER** – Map, Organise, Verify, Export, Redirect | WordPress intranet to SharePoint: IA, term set, PnP migration script | `day-13-mover-wordpress-to-sharepoint` |
 | 14 | **BRIDGE** – Bound to Role, Identity & Data, Guarded End-to-end | Copilot Studio agent in any web app with SSO, signed context and per-user MCP tools | `day-14-bridge-agent-in-any-web-app` |
+| 15 | **CARGO** – Cloud Attachments Routed to Guarded Objects | Power Pages large file uploads with Azure Blob Storage | `day-15-cargo-power-pages-large-files` |
 
 ## Licence
 Content: CC BY 4.0. Code: MIT.

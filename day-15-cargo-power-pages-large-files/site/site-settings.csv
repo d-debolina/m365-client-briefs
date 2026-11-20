@@ -1,0 +1,10 @@
+name,value,why
+FileStorage/CloudStorageContainerName,pp-attachments,Timeline control: container name
+FileStorage/CloudStorageAccount,<connection string from Key Vault / Access keys>,Timeline control only. Prefer RBAC-based form attachments where possible
+Site/FileManagement/EnableWebAPI,true,Only if you build a custom uploader with the Azure File Web API
+Site/FileManagement/BlobStorageAccountName,stcargodemo12345,Web API uploader
+Site/FileManagement/BlobStorageContainerName,pp-attachments,Web API uploader
+Site/FileManagement/SupportedFileType,".pdf,.jpg,.jpeg,.png,.zip,.mp4","Allow-list, never 'everything'"
+Site/FileManagement/SupportedMimeType,application/pdf;image/jpeg;image/png;application/zip;video/mp4,Allow-list
+Site/FileManagement/MaxFileSize,2097152,KB (2 GB) for this demo; max 10 GB
+Site/FileManagement/DownloadSASUriExpiryTimeSpan,00:05:00,Short-lived download links
