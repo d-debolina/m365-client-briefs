@@ -17,6 +17,8 @@ seen on a freelance marketplace and rebuilds it with Microsoft 365, Power Platfo
 | 5 | **SPRINKLE** – Site & Property Reports, INspections, Kit for Landscape Experts | Offline iPad inspection app with branded PDF reports | `day-05-sprinkle-field-inspections` |
 | 6 | **WARDEN** – Watch, Audit, Restrict & Detect ENterprise agents | Inventory, risk rules and a runtime guard for Copilot Studio agents | `day-06-warden-agent-guard` |
 | 7 | **SCOUT** – Survey, Classify, Order Use-cases, Then build | AI agent readiness audit kit | `day-07-scout-agent-readiness-audit` |
+| 8 | **TRIAD** – Three Routed, Independent Agents, Delivered | Multi-agent Copilot Studio: child vs connected agents with shared state | `day-08-triad-multi-agent` |
+| 9 | **SHELF** – Sync, Health, Explorer & Library Fixes | File server to SharePoint: readiness scan, sync and Copilot fixes | `day-09-shelf-fileserver-to-sharepoint` |
 
 ## Licence
 Content: CC BY 4.0. Code: MIT.

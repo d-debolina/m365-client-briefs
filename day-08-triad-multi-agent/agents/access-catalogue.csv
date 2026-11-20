@@ -1,0 +1,9 @@
+resource,type,owner_role,auto_approve
+Finance SharePoint site,SharePoint,Finance lead,No
+Contoso-Projects team,Teams,Team owner,Yes
+Power BI Pro,Licence,IT licensing,No
+Visio,Software,IT licensing,Yes
+HR dashboard,Power BI,HR analytics lead,No
+Travel tool,SaaS,Travel desk,Yes
+GitHub Copilot,Licence,Engineering lead,No
+Local admin rights,Device,IT security,No

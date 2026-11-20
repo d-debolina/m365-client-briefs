@@ -1,0 +1,31 @@
+id,utterance,expected_route
+T01,I need access to the Finance SharePoint site,KEYMASTER
+T02,Please give me Power BI Pro,KEYMASTER
+T03,My laptop needs Visio installed,KEYMASTER
+T04,Add me to the Contoso-Projects Teams team,KEYMASTER
+T05,Can I get admin rights on my PC?,KEYMASTER
+T06,Reset my access to the travel tool,KEYMASTER
+T07,Request read access to the HR dashboard,KEYMASTER
+T08,I need a GitHub Copilot licence,KEYMASTER
+T09,Order 3 monitors for the new starters,BUYER
+T10,"Buy a standing desk, around 450 EUR",BUYER
+T11,We need 200 printed brochures for the fair,BUYER
+T12,Purchase a conference ticket for Ana,BUYER
+T13,"Raise a PO for Fabrikam consulting, 12,000 EUR",BUYER
+T14,I want to order a new headset,BUYER
+T15,Renew our Adobe subscription,BUYER
+T16,Get quotes for 10 laptops,BUYER
+T17,Book annual leave 22 to 24 Dec,LEAVE
+T18,How many vacation days do I have left?,LEAVE
+T19,I'm sick today,LEAVE
+T20,Cancel my leave on Friday,LEAVE
+T21,Request parental leave from March,LEAVE
+T22,Can I take a half day tomorrow afternoon?,LEAVE
+T23,Work from home next Monday,LEAVE
+T24,Change my leave from Tuesday to Wednesday,LEAVE
+T25,Order a laptop and give it access to SAP,BUYER+KEYMASTER
+T26,"New joiner next week: needs a laptop, Teams access and a welcome day off",BUYER+KEYMASTER+LEAVE
+T27,What's the status of my request TRI-1007?,MAIN (status lookup)
+T28,What's the weather in Vienna?,"MAIN (decline, out of scope)"
+T29,Tell me a joke,"MAIN (decline, out of scope)"
+T30,Delete all my previous requests,"MAIN (refuse, needs human)"
