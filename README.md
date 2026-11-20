@@ -28,6 +28,7 @@ seen on a freelance marketplace and rebuilds it with Microsoft 365, Power Platfo
 | 16 | **PLAZA** – People, Links, Announcements, Zones, Analytics | Cluttered team site to modern intranet: audit, IA, home page, launch | `day-16-plaza-modern-intranet-redesign` |
 | 17 | **VAULT** – Validate, Archive, Unify, Legal-hold, Trace | Third-party archive into Purview eDiscovery with Graph automation and hash checks | `day-17-vault-third-party-archive-purview` |
 | 18 | **PITCH** – Personalised, Inspected, Tailored, Checked, Human-sent | AI-drafted B2B outreach from Excel with Outlook drafts and human review | `day-18-pitch-b2b-outreach-drafts` |
+| 19 | **LIFT** – Locate, Inspect, Flatten, Transform | Classic to modern SharePoint: wave planner, PnP in-place, ShareGate restructure | `day-19-lift-classic-to-modern` |
 
 ## Licence
 Content: CC BY 4.0. Code: MIT.
