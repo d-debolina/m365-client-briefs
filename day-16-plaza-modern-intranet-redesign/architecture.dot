@@ -1,0 +1,20 @@
+digraph G {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=20, labelloc=t, pad=0.4, nodesep=0.45, ranksep=0.7, bgcolor="white",
+         label=<<b>Day 16 · PLAZA — People, Links, Announcements, Zones, Analytics</b><br/><font point-size="13" color="#6B7280">From cluttered team site to modern intranet: audit, IA, home page anatomy, brand and launch<br/><font point-size="11"><font color="#7C3AED">■ Power Platform</font>   <font color="#0369A1">■ Microsoft 365</font>   <font color="#0F766E">■ Azure</font>   <font color="#C2410C">■ Copilot / AI</font>   <font color="#A16207">■ Repo files / outputs</font></font></font>>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, margin="0.18,0.10", penwidth=1.4];
+  edge  [fontname="Helvetica", fontsize=10, color="#4B5563", fontcolor="#374151", arrowsize=0.7];
+  old [label=<<b>Old team site</b><br/><font point-size="10">subsites · wiki pages · 5-level nav</font>>, fillcolor="#F3F4F6", color="#6B7280"];
+  audit [label=<<b>Audit</b><br/><font point-size="10">keep · rebuild · archive</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  subgraph cluster_spo { label=<<b>SharePoint Online</b>>; fontsize=13; style="rounded,dashed"; color="#0369A1"; fontcolor="#0369A1";
+  home [label=<<b>Home site (hub)</b><br/><font point-size="10">news · events · top tasks · mega menu</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  dept [label=<<b>Department comm sites</b><br/><font point-size="10">HR · IT · Finance · Ops</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  team [label=<<b>Team sites</b><br/><font point-size="10">collaboration (private)</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  brand [label=<<b>Brand center</b><br/><font point-size="10">theme · fonts · images</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  }
+  viva [label=<<b>Viva Connections</b><br/><font point-size="10">Teams app · dashboard</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  staff [label=<<b>Staff</b><br/><font point-size="10">browser · Teams · mobile</font>>, fillcolor="#F3F4F6", color="#6B7280"];
+  an [label=<<b>Analytics</b><br/><font point-size="10">site usage · search · feedback</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  old -> audit; audit -> dept [label="rebuild on templates"]; audit -> home [label="top tasks"];
+  brand -> home [style=dotted]; home -> dept [dir=none, label="hub"]; dept -> team [style=dashed, label="links"];
+  home -> viva; staff -> viva; staff -> home; home -> an [style=dashed]; an -> audit [style=dashed, label="monthly"];
+}

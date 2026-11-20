@@ -1,0 +1,50 @@
+{
+  "hub": "Contoso Intranet",
+  "megamenu": [
+    {
+      "label": "News & events",
+      "links": [
+        "Company news",
+        "Events calendar",
+        "Town hall recordings"
+      ]
+    },
+    {
+      "label": "Working here",
+      "links": [
+        "HR & benefits",
+        "Learning",
+        "Wellbeing",
+        "Onboarding"
+      ]
+    },
+    {
+      "label": "Tools & IT",
+      "links": [
+        "IT help",
+        "Request software",
+        "Security tips"
+      ]
+    },
+    {
+      "label": "Departments",
+      "links": [
+        "Finance",
+        "Operations",
+        "Marketing",
+        "Facilities"
+      ]
+    },
+    {
+      "label": "Policies",
+      "links": [
+        "All policies (by topic)"
+      ]
+    }
+  ],
+  "rules": [
+    "Max 5 top-level items, max 2 levels",
+    "Labels = what people look for, not org chart names",
+    "Audience-target 'Departments' links where useful"
+  ]
+}

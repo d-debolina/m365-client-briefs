@@ -1,0 +1,7 @@
+site,type,hub,owner,audience,purpose,key content,template
+Intranet home,Communication site (home site),Is the hub,Comms,Everyone,"News, events, top tasks","News, Events, Quick links, Highlighted content",Home
+HR & benefits,Communication site,Intranet,HR lead,Everyone,"Policies, benefits, forms","Policy pages, How-to pages, Forms",Department landing
+IT help,Communication site,Intranet,IT ops,Everyone,"Self-service, requests","How-to pages, request links",Department landing
+Finance,Communication site,Intranet,Finance lead,Everyone (read) / Finance (edit),"Expenses, purchasing",How-to pages,Department landing
+Finance team,Team site (M365 group),Intranet,Finance lead,Finance only,Collaboration,"Documents, Planner",Team
+Operations,Communication site,Intranet,Ops lead,Everyone,Procedures,Policy pages,Department landing

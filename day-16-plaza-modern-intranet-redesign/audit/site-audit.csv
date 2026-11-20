@@ -1,0 +1,141 @@
+id,type,title,area,nav_depth,last_modified,views_90d,broken_links,owner,classic,decision
+1,Page,Random Team 1,Random,1,2024-05-22,7,1,comms,no,Keep & tidy
+2,Subsite page,Marketing Policies 2,Marketing,3,2025-06-29,6,0,comms,yes,Rebuild on template
+3,Page,Marketing Contacts 3,Marketing,3,2026-06-18,6,0,,no,Keep & tidy
+4,Wiki page,HR Policies 4,HR,2,2024-06-20,10,0,hr.lead,yes,Rebuild on template
+5,Page,Facilities Team 5,Facilities,3,2022-07-04,2,2,comms,no,Archive
+6,Page,Marketing Docs 6,Marketing,1,2023-11-15,2,2,hr.lead,no,Archive
+7,Page,Random Team 7,Random,3,2025-10-30,6,0,,no,Keep & tidy
+8,Subsite page,Random Team 8,Random,3,2022-12-13,0,0,it.ops,yes,Archive
+9,Subsite page,IT Team 9,IT,5,2024-07-09,11,0,,yes,Rebuild on template
+10,Subsite page,Ops Home 10,Ops,4,2021-03-23,2,0,comms,yes,Archive
+11,Subsite page,Facilities Calendar 11,Facilities,5,2023-09-24,3,5,comms,yes,Rebuild on template
+12,Wiki page,IT Docs 12,IT,4,2025-07-14,5,0,,yes,Rebuild on template
+13,Page,Facilities Home 13,Facilities,3,2023-08-08,0,0,comms,no,Archive
+14,Subsite page,Marketing Forms 14,Marketing,4,2025-06-27,10,0,,yes,Rebuild on template
+15,Page,Finance Archive 15,Finance,3,2025-05-15,7,5,it.ops,no,Rebuild on template
+16,Library,Marketing Forms 16,Marketing,3,2026-05-04,5,5,hr.lead,no,Rebuild on template
+17,List,Facilities Archive 17,Facilities,5,2026-01-11,6,0,hr.lead,no,Keep & tidy
+18,Page,Random Forms 18,Random,2,2024-08-14,23,0,it.ops,no,Keep & tidy
+19,Library,Ops Team 19,Ops,2,2024-10-19,7,1,,no,Keep & tidy
+20,Subsite page,Facilities Policies 20,Facilities,4,2022-01-02,3,0,,yes,Rebuild on template
+21,Wiki page,IT Team 21,IT,2,2022-10-12,2,2,comms,yes,Archive
+22,Library,Ops FAQ 22,Ops,3,2023-10-24,4,2,,no,Rebuild on template
+23,Wiki page,IT Home 23,IT,3,2022-12-23,2,0,it.ops,yes,Archive
+24,Subsite page,HR FAQ 24,HR,1,2024-03-22,4,5,hr.lead,yes,Rebuild on template
+25,Library,Marketing Team 25,Marketing,2,2024-10-27,6,5,,no,Rebuild on template
+26,Subsite page,HR Contacts 26,HR,2,2025-07-24,7,0,hr.lead,yes,Rebuild on template
+27,Subsite page,HR Calendar 27,HR,5,2024-11-04,5,0,,yes,Rebuild on template
+28,List,Marketing Contacts 28,Marketing,4,2024-03-21,4,0,it.ops,no,Keep & tidy
+29,List,Random FAQ 29,Random,1,2025-01-05,14,0,,no,Keep & tidy
+30,Page,Leadership FAQ 30,Leadership,1,2022-12-06,0,0,fin.team,no,Archive
+31,Subsite page,IT Old 31,IT,2,2022-12-31,1,2,it.ops,yes,Archive
+32,Page,Finance Docs 32,Finance,1,2021-01-08,3,2,,no,Rebuild on template
+33,Page,Finance Home 33,Finance,3,2022-08-16,3,0,comms,no,Keep & tidy
+34,Wiki page,Facilities Archive 34,Facilities,4,2024-09-25,5,0,hr.lead,yes,Rebuild on template
+35,Subsite page,Random Forms 35,Random,1,2024-11-24,5,0,it.ops,yes,Rebuild on template
+36,Library,HR Calendar 36,HR,3,2023-10-15,3,0,fin.team,no,Keep & tidy
+37,Library,Leadership Forms 37,Leadership,3,2026-06-21,5,0,it.ops,no,Keep & tidy
+38,Page,Facilities Team 38,Facilities,5,2026-04-26,7,0,,no,Keep & tidy
+39,Page,Finance Contacts 39,Finance,3,2022-11-21,1,2,comms,no,Archive
+40,List,Facilities Home 40,Facilities,1,2020-08-20,0,2,fin.team,no,Archive
+41,Page,Finance Contacts 41,Finance,4,2025-03-03,11,0,it.ops,no,Keep & tidy
+42,Page,Facilities Contacts 42,Facilities,3,2020-11-23,4,2,,no,Rebuild on template
+43,Subsite page,Finance Policies 43,Finance,3,2023-08-27,2,5,comms,yes,Archive
+44,Library,Leadership Policies 44,Leadership,3,2026-02-24,20,0,comms,no,Keep & tidy
+45,List,Random Archive 45,Random,3,2026-06-19,5,1,hr.lead,no,Keep & tidy
+46,Wiki page,Ops Home 46,Ops,5,2025-05-08,5,0,,yes,Rebuild on template
+47,Wiki page,Facilities Forms 47,Facilities,3,2025-10-29,10,1,fin.team,yes,Rebuild on template
+48,Wiki page,IT Home 48,IT,3,2022-11-04,2,0,hr.lead,yes,Archive
+49,Library,Marketing Forms 49,Marketing,5,2024-12-11,6,2,,no,Rebuild on template
+50,List,IT Calendar 50,IT,1,2025-04-28,13,5,hr.lead,no,Rebuild on template
+51,Page,IT Home 51,IT,1,2025-12-19,8,0,comms,no,Keep & tidy
+52,Page,Facilities Archive 52,Facilities,4,2021-10-09,2,1,it.ops,no,Archive
+53,Page,Ops FAQ 53,Ops,2,2025-03-18,6,1,comms,no,Keep & tidy
+54,Page,IT FAQ 54,IT,5,2025-11-08,11,1,,no,Keep & tidy
+55,Subsite page,Marketing Archive 55,Marketing,3,2020-12-24,2,5,hr.lead,yes,Archive
+56,Wiki page,Facilities Home 56,Facilities,4,2025-08-31,6,0,hr.lead,yes,Rebuild on template
+57,Page,Random Calendar 57,Random,3,2019-05-17,3,2,,no,Rebuild on template
+58,List,Finance Forms 58,Finance,1,2023-02-25,4,0,,no,Keep & tidy
+59,Page,Marketing Home 59,Marketing,3,2025-07-27,8,0,,no,Keep & tidy
+60,Page,Random Old 60,Random,2,2024-09-06,11,0,it.ops,no,Keep & tidy
+61,Subsite page,HR Home 61,HR,2,2020-05-02,3,5,comms,yes,Rebuild on template
+62,Library,Finance Contacts 62,Finance,4,2026-08-14,29,5,,no,Rebuild on template
+63,Page,IT Contacts 63,IT,2,2021-07-14,1,1,hr.lead,no,Archive
+64,Page,Random Policies 64,Random,3,2026-03-25,6,5,hr.lead,no,Rebuild on template
+65,Wiki page,Ops Policies 65,Ops,2,2025-06-30,92,5,hr.lead,yes,Rebuild on template
+66,Page,Leadership Home 66,Leadership,3,2025-12-18,5,5,,no,Rebuild on template
+67,Wiki page,Marketing Policies 67,Marketing,4,2024-10-16,5,0,hr.lead,yes,Rebuild on template
+68,Library,HR Old 68,HR,3,2025-07-28,5,0,it.ops,no,Keep & tidy
+69,List,Marketing Docs 69,Marketing,2,2025-06-17,10,2,comms,no,Rebuild on template
+70,List,IT Calendar 70,IT,2,2023-10-21,3,5,fin.team,no,Rebuild on template
+71,List,Finance Forms 71,Finance,5,2025-08-25,5,5,fin.team,no,Rebuild on template
+72,Library,Ops Policies 72,Ops,1,2025-08-19,7,0,,no,Keep & tidy
+73,Wiki page,Leadership Policies 73,Leadership,2,2022-02-12,4,5,comms,yes,Rebuild on template
+74,Page,IT Docs 74,IT,2,2026-07-17,12,0,,no,Keep & tidy
+75,Library,Facilities FAQ 75,Facilities,2,2024-12-15,6,0,comms,no,Keep & tidy
+76,Page,Facilities Archive 76,Facilities,4,2022-09-06,4,0,fin.team,no,Keep & tidy
+77,Page,Facilities Docs 77,Facilities,3,2023-01-09,2,1,it.ops,no,Archive
+78,Page,Finance Contacts 78,Finance,3,2024-11-19,7,2,comms,no,Rebuild on template
+79,Page,Ops Contacts 79,Ops,3,2024-08-12,63,2,it.ops,no,Rebuild on template
+80,Page,HR Team 80,HR,5,2024-03-17,1,0,hr.lead,no,Archive
+81,Wiki page,Random Calendar 81,Random,5,2026-03-10,10,0,hr.lead,yes,Rebuild on template
+82,Page,IT Contacts 82,IT,4,2023-08-28,2,0,fin.team,no,Archive
+83,Page,Ops Archive 83,Ops,2,2024-08-10,6,5,fin.team,no,Rebuild on template
+84,Page,IT Forms 84,IT,4,2022-03-03,3,0,hr.lead,no,Keep & tidy
+85,Page,Leadership Forms 85,Leadership,3,2024-07-26,5,5,,no,Rebuild on template
+86,Page,IT Policies 86,IT,4,2023-09-05,3,0,,no,Keep & tidy
+87,Subsite page,Leadership Archive 87,Leadership,3,2023-05-04,0,5,fin.team,yes,Archive
+88,Library,Finance Calendar 88,Finance,3,2025-10-30,5,0,fin.team,no,Keep & tidy
+89,Page,HR Contacts 89,HR,3,2022-06-02,2,0,hr.lead,no,Archive
+90,List,Marketing Archive 90,Marketing,3,2023-06-14,1,1,,no,Archive
+91,Page,Marketing Old 91,Marketing,3,2021-11-13,3,0,fin.team,no,Keep & tidy
+92,Page,Leadership Home 92,Leadership,3,2022-05-02,2,0,it.ops,no,Archive
+93,List,Leadership Old 93,Leadership,3,2024-09-12,5,0,hr.lead,no,Keep & tidy
+94,Page,Random Old 94,Random,3,2022-07-12,3,0,fin.team,no,Keep & tidy
+95,Wiki page,Marketing Old 95,Marketing,3,2021-08-15,3,0,comms,yes,Rebuild on template
+96,Page,Marketing Old 96,Marketing,3,2025-07-28,41,0,,no,Keep & tidy
+97,List,HR Team 97,HR,3,2022-10-01,2,0,,no,Archive
+98,Page,Facilities Policies 98,Facilities,5,2023-01-06,3,0,hr.lead,no,Keep & tidy
+99,Library,Ops Home 99,Ops,3,2023-06-02,4,5,fin.team,no,Rebuild on template
+100,Page,Random Archive 100,Random,5,2020-05-25,4,0,fin.team,no,Keep & tidy
+101,Page,Leadership Contacts 101,Leadership,3,2026-03-02,6,1,,no,Keep & tidy
+102,List,Random Docs 102,Random,3,2025-12-12,16,2,hr.lead,no,Rebuild on template
+103,Page,IT Forms 103,IT,3,2024-05-14,0,0,,no,Archive
+104,Library,HR Contacts 104,HR,1,2026-05-01,15,0,,no,Keep & tidy
+105,Page,IT Old 105,IT,1,2025-09-13,7,2,fin.team,no,Rebuild on template
+106,Page,IT Contacts 106,IT,5,2026-07-29,5,0,,no,Keep & tidy
+107,Library,Facilities Team 107,Facilities,3,2021-11-17,0,0,it.ops,no,Archive
+108,Page,IT Forms 108,IT,1,2025-12-24,23,2,it.ops,no,Rebuild on template
+109,Wiki page,Marketing Home 109,Marketing,4,2026-03-15,5,0,comms,yes,Rebuild on template
+110,Page,IT Home 110,IT,4,2023-10-23,0,5,fin.team,no,Archive
+111,Page,Ops Contacts 111,Ops,5,2025-08-09,20,2,,no,Rebuild on template
+112,Library,Random Team 112,Random,3,2025-06-10,39,0,it.ops,no,Keep & tidy
+113,Page,HR Old 113,HR,3,2025-09-29,9,5,hr.lead,no,Rebuild on template
+114,Subsite page,Marketing FAQ 114,Marketing,3,2021-12-04,4,2,,yes,Rebuild on template
+115,Page,Random Old 115,Random,4,2024-06-20,7,0,it.ops,no,Keep & tidy
+116,Page,IT FAQ 116,IT,5,2025-05-16,12,1,it.ops,no,Keep & tidy
+117,Page,Marketing FAQ 117,Marketing,3,2024-03-18,4,0,it.ops,no,Keep & tidy
+118,Library,HR Home 118,HR,3,2022-09-13,1,0,comms,no,Archive
+119,Wiki page,Leadership Docs 119,Leadership,4,2021-07-19,3,5,comms,yes,Rebuild on template
+120,Page,HR FAQ 120,HR,4,2024-02-04,2,5,hr.lead,no,Archive
+121,Wiki page,Ops Calendar 121,Ops,4,2022-09-20,0,0,,yes,Archive
+122,Library,Random Home 122,Random,2,2025-11-10,7,5,,no,Rebuild on template
+123,Page,IT Home 123,IT,3,2024-06-14,6,1,fin.team,no,Keep & tidy
+124,Page,Ops Old 124,Ops,2,2025-08-09,6,0,comms,no,Keep & tidy
+125,Page,Ops Archive 125,Ops,5,2026-06-26,10,0,fin.team,no,Keep & tidy
+126,List,Ops Contacts 126,Ops,3,2025-09-04,6,5,it.ops,no,Rebuild on template
+127,Page,Ops Calendar 127,Ops,2,2021-06-27,3,5,,no,Rebuild on template
+128,Page,Leadership Forms 128,Leadership,4,2025-09-23,14,0,fin.team,no,Keep & tidy
+129,Library,Leadership Contacts 129,Leadership,3,2024-06-11,7,1,hr.lead,no,Keep & tidy
+130,Wiki page,Leadership Team 130,Leadership,1,2023-08-17,1,1,it.ops,yes,Archive
+131,Wiki page,IT FAQ 131,IT,4,2025-04-12,20,2,,yes,Rebuild on template
+132,Page,Ops Docs 132,Ops,5,2026-03-14,25,0,,no,Keep & tidy
+133,Page,Facilities Home 133,Facilities,3,2023-06-16,1,2,,no,Archive
+134,List,IT Archive 134,IT,3,2025-03-21,7,0,fin.team,no,Keep & tidy
+135,Subsite page,Finance Policies 135,Finance,1,2022-01-11,1,0,,yes,Archive
+136,Wiki page,Facilities Home 136,Facilities,3,2021-10-16,4,0,it.ops,yes,Rebuild on template
+137,Wiki page,Leadership Archive 137,Leadership,3,2023-10-21,3,0,comms,yes,Rebuild on template
+138,Page,Facilities Contacts 138,Facilities,5,2024-10-28,6,5,,no,Rebuild on template
+139,Library,Ops Old 139,Ops,3,2025-09-11,9,1,comms,no,Keep & tidy
+140,Library,IT Contacts 140,IT,3,2024-11-06,6,2,fin.team,no,Rebuild on template
