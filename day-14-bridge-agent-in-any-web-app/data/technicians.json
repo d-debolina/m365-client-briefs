@@ -1,0 +1,27 @@
+[
+  {
+    "upn": "ana@msp.example",
+    "name": "Ana",
+    "entities": [
+      "E1",
+      "E2"
+    ]
+  },
+  {
+    "upn": "ben@msp.example",
+    "name": "Ben",
+    "entities": [
+      "E3"
+    ]
+  },
+  {
+    "upn": "chloe@msp.example",
+    "name": "Chloe",
+    "entities": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "role": "supervisor"
+  }
+]

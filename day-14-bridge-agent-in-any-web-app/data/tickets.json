@@ -1,0 +1,386 @@
+[
+  {
+    "id": 1001,
+    "entity": "E1",
+    "customer": "Contoso Dental",
+    "title": "MFA phone changed",
+    "status": "Assigned",
+    "priority": "Medium",
+    "followups": [
+      "Tech: note 1 about 'mfa phone changed'",
+      "User: note 2 about 'mfa phone changed'",
+      "Tech: note 3 about 'mfa phone changed'"
+    ]
+  },
+  {
+    "id": 1002,
+    "entity": "E2",
+    "customer": "Fabrikam Logistics",
+    "title": "Phishing email reported",
+    "status": "Solved",
+    "priority": "Medium",
+    "followups": [
+      "Tech: note 1 about 'phishing email reported'"
+    ]
+  },
+  {
+    "id": 1003,
+    "entity": "E1",
+    "customer": "Contoso Dental",
+    "title": "Teams calls drop",
+    "status": "Pending",
+    "priority": "Medium",
+    "followups": [
+      "User: note 1 about 'teams calls drop'",
+      "User: note 2 about 'teams calls drop'",
+      "Tech: note 3 about 'teams calls drop'"
+    ]
+  },
+  {
+    "id": 1004,
+    "entity": "E1",
+    "customer": "Contoso Dental",
+    "title": "Outlook keeps asking for password",
+    "status": "New",
+    "priority": "Low",
+    "followups": [
+      "User: note 1 about 'outlook keeps asking for password'",
+      "User: note 2 about 'outlook keeps asking for password'",
+      "Tech: note 3 about 'outlook keeps asking for password'"
+    ]
+  },
+  {
+    "id": 1005,
+    "entity": "E1",
+    "customer": "Contoso Dental",
+    "title": "Backup job failed",
+    "status": "Solved",
+    "priority": "High",
+    "followups": [
+      "User: note 1 about 'backup job failed'",
+      "User: note 2 about 'backup job failed'",
+      "Tech: note 3 about 'backup job failed'",
+      "User: note 4 about 'backup job failed'"
+    ]
+  },
+  {
+    "id": 1006,
+    "entity": "E1",
+    "customer": "Contoso Dental",
+    "title": "Phishing email reported",
+    "status": "Assigned",
+    "priority": "Medium",
+    "followups": [
+      "User: note 1 about 'phishing email reported'",
+      "Tech: note 2 about 'phishing email reported'",
+      "Tech: note 3 about 'phishing email reported'",
+      "Tech: note 4 about 'phishing email reported'"
+    ]
+  },
+  {
+    "id": 1007,
+    "entity": "E1",
+    "customer": "Contoso Dental",
+    "title": "Printer offline on floor 2",
+    "status": "New",
+    "priority": "Medium",
+    "followups": [
+      "User: note 1 about 'printer offline on floor 2'",
+      "User: note 2 about 'printer offline on floor 2'",
+      "User: note 3 about 'printer offline on floor 2'"
+    ]
+  },
+  {
+    "id": 1008,
+    "entity": "E3",
+    "customer": "Northwind Law",
+    "title": "Backup job failed",
+    "status": "New",
+    "priority": "High",
+    "followups": [
+      "Tech: note 1 about 'backup job failed'"
+    ]
+  },
+  {
+    "id": 1009,
+    "entity": "E2",
+    "customer": "Fabrikam Logistics",
+    "title": "VPN disconnects every hour",
+    "status": "Solved",
+    "priority": "Medium",
+    "followups": [
+      "Tech: note 1 about 'vpn disconnects every hour'",
+      "Tech: note 2 about 'vpn disconnects every hour'",
+      "Tech: note 3 about 'vpn disconnects every hour'"
+    ]
+  },
+  {
+    "id": 1010,
+    "entity": "E2",
+    "customer": "Fabrikam Logistics",
+    "title": "MFA phone changed",
+    "status": "New",
+    "priority": "Medium",
+    "followups": [
+      "Tech: note 1 about 'mfa phone changed'",
+      "User: note 2 about 'mfa phone changed'",
+      "Tech: note 3 about 'mfa phone changed'",
+      "Tech: note 4 about 'mfa phone changed'"
+    ]
+  },
+  {
+    "id": 1011,
+    "entity": "E1",
+    "customer": "Contoso Dental",
+    "title": "MFA phone changed",
+    "status": "Assigned",
+    "priority": "Medium",
+    "followups": [
+      "Tech: note 1 about 'mfa phone changed'",
+      "User: note 2 about 'mfa phone changed'",
+      "Tech: note 3 about 'mfa phone changed'"
+    ]
+  },
+  {
+    "id": 1012,
+    "entity": "E2",
+    "customer": "Fabrikam Logistics",
+    "title": "Outlook keeps asking for password",
+    "status": "Pending",
+    "priority": "High",
+    "followups": [
+      "Tech: note 1 about 'outlook keeps asking for password'",
+      "Tech: note 2 about 'outlook keeps asking for password'",
+      "Tech: note 3 about 'outlook keeps asking for password'"
+    ]
+  },
+  {
+    "id": 1013,
+    "entity": "E2",
+    "customer": "Fabrikam Logistics",
+    "title": "Disk almost full on file server",
+    "status": "Assigned",
+    "priority": "Low",
+    "followups": [
+      "Tech: note 1 about 'disk almost full on file server'",
+      "User: note 2 about 'disk almost full on file server'",
+      "Tech: note 3 about 'disk almost full on file server'",
+      "User: note 4 about 'disk almost full on file server'"
+    ]
+  },
+  {
+    "id": 1014,
+    "entity": "E1",
+    "customer": "Contoso Dental",
+    "title": "New starter needs laptop",
+    "status": "Pending",
+    "priority": "Low",
+    "followups": [
+      "Tech: note 1 about 'new starter needs laptop'"
+    ]
+  },
+  {
+    "id": 1015,
+    "entity": "E3",
+    "customer": "Northwind Law",
+    "title": "Teams calls drop",
+    "status": "Pending",
+    "priority": "Low",
+    "followups": [
+      "User: note 1 about 'teams calls drop'"
+    ]
+  },
+  {
+    "id": 1016,
+    "entity": "E1",
+    "customer": "Contoso Dental",
+    "title": "Outlook keeps asking for password",
+    "status": "Assigned",
+    "priority": "Medium",
+    "followups": [
+      "User: note 1 about 'outlook keeps asking for password'",
+      "User: note 2 about 'outlook keeps asking for password'",
+      "User: note 3 about 'outlook keeps asking for password'"
+    ]
+  },
+  {
+    "id": 1017,
+    "entity": "E3",
+    "customer": "Northwind Law",
+    "title": "Teams calls drop",
+    "status": "Pending",
+    "priority": "High",
+    "followups": [
+      "User: note 1 about 'teams calls drop'",
+      "User: note 2 about 'teams calls drop'",
+      "User: note 3 about 'teams calls drop'"
+    ]
+  },
+  {
+    "id": 1018,
+    "entity": "E2",
+    "customer": "Fabrikam Logistics",
+    "title": "Phishing email reported",
+    "status": "Solved",
+    "priority": "Low",
+    "followups": [
+      "Tech: note 1 about 'phishing email reported'",
+      "Tech: note 2 about 'phishing email reported'",
+      "User: note 3 about 'phishing email reported'",
+      "User: note 4 about 'phishing email reported'"
+    ]
+  },
+  {
+    "id": 1019,
+    "entity": "E3",
+    "customer": "Northwind Law",
+    "title": "Backup job failed",
+    "status": "Solved",
+    "priority": "Medium",
+    "followups": [
+      "Tech: note 1 about 'backup job failed'"
+    ]
+  },
+  {
+    "id": 1020,
+    "entity": "E1",
+    "customer": "Contoso Dental",
+    "title": "VPN disconnects every hour",
+    "status": "Assigned",
+    "priority": "Low",
+    "followups": [
+      "User: note 1 about 'vpn disconnects every hour'",
+      "Tech: note 2 about 'vpn disconnects every hour'"
+    ]
+  },
+  {
+    "id": 1021,
+    "entity": "E2",
+    "customer": "Fabrikam Logistics",
+    "title": "Phishing email reported",
+    "status": "Assigned",
+    "priority": "High",
+    "followups": [
+      "User: note 1 about 'phishing email reported'",
+      "User: note 2 about 'phishing email reported'",
+      "Tech: note 3 about 'phishing email reported'",
+      "Tech: note 4 about 'phishing email reported'"
+    ]
+  },
+  {
+    "id": 1022,
+    "entity": "E3",
+    "customer": "Northwind Law",
+    "title": "Backup job failed",
+    "status": "Solved",
+    "priority": "Low",
+    "followups": [
+      "User: note 1 about 'backup job failed'",
+      "User: note 2 about 'backup job failed'",
+      "User: note 3 about 'backup job failed'",
+      "User: note 4 about 'backup job failed'"
+    ]
+  },
+  {
+    "id": 1023,
+    "entity": "E1",
+    "customer": "Contoso Dental",
+    "title": "Outlook keeps asking for password",
+    "status": "Assigned",
+    "priority": "High",
+    "followups": [
+      "User: note 1 about 'outlook keeps asking for password'",
+      "Tech: note 2 about 'outlook keeps asking for password'",
+      "Tech: note 3 about 'outlook keeps asking for password'"
+    ]
+  },
+  {
+    "id": 1024,
+    "entity": "E2",
+    "customer": "Fabrikam Logistics",
+    "title": "Phishing email reported",
+    "status": "Pending",
+    "priority": "Low",
+    "followups": [
+      "User: note 1 about 'phishing email reported'",
+      "User: note 2 about 'phishing email reported'",
+      "User: note 3 about 'phishing email reported'"
+    ]
+  },
+  {
+    "id": 1025,
+    "entity": "E2",
+    "customer": "Fabrikam Logistics",
+    "title": "Printer offline on floor 2",
+    "status": "New",
+    "priority": "High",
+    "followups": [
+      "User: note 1 about 'printer offline on floor 2'",
+      "User: note 2 about 'printer offline on floor 2'"
+    ]
+  },
+  {
+    "id": 1026,
+    "entity": "E3",
+    "customer": "Northwind Law",
+    "title": "Shared mailbox missing",
+    "status": "New",
+    "priority": "Low",
+    "followups": [
+      "User: note 1 about 'shared mailbox missing'",
+      "User: note 2 about 'shared mailbox missing'",
+      "Tech: note 3 about 'shared mailbox missing'",
+      "Tech: note 4 about 'shared mailbox missing'"
+    ]
+  },
+  {
+    "id": 1027,
+    "entity": "E2",
+    "customer": "Fabrikam Logistics",
+    "title": "Disk almost full on file server",
+    "status": "New",
+    "priority": "Medium",
+    "followups": [
+      "Tech: note 1 about 'disk almost full on file server'"
+    ]
+  },
+  {
+    "id": 1028,
+    "entity": "E1",
+    "customer": "Contoso Dental",
+    "title": "Shared mailbox missing",
+    "status": "New",
+    "priority": "High",
+    "followups": [
+      "User: note 1 about 'shared mailbox missing'",
+      "Tech: note 2 about 'shared mailbox missing'"
+    ]
+  },
+  {
+    "id": 1029,
+    "entity": "E1",
+    "customer": "Contoso Dental",
+    "title": "Printer offline on floor 2",
+    "status": "Solved",
+    "priority": "Medium",
+    "followups": [
+      "Tech: note 1 about 'printer offline on floor 2'",
+      "Tech: note 2 about 'printer offline on floor 2'",
+      "Tech: note 3 about 'printer offline on floor 2'",
+      "User: note 4 about 'printer offline on floor 2'"
+    ]
+  },
+  {
+    "id": 1030,
+    "entity": "E2",
+    "customer": "Fabrikam Logistics",
+    "title": "VPN disconnects every hour",
+    "status": "Pending",
+    "priority": "High",
+    "followups": [
+      "User: note 1 about 'vpn disconnects every hour'",
+      "Tech: note 2 about 'vpn disconnects every hour'",
+      "User: note 3 about 'vpn disconnects every hour'"
+    ]
+  }
+]
