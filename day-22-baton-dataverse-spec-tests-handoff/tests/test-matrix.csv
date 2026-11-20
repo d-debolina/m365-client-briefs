@@ -1,0 +1,13 @@
+id,rule,scenario,expected,type
+T01,BL1,Create loan with DueBack = Out+30,Saved,Unit (business rule)
+T02,BL1,Create loan with DueBack = Out+31,Blocked with message,Unit
+T03,BL2,Second open loan on same asset via app,Blocked,Unit (plug-in)
+T04,BL2,Second open loan via Web API import,Blocked,Integration (API)
+T05,BL3,Create loan → asset Status = OnLoan,Updated in same transaction,Unit
+T06,BL3,Return loan → asset Available,Updated,Unit
+T07,BL4,Loan due tomorrow,Reminder email to borrower,Flow test
+T08,BL4,Loan 3 days overdue,Escalation to Stores in Teams,Flow test
+T09,SEC,Borrower opens another user's loan,Not visible,Security
+T10,SEC,Borrower sees PurchasePrice,Hidden (column security),Security
+T11,UI,Stores checks out an asset in the model-driven app,"≤ 4 clicks, asset status updates",UI (Test Engine)
+T12,ALM,Import managed solution into Test,No errors; env variables prompted,Pipeline

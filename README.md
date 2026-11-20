@@ -31,6 +31,7 @@ seen on a freelance marketplace and rebuilds it with Microsoft 365, Power Platfo
 | 19 | **LIFT** – Locate, Inspect, Flatten, Transform | Classic to modern SharePoint: wave planner, PnP in-place, ShareGate restructure | `day-19-lift-classic-to-modern` |
 | 20 | **PROOF** – Prompt, Review, Own, Organise, Finalise | Reviewing AI-generated Power Automate specs before Copilot builds them | `day-20-proof-review-copilot-flow-spec` |
 | 21 | **TALLY** – Track, Assign, List, Log, Yes/no-go | Microsoft Lists validation tracker for an Azure migration | `day-21-tally-migration-validation-tracker` |
+| 22 | **BATON** – Build, Assert, Test, Own, Note | Dataverse implementation spec, test matrix, CLI checks and handoff pack | `day-22-baton-dataverse-spec-tests-handoff` |
 
 ## Licence
 Content: CC BY 4.0. Code: MIT.

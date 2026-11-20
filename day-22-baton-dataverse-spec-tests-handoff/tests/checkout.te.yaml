@@ -1,0 +1,22 @@
+# Power Apps Test Engine test (YAML). Test Engine is evolving: check the current schema/docs before running.
+testSuite:
+  testSuiteName: Equipment loans - checkout
+  testSuiteDescription: T11 - Stores checks out an asset
+  persona: StoresUser
+  testCases:
+    - testCaseName: Checkout available asset
+      testSteps: |
+        = Select(NewLoanButton);
+          SetProperty(AssetLookup.Selected, LookUp(Assets, 'Asset Tag' = "LAP-0042"));
+          SetProperty(DueBackPicker.SelectedDate, DateAdd(Today(), 14, TimeUnit.Days));
+          Select(SaveButton);
+          Assert(LookUp(Assets, 'Asset Tag' = "LAP-0042").Status = "On loan", "Asset should be on loan");
+testSettings:
+  locale: en-US
+  recordVideo: true
+  browserConfigurations:
+    - browser: Chromium
+environmentVariables:
+  users:
+    - personaName: StoresUser
+      emailKey: stores_user_email

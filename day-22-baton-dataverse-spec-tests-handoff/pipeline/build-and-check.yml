@@ -1,0 +1,8 @@
+# Azure DevOps / GitHub-style steps using the Power Platform CLI (pac). Adjust auth to your setup (service principal).
+steps:
+  - script: pac auth create --name dev --environment $(DEV_URL) --applicationId $(APP_ID) --clientSecret $(SECRET) --tenant $(TENANT)
+  - script: pac solution export --name EquipmentLoans --path out/EquipmentLoans_unmanaged.zip --managed false
+  - script: pac solution unpack --zipfile out/EquipmentLoans_unmanaged.zip --folder src/EquipmentLoans --allowDelete true
+  - script: pac solution check --path out/EquipmentLoans_unmanaged.zip --outputDirectory out/checker   # Solution checker
+  - script: pac solution export --name EquipmentLoans --path out/EquipmentLoans_managed.zip --managed true
+  # Deploy to Test/Prod with Power Platform Pipelines (or pac solution import with a deployment settings file)
