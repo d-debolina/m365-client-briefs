@@ -35,6 +35,8 @@ seen on a freelance marketplace and rebuilds it with Microsoft 365, Power Platfo
 | 23 | **CAMPUS** – Courses, Assets, Members, Permissions, Upkeep, Strategy | SharePoint academy site: asset metadata, permissions model, governance rhythm | `day-23-campus-sharepoint-academy-site` |
 | 24 | **ECHO** – Embedded, Cross-tenant-safe, Handoff-ready Operator | Multi-tenant AI support copilot with tenant isolation tests and human handoff | `day-24-echo-multitenant-support-copilot` |
 | 25 | **STEWARD** – Steady, Tuned, Evidence-based, Watchful, Accountable, Reported, Documented | What a Microsoft Purview retainer looks like month by month | `day-25-steward-purview-retainer` |
+| 26 | **ATLAS** – Annual Timeline of Leadership Activities & Schedules | Year-at-a-glance leadership calendar: canvas app on one SharePoint list, as a Teams tab, standard licences only | `day-26-atlas-leadership-calendar` |
+| 27 | **STAMP** – Submit, Template, Assemble, Make PDF | One PDF per Microsoft Forms response with standard connectors (plus a premium Word-template route) | `day-27-stamp-forms-to-pdf` |
 
 ## Licence
 Content: CC BY 4.0. Code: MIT.
