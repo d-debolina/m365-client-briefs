@@ -1,0 +1,59 @@
+id,path,type,size,modified,decision,reason,related
+01SWEEP00010,/Old/Empty sync folder,folder,0,2025-06-01T09:00:00Z,QUARANTINE,empty folder (no files below it),
+01SWEEP00011,/Old/Empty sync folder/Sub,folder,0,2025-06-01T09:00:00Z,QUARANTINE,empty folder (no files below it),
+01SWEEP00014,/Projects/2024/Harbour Park/Site plan.pdf,file,17164337,2025-12-24T00:00:00Z,KEEP,newest copy of identical content,
+01SWEEP00015,/Projects/2024/Harbour Park/Photo_4.jpg,file,13981662,2025-01-25T00:00:00Z,KEEP,newest copy of identical content,
+01SWEEP00022,/Projects/2025/Riverside Gardens/Photo_3.jpg,file,22664869,2026-08-05T00:00:00Z,KEEP,newest copy of identical content,
+01SWEEP00023,/Projects/2025/Riverside Gardens/Invoice_4.pdf,file,6630133,2026-07-16T00:00:00Z,KEEP,newest copy of identical content,
+01SWEEP00026,/Projects/2025/Riverside Gardens/Photo_7.jpg,file,15894353,2026-06-18T00:00:00Z,KEEP,newest copy of identical content,
+01SWEEP00028,/Projects/2025/Oak Lane/Invoice_1.pdf,file,23795402,2026-05-03T00:00:00Z,KEEP,newest copy of identical content,
+01SWEEP00029,/Projects/2025/Oak Lane/Photo_2.jpg,file,20775028,2025-04-17T00:00:00Z,QUARANTINE,identical content,/Projects/2025/Oak Lane - Copy/Photo_2.jpg
+01SWEEP00030,/Projects/2025/Oak Lane/Brochure.pptx,file,12362443,2025-05-28T00:00:00Z,QUARANTINE,identical content,/Projects/2025/Oak Lane - Copy/Brochure.pptx
+01SWEEP00031,/Projects/2025/Oak Lane/Planting schedule.docx,file,5073172,2025-12-20T00:00:00Z,KEEP,newest copy of identical content,
+01SWEEP00032,/Projects/2025/Oak Lane/Site plan.pdf,file,18565632,2026-02-17T00:00:00Z,KEEP,newest copy of identical content,
+01SWEEP00033,/Projects/2025/Oak Lane/Quote.xlsx,file,13968061,2026-03-18T00:00:00Z,KEEP,newest copy of identical content,
+01SWEEP00034,/Projects/2025/Oak Lane/Photo_7.jpg,file,9477842,2025-06-14T00:00:00Z,QUARANTINE,identical content,/Projects/2025/Oak Lane - Copy/Photo_7.jpg
+01SWEEP00035,/Projects/2025/Oak Lane/Planting schedule.docx,file,23496227,2025-08-04T00:00:00Z,QUARANTINE,identical content,/Projects/2025/Oak Lane - Copy/Planting schedule.docx
+01SWEEP00040,/Admin/Invoices/Site plan.pdf,file,24350371,2025-02-15T00:00:00Z,KEEP,newest copy of identical content,
+01SWEEP00041,/Admin/Invoices/Brochure.pptx,file,10369814,2025-05-09T00:00:00Z,KEEP,newest copy of identical content,
+01SWEEP00044,/Admin/HR/Site plan.pdf,file,5117403,2025-07-03T00:00:00Z,KEEP,newest copy of identical content,
+01SWEEP00047,/Admin/HR/Brochure.pptx,file,6505721,2025-09-26T00:00:00Z,KEEP,newest copy of identical content,
+01SWEEP00049,/Admin/HR/Quote.xlsx,file,3823666,2025-06-24T00:00:00Z,KEEP,newest copy of identical content,
+01SWEEP00052,/Photos/Site visits/Brochure.pptx,file,17900328,2025-09-12T00:00:00Z,KEEP,newest copy of identical content,
+01SWEEP00053,/Photos/Site visits/Planting schedule.docx,file,7655238,2025-01-07T00:00:00Z,KEEP,newest copy of identical content,
+01SWEEP00056,/Photos/Site visits/Brochure.pptx,file,13958070,2025-03-03T00:00:00Z,REVIEW,original of a conflict copy; newer = Brochure-JAMIE-LAPTOP.pptx,/Photos/Site visits/Brochure-JAMIE-LAPTOP.pptx
+01SWEEP00058,/Photos/Site visits/Invoice_7.pdf,file,5519912,2025-10-28T00:00:00Z,REVIEW,original of a conflict copy; newer = Invoice_7-JAMIE-LAPTOP.pdf,/Photos/Site visits/Invoice_7-JAMIE-LAPTOP.pdf
+01SWEEP00061,/Marketing/Brochures/Photo_2.jpg,file,16815963,2025-02-02T00:00:00Z,KEEP,newest copy of identical content,
+01SWEEP00062,/Marketing/Brochures/Brochure.pptx,file,10943158,2026-02-08T00:00:00Z,KEEP,newest copy of identical content,
+01SWEEP00065,/Marketing/Brochures/Photo_6.jpg,file,21717660,2026-06-15T00:00:00Z,KEEP,newest copy of identical content,
+01SWEEP00066,/Marketing/Brochures/Site plan.pdf,file,10941958,2025-07-28T00:00:00Z,KEEP,newest copy of identical content,
+01SWEEP00068,/Projects/2025/Oak Lane - Copy/Invoice_1.pdf,file,23795402,2025-11-02T08:15:00Z,QUARANTINE,identical content,/Projects/2025/Oak Lane/Invoice_1.pdf
+01SWEEP00069,/Projects/2025/Oak Lane - Copy/Photo_2.jpg,file,20775028,2025-11-02T08:15:00Z,KEEP,newest copy of identical content,
+01SWEEP00070,/Projects/2025/Oak Lane - Copy/Brochure.pptx,file,12362443,2025-11-02T08:15:00Z,KEEP,newest copy of identical content,
+01SWEEP00071,/Projects/2025/Oak Lane - Copy/Planting schedule.docx,file,5073172,2025-11-02T08:15:00Z,QUARANTINE,identical content,/Projects/2025/Oak Lane/Planting schedule.docx
+01SWEEP00072,/Projects/2025/Oak Lane - Copy/Site plan.pdf,file,18565632,2025-11-02T08:15:00Z,QUARANTINE,identical content,/Projects/2025/Oak Lane/Site plan.pdf
+01SWEEP00073,/Projects/2025/Oak Lane - Copy/Quote.xlsx,file,13968061,2025-11-02T08:15:00Z,QUARANTINE,identical content,/Projects/2025/Oak Lane/Quote.xlsx
+01SWEEP00074,/Projects/2025/Oak Lane - Copy/Photo_7.jpg,file,9477842,2025-11-02T08:15:00Z,KEEP,newest copy of identical content,
+01SWEEP00075,/Projects/2025/Oak Lane - Copy/Planting schedule.docx,file,23496227,2025-11-02T08:15:00Z,KEEP,newest copy of identical content,
+01SWEEP00076,/Old/Desktop backup/Photo_6.jpg,file,21717660,2024-12-20T17:00:00Z,QUARANTINE,identical content,/Marketing/Brochures/Photo_6.jpg
+01SWEEP00077,/Old/Desktop backup/Photo_7.jpg,file,15894353,2024-12-20T17:00:00Z,QUARANTINE,identical content,/Projects/2025/Riverside Gardens/Photo_7.jpg
+01SWEEP00078,/Old/Desktop backup/Quote.xlsx,file,3823666,2024-12-20T17:00:00Z,QUARANTINE,identical content,/Admin/HR/Quote.xlsx
+01SWEEP00079,/Old/Desktop backup/Site plan.pdf,file,10941958,2024-12-20T17:00:00Z,QUARANTINE,identical content,/Marketing/Brochures/Site plan.pdf
+01SWEEP00080,/Old/Desktop backup/Site plan.pdf,file,24350371,2024-12-20T17:00:00Z,QUARANTINE,identical content,/Admin/Invoices/Site plan.pdf
+01SWEEP00081,/Old/Desktop backup/Invoice_4.pdf,file,6630133,2024-12-20T17:00:00Z,QUARANTINE,identical content,/Projects/2025/Riverside Gardens/Invoice_4.pdf
+01SWEEP00082,/Old/Desktop backup/Planting schedule.docx,file,7655238,2024-12-20T17:00:00Z,QUARANTINE,identical content,/Photos/Site visits/Planting schedule.docx
+01SWEEP00083,/Old/Desktop backup/Site plan.pdf,file,5117403,2024-12-20T17:00:00Z,QUARANTINE,identical content,/Admin/HR/Site plan.pdf
+01SWEEP00084,/Old/Desktop backup/Photo_2.jpg,file,16815963,2024-12-20T17:00:00Z,QUARANTINE,identical content,/Marketing/Brochures/Photo_2.jpg
+01SWEEP00085,/Old/Desktop backup/Quote.xlsx,file,13968061,2024-12-20T17:00:00Z,QUARANTINE,identical content,/Projects/2025/Oak Lane/Quote.xlsx
+01SWEEP00086,/Old/Desktop backup/Photo_3.jpg,file,22664869,2024-12-20T17:00:00Z,QUARANTINE,identical content,/Projects/2025/Riverside Gardens/Photo_3.jpg
+01SWEEP00087,/Old/Desktop backup/Brochure.pptx,file,10943158,2024-12-20T17:00:00Z,QUARANTINE,identical content,/Marketing/Brochures/Brochure.pptx
+01SWEEP00088,/Projects/2024/Harbour Park/Site plan-OFFICE-PC7.pdf,file,17164337,2025-12-24T00:00:00Z,QUARANTINE,identical content,/Projects/2024/Harbour Park/Site plan.pdf
+01SWEEP00089,/Photos/Site visits/Brochure-OFFICE-PC7.pptx,file,17900328,2025-09-12T00:00:00Z,QUARANTINE,identical content,/Photos/Site visits/Brochure.pptx
+01SWEEP00090,/Admin/Invoices/Brochure-OFFICE-PC7.pptx,file,10369814,2025-05-09T00:00:00Z,QUARANTINE,identical content,/Admin/Invoices/Brochure.pptx
+01SWEEP00091,/Projects/2024/Harbour Park/Photo_4-OFFICE-PC7.jpg,file,13981662,2025-01-25T00:00:00Z,QUARANTINE,identical content,/Projects/2024/Harbour Park/Photo_4.jpg
+01SWEEP00092,/Marketing/Brochures/Site plan-OFFICE-PC7.pdf,file,10941958,2025-07-28T00:00:00Z,QUARANTINE,identical content,/Marketing/Brochures/Site plan.pdf
+01SWEEP00093,/Admin/HR/Brochure-OFFICE-PC7.pptx,file,6505721,2025-09-26T00:00:00Z,QUARANTINE,identical content,/Admin/HR/Brochure.pptx
+01SWEEP00094,/Photos/Site visits/Invoice_7-JAMIE-LAPTOP.pdf,file,5521146,2026-02-14T10:30:00Z,REVIEW,sync conflict from device JAMIE-LAPTOP; content differs,/Photos/Site visits/Invoice_7.pdf
+01SWEEP00095,/Admin/Invoices/Brochure-JAMIE-LAPTOP.pptx,file,10371048,2026-02-14T10:30:00Z,REVIEW,sync conflict from device JAMIE-LAPTOP; content differs,/Admin/Invoices/Brochure.pptx
+01SWEEP00096,/Photos/Site visits/Brochure-JAMIE-LAPTOP.pptx,file,13959304,2026-02-14T10:30:00Z,REVIEW,sync conflict from device JAMIE-LAPTOP; content differs,/Photos/Site visits/Brochure.pptx
+01SWEEP00097,/Projects/2025/Oak Lane/Planting schedule-JAMIE-LAPTOP.docx,file,5074406,2026-02-14T10:30:00Z,REVIEW,sync conflict from device JAMIE-LAPTOP; content differs,/Projects/2025/Oak Lane/Planting schedule.docx

@@ -1,4 +1,4 @@
-# Day 27 · STAMP: Submit, Template, Assemble, Make PDF
+# Day 28 · STAMP: Submit, Template, Assemble, Make PDF
 
 Every Microsoft Forms enrolment becomes its own PDF in SharePoint, automatically. Standard connectors route (HTML → OneDrive Convert file) plus a premium Word-template route.
 

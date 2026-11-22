@@ -1,0 +1,13 @@
+site,folder,owner_role,sensitivity,current_access,should_be,in_copilot_test,notes
+HR,Employee files,HR Manager,HR,Everyone except external users,HR team (named),yes,Inherited from site created as public team
+HR,Salary reviews 2026,HR Manager,HR,Whole firm group,Partners + HR Manager,yes,Shared with firm group for one meeting and never removed
+HR,Policies (published),HR Manager,Internal,Whole firm group,Whole firm group,no,Correct – staff handbook
+Clients,Northwind Traders,Engagement partner,Client – confidential,Department,Engagement team,no,Whole Advisory team can open
+Clients,Tailspin Toys,Engagement partner,Client – confidential,Anyone link,Engagement team,yes,Anyone link sent to client in an email
+Clients,Contoso Pharma,Engagement partner,Client – confidential,Named people,Engagement team,no,Correct
+Clients,Proseware Ltd,Engagement partner,Client – confidential,Department + guests,Engagement team + 2 client guests,no,Two former client contacts still have guest access
+Finance,Management accounts,Finance Director,Finance,Whole firm group,Partners + Finance,yes,Copilot quoted margins in a staff question
+Finance,Supplier invoices,Finance Director,Finance,Department,Finance team,no,Correct
+Operations,Process docs,Operations Manager,Internal,Whole firm group,Whole firm group,no,Correct – but 3 versions of each process
+Operations,Old intranet export 2021,Operations Manager,Internal,Everyone except external users,Archive (read-only),yes,Source of most out-of-date Copilot answers
+Partners,Partner meeting minutes,Managing Partner,Finance,Department,Partners only,no,Department = Partners group – OK but check members

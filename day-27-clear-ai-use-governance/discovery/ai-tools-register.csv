@@ -1,0 +1,9 @@
+tool,signal_source,users_seen,account_type,status,decision_owner,notes
+Microsoft 365 Copilot,Copilot usage report (Microsoft 365 admin center),24,Work,Approved,IT lead,Licensed users only
+Copilot Chat (work account),Copilot usage report,51,Work,Approved,IT lead,Included with Microsoft 365 work accounts
+ChatGPT,Staff survey + firewall/DNS logs,19,Personal free / paid,Not allowed for work,Partners,Offer Copilot Chat as the approved alternative
+Gemini,Staff survey,4,Personal,Not allowed for work,Partners,
+Claude,Staff survey,3,Personal,Not allowed for work,Partners,
+Meeting note-taker bot,Entra ID enterprise apps (user consent),6,Work (OAuth consent),Under review,IT lead,Joins client calls – review urgently; consider blocking user consent
+Grammarly,Entra ID enterprise apps,11,Work (OAuth consent),Under review,IT lead,Check data terms
+Perplexity,Staff survey,2,Personal,Not allowed for work,Partners,

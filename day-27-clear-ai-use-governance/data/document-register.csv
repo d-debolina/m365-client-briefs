@@ -1,0 +1,6 @@
+process,copies_found,locations,master_chosen,decision_rule,old_copies_action
+Client onboarding,3,"Advisory site; Jo's OneDrive; old wiki",Onboarding v2.0 (Operations site),Regulator + observed practice,Mark Superseded; move to Archive library
+Engagement letter issue,2,"Templates library; partner email attachment",Templates library v4,Owner decision,Delete email copy; mark old template Superseded
+Expenses approval,3,"Finance site; intranet export; HR handbook",Finance site v1.3,Observed practice,Archive intranet export; fix handbook link
+New starter IT setup,1,"In the IT lead's head",New document v1.0,Interview + walk-through,n/a – written from scratch
+Quality review of deliverables,2,"Audit site; Advisory site",New merged v1.0 with AI sign-off step,Insurer requirement,Archive both originals
