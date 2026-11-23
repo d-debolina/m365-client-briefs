@@ -1,0 +1,24 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4",
+  "body": [
+    { "type": "TextBlock", "text": "NUDGE follow-up", "style": "heading", "wrap": true },
+    { "type": "TextBlock", "text": "@{items('Apply_to_each')?['FollowUpQuestion']}", "wrap": true, "weight": "Bolder" },
+    { "type": "FactSet", "facts": [
+        { "title": "Account", "value": "@{items('Apply_to_each')?['AccountName']}" },
+        { "title": "What", "value": "@{items('Apply_to_each')?['Title']}" },
+        { "title": "When", "value": "@{items('Apply_to_each')?['EventDate']}" }
+    ] },
+    { "type": "Input.ChoiceSet", "id": "result", "label": "How did it go?", "style": "expanded", "isRequired": true,
+      "choices": [
+        { "title": "Went well", "value": "Went well" },
+        { "title": "Mixed", "value": "Mixed" },
+        { "title": "Postponed", "value": "Postponed" },
+        { "title": "Cancelled", "value": "Cancelled" }
+      ] },
+    { "type": "Input.Text", "id": "notes", "label": "Two lines on what happened and what they asked for", "isMultiline": true },
+    { "type": "Input.Date", "id": "newDate", "label": "New date (only if postponed)" }
+  ],
+  "actions": [ { "type": "Action.Submit", "title": "Send to NUDGE" } ]
+}

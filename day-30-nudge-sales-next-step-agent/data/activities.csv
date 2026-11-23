@@ -1,0 +1,61 @@
+ActivityId,AccountId,Kind,Date,Summary,OwnerEmail
+ACT-0033,ACC-010,Case support,2026-12-17,Theatre manager raised a sterilisation question,sam.okafor@contoso.example
+ACT-0045,ACC-003,Lunch & learn,2026-12-17,Competitor rep present,rita.mendes@contoso.example
+ACT-0023,ACC-001,Lunch & learn,2026-12-25,Procurement wants a value analysis pack,avery.lin@contoso.example
+ACT-0028,ACC-006,Case support,2026-12-25,Procurement wants a value analysis pack,sam.okafor@contoso.example
+ACT-0036,ACC-011,Call,2026-12-26,Procurement wants a value analysis pack,rita.mendes@contoso.example
+ACT-0049,ACC-009,Email,2026-12-26,Competitor rep present,avery.lin@contoso.example
+ACT-0059,ACC-004,Lunch & learn,2026-12-26,Surgeon asked for a cadaver lab,jonas.weber@contoso.example
+ACT-0001,ACC-005,Email,2026-12-27,Discussed pricing for 12 units,avery.lin@contoso.example
+ACT-0050,ACC-008,Visit,2026-12-27,Surgeon asked for a cadaver lab,jonas.weber@contoso.example
+ACT-0015,ACC-008,Call,2026-12-29,Surgeon asked for a cadaver lab,jonas.weber@contoso.example
+ACT-0024,ACC-010,Visit,2026-12-30,Discussed pricing for 12 units,sam.okafor@contoso.example
+ACT-0040,ACC-003,Lunch & learn,2027-01-02,Theatre manager raised a sterilisation question,rita.mendes@contoso.example
+ACT-0026,ACC-005,Call,2027-01-04,Discussed pricing for 12 units,avery.lin@contoso.example
+ACT-0011,ACC-006,Lunch & learn,2027-01-06,Theatre manager raised a sterilisation question,sam.okafor@contoso.example
+ACT-0035,ACC-001,Lunch & learn,2027-01-07,Discussed pricing for 12 units,avery.lin@contoso.example
+ACT-0054,ACC-001,Email,2027-01-08,Procurement wants a value analysis pack,avery.lin@contoso.example
+ACT-0027,ACC-006,Visit,2027-01-09,Procurement wants a value analysis pack,sam.okafor@contoso.example
+ACT-0005,ACC-004,Email,2027-01-13,Procurement wants a value analysis pack,jonas.weber@contoso.example
+ACT-0020,ACC-012,Call,2027-01-13,Theatre manager raised a sterilisation question,jonas.weber@contoso.example
+ACT-0025,ACC-003,Call,2027-01-13,"Covered two cases, smooth",rita.mendes@contoso.example
+ACT-0021,ACC-002,Case support,2027-01-15,"Covered two cases, smooth",sam.okafor@contoso.example
+ACT-0039,ACC-011,Case support,2027-01-20,Competitor rep present,rita.mendes@contoso.example
+ACT-0017,ACC-003,Email,2027-01-21,Surgeon asked for a cadaver lab,rita.mendes@contoso.example
+ACT-0018,ACC-005,Call,2027-01-21,Competitor rep present,avery.lin@contoso.example
+ACT-0019,ACC-005,Call,2027-01-23,Theatre manager raised a sterilisation question,avery.lin@contoso.example
+ACT-0044,ACC-011,Email,2027-01-24,Competitor rep present,rita.mendes@contoso.example
+ACT-0034,ACC-012,Lunch & learn,2027-01-25,Surgeon asked for a cadaver lab,jonas.weber@contoso.example
+ACT-0046,ACC-003,Lunch & learn,2027-01-27,Competitor rep present,rita.mendes@contoso.example
+ACT-0060,ACC-012,Visit,2027-01-27,"Covered two cases, smooth",jonas.weber@contoso.example
+ACT-0003,ACC-008,Call,2027-01-29,Procurement wants a value analysis pack,jonas.weber@contoso.example
+ACT-0012,ACC-004,Lunch & learn,2027-01-30,Surgeon asked for a cadaver lab,jonas.weber@contoso.example
+ACT-0052,ACC-002,Call,2027-02-02,"Covered two cases, smooth",sam.okafor@contoso.example
+ACT-0032,ACC-006,Visit,2027-02-07,Discussed pricing for 12 units,sam.okafor@contoso.example
+ACT-0047,ACC-004,Email,2027-02-11,Discussed pricing for 12 units,jonas.weber@contoso.example
+ACT-0055,ACC-002,Lunch & learn,2027-02-15,Theatre manager raised a sterilisation question,sam.okafor@contoso.example
+ACT-0057,ACC-003,Call,2027-02-17,Theatre manager raised a sterilisation question,rita.mendes@contoso.example
+ACT-0006,ACC-002,Visit,2027-02-18,Procurement wants a value analysis pack,sam.okafor@contoso.example
+ACT-0013,ACC-010,Visit,2027-02-19,Competitor rep present,sam.okafor@contoso.example
+ACT-0029,ACC-007,Call,2027-02-19,Competitor rep present,rita.mendes@contoso.example
+ACT-0042,ACC-010,Lunch & learn,2027-02-20,Procurement wants a value analysis pack,sam.okafor@contoso.example
+ACT-0004,ACC-008,Lunch & learn,2027-02-21,Discussed pricing for 12 units,jonas.weber@contoso.example
+ACT-0010,ACC-011,Lunch & learn,2027-02-22,Competitor rep present,rita.mendes@contoso.example
+ACT-0008,ACC-002,Visit,2027-02-23,Competitor rep present,sam.okafor@contoso.example
+ACT-0043,ACC-001,Email,2027-02-23,Procurement wants a value analysis pack,avery.lin@contoso.example
+ACT-0051,ACC-003,Lunch & learn,2027-02-24,Surgeon asked for a cadaver lab,rita.mendes@contoso.example
+ACT-0016,ACC-006,Lunch & learn,2027-02-25,Surgeon asked for a cadaver lab,sam.okafor@contoso.example
+ACT-0048,ACC-001,Call,2027-02-25,Discussed pricing for 12 units,avery.lin@contoso.example
+ACT-0014,ACC-010,Lunch & learn,2027-02-26,Surgeon asked for a cadaver lab,sam.okafor@contoso.example
+ACT-0037,ACC-005,Email,2027-03-01,Procurement wants a value analysis pack,avery.lin@contoso.example
+ACT-0007,ACC-012,Call,2027-03-02,Procurement wants a value analysis pack,jonas.weber@contoso.example
+ACT-0056,ACC-003,Email,2027-03-02,Theatre manager raised a sterilisation question,rita.mendes@contoso.example
+ACT-0022,ACC-002,Case support,2027-03-06,Surgeon asked for a cadaver lab,sam.okafor@contoso.example
+ACT-0031,ACC-010,Call,2027-03-06,Discussed pricing for 12 units,sam.okafor@contoso.example
+ACT-0041,ACC-006,Case support,2027-03-06,Discussed pricing for 12 units,sam.okafor@contoso.example
+ACT-0038,ACC-003,Email,2027-03-07,Discussed pricing for 12 units,rita.mendes@contoso.example
+ACT-0053,ACC-001,Visit,2027-03-09,"Covered two cases, smooth",avery.lin@contoso.example
+ACT-0058,ACC-008,Visit,2027-03-09,Surgeon asked for a cadaver lab,jonas.weber@contoso.example
+ACT-0030,ACC-002,Visit,2027-03-12,"Covered two cases, smooth",sam.okafor@contoso.example
+ACT-0009,ACC-009,Email,2027-03-13,Competitor rep present,avery.lin@contoso.example
+ACT-0002,ACC-006,Email,2027-03-15,Procurement wants a value analysis pack,sam.okafor@contoso.example

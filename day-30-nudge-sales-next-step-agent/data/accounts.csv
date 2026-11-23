@@ -1,0 +1,13 @@
+AccountId,AccountName,OwnerName,OwnerEmail,Stage,FocusProduct,KeySurgeon,LastContact
+ACC-001,Contoso General Hospital,Avery Lin,avery.lin@contoso.example,At risk,QuickSet bone cement,Dr. S. Tanaka,2027-03-11
+ACC-002,Northwind Orthopaedic Clinic,Sam Okafor,sam.okafor@contoso.example,At risk,SpineGuide navigation,Dr. M. Haddad,2027-03-08
+ACC-003,Fabrikam University Medical Centre,Rita Mendes,rita.mendes@contoso.example,Adopted,ArthroView scope,Dr. L. Moreau,2027-02-25
+ACC-004,Tailspin Day Surgery,Jonas Weber,jonas.weber@contoso.example,Prospect,ArthroView scope,Dr. A. Rivera,2027-01-07
+ACC-005,Woodgrove Community Hospital,Avery Lin,avery.lin@contoso.example,Evaluation,KneeFlex implant system,Dr. A. Rivera,2027-02-22
+ACC-006,Litware Spine Institute,Sam Okafor,sam.okafor@contoso.example,At risk,ArthroView scope,Dr. L. Moreau,2027-01-29
+ACC-007,Adventure Works Sports Clinic,Rita Mendes,rita.mendes@contoso.example,At risk,KneeFlex implant system,Dr. P. Lindqvist,2027-03-11
+ACC-008,Alpine Ski Medical,Jonas Weber,jonas.weber@contoso.example,Evaluation,QuickSet bone cement,Dr. P. Lindqvist,2027-01-01
+ACC-009,Proseware Regional Hospital,Avery Lin,avery.lin@contoso.example,Prospect,QuickSet bone cement,Dr. L. Moreau,2027-01-02
+ACC-010,Wide World Surgical Centre,Sam Okafor,sam.okafor@contoso.example,Prospect,ArthroView scope,Dr. M. Haddad,2027-02-26
+ACC-011,Coho Valley Hospital,Rita Mendes,rita.mendes@contoso.example,First cases,QuickSet bone cement,Dr. M. Haddad,2027-01-09
+ACC-012,Lucerne Joint Care,Jonas Weber,jonas.weber@contoso.example,Prospect,SpineGuide navigation,Dr. K. Novak,2027-02-02
