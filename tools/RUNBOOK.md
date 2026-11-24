@@ -46,6 +46,8 @@ Key properties: `Job title` (title), `Job link`, `Day` (number), `Planned date` 
 ## 3. Step A: re-plan the publishing schedule (do this first)
 
 Cadence: **two posts a week, on Tuesday and Thursday**. No posts from **24 December to 1 January** inclusive.
+**Series start:** the first post (Day 1) goes live on **Tuesday 1 December 2026**. Until then, slots start on
+1 Dec 2026, not today, and nothing counts as late before that date.
 
 Blog status meanings:
 - **Drafting** = Claude's AI draft, not yet rewritten by Debolina.
@@ -67,7 +69,7 @@ names, so a post still reads correctly after it moves.
 3. **Late** rows are unpublished rows whose `Planned date` is before today. Today's post is not late yet,
    because she may publish later in the day.
 4. Build the new order for every unpublished row with a Day:
-   - Slots are Tuesdays and Thursdays starting from **today** (or the next Tue/Thu if today isn't one),
+   - Slots are Tuesdays and Thursdays starting from **today** (or the next Tue/Thu if today isn't one; never before the series start, 1 Dec 2026),
      skipping the holiday window.
    - Keep the current order by default. Only change it when there's a good reason, and log the reason:
      a) a row is still `Idea` or `Outline ready` (not drafted) and a drafted row is behind it → move the drafted row forward;
