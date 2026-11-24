@@ -163,7 +163,12 @@ For each draft:
        an italic one-paragraph explanation, and a note that the editable diagram is in the repo
      - "#### 💳 Licences & costs": **What you need** (bullets: licence, price, why), a worked
        **Example** for a realistic small team, **Build the demo for $0**, and the italic price
-       caveat ("US list prices as of <Month YYYY> … check before you quote"). Use bullets, not tables
+       caveat ("US list prices as of <Month YYYY> … check before you quote").
+       For **Build the demo for $0**, don't recommend the Power Apps Developer Plan (since 15 Nov 2026 it no longer
+       creates a developer environment) and don't present the Microsoft 365 Developer Program sandbox as open to
+       everyone (Visual Studio Pro/Enterprise subscribers and eligible partners only). Use a Microsoft 365 trial
+       tenant (turn off auto-renew), a Power Apps trial environment and/or a Copilot Studio trial (30 days, extendable
+       once; Copilot Studio trial can build and test but not publish), and say if the demo needs publishing. Use bullets, not tables
        (Medium has no tables), and escape dollar signs as `\$` in Notion.
      - "#### 🏛️ Architect's view" (trade-offs, security, cost, preview warnings)
      - "#### What's next" (tease the next Day's post from the schedule) plus a follow/clap call to action
