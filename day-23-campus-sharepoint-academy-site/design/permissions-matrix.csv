@@ -1,5 +1,0 @@
-Audience,Group (Entra / M365),Site permission,Course Materials library,Trainer Drafts library,Recordings
-Site owners (2 people),Academy Owners,Full control,Full,Full,Full
-Trainers,sg-academy-trainers,Edit,Edit,Edit,Edit
-Learners (all staff),Everyone except external users → better: sg-all-staff,Read,Read,No access (unique perms),Read
-Partner trainers (guests),sg-academy-guest-trainers,—,Edit (only 'Partner' folder via sharing link policy),No access,No access

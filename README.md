@@ -32,9 +32,7 @@ seen on a freelance marketplace and rebuilds it with Microsoft 365, Power Platfo
 | 20 | **PROOF** – Prompt, Review, Own, Organise, Finalise | Reviewing AI-generated Power Automate specs before Copilot builds them | `day-20-proof-review-copilot-flow-spec` |
 | 21 | **TALLY** – Track, Assign, List, Log, Yes/no-go | Microsoft Lists validation tracker for an Azure migration | `day-21-tally-migration-validation-tracker` |
 | 22 | **BATON** – Build, Assert, Test, Own, Note | Dataverse implementation spec, test matrix, CLI checks and handoff pack | `day-22-baton-dataverse-spec-tests-handoff` |
-| 23 | **CAMPUS** – Courses, Assets, Members, Permissions, Upkeep, Strategy | SharePoint academy site: asset metadata, permissions model, governance rhythm | `day-23-campus-sharepoint-academy-site` |
 | 24 | **ECHO** – Embedded, Cross-tenant-safe, Handoff-ready Operator | Multi-tenant AI support copilot with tenant isolation tests and human handoff | `day-24-echo-multitenant-support-copilot` |
-| 25 | **STEWARD** – Steady, Tuned, Evidence-based, Watchful, Accountable, Reported, Documented | What a Microsoft Purview retainer looks like month by month | `day-25-steward-purview-retainer` |
 | 26 | **ATLAS** – Annual Timeline of Leadership Activities & Schedules | Year-at-a-glance leadership calendar: canvas app on one SharePoint list, as a Teams tab, standard licences only | `day-26-atlas-leadership-calendar` |
 | 27 | **CLEAR** – Catalogue, Lock down, Establish one version, Approve AI work, Review | Getting a small firm's AI use under control: tool discovery, AI policy with human sign-off, one version per process, folder lockdown list | `day-27-clear-ai-use-governance` |
 | 28 | **STAMP** – Submit, Template, Assemble, Make PDF | One PDF per Microsoft Forms response with standard connectors (plus a premium Word-template route) | `day-28-stamp-forms-to-pdf` |

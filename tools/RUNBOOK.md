@@ -72,8 +72,7 @@ names, so a post still reads correctly after it moves.
    - Keep the current order by default. Only change it when there's a good reason, and log the reason:
      a) a row is still `Idea` or `Outline ready` (not drafted) and a drafted row is behind it → move the drafted row forward;
      b) two posts with the same main `Area` would run back to back → swap with the next different one;
-     c) a job still `Open` on Upwork is preferred over `Someone hired` when everything else is equal;
-     d) Flagship and Strong-fit posts go earlier.
+     c) Flagship and Strong-fit posts go earlier.
    - Day numbers follow the order: the first unpublished post gets (highest published Day + 1), and so on.
 5. Apply the changes:
    - Update `Day` and `Planned date` on each row that changed.
@@ -96,8 +95,11 @@ names, so a post still reads correctly after it moves.
    Dataverse / Dynamics. Skip jobs that are:
    - already in the database (match on `Job link` or the job id in the URL),
    - closed or already hired,
-   - pure data entry, very low budget (under $15/hr or under $100 fixed), or
-   - off-niche (WordPress-only, generic VA work).
+   - pure data entry, very low budget (under $15/hr or under $100 fixed),
+   - off-niche (WordPress-only, generic VA work), or
+   - **not a project**: roles, retainers or staffing posts (fractional / part-time architect,
+     administrator, "expert on retainer", ongoing consultant) with no concrete deliverable to build.
+     This list feeds the blog series; it is not used to apply for jobs.
 4. For each job you keep, open it with the get/detail tool and capture as much as possible: full description,
    requirements, skills, budget, job type, duration, experience level, proposals, client info (country,
    verified, spend, rating, reviews), and posted date.
@@ -111,7 +113,7 @@ names, so a post still reads correctly after it moves.
 
    Page body, in the same section order as the other briefs: **Client request** (in your own words),
    **Requirements (must have)**, **Signals**, **Proposed solution**, **Build steps**, **Blog outline**.
-6. **Pick the best 1–2 new jobs** for a full draft (Strong fit first, then blog potential, then client quality).
+6. **Pick the best 1–2 new jobs** for a full draft (blog potential first, then fit with her CV).
    Give each one a Day at the **end** of the current schedule (next free Tue/Thu slot) and draft it (Step C).
    The rest stay as `Idea` rows, with no Day, for later.
 
