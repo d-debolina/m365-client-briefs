@@ -94,7 +94,7 @@ names, so a post still reads correctly after it moves.
    Power Platform, Copilot / Copilot Studio agents, Azure integration, Purview / governance,
    Dataverse / Dynamics. Skip jobs that are:
    - already in the database (match on `Job link` or the job id in the URL),
-   - pure data entry, very low budget (under $15/hr or under $100 fixed),
+   - pure data entry,
    - off-niche (WordPress-only, generic VA work), or
    - **not a project**: roles, retainers or staffing posts (fractional / part-time architect,
      administrator, "expert on retainer", ongoing consultant) with no concrete deliverable to build.
