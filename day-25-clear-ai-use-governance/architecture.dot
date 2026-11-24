@@ -1,0 +1,34 @@
+digraph G {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=20, labelloc=t, pad=0.4, nodesep=0.45, ranksep=0.7, bgcolor="white",
+         label=<<b>Day 25 · CLEAR — Catalogue, Lock down, Establish one version, Approve AI work, Review</b><br/><font point-size="13" color="#6B7280">Getting a small firm's AI use under control, no build required<br/><font point-size="11"><font color="#7C3AED">■ Power Platform</font>   <font color="#0369A1">■ Microsoft 365</font>   <font color="#0F766E">■ Azure</font>   <font color="#C2410C">■ Copilot / AI</font>   <font color="#A16207">■ Repo files / outputs</font></font></font>>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, margin="0.18,0.10", penwidth=1.4];
+  edge  [fontname="Helvetica", fontsize=10, color="#4B5563", fontcolor="#374151", arrowsize=0.7];
+  staff [label=<<b>Staff (≈70)</b>>, fillcolor="#F3F4F6", color="#6B7280"];
+  itl [label=<<b>IT lead</b><br/><font point-size="10">makes every change</font>>, fillcolor="#F3F4F6", color="#6B7280"];
+  cons [label=<<b>Consultant</b><br/><font point-size="10">no admin access</font>>, fillcolor="#F3F4F6", color="#6B7280"];
+  subgraph cluster_cat { label=<<b>1 · Catalogue</b>>; fontsize=13; style="rounded,dashed"; color="#0369A1"; fontcolor="#0369A1";
+  survey [label=<<b>Anonymous survey</b><br/><font point-size="10">Microsoft Forms</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  sig [label=<<b>Admin signals</b><br/><font point-size="10">Copilot usage report · Entra enterprise apps</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  reg [label=<<b>ai-tools-register.csv</b>>, fillcolor="#FEF9C3", color="#A16207"];
+  }
+  subgraph cluster_lock { label=<<b>2 · Lock down</b>>; fontsize=13; style="rounded,dashed"; color="#0369A1"; fontcolor="#0369A1";
+  sp [label=<<b>SharePoint / OneDrive</b><br/><font point-size="10">HR · Clients · Finance</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  test [label=<<b>Copilot test prompts</b><br/><font point-size="10">as a junior test account</font>>, fillcolor="#FFF1E6", color="#C2410C"];
+  chk [label=<<b>lockdown-checklist.md</b><br/><font point-size="10">scored, highest first</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  }
+  subgraph cluster_one { label=<<b>3 · Establish one version</b>>; fontsize=13; style="rounded,dashed"; color="#0369A1"; fontcolor="#0369A1";
+  dreg [label=<<b>document-register.csv</b><br/><font point-size="10">master chosen, old = Superseded</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  arch [label=<<b>Archive library</b><br/><font point-size="10">old copies out of Copilot's way</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  }
+  subgraph cluster_pol { label=<<b>4 · Approve AI work</b>>; fontsize=13; style="rounded,dashed"; color="#7C3AED"; fontcolor="#7C3AED";
+  policy [label=<<b>AI use policy</b><br/><font point-size="10">human sign-off rule</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  stmt [label=<<b>Client / insurer statement</b>>, fillcolor="#FEF9C3", color="#A16207"];
+  }
+  rev [label=<<b>5 · Review</b><br/><font point-size="10">quarterly re-test + register update</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  staff -> survey; sig -> reg; survey -> reg;
+  cons -> test [label="runs"]; test -> sp [label="what can it see?"]; sp -> chk [style=dashed];
+  chk -> itl [label="hand over"]; itl -> sp [label="fixes permissions"];
+  dreg -> arch [label="move old copies"];
+  reg -> policy [label="approved tools list"]; policy -> stmt;
+  chk -> rev [style=dotted]; policy -> rev [style=dotted];
+}
