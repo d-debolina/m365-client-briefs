@@ -1,0 +1,11 @@
+{
+  "TenantId": "00000000-0000-0000-0000-000000000000",
+  "ClientId": "11111111-1111-1111-1111-111111111111",
+  "CertThumbprint": "0123456789ABCDEF0123456789ABCDEF01234567",
+  "DriveId": "b!FICTIONAL-drive-id-of-the-PM-Uploads-library",
+  "TargetFolder": "PM",
+  "SourcePath": "C:\\Fabrikam\\PM",
+  "MaxAgeDays": 3,
+  "StatePath": "C:\\ProgramData\\Haul\\state.json",
+  "LogPath": "C:\\ProgramData\\Haul\\Logs\\haul.log"
+}

@@ -40,6 +40,7 @@ seen on a freelance marketplace and rebuilds it with Microsoft 365, Power Platfo
 | 28 | **NUDGE** – Next steps, Updates, Due dates, Gentle follow-ups, Evidence | Copilot Studio sales coach without a CRM: SharePoint lists as CRM-lite, saved commitments and Teams follow-up cards on the right day | `day-28-nudge-sales-next-step-agent` |
 | 29 | **CREW** – Capacity, Resources, Equipment & Weeks | Dataverse resource board: plug-ins that keep a locked plan locked (even in Excel), a tested planning engine, Teams unlock approvals, pipelines | `day-29-crew-dataverse-resource-board` |
 | 30 | **PROBE** – Prove Records Obey Boundaries End-to-end | Security review of a Copilot Studio agent over Salesforce health data: per-user access, prompt-injection tests, leak checker, hardening checklist | `day-30-probe-copilot-salesforce-access-review` |
+| 31 | **HAUL** – Hash-checked, App-only, Unattended, Logged | Unattended file uploads from many RMM-managed PCs to one SharePoint library: certificate auth, write on one library only, hash-based skip, exit codes | `day-31-haul-rmm-files-to-sharepoint` |
 
 ## Licence
 Content: CC BY 4.0. Code: MIT.

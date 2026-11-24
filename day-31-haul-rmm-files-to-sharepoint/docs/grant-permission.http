@@ -1,0 +1,28 @@
+### HAUL – least-privilege setup (run once, as an admin, e.g. in Graph Explorer)
+### 1) App registration "HAUL - <client>":
+###    API permissions -> Microsoft Graph -> Application -> Lists.SelectedOperations.Selected -> Grant admin consent
+###    (Sites.Selected also works, but then the app can write to the whole site, not just one library.)
+###    Certificates & secrets -> Certificates -> upload haul-<client>.cer. No client secret.
+
+### 2) Find the site and library IDs
+GET https://graph.microsoft.com/v1.0/sites/fabrikamit.sharepoint.com:/sites/ClientDropZone
+GET https://graph.microsoft.com/v1.0/sites/{site-id}/lists?$select=id,displayName
+GET https://graph.microsoft.com/v1.0/sites/{site-id}/lists/{list-id}/drive?$select=id   
+### -> this id is the DriveId in haul.config.json
+
+### 3) Grant the app "write" on that ONE library (needs Sites.FullControl.All, or Sites.Selected + FullControl on the site)
+POST https://graph.microsoft.com/v1.0/sites/{site-id}/lists/{list-id}/permissions
+Content-Type: application/json
+
+{
+  "grantedToV2": { "application": { "id": "{haul-app-client-id}", "displayName": "HAUL - Contoso Dental" } },
+  "roles": ["write"]
+}
+
+### 4) Create the top folder once (HAUL creates one sub-folder per computer name)
+POST https://graph.microsoft.com/v1.0/drives/{drive-id}/root/children
+Content-Type: application/json
+
+{ "name": "PM", "folder": {}, "@microsoft.graph.conflictBehavior": "fail" }
+
+### Revoke later: GET .../lists/{list-id}/permissions, then DELETE .../lists/{list-id}/permissions/{permission-id}
