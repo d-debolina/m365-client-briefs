@@ -1,0 +1,10 @@
+UserId,Name,Role,ReportsToRole,Profile,ViewAllReferrals,FLS_DiagnosisNotes,Notes
+U-VP,Vera Contoso,VP Sales,,Sales Leader,No,No,sees everything below her in the hierarchy
+U-MW,Marco Fabrikam,Manager West,VP Sales,Sales Manager,No,No,
+U-ME,Mei Northwind,Manager East,VP Sales,Sales Manager,No,No,
+U-R1,Rafa Tailspin,Rep West,Manager West,Sales Rep,No,No,
+U-R2,Rina Litware,Rep West,Manager West,Sales Rep,No,No,
+U-R3,Rob Adatum,Rep East,Manager East,Sales Rep,No,No,
+U-R4,Ruth Proseware,Rep East,Manager East,Sales Rep,No,No,
+U-CO,Cal Woodgrove,Compliance,,Compliance Auditor,Yes,Yes,"read-only, View All on Referral"
+U-INT,Integration User,,,System Administrator,Yes,Yes,"THE RISK: if the agent uses this connection, everyone sees everything"

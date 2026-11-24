@@ -1,0 +1,37 @@
+ReferralId,AccountId,OwnerId,PatientAlias,Product,Status,DiagnosisNotes
+REF-001,ACC-001,U-R1,Alex T635 (fictional),Hearing aid,Fitted,[fictional] post-op follow-up
+REF-002,ACC-002,U-R2,Indy T873 (fictional),CPAP kit,New,[fictional] no notes
+REF-003,ACC-003,U-R3,Lane T891 (fictional),CPAP kit,Fitted,[fictional] chronic condition
+REF-004,ACC-004,U-R4,Harper T183 (fictional),Glucose monitor,New,[fictional] post-op follow-up
+REF-005,ACC-005,U-R1,Indy T214 (fictional),CPAP kit,Closed,[fictional] post-op follow-up
+REF-006,ACC-006,U-R2,Gray T150 (fictional),Knee brace,Fitted,[fictional] chronic condition
+REF-007,ACC-007,U-R3,Casey T579 (fictional),Glucose monitor,Closed,[fictional] chronic condition
+REF-008,ACC-008,U-R4,Indy T933 (fictional),Glucose monitor,New,[fictional] post-op follow-up
+REF-009,ACC-009,U-R1,Jules T397 (fictional),CPAP kit,Fitted,[fictional] screening result pending
+REF-010,ACC-010,U-R2,Blair T349 (fictional),Hearing aid,Fitted,[fictional] no notes
+REF-011,ACC-011,U-R3,Lane T171 (fictional),Hearing aid,New,[fictional] chronic condition
+REF-012,ACC-012,U-R4,Harper T266 (fictional),Knee brace,New,[fictional] chronic condition
+REF-013,ACC-001,U-R1,Kit T366 (fictional),Knee brace,Fitted,[fictional] chronic condition
+REF-014,ACC-002,U-R2,Gray T157 (fictional),CPAP kit,New,[fictional] no notes
+REF-015,ACC-003,U-R3,Alex T616 (fictional),Glucose monitor,Fitted,[fictional] no notes
+REF-016,ACC-004,U-R4,Harper T983 (fictional),CPAP kit,Fitted,[fictional] chronic condition
+REF-017,ACC-005,U-R1,Drew T492 (fictional),Hearing aid,Fitted,[fictional] chronic condition
+REF-018,ACC-006,U-R2,Indy T231 (fictional),Glucose monitor,Fitted,[fictional] chronic condition
+REF-019,ACC-007,U-R3,Jules T353 (fictional),Knee brace,Closed,[fictional] post-op follow-up
+REF-020,ACC-008,U-R4,Blair T101 (fictional),CPAP kit,Fitted,[fictional] no notes
+REF-021,ACC-009,U-R1,Drew T567 (fictional),Hearing aid,New,[fictional] screening result pending
+REF-022,ACC-010,U-R2,Gray T270 (fictional),Glucose monitor,Fitted,[fictional] post-op follow-up
+REF-023,ACC-011,U-R3,Lane T614 (fictional),CPAP kit,Contacted,[fictional] screening result pending
+REF-024,ACC-012,U-R4,Harper T796 (fictional),Glucose monitor,Closed,[fictional] post-op follow-up
+REF-025,ACC-001,U-R1,Alex T722 (fictional),CPAP kit,New,[fictional] post-op follow-up
+REF-026,ACC-002,U-R2,Jules T838 (fictional),CPAP kit,Fitted,[fictional] no notes
+REF-027,ACC-003,U-R3,Drew T217 (fictional),Hearing aid,Fitted,[fictional] chronic condition
+REF-028,ACC-004,U-R4,Kit T259 (fictional),CPAP kit,Closed,[fictional] post-op follow-up
+REF-029,ACC-005,U-R1,Harper T796 (fictional),Knee brace,New,[fictional] no notes
+REF-030,ACC-006,U-R2,Emery T116 (fictional),Knee brace,Contacted,[fictional] screening result pending
+REF-031,ACC-007,U-R3,Blair T844 (fictional),Knee brace,Contacted,[fictional] screening result pending
+REF-032,ACC-008,U-R4,Kit T176 (fictional),Glucose monitor,Contacted,[fictional] chronic condition
+REF-033,ACC-009,U-R1,Indy T916 (fictional),Knee brace,New,[fictional] chronic condition
+REF-034,ACC-010,U-R2,Alex T117 (fictional),CPAP kit,Fitted,[fictional] screening result pending
+REF-035,ACC-011,U-R3,Lane T761 (fictional),Glucose monitor,Contacted,[fictional] post-op follow-up
+REF-036,ACC-012,U-R4,Jules T807 (fictional),Glucose monitor,New,[fictional] post-op follow-up

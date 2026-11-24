@@ -1,0 +1,16 @@
+ProjectId,Name,BusinessUnit,StartWeek,EndWeek,PlanLocked
+PRJ-01,Harbour Library,North yard,2027-01-04,2027-04-19,Yes
+PRJ-02,Maple Clinic,South yard,2027-01-11,2027-04-19,Yes
+PRJ-03,Riverside School,North yard,2027-01-18,2027-03-15,Yes
+PRJ-04,Oak Street Flats,South yard,2027-01-18,2027-03-22,Yes
+PRJ-05,Airport Hangar 3,North yard,2027-03-01,2027-05-17,Yes
+PRJ-06,City Pool,South yard,2027-01-18,2027-03-29,No
+PRJ-07,Northwind Depot,North yard,2027-01-04,2027-03-01,No
+PRJ-08,Tailspin Offices,South yard,2027-01-18,2027-04-05,No
+PRJ-09,Fabrikam Plant,North yard,2027-03-01,2027-06-14,No
+PRJ-10,Contoso HQ Fit-out,South yard,2027-03-01,2027-06-07,No
+PRJ-11,Litware Lab,North yard,2027-01-25,2027-05-24,No
+PRJ-12,Woodgrove Bank Branch,South yard,2027-01-11,2027-03-15,No
+PRJ-13,Adatum Warehouse,North yard,2027-01-04,2027-04-12,No
+PRJ-14,Park Pavilion,South yard,2027-02-08,2027-04-26,No
+PRJ-15,Station Car Park,North yard,2027-01-25,2027-04-26,No

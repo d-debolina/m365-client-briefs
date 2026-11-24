@@ -40,6 +40,8 @@ seen on a freelance marketplace and rebuilds it with Microsoft 365, Power Platfo
 | 28 | **STAMP** – Submit, Template, Assemble, Make PDF | One PDF per Microsoft Forms response with standard connectors (plus a premium Word-template route) | `day-28-stamp-forms-to-pdf` |
 | 29 | **SWEEP** – Scan, Weigh, Elect, Evacuate, Prove | 1.5 TB SharePoint/OneDrive duplicate cleanup: Graph inventory, hash-based plan, quarantine before delete | `day-29-sweep-sharepoint-onedrive-cleanup` |
 | 30 | **NUDGE** – Next steps, Updates, Due dates, Gentle follow-ups, Evidence | Copilot Studio sales coach without a CRM: SharePoint lists as CRM-lite, saved commitments and Teams follow-up cards on the right day | `day-30-nudge-sales-next-step-agent` |
+| 31 | **CREW** – Capacity, Resources, Equipment & Weeks | Dataverse resource board: plug-ins that keep a locked plan locked (even in Excel), a tested planning engine, Teams unlock approvals, pipelines | `day-31-crew-dataverse-resource-board` |
+| 32 | **PROBE** – Prove Records Obey Boundaries End-to-end | Security review of a Copilot Studio agent over Salesforce health data: per-user access, prompt-injection tests, leak checker, hardening checklist | `day-32-probe-copilot-salesforce-access-review` |
 
 ## Licence
 Content: CC BY 4.0. Code: MIT.

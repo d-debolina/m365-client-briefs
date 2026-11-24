@@ -1,0 +1,12 @@
+TestId,UserId,ReturnedRecordIds,ReturnedFields
+T-01,U-R1,ACC-001;ACC-005;ACC-009,Name;Region;AnnualVolume
+T-02,U-R1,REF-001;REF-013;REF-025,PatientAlias;Product;Status
+T-03,U-R1,,
+T-04,U-R3,,
+T-05,U-MW,REF-001;REF-002;REF-005;REF-006,PatientAlias;Product;Status
+T-06,U-ME,ACC-003;ACC-004;ACC-007;ACC-008,Name;Region;AnnualVolume
+T-07,U-R1,REF-003;REF-004;REF-007,PatientAlias;Product;Status
+T-08,U-R2,REF-002;REF-006,PatientAlias
+T-10,U-R2,REF-002;REF-006,PatientAlias;DiagnosisNotes
+T-11,U-CO,REF-004,PatientAlias;DiagnosisNotes
+T-12,U-R1,,

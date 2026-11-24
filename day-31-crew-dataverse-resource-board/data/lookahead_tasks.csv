@@ -1,0 +1,21 @@
+TaskId,ProjectId,Title,StartDate,DurationWorkdays,Locked
+TSK-001,PRJ-01,Scaffold up,2027-01-18,3,Yes
+TSK-002,PRJ-01,Roof sheets,2027-01-20,1,Yes
+TSK-003,PRJ-01,Drainage,2027-01-22,1,Yes
+TSK-004,PRJ-01,Roof sheets,2027-01-24,1,Yes
+TSK-005,PRJ-02,Frame walls,2027-01-18,5,Yes
+TSK-006,PRJ-02,Roof sheets,2027-01-20,5,Yes
+TSK-007,PRJ-02,Drainage,2027-01-22,1,Yes
+TSK-008,PRJ-02,Set out,2027-01-24,3,Yes
+TSK-009,PRJ-03,Drainage,2027-01-18,3,Yes
+TSK-010,PRJ-03,Scaffold up,2027-01-20,2,Yes
+TSK-011,PRJ-03,Scaffold up,2027-01-22,3,Yes
+TSK-012,PRJ-03,Roof sheets,2027-01-24,5,Yes
+TSK-013,PRJ-04,Set out,2027-01-18,4,Yes
+TSK-014,PRJ-04,Set out,2027-01-20,5,Yes
+TSK-015,PRJ-04,Roof sheets,2027-01-22,4,Yes
+TSK-016,PRJ-04,Snag list,2027-01-24,4,Yes
+TSK-017,PRJ-05,Drainage,2027-01-18,1,Yes
+TSK-018,PRJ-05,First fix,2027-01-20,2,Yes
+TSK-019,PRJ-05,Pour slab,2027-01-22,2,Yes
+TSK-020,PRJ-05,First fix,2027-01-24,4,Yes
