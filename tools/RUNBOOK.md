@@ -94,7 +94,6 @@ names, so a post still reads correctly after it moves.
    Power Platform, Copilot / Copilot Studio agents, Azure integration, Purview / governance,
    Dataverse / Dynamics. Skip jobs that are:
    - already in the database (match on `Job link` or the job id in the URL),
-   - closed or already hired,
    - pure data entry, very low budget (under $15/hr or under $100 fixed),
    - off-niche (WordPress-only, generic VA work), or
    - **not a project**: roles, retainers or staffing posts (fractional / part-time architect,
@@ -109,7 +108,7 @@ names, so a post still reads correctly after it moves.
      Power Platform, Copilot Studio agents rollout, AI / digital transformation, solution architecture,
      Azure DevOps, Power BI, ITIL, PRINCE2,
    - `Blog potential`: Flagship / Good post / Quick tip,
-   - `Hiring status` = Open.
+   - `Hiring status` = Open, or Someone hired if the job already has a hire (hired jobs are still fine briefs for the blog).
 
    Page body, in the same section order as the other briefs: **Client request** (in your own words),
    **Requirements (must have)**, **Signals**, **Proposed solution**, **Build steps**, **Blog outline**.
