@@ -1,0 +1,23 @@
+digraph G {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=20, labelloc=t, pad=0.4, nodesep=0.45, ranksep=0.7, bgcolor="white",
+         label=<<b>Day 17 · CARGO — Cloud Attachments Routed to Guarded Objects</b><br/><font point-size="13" color="#6B7280">Power Pages large file uploads: find the real limit, then store files in Azure Blob (up to 10 GB)<br/><font point-size="11"><font color="#7C3AED">■ Power Platform</font>   <font color="#0369A1">■ Microsoft 365</font>   <font color="#0F766E">■ Azure</font>   <font color="#C2410C">■ Copilot / AI</font>   <font color="#A16207">■ Repo files / outputs</font></font></font>>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, margin="0.18,0.10", penwidth=1.4];
+  edge  [fontname="Helvetica", fontsize=10, color="#4B5563", fontcolor="#374151", arrowsize=0.7];
+  user [label=<<b>Portal user</b><br/><font point-size="10">claim form + 600 MB video</font>>, fillcolor="#F3F4F6", color="#6B7280"];
+  subgraph cluster_pp { label=<<b>Power Pages site</b>>; fontsize=13; style="rounded,dashed"; color="#7C3AED"; fontcolor="#7C3AED";
+  form [label=<<b>Basic/multistep form</b><br/><font point-size="10">attachments: Azure Blob<br/>size + type allow-list</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  js [label=<<b>client-validation.js</b><br/><font point-size="10">friendly errors</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  }
+  subgraph cluster_dv { label=<<b>Dataverse</b>>; fontsize=13; style="rounded,dashed"; color="#7C3AED"; fontcolor="#7C3AED";
+  note [label=<<b>Note (annotation)</b><br/><font point-size="10">metadata + blob pointer</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  rec [label=<<b>Claim record</b>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  }
+  subgraph cluster_az { label=<<b>Azure</b>>; fontsize=13; style="rounded,dashed"; color="#0F766E"; fontcolor="#0F766E";
+  sa [label=<<b>Storage account</b><br/><font point-size="10">private container · TLS 1.2</font>>, fillcolor="#E0F7F4", color="#0F766E"];
+  lc [label=<<b>Lifecycle policy</b><br/><font point-size="10">Hot → Cool 30d → Archive 365d</font>>, fillcolor="#E0F7F4", color="#0F766E"];
+  }
+  app [label=<<b>Site app identity</b><br/><font point-size="10">Portals-&lt;site&gt;<br/>Reader + Blob Data Contributor</font>>, fillcolor="#E0F7F4", color="#0F766E"];
+  mda [label=<<b>Model-driven app</b><br/><font point-size="10">staff view via web resource</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  user -> js [style=dashed]; user -> form; form -> rec; form -> note; note -> sa [label="file (up to 10 GB)"];
+  app -> sa [style=dotted, label="RBAC"]; sa -> lc [style=dotted]; mda -> note; mda -> sa [label="SAS download", style=dashed];
+}

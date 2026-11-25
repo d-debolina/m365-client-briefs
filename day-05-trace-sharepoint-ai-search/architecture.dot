@@ -1,0 +1,28 @@
+digraph G {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=20, labelloc=t, pad=0.4, nodesep=0.45, ranksep=0.7, bgcolor="white",
+         label=<<b>Day 5 · TRACE — Trusted Retrieval with Answers, Citations &amp; Evaluation</b><br/><font point-size="13" color="#6B7280">Permission-trimmed RAG over SharePoint with cite-or-refuse answers<br/><font point-size="11"><font color="#7C3AED">■ Power Platform</font>   <font color="#0369A1">■ Microsoft 365</font>   <font color="#0F766E">■ Azure</font>   <font color="#C2410C">■ Copilot / AI</font>   <font color="#A16207">■ Repo files / outputs</font></font></font>>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, margin="0.18,0.10", penwidth=1.4];
+  edge  [fontname="Helvetica", fontsize=10, color="#4B5563", fontcolor="#374151", arrowsize=0.7];
+  emp [label=<<b>Employee</b>>, fillcolor="#F3F4F6", color="#6B7280"];
+  subgraph cluster_m365 { label=<<b>Microsoft 365</b>>; fontsize=13; style="rounded,dashed"; color="#0369A1"; fontcolor="#0369A1";
+  spfx [label=<<b>SPFx web part</b><br/><font point-size="10">SharePoint / Teams</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  ret [label=<<b>Copilot Retrieval API</b><br/><font point-size="10">POST /copilot/retrieval</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  gs [label=<<b>Graph Search API</b><br/><font point-size="10">fallback, no Copilot licence</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  sp [label=<<b>SharePoint sites</b><br/><font point-size="10">HR (open) · Finance (restricted)</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  }
+  subgraph cluster_az { label=<<b>Azure</b>>; fontsize=13; style="rounded,dashed"; color="#0F766E"; fontcolor="#0F766E";
+  entra [label=<<b>Entra ID</b><br/><font point-size="10">On-Behalf-Of token</font>>, fillcolor="#E0F7F4", color="#0F766E"];
+  fn [label=<<b>Azure Function /ask</b><br/><font point-size="10">Python, Flex Consumption</font>>, fillcolor="#E0F7F4", color="#0F766E"];
+  aoai [label=<<b>Azure OpenAI</b><br/><font point-size="10">cite-or-refuse prompt</font>>, fillcolor="#FFF1E6", color="#C2410C"];
+  }
+  eval [label=<<b>Eval harness</b><br/><font point-size="10">eval-questions.csv</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  audit [label=<<b>Find-Oversharing.ps1</b><br/><font point-size="10">PnP, run first</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  emp -> spfx [label="question"];
+  spfx -> fn [label="question + user token", dir=both, taillabel="answer + citations", labelfontsize=9];
+  fn -> entra [label="OBO token exchange", dir=both];
+  fn -> ret [label="delegated"]; fn -> gs [style=dashed];
+  ret -> sp [label="only what user can see"]; gs -> sp [style=dashed];
+  fn -> aoai [label="chunks + question"];
+  eval -> fn [label="10 test questions", style=dotted];
+  audit -> sp [label="fix permissions", style=dotted];
+}

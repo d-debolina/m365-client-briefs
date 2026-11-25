@@ -57,8 +57,8 @@ def b(t, sub=None):
 
 D = {}
 
-# ---------- Day 1 QUOTA ----------
-D["day-01-quota-estimate-agent"] = ("Day 1 · QUOTA — Quote-Of-Today Assistant",
+# ---------- Day 4 QUOTA ----------
+D["day-04-quota-estimate-agent"] = ("Day 4 · QUOTA — Quote-Of-Today Assistant",
   "Copilot Studio agent inside a standalone model-driven app, grounded in Dataverse",
   n("rep", b("Sales rep"), "user")
   + cluster("pp", "Power Platform environment", "pp",
@@ -78,8 +78,8 @@ D["day-01-quota-estimate-agent"] = ("Day 1 · QUOTA — Quote-Of-Today Assistant
   flow -> dv; flow -> appr [label="if over limit", style=dashed]; flow -> pdf;
 """)
 
-# ---------- Day 2 TRACE ----------
-D["day-02-trace-sharepoint-ai-search"] = ("Day 2 · TRACE — Trusted Retrieval with Answers, Citations &amp; Evaluation",
+# ---------- Day 5 TRACE ----------
+D["day-05-trace-sharepoint-ai-search"] = ("Day 5 · TRACE — Trusted Retrieval with Answers, Citations &amp; Evaluation",
   "Permission-trimmed RAG over SharePoint with cite-or-refuse answers",
   n("emp", b("Employee"), "user")
   + cluster("m365", "Microsoft 365", "m365",
@@ -103,8 +103,8 @@ D["day-02-trace-sharepoint-ai-search"] = ("Day 2 · TRACE — Trusted Retrieval 
   audit -> sp [label="fix permissions", style=dotted];
 """)
 
-# ---------- Day 3 HIRE ----------
-D["day-03-hire-hr-service-centre"] = ("Day 3 · HIRE — HR Intake, Requisition &amp; Enrolment",
+# ---------- Day 6 HIRE ----------
+D["day-06-hire-hr-service-centre"] = ("Day 6 · HIRE — HR Intake, Requisition &amp; Enrolment",
   "Lists-first HR service centre with multistage (AI + human) approvals",
   n("mgr", b("Hiring manager"), "user")
   + n("hr", b("HR team"), "user")
@@ -125,8 +125,8 @@ D["day-03-hire-hr-service-centre"] = ("Day 3 · HIRE — HR Intake, Requisition 
   req -> bi [style=dotted];
 """)
 
-# ---------- Day 4 MATCH ----------
-D["day-04-match-cv-shortlist"] = ("Day 4 · MATCH — Making Applicants &amp; Talent Click",
+# ---------- Day 7 MATCH ----------
+D["day-07-match-cv-shortlist"] = ("Day 7 · MATCH — Making Applicants &amp; Talent Click",
   "CV extraction and scoring with AI Builder prompts, recruiter stays in control",
   n("cand", b("Applicants"), "user")
   + n("rec", b("Recruiter"), "user")
@@ -145,8 +145,8 @@ D["day-04-match-cv-shortlist"] = ("Day 4 · MATCH — Making Applicants &amp; Ta
   rec -> list [label="accept / override", style=dashed];
 """)
 
-# ---------- Day 5 SPRINKLE ----------
-D["day-05-sprinkle-field-inspections"] = ("Day 5 · SPRINKLE — Site &amp; Property Reports, INspections, Kit for Landscape Experts",
+# ---------- Day 2 SPRINKLE ----------
+D["day-02-sprinkle-field-inspections"] = ("Day 2 · SPRINKLE — Site &amp; Property Reports, INspections, Kit for Landscape Experts",
   "Offline-first canvas app; report generated after sync",
   n("tech", b("Field technician", "phone / tablet"), "user")
   + n("client", b("Property client"), "user")
@@ -165,8 +165,8 @@ D["day-05-sprinkle-field-inspections"] = ("Day 5 · SPRINKLE — Site &amp; Prop
   word -> sp [label="convert to PDF"]; sp -> mail; mail -> client;
 """)
 
-# ---------- Day 6 WARDEN ----------
-D["day-06-warden-agent-guard"] = ("Day 6 · WARDEN — Watch, Audit, Restrict &amp; Detect ENterprise agents",
+# ---------- Day 8 WARDEN ----------
+D["day-08-warden-agent-guard"] = ("Day 8 · WARDEN — Watch, Audit, Restrict &amp; Detect ENterprise agents",
   "Runtime guard for tool calls + tenant-wide agent inventory with risk score",
   n("user", b("Agent user"), "user")
   + n("admin", b("Platform admin"), "user")
@@ -187,8 +187,8 @@ D["day-06-warden-agent-guard"] = ("Day 6 · WARDEN — Watch, Audit, Restrict &a
   admin -> arg [label="run query"]; kql -> arg [style=dotted]; arg -> rep [label="risky agents first"];
 """)
 
-# ---------- Day 7 SCOUT ----------
-D["day-07-scout-agent-readiness-audit"] = ("Day 7 · SCOUT — Survey, Classify, Order Use-cases, Then build",
+# ---------- Day 9 SCOUT ----------
+D["day-09-scout-agent-readiness-audit"] = ("Day 9 · SCOUT — Survey, Classify, Order Use-cases, Then build",
   "Advisory engagement: from interviews to a scored, costed backlog",
   n("st", b("Stakeholders", "business · IT · security"), "user")
   + cluster("in", "Discover", "m365",

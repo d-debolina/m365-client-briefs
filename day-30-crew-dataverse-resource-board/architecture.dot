@@ -1,0 +1,35 @@
+digraph G {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=20, labelloc=t, pad=0.4, nodesep=0.45, ranksep=0.7, bgcolor="white",
+         label=<<b>Day 30 · CREW — Capacity, Resources, Equipment &amp; Weeks</b><br/><font point-size="13" color="#6B7280">Dataverse resource board where a locked plan stays locked, with a planning engine you can test<br/><font point-size="11"><font color="#7C3AED">■ Power Platform</font>   <font color="#0369A1">■ Microsoft 365</font>   <font color="#0F766E">■ Azure</font>   <font color="#C2410C">■ Copilot / AI</font>   <font color="#A16207">■ Repo files / outputs</font></font></font>>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, margin="0.18,0.10", penwidth=1.4];
+  edge  [fontname="Helvetica", fontsize=10, color="#4B5563", fontcolor="#374151", arrowsize=0.7];
+  planner [label=<<b>Planner</b><br/><font point-size="10">North / South yard</font>>, fillcolor="#F3F4F6", color="#6B7280"];
+  lead [label=<<b>Planning lead</b><br/><font point-size="10">approves unlocks</font>>, fillcolor="#F3F4F6", color="#6B7280"];
+  xl [label=<<b>Excel / API / imports</b><br/><font point-size="10">the back doors</font>>, fillcolor="#F3F4F6", color="#6B7280"];
+  subgraph cluster_pp { label=<<b>Power Platform environment (managed)</b>>; fontsize=13; style="rounded,dashed"; color="#7C3AED"; fontcolor="#7C3AED";
+  mda [label=<<b>Model-driven app</b><br/><font point-size="10">custom pages: Resource Board · Look-ahead<br/>What-if · Tools &amp; rentals</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  dv [label=<<b>Dataverse</b><br/><font point-size="10">projects · tasks · crew · demand<br/>scenarios · capacity · staging</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  plug [label=<<b>C# plug-ins</b><br/><font point-size="10">LockGuard (PreValidation)<br/>WorkdayMath (PreOperation)</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  capi [label=<<b>Custom API</b><br/><font point-size="10">crew_RecalculateDemand</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  flows [label=<<b>Cloud flows</b><br/><font point-size="10">unlock approval · rules<br/>nightly checks · imports</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  }
+  subgraph cluster_az { label=<<b>Azure</b>>; fontsize=13; style="rounded,dashed"; color="#0F766E"; fontcolor="#0F766E";
+  fn [label=<<b>Planning engine</b><br/><font point-size="10">Azure Function · managed identity</font>>, fillcolor="#E0F7F4", color="#0F766E"];
+  }
+  subgraph cluster_m365 { label=<<b>Microsoft 365</b>>; fontsize=13; style="rounded,dashed"; color="#0369A1"; fontcolor="#0369A1";
+  teams [label=<<b>Teams + Outlook</b><br/><font point-size="10">approval cards · notifications</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  sp [label=<<b>SharePoint</b><br/><font point-size="10">Excel import library</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  sg [label=<<b>Entra security groups</b><br/><font point-size="10">→ Dataverse group teams</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  }
+  tests [label=<<b>Acceptance tests</b><br/><font point-size="10">engine/test_planning_engine.py</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  planner -> mda; mda -> dv;
+  xl -> dv [label="edits", style=dashed];
+  dv -> plug [label="every create / update / delete"];
+  plug -> dv [label="block if locked", style=dashed];
+  mda -> capi [label="Recalculate / What-if"]; capi -> fn; fn -> dv [label="weekly capacity rows"];
+  mda -> flows [label="Request unlock"]; flows -> teams; teams -> lead; lead -> teams [style=dashed];
+  flows -> dv [label="unlocked until …"];
+  sp -> flows [label="new file"]; flows -> dv [label="via staging"];
+  sg -> dv [label="security roles", style=dotted];
+  tests -> fn [label="expected numbers", style=dotted];
+}

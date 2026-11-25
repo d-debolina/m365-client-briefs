@@ -1,0 +1,22 @@
+digraph G {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=20, labelloc=t, pad=0.4, nodesep=0.45, ranksep=0.7, bgcolor="white",
+         label=<<b>Day 24 · BATON — Build, Assert, Test, Own, Note</b><br/><font point-size="13" color="#6B7280">Dataverse delivery that survives handover: spec → logic in the right place → tests → pipeline → handoff<br/><font point-size="11"><font color="#7C3AED">■ Power Platform</font>   <font color="#0369A1">■ Microsoft 365</font>   <font color="#0F766E">■ Azure</font>   <font color="#C2410C">■ Copilot / AI</font>   <font color="#A16207">■ Repo files / outputs</font></font></font>>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, margin="0.18,0.10", penwidth=1.4];
+  edge  [fontname="Helvetica", fontsize=10, color="#4B5563", fontcolor="#374151", arrowsize=0.7];
+  spec [label=<<b>Implementation spec</b><br/><font point-size="10">data · logic · security · ALM</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  subgraph cluster_dev { label=<<b>Dev environment</b>>; fontsize=13; style="rounded,dashed"; color="#7C3AED"; fontcolor="#7C3AED";
+  dv [label=<<b>Dataverse tables</b><br/><font point-size="10">eql_asset · eql_loan · eql_location</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  logic [label=<<b>Business rules + plug-ins</b><br/><font point-size="10">BL1–BL3 (server side)</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  flow [label=<<b>Cloud flow</b><br/><font point-size="10">BL4 reminders</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  mda [label=<<b>Model-driven app</b><br/><font point-size="10">Stores</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  }
+  tests [label=<<b>Test matrix + Test Engine</b><br/><font point-size="10">positive · negative · security</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  pac [label=<<b>pac CLI + solution checker</b><br/><font point-size="10">export · unpack · check</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  subgraph cluster_alm { label=<<b>Pipelines</b>>; fontsize=13; style="rounded,dashed"; color="#7C3AED"; fontcolor="#7C3AED";
+  test [label=<<b>Test (managed)</b>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  prod [label=<<b>Prod (managed)</b>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  }
+  hand [label=<<b>Handoff pack</b><br/><font point-size="10">runbook · walkthrough</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  spec -> dv; spec -> logic; spec -> tests [label="acceptance criteria"]; dv -> mda; logic -> dv [dir=none]; flow -> dv [dir=none];
+  tests -> mda [style=dashed, label="run"]; dv -> pac [label="solution"]; pac -> test; test -> prod; prod -> hand [style=dashed];
+}

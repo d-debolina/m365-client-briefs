@@ -1,0 +1,24 @@
+digraph G {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=20, labelloc=t, pad=0.4, nodesep=0.45, ranksep=0.7, bgcolor="white",
+         label=<<b>Day 15 · MOVER — Map, Organise, Verify, Export, Redirect</b><br/><font point-size="13" color="#6B7280">WordPress intranet to SharePoint: information architecture first, scripted migration second<br/><font point-size="11"><font color="#7C3AED">■ Power Platform</font>   <font color="#0369A1">■ Microsoft 365</font>   <font color="#0F766E">■ Azure</font>   <font color="#C2410C">■ Copilot / AI</font>   <font color="#A16207">■ Repo files / outputs</font></font></font>>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, margin="0.18,0.10", penwidth=1.4];
+  edge  [fontname="Helvetica", fontsize=10, color="#4B5563", fontcolor="#374151", arrowsize=0.7];
+  wp [label=<<b>WordPress intranet</b><br/><font point-size="10">posts · pages · categories</font>>, fillcolor="#F3F4F6", color="#6B7280"];
+  subgraph cluster_tools { label=<<b>Migration toolkit</b>>; fontsize=13; style="rounded,dashed"; color="#A16207"; fontcolor="#A16207";
+  inv [label=<<b>Inventory + triage</b><br/><font point-size="10">archive · auto · rewrite</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  tr [label=<<b>transform.py</b><br/><font point-size="10">REST export → manifest</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  pnp [label=<<b>Create-Pages.ps1</b><br/><font point-size="10">PnP PowerShell</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  }
+  subgraph cluster_spo { label=<<b>SharePoint Online</b>>; fontsize=13; style="rounded,dashed"; color="#0369A1"; fontcolor="#0369A1";
+  hub [label=<<b>Intranet home (hub)</b><br/><font point-size="10">news · mega menu</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  dept [label=<<b>Department sites</b><br/><font point-size="10">HR · IT · Finance · Facilities</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  ts [label=<<b>Term store</b><br/><font point-size="10">Intranet Topics</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  tpl [label=<<b>4 page templates</b><br/><font point-size="10">policy · how-to · landing · news</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  }
+  team [label=<<b>Internal content team</b><br/><font point-size="10">rewrites with templates</font>>, fillcolor="#F3F4F6", color="#6B7280"];
+  redir [label=<<b>Redirect map</b><br/><font point-size="10">old URLs → 301</font>>, fillcolor="#E0F7F4", color="#0F766E"];
+  viva [label=<<b>Viva Connections</b><br/><font point-size="10">Teams</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  wp -> inv; inv -> tr [label="auto"]; tr -> pnp; pnp -> dept; pnp -> hub [label="news"];
+  ts -> dept [style=dotted, label="Topic"]; tpl -> team [style=dashed]; inv -> team [label="rewrite"]; team -> dept;
+  tr -> redir [style=dashed]; hub -> viva; dept -> hub [label="roll-up by Topic", style=dashed];
+}

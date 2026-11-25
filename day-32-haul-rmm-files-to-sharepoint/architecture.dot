@@ -1,0 +1,28 @@
+digraph G {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=20, labelloc=t, pad=0.4, nodesep=0.45, ranksep=0.7, bgcolor="white",
+         label=<<b>Day 32 · HAUL — Hash-checked, App-only, Unattended, Logged</b><br/><font point-size="13" color="#6B7280">Files from many remote PCs to one SharePoint library, with a certificate instead of a password<br/><font point-size="11"><font color="#7C3AED">■ Power Platform</font>   <font color="#0369A1">■ Microsoft 365</font>   <font color="#0F766E">■ Azure</font>   <font color="#C2410C">■ Copilot / AI</font>   <font color="#A16207">■ Repo files / outputs</font></font></font>>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, margin="0.18,0.10", penwidth=1.4];
+  edge  [fontname="Helvetica", fontsize=10, color="#4B5563", fontcolor="#374151", arrowsize=0.7];
+  rmm [label=<<b>RMM tool</b><br/><font point-size="10">schedules the job · runs as SYSTEM<br/>reads exit codes 0–5</font>>, fillcolor="#F3F4F6", color="#6B7280"];
+  subgraph cluster_pc { label=<<b>Each client PC (Windows 10/11, Server 2016+)</b>>; fontsize=13; style="rounded,dashed"; color="#A16207"; fontcolor="#A16207";
+  src [label=<<b>C:\Fabrikam\PM</b><br/><font point-size="10">top-level files only<br/>changed in the last 3 days</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  haul [label=<<b>Invoke-Haul.ps1</b><br/><font point-size="10">hash check · locked-file safe<br/>retry + Retry-After · mutex</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  cert [label=<<b>Certificate</b><br/><font point-size="10">LocalMachine\My<br/>non-exportable key</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  state [label=<<b>state.json + haul.log</b><br/><font point-size="10">C:\ProgramData\Haul</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  }
+  subgraph cluster_entra { label=<<b>Microsoft Entra ID</b>>; fontsize=13; style="rounded,dashed"; color="#0F766E"; fontcolor="#0F766E";
+  app [label=<<b>App registration</b><br/><font point-size="10">certificate credential · no secret<br/>Lists.SelectedOperations.Selected</font>>, fillcolor="#E0F7F4", color="#0F766E"];
+  ca [label=<<b>Optional: Conditional Access</b><br/><font point-size="10">for workload identities (Premium)<br/>sign-in logs · alerts</font>>, fillcolor="#E0F7F4", color="#0F766E"];
+  }
+  subgraph cluster_m365 { label=<<b>SharePoint Online (MSP tenant)</b>>; fontsize=13; style="rounded,dashed"; color="#0369A1"; fontcolor="#0369A1";
+  mg [label=<<b>Microsoft Graph</b><br/><font point-size="10">PUT …:/content (≤ 10 MiB)<br/>createUploadSession (bigger)</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  lib [label=<<b>Client drop-zone library</b><br/><font point-size="10">app has <i>write</i> on this library only<br/>PM / &lt;COMPUTERNAME&gt; / file</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  }
+  rmm -> haul [label="hourly"];
+  src -> haul; haul -> state [style=dashed, label="remember hashes"];
+  cert -> haul [label="signs PS256 assertion", style=dotted];
+  haul -> app [label="client credentials"]; app -> haul [label="access token", style=dashed];
+  app -> ca [style=dotted];
+  haul -> mg [label="upload"]; mg -> lib;
+  haul -> rmm [label="exit code + log", style=dashed];
+}

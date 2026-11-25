@@ -1,0 +1,20 @@
+digraph G {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=20, labelloc=t, pad=0.4, nodesep=0.45, ranksep=0.7, bgcolor="white",
+         label=<<b>Day 11 · SHELF — Sync, Health, Explorer &amp; Library Fixes</b><br/><font point-size="13" color="#6B7280">File server to SharePoint without the pain: clean first, shortcuts not sync, govern before Copilot<br/><font point-size="11"><font color="#7C3AED">■ Power Platform</font>   <font color="#0369A1">■ Microsoft 365</font>   <font color="#0F766E">■ Azure</font>   <font color="#C2410C">■ Copilot / AI</font>   <font color="#A16207">■ Repo files / outputs</font></font></font>>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, margin="0.18,0.10", penwidth=1.4];
+  edge  [fontname="Helvetica", fontsize=10, color="#4B5563", fontcolor="#374151", arrowsize=0.7];
+  fs [label=<<b>Old file server</b><br/><font point-size="10">\\\\FS01\\Shares</font>>, fillcolor="#F3F4F6", color="#6B7280"];
+  scan [label=<<b>readiness_scan.py</b><br/><font point-size="10">paths · types · stale</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  subgraph cluster_m365 { label=<<b>Microsoft 365</b>>; fontsize=13; style="rounded,dashed"; color="#0369A1"; fontcolor="#0369A1";
+  hub [label=<<b>Hub site</b><br/><font point-size="10">navigation + search vertical</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  sites [label=<<b>Team sites</b><br/><font point-size="10">one per department<br/>metadata, 3–4 folder levels</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  od [label=<<b>OneDrive</b><br/><font point-size="10">shortcuts · Files On-Demand · KFM</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  sam [label=<<b>SharePoint Advanced Mgmt</b><br/><font point-size="10">DAG reports · Restricted Content Discovery</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  }
+  arch [label=<<b>Archive</b><br/><font point-size="10">stale 3+ yrs · PST → Exchange</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  cop [label=<<b>Microsoft 365 Copilot</b><br/><font point-size="10">respects permissions</font>>, fillcolor="#FFF1E6", color="#C2410C"];
+  dev [label=<<b>PC · Mac · iPad</b><br/><font point-size="10">Explorer / Files app</font>>, fillcolor="#F3F4F6", color="#6B7280"];
+  fs -> scan; scan -> sites [label="clean content"]; scan -> arch [label="stale / not for SP", style=dashed];
+  hub -> sites [dir=none]; sites -> od [label="Add shortcut"]; od -> dev;
+  sam -> sites [label="fix oversharing", style=dotted]; sites -> cop [label="grounding"];
+}

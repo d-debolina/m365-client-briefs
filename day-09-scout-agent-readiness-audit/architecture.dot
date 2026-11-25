@@ -1,0 +1,21 @@
+digraph G {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=20, labelloc=t, pad=0.4, nodesep=0.45, ranksep=0.7, bgcolor="white",
+         label=<<b>Day 9 · SCOUT — Survey, Classify, Order Use-cases, Then build</b><br/><font point-size="13" color="#6B7280">Advisory engagement: from interviews to a scored, costed backlog<br/><font point-size="11"><font color="#7C3AED">■ Power Platform</font>   <font color="#0369A1">■ Microsoft 365</font>   <font color="#0F766E">■ Azure</font>   <font color="#C2410C">■ Copilot / AI</font>   <font color="#A16207">■ Repo files / outputs</font></font></font>>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, margin="0.18,0.10", penwidth=1.4];
+  edge  [fontname="Helvetica", fontsize=10, color="#4B5563", fontcolor="#374151", arrowsize=0.7];
+  st [label=<<b>Stakeholders</b><br/><font point-size="10">business · IT · security</font>>, fillcolor="#F3F4F6", color="#6B7280"];
+  subgraph cluster_in { label=<<b>Discover</b>>; fontsize=13; style="rounded,dashed"; color="#0369A1"; fontcolor="#0369A1";
+  int [label=<<b>Interviews</b><br/><font point-size="10">interview-questions.md</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  aud [label=<<b>Tenant audit</b><br/><font point-size="10">audit-checklist.md<br/>licences · data · governance</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  }
+  subgraph cluster_an { label=<<b>Analyse</b>>; fontsize=13; style="rounded,dashed"; color="#7C3AED"; fontcolor="#7C3AED";
+  score [label=<<b>Use-case scoring</b><br/><font point-size="10">use-case-scoring.csv<br/>value · feasibility · risk</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  cost [label=<<b>Cost model</b><br/><font point-size="10">Copilot credits · licences</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  }
+  subgraph cluster_out { label=<<b>Decide</b>>; fontsize=13; style="rounded,dashed"; color="#C2410C"; fontcolor="#C2410C";
+  road [label=<<b>Ranked backlog</b><br/><font point-size="10">quick wins → pilots</font>>, fillcolor="#FFF1E6", color="#C2410C"];
+  pilot [label=<<b>First pilot</b><br/><font point-size="10">e.g. QUOTA / TRACE</font>>, fillcolor="#FFF1E6", color="#C2410C"];
+  }
+  st -> int; st -> aud; int -> score; aud -> score; aud -> cost [style=dashed];
+  score -> road; cost -> road; road -> pilot;
+}
