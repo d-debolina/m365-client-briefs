@@ -1,0 +1,27 @@
+digraph G {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=20, labelloc=t, pad=0.4, nodesep=0.45, ranksep=0.7, bgcolor="white",
+         label=<<b>Day 33 · DOCKET — Document sets, Oversight, Cases, Keys, External access, Tracking</b><br/><font point-size="13" color="#6B7280">A client, retainer and case hub on SharePoint, Lists, Power Automate and Power BI<br/><font point-size="11"><font color="#7C3AED">■ Power Platform</font>   <font color="#0369A1">■ Microsoft 365</font>   <font color="#0F766E">■ Azure</font>   <font color="#C2410C">■ Copilot / AI</font>   <font color="#A16207">■ Repo files / outputs</font></font></font>>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, margin="0.18,0.10", penwidth=1.4];
+  edge  [fontname="Helvetica", fontsize=10, color="#4B5563", fontcolor="#374151", arrowsize=0.7];
+  staff [label=<<b>Fee earners</b><br/><font point-size="10">partners · associates · paralegals</font>>, fillcolor="#F3F4F6", color="#6B7280"];
+  guest [label=<<b>Client contacts</b><br/><font point-size="10">Entra B2B guests</font>>, fillcolor="#F3F4F6", color="#6B7280"];
+  subgraph cluster_m365 { label=<<b>SharePoint Online – DOCKET hub</b>>; fontsize=13; style="rounded,dashed"; color="#0369A1"; fontcolor="#0369A1";
+  hub [label=<<b>DOCKET Hub</b><br/><font point-size="10">communication site · navigation<br/>dashboard page</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  lists [label=<<b>Clients &amp; Retainers site</b><br/><font point-size="10">Clients · Retainers · Allocations lists<br/>sharing off</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  cases [label=<<b>Case files site</b><br/><font point-size="10">one document set per case<br/>restricted cases: own permissions<br/>sharing off</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  share [label=<<b>Client Share site</b><br/><font point-size="10">folder per case · Specific people links<br/>guest expiry</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  }
+  subgraph cluster_pp { label=<<b>Power Platform (standard connectors)</b>>; fontsize=13; style="rounded,dashed"; color="#7C3AED"; fontcolor="#7C3AED";
+  f1 [label=<<b>Flow: New case</b><br/><font point-size="10">create document set · set metadata<br/>break inheritance if restricted</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  f2 [label=<<b>Flow: Retainer hours</b><br/><font point-size="10">daily · alert at 80%</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  f3 [label=<<b>Flow: Guest review</b><br/><font point-size="10">weekly · closed cases</font>>, fillcolor="#F3E8FF", color="#7C3AED"];
+  }
+  pbi [label=<<b>Power BI dashboard</b><br/><font point-size="10">team load · cases · retainers · access</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  plan [label=<<b>docket_plan.py</b><br/><font point-size="10">permission plan · scope check<br/>allocation table</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  staff -> hub; hub -> lists; hub -> cases;
+  staff -> f1 [label="open a case"]; f1 -> cases; f1 -> share [style=dashed, label="if external"];
+  lists -> f2 [dir=back]; f3 -> share [label="remove stale guests"];
+  guest -> share [label="one folder only"];
+  lists -> pbi; cases -> pbi [style=dotted];
+  plan -> cases [style=dotted, label="design check"];
+}

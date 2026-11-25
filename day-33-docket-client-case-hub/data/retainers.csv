@@ -1,0 +1,6 @@
+retainer_id,client_id,scope,monthly_fee_gbp,included_hours,start,end
+RET-001,C001,Monthly advisory,4000,20,2026-01-01,2027-12-31
+RET-002,C002,Contracts desk,2500,12,2026-06-01,2027-05-31
+RET-003,C006,Employment helpline,3000,15,2026-04-01,2027-03-31
+RET-004,C008,Disputes first response,5000,20,2026-09-01,2027-08-31
+RET-005,C009,HR policy support,800,4,2026-11-01,2027-10-31

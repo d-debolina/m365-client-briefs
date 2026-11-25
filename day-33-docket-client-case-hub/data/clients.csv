@@ -1,0 +1,13 @@
+client_id,client_name,segment,status,relationship_partner
+C001,Contoso Retail Ltd,Corporate,Active,S01
+C002,Northwind Logistics,Corporate,Active,S01
+C003,Tailspin Toys,Corporate,Active,S02
+C004,Wide World Importers,Corporate,Active,S07
+C005,Adventure Works Cycles,Corporate,Active,S01
+C006,Litware Health Group,Corporate,Active,S02
+C007,Proseware Inc,Corporate,Dormant,S03
+C008,Woodgrove Bank,Corporate,Active,S07
+C009,Fourth Coffee,SME,Active,S02
+C010,Alpine Ski House,SME,Active,S03
+C011,Margie's Travel,SME,Active,S06
+C012,Lucerne Publishing,SME,Prospect,S01

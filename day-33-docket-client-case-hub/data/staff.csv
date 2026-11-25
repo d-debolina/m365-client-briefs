@@ -1,0 +1,11 @@
+staff_id,name,role,practice,weekly_capacity_hours
+S01,Hannah Price,Partner,Commercial,30
+S02,Ravi Shah,Partner,Employment,30
+S03,Olivia Bennett,Senior Associate,Commercial,37
+S04,Tom Okafor,Associate,Commercial,37
+S05,Mei Lin,Associate,Employment,37
+S06,Jack Evans,Associate,Disputes,37
+S07,Sofia Rossi,Senior Associate,Disputes,37
+S08,Ben Carter,Paralegal,Commercial,37
+S09,Aisha Khan,Paralegal,Disputes,37
+S10,Leo Martin,Trainee,Employment,37

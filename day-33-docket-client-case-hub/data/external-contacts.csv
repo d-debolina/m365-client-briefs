@@ -1,0 +1,7 @@
+contact,client_id,case_id,access,expires
+legal@contoso-retail.example,C001,CASE-2027002,Edit,2027-06-30
+cfo@northwind.example,C002,CASE-2027005,View,2027-05-31
+hr@tailspin.example,C003,CASE-2027008,Edit,2027-07-31
+gc@woodgrove.example,C008,CASE-2027013,View,2027-06-15
+ops@fourthcoffee.example,C009,CASE-2027019,Edit,2027-04-30
+md@alpineski.example,C010,CASE-2027026,View,2027-09-30

@@ -1,0 +1,31 @@
+case_id,practice,restricted,internal_access,unique_scopes_in_case_files,external_access,team_size
+CASE-2027001,Employment,No,"DOCKET-Employment (practice group, inherited)",0,none,3
+CASE-2027002,Disputes,No,"DOCKET-Disputes (practice group, inherited)",0,"Client Share site → folder CASE-2027002 (guests, Specific people links, expiry)",3
+CASE-2027003,Commercial,No,"DOCKET-Commercial (practice group, inherited)",0,none,4
+CASE-2027004,Employment,Yes,DOCKET-CASE-2027004-Team (lead Ravi Shah + named members),1,none,3
+CASE-2027005,Disputes,No,"DOCKET-Disputes (practice group, inherited)",0,"Client Share site → folder CASE-2027005 (guests, Specific people links, expiry)",3
+CASE-2027006,Commercial,No,"DOCKET-Commercial (practice group, inherited)",0,none,4
+CASE-2027007,Employment,No,"DOCKET-Employment (practice group, inherited)",0,none,3
+CASE-2027008,Disputes,No,"DOCKET-Disputes (practice group, inherited)",0,"Client Share site → folder CASE-2027008 (guests, Specific people links, expiry)",3
+CASE-2027009,Commercial,No,"DOCKET-Commercial (practice group, inherited)",0,none,4
+CASE-2027010,Employment,No,"DOCKET-Employment (practice group, inherited)",0,none,3
+CASE-2027011,Disputes,Yes,DOCKET-CASE-2027011-Team (lead Sofia Rossi + named members),1,none,3
+CASE-2027012,Commercial,No,"DOCKET-Commercial (practice group, inherited)",0,none,4
+CASE-2027013,Employment,No,"DOCKET-Employment (practice group, inherited)",0,"Client Share site → folder CASE-2027013 (guests, Specific people links, expiry)",3
+CASE-2027014,Disputes,No,"DOCKET-Disputes (practice group, inherited)",0,none,3
+CASE-2027015,Commercial,No,"DOCKET-Commercial (practice group, inherited)",0,none,4
+CASE-2027016,Employment,No,"DOCKET-Employment (practice group, inherited)",0,none,3
+CASE-2027017,Disputes,Yes,DOCKET-CASE-2027017-Team (lead Sofia Rossi + named members),1,none,3
+CASE-2027018,Commercial,No,"DOCKET-Commercial (practice group, inherited)",0,none,4
+CASE-2027019,Employment,No,"DOCKET-Employment (practice group, inherited)",0,"Client Share site → folder CASE-2027019 (guests, Specific people links, expiry)",3
+CASE-2027020,Disputes,No,"DOCKET-Disputes (practice group, inherited)",0,none,3
+CASE-2027021,Commercial,No,"DOCKET-Commercial (practice group, inherited)",0,none,4
+CASE-2027022,Employment,No,"DOCKET-Employment (practice group, inherited)",0,none,3
+CASE-2027023,Disputes,Yes,DOCKET-CASE-2027023-Team (lead Sofia Rossi + named members),1,none,3
+CASE-2027024,Commercial,No,"DOCKET-Commercial (practice group, inherited)",0,none,4
+CASE-2027025,Employment,No,"DOCKET-Employment (practice group, inherited)",0,none,3
+CASE-2027026,Disputes,No,"DOCKET-Disputes (practice group, inherited)",0,"Client Share site → folder CASE-2027026 (guests, Specific people links, expiry)",3
+CASE-2027027,Commercial,No,"DOCKET-Commercial (practice group, inherited)",0,none,4
+CASE-2027028,Employment,No,"DOCKET-Employment (practice group, inherited)",0,none,3
+CASE-2027029,Disputes,Yes,DOCKET-CASE-2027029-Team (lead Sofia Rossi + named members),1,none,3
+CASE-2027030,Commercial,No,"DOCKET-Commercial (practice group, inherited)",0,none,4
