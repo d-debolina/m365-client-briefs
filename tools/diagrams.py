@@ -207,7 +207,7 @@ D["day-09-scout-agent-readiness-audit"] = ("Day 9 · SCOUT — Survey, Classify,
 def render(folder, title, sub, body):
     """Write architecture.dot/.svg/.png into REPO/folder. Reuse n(), b(), cluster() to build `body`."""
     dot = (HEAD % (title, sub + KEY)) + body + "}\n"
-    if folder.startswith("day-05"):
+    if "sprinkle" in folder:
         dot = dot.replace("rankdir=LR", "rankdir=TB")
     out = REPO / folder
     out.mkdir(parents=True, exist_ok=True)
