@@ -6,6 +6,7 @@ A year-at-a-glance leadership calendar: a Power Apps canvas app on one SharePoin
 |---|---|
 | `list/schema.md` | List columns, validation, 15 categories with colours, permission model |
 | `list/sample-activities.csv` | 41 fictional activities for one year |
+| `app/theming.md` | Follow the Teams theme (default, dark, high contrast) with a token record and dark-safe category colours |
 | `app/formulas.md` | Key Power Fx: named formulas, 3 × 4 month grid, nested gallery, "+N more", filters, details panel, form validation |
 | `scripts/Create-AtlasList.ps1` | Creates both lists with PnP PowerShell and imports the sample data |
 | `scripts/make_sample_data.py` | Regenerates the sample CSV |
