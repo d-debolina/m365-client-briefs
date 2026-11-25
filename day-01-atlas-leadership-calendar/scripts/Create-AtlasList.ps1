@@ -2,7 +2,10 @@
 .SYNOPSIS
   Creates the ATLAS Leadership_Calendar list (+ ATLAS_Editors list) and imports the fictional sample activities.
 .EXAMPLE
-  ./Create-AtlasList.ps1 -SiteUrl https://contoso.sharepoint.com/sites/leadership -ClientId <your-entra-app-id>
+  ./Create-AtlasList.ps1 -SiteUrl https://contoso.sharepoint.com/sites/leadership-dev -ClientId <your-entra-app-id>
+.EXAMPLE
+  # PROD site for the ALM pipeline: same lists, no sample data
+  ./Create-AtlasList.ps1 -SiteUrl https://contoso.sharepoint.com/sites/leadership -ClientId <your-entra-app-id> -SkipSampleData
 .NOTES
   Requires PnP.PowerShell 2.x+ and your own Entra app registration (PnP no longer ships a shared app).
   Use a developer tenant. All sample data is fictional.
@@ -10,7 +13,8 @@
 param(
   [Parameter(Mandatory)] [string] $SiteUrl,
   [Parameter(Mandatory)] [string] $ClientId,
-  [string] $CsvPath = (Join-Path $PSScriptRoot "..\list\sample-activities.csv")
+  [string] $CsvPath = (Join-Path $PSScriptRoot "..\list\sample-activities.csv"),
+  [switch] $SkipSampleData
 )
 
 Connect-PnPOnline -Url $SiteUrl -ClientId $ClientId -Interactive
@@ -47,8 +51,8 @@ $l.Update(); Invoke-PnPQuery
 New-PnPList -Title "ATLAS_Editors" -Template GenericList | Out-Null
 Add-PnPField -List "ATLAS_Editors" -DisplayName "Email" -InternalName "Email" -Type Text -AddToDefaultView
 
-# Import sample data
-Import-Csv $CsvPath | ForEach-Object {
+# Import sample data (skip for PROD)
+if (-not $SkipSampleData) { Import-Csv $CsvPath | ForEach-Object {
   $values = @{
     Title = $_.Title; Category = $_.Category; StartDate = $_.StartDate; EndDate = $_.EndDate
     AllDay = ($_.AllDay -eq "Yes"); StartTime = $_.StartTime; EndTime = $_.EndTime
@@ -57,5 +61,10 @@ Import-Csv $CsvPath | ForEach-Object {
   if ($_.DocumentLink) { $values.DocumentLink = "$($_.DocumentLink), Documents" }
   if ($_.MeetingLink)  { $values.MeetingLink  = "$($_.MeetingLink), Join meeting" }
   Add-PnPListItem -List $list -Values $values | Out-Null
-}
+} }
+
+# List IDs: paste these into alm/deployment-settings/prod.json when this is the PROD site
+Write-Host "Site URL:                $SiteUrl"
+Write-Host "Leadership_Calendar ID:  $((Get-PnPList -Identity $list).Id)"
+Write-Host "ATLAS_Editors ID:        $((Get-PnPList -Identity 'ATLAS_Editors').Id)"
 Write-Host "Done. Now break inheritance on the list: Read for viewers, Contribute for 'ATLAS Editors'."
