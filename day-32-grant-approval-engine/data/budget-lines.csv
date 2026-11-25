@@ -1,0 +1,6 @@
+budget_line,grant,description,budget_usd,committed_usd,actual_usd
+WASH-01-TRV,PRJ-WASH,WASH programme travel,18000,4200,9100
+WASH-02-SUP,PRJ-WASH,WASH supplies and equipment,120000,38000,61500
+EDU-01-TRV,PRJ-EDU,Education programme travel,12000,1500,10200
+EDU-02-MAT,PRJ-EDU,School materials,45000,9000,22000
+CORE-01-ADM,CORE,Core admin and office,30000,2500,14800

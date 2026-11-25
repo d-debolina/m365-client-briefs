@@ -1,0 +1,9 @@
+request_id,form_code,requester,department,project,budget_line,amount_usd,submitted_on
+LV-01001,LEAVE,mary.achieng@contoso-relief.example,Programmes,PRJ-EDU,,0,2027-04-06
+TA-01002,TAUTH,james.mutua@contoso-relief.example,Programmes,PRJ-WASH,WASH-01-TRV,1850,2027-04-07
+TA-01003,TAUTH,james.mutua@contoso-relief.example,Programmes,PRJ-EDU,EDU-01-TRV,950,2027-04-07
+PR-01004,PR,daniel.kiprop@contoso-relief.example,Logistics,PRJ-WASH,WASH-02-SUP,14800,2027-04-08
+PR-01005,PR,james.mutua@contoso-relief.example,Programmes,PRJ-EDU,EDU-02-MAT,12000,2027-04-13
+PR-01008,PR,james.mutua@contoso-relief.example,Programmes,PRJ-EDU,EDU-02-MAT,31000,2027-04-21
+PV-01006,PV,peter.otieno@contoso-relief.example,Finance,CORE,CORE-01-ADM,3200,2027-04-20
+AM-01007,AMOVE,daniel.kiprop@contoso-relief.example,Logistics,CORE,,0,2027-04-09

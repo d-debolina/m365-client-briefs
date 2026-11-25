@@ -1,0 +1,8 @@
+key,value,description
+REMINDER_AFTER_HOURS,24,Send a reminder if a stage is still pending after this many hours
+ESCALATE_AFTER_HOURS,72,Move the stage to the alternate after this many hours
+MAX_RETURNS,3,How many times a request can be returned for correction
+PER_DIEM_FIELD_USD,45,Daily allowance for field travel
+PER_DIEM_CAPITAL_USD,80,Daily allowance for capital-city travel
+MILEAGE_USD_PER_KM,0.35,Own-vehicle mileage rate
+SINGLE_QUOTE_LIMIT_USD,1000,"Above this, sourcing needs three quotes"

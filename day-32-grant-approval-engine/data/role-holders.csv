@@ -1,0 +1,12 @@
+role,department,holder,alternate
+LINE_MANAGER,Programmes,amina.yusuf@contoso-relief.example,omar.hassan@contoso-relief.example
+LINE_MANAGER,Finance,grace.mwangi@contoso-relief.example,peter.otieno@contoso-relief.example
+LINE_MANAGER,Logistics,daniel.kiprop@contoso-relief.example,amina.yusuf@contoso-relief.example
+HR_OFFICER,*,fatuma.ali@contoso-relief.example,grace.mwangi@contoso-relief.example
+BUDGET_HOLDER,*,omar.hassan@contoso-relief.example,amina.yusuf@contoso-relief.example
+PROCUREMENT_OFFICER,*,daniel.kiprop@contoso-relief.example,peter.otieno@contoso-relief.example
+FINANCE_OFFICER,*,peter.otieno@contoso-relief.example,grace.mwangi@contoso-relief.example
+FINANCE_MANAGER,*,grace.mwangi@contoso-relief.example,sarah.njeri@contoso-relief.example
+COUNTRY_DIRECTOR,*,sarah.njeri@contoso-relief.example,grace.mwangi@contoso-relief.example
+DONOR_COMPLIANCE,*,lucy.wanjiru@contoso-relief.example,sarah.njeri@contoso-relief.example
+LOGISTICS_OFFICER,*,daniel.kiprop@contoso-relief.example,peter.otieno@contoso-relief.example

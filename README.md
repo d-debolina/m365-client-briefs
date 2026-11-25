@@ -41,6 +41,8 @@ seen on a freelance marketplace and rebuilds it with Microsoft 365, Power Platfo
 | 29 | **CREW** – Capacity, Resources, Equipment & Weeks | Dataverse resource board: plug-ins that keep a locked plan locked (even in Excel), a tested planning engine, Teams unlock approvals, pipelines | `day-29-crew-dataverse-resource-board` |
 | 30 | **PROBE** – Prove Records Obey Boundaries End-to-end | Security review of a Copilot Studio agent over Salesforce health data: per-user access, prompt-injection tests, leak checker, hardening checklist | `day-30-probe-copilot-salesforce-access-review` |
 | 31 | **HAUL** – Hash-checked, App-only, Unattended, Logged | Unattended file uploads from many RMM-managed PCs to one SharePoint library: certificate auth, write on one library only, hash-based skip, exit codes | `day-31-haul-rmm-files-to-sharepoint` |
+| 32 | **GRANT** – Generic Routing, Approvals, Numbering & Tracking | One reusable approval engine for 16 nonprofit forms: Dataverse approval matrix, delegation, budget check, audit log, pipelines | `day-32-grant-approval-engine` |
+| 33 | **DOCKET** – Document sets, Oversight, Cases, Keys, External access, Tracking | Client, retainer and case hub on SharePoint: document set per case, ethical wall, guest-only share site, allocation dashboard | `day-33-docket-client-case-hub` |
 
 ## Licence
 Content: CC BY 4.0. Code: MIT.

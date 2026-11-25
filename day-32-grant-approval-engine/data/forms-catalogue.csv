@@ -1,0 +1,17 @@
+form_code,form_name,release,process,numbering_format,budget_check
+LEAVE,Leave request,1,HR,LV-{SEQNUM:5},no
+TIME,Monthly timesheet,1,HR,TS-{SEQNUM:5},no
+TAUTH,Travel authorisation,1,TRAVEL,TA-{SEQNUM:5},yes
+TADV,Travel advance,1,TRAVEL,ADV-{SEQNUM:5},yes
+TEXP,Travel expense report,1,TRAVEL,TER-{SEQNUM:5},yes
+PR,Purchase request,2,PROCURE,PR-{SEQNUM:5},yes
+SRC,Sourcing and award,2,PROCURE,SA-{SEQNUM:5},no
+PO,Purchase order or contract,2,PROCURE,PO-{SEQNUM:6},yes
+GRN,Receiving report,2,PROCURE,GRN-{SEQNUM:5},no
+PV,Payment voucher,2,FINANCE,PV-{SEQNUM:6},yes
+ASSET,Asset record,2,ASSETS,AR-{SEQNUM:5},no
+ACOUNT,Asset count,2,ASSETS,AC-{SEQNUM:4},no
+AMOVE,Asset movement,2,ASSETS,AM-{SEQNUM:5},no
+LOSS,Loss and theft report,2,ASSETS,LT-{SEQNUM:4},no
+DISP,Disposal plan,2,ASSETS,DP-{SEQNUM:4},no
+SUPPLY,Supplies request and stock,2,PROCURE,SR-{SEQNUM:5},yes
