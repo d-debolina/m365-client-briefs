@@ -43,6 +43,7 @@ seen on a freelance marketplace and rebuilds it with Microsoft 365, Power Platfo
 | 31 | **PROBE** – Prove Records Obey Boundaries End-to-end | Security review of a Copilot Studio agent over Salesforce health data: per-user access, prompt-injection tests, leak checker, hardening checklist | `day-31-probe-copilot-salesforce-access-review` |
 | 32 | **HAUL** – Hash-checked, App-only, Unattended, Logged | Unattended file uploads from many RMM-managed PCs to one SharePoint library: certificate auth, write on one library only, hash-based skip, exit codes | `day-32-haul-rmm-files-to-sharepoint` |
 | 33 | **DOCKET** – Document sets, Oversight, Cases, Keys, External access, Tracking | Client, retainer and case hub on SharePoint: document set per case, ethical wall, guest-only share site, allocation dashboard | `day-33-docket-client-case-hub` |
+| 34 | **SWITCH** – Scope, Wave-pilot, Import, Test, Cut over, Hand over | Google Workspace to Microsoft 365 Business Premium for six people: EAC Gmail batch, Migration Manager, one-user pilot, rollback, security baseline, proven backup restore | `day-34-switch-google-to-m365` |
 
 ## Licence
 Content: CC BY 4.0. Code: MIT.

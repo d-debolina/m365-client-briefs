@@ -1,0 +1,8 @@
+item,depends_on,owner,after_switch,test
+Client Google Ads accounts,staff Google identity,Lena Fischer,keep via Cloud Identity Free,sign in to one client Ads account
+Client GA4 properties,staff Google identity,Lena Fischer,keep via Cloud Identity Free,open one GA4 property
+Client Tag Manager containers,staff Google identity,Lena Fischer,keep via Cloud Identity Free,open one GTM workspace
+Website contact form,SMTP relay via Gmail,Alex Morgan,move to Exchange Online (SMTP AUTH or connector),"submit test form, check office@ inbox"
+Device tracking,existing MDM / asset list,Alex Morgan,keep; add Intune enrolment later,confirm all 5 laptops still report
+Invoice app emails,sends as office@,Alex Morgan,update SPF and DKIM,send one test invoice
+Calendar booking link,Google Calendar appointment page,Priya Shah,replace with Microsoft Bookings,book a test slot

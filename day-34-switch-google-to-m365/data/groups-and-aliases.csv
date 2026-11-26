@@ -1,0 +1,4 @@
+google_object,type,members,m365_target,note
+office@fabrikamcreative.example,Google Group (collaborative inbox),Jo Hartley; Alex Morgan,shared mailbox,group history is not moved by the Gmail batch; export it or start fresh
+hello@fabrikamcreative.example,user alias of Priya Shah,Priya Shah,proxy address on Priya's mailbox,add before cutover
+accounts@fabrikamcreative.example,Google Group,Alex Morgan; Lena Fischer,distribution list,external senders allowed

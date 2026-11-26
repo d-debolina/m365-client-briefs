@@ -1,0 +1,5 @@
+shared_drive,size_gb,members,external_shares,target_site
+Clients,140.0,all staff,9,/sites/Clients
+Studio Assets,310.0,Sam Okoro; Priya Shah; Alex Morgan,2,/sites/Studio
+Finance,4.2,Alex Morgan; Lena Fischer,0,/sites/Finance
+Templates,1.8,all staff,0,/sites/Studio

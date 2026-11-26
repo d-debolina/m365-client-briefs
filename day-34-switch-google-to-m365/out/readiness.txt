@@ -1,0 +1,18 @@
+OK    Alex Morgan    mailbox     18.4 GB of 100 GB (18%)
+OK    Alex Morgan    OneDrive    62.0 GB of 1024 GB (6%)
+OK    Priya Shah     mailbox     11.2 GB of 100 GB (11%)
+OK    Priya Shah     OneDrive    38.5 GB of 1024 GB (4%)
+OK    Sam Okoro      mailbox      4.9 GB of 100 GB (5%)
+OK    Sam Okoro      OneDrive   214.0 GB of 1024 GB (21%)
+OK    Lena Fischer   mailbox      7.3 GB of 100 GB (7%)
+OK    Lena Fischer   OneDrive    21.0 GB of 1024 GB (2%)
+OK    Tom Reyes      mailbox      3.1 GB of 100 GB (3%)
+OK    Tom Reyes      OneDrive     9.4 GB of 1024 GB (1%)
+OK    Jo Hartley     mailbox      6.6 GB of 100 GB (7%)
+OK    Jo Hartley     OneDrive    14.2 GB of 1024 GB (1%)
+OK    SharePoint tenant storage 456.0 GB of 1084 GB (42%)
+
+Microsoft 365 Backup estimate (pay-as-you-go, list price, before growth and versions):
+  Mailboxes only              51.5 GiB  ~ USD    7.72 / month
+  Mailboxes + SharePoint     507.5 GiB  ~ USD   76.12 / month
+  Everything                 866.6 GiB  ~ USD  129.99 / month
