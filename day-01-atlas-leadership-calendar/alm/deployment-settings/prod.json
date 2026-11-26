@@ -1,0 +1,17 @@
+{
+  "EnvironmentVariables": [
+    {
+      "SchemaName": "atlas_SiteUrl",
+      "Value": "<https://yourtenant.sharepoint.com/sites/leadership>"
+    },
+    {
+      "SchemaName": "atlas_CalendarList",
+      "Value": "<ID (GUID) of Leadership_Calendar on the PROD site>"
+    },
+    {
+      "SchemaName": "atlas_EditorsList",
+      "Value": "<ID (GUID) of ATLAS_Editors on the PROD site>"
+    }
+  ],
+  "ConnectionReferences": []
+}

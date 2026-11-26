@@ -10,6 +10,7 @@ A year-at-a-glance leadership calendar: a Power Apps canvas app on one SharePoin
 | `app/formulas.md` | Key Power Fx: named formulas, 3 × 4 month grid, nested gallery, "+N more", filters, details panel, form validation |
 | `scripts/Create-AtlasList.ps1` | Creates both lists with PnP PowerShell and imports the sample data |
 | `scripts/make_sample_data.py` | Regenerates the sample CSV |
+| `alm/` | Dev → prod pipeline: GitHub Actions + Power Platform CLI, deployment settings, setup guide |
 | `handover/handover-note.md` | One-page handover template (how it works, add a category, grant edit rights) |
 | `architecture.png` / `.svg` / `.dot` | Architecture diagram |
 
@@ -18,5 +19,7 @@ A year-at-a-glance leadership calendar: a Power Apps canvas app on one SharePoin
 2. Break permission inheritance on the list: Read for viewers, Contribute for **ATLAS Editors**.
 3. Create a blank canvas app (16:9), add the SharePoint connection to both lists, and paste the formulas from `app/formulas.md`.
 4. Share the app with the leadership group, then **Publish to Teams** and add it as a tab.
+
+Want DEV and PROD with source control and an approval step? See [`alm/README.md`](alm/README.md).
 
 All names and data are fictional.

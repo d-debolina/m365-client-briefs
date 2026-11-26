@@ -1,0 +1,104 @@
+# Day 1 ATLAS: build a managed solution from source control and deploy it to PROD.
+# The deploy job uses the GitHub environment "atlas-prod". Add yourself as a required reviewer
+# there, so nothing reaches production without a click.
+name: ATLAS · deploy to prod
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "day-01-atlas-leadership-calendar/alm/solution/src/**"
+  # Changed only prod.json? Run it by hand (Actions → Run workflow).
+
+permissions:
+  contents: read
+
+concurrency:
+  group: atlas-deploy
+  cancel-in-progress: false
+
+env:
+  SOLUTION_NAME: ATLASLeadershipCalendar
+  SOLUTION_DIR: day-01-atlas-leadership-calendar/alm/solution/src
+  SETTINGS_FILE: day-01-atlas-leadership-calendar/alm/deployment-settings/prod.json
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stop if nothing has been exported yet
+        run: |
+          if [ ! -f "$SOLUTION_DIR/Other/Solution.xml" ]; then
+            echo "::error::No unpacked solution in $SOLUTION_DIR. Run 'ATLAS · export from dev' and merge its PR first."
+            exit 1
+          fi
+
+      - name: Install Power Platform CLI
+        uses: microsoft/powerplatform-actions/actions-install@v1.9.2
+        with:
+          add-tools-to-path: true
+
+      - name: Stamp the version with the run number
+        # Every build gets a higher version, so PROD always upgrades.
+        run: pac solution version --revisionversion "${GITHUB_RUN_NUMBER}" --solutionPath "$SOLUTION_DIR/Other/Solution.xml"
+
+      - name: Pack the managed solution
+        run: |
+          mkdir -p out
+          pac solution pack --zipfile "out/${SOLUTION_NAME}_managed.zip" --folder "$SOLUTION_DIR" --packagetype Managed
+
+      - name: Check the settings file has no blanks
+        run: |
+          if jq -e '[.EnvironmentVariables[]?.Value, .ConnectionReferences[]?.ConnectionId] | map(select(. == "" or . == null or startswith("<"))) | length > 0' "$SETTINGS_FILE" > /dev/null; then
+            echo "::error::$SETTINGS_FILE still has empty or <placeholder> values. Fill them in for PROD."
+            exit 1
+          fi
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: atlas-managed
+          path: out/${{ env.SOLUTION_NAME }}_managed.zip
+          retention-days: 30
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: atlas-prod
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: atlas-managed
+          path: out
+
+      - name: Install Power Platform CLI
+        uses: microsoft/powerplatform-actions/actions-install@v1.9.2
+        with:
+          add-tools-to-path: true
+
+      - name: Sign in to PROD (service principal)
+        run: |
+          pac auth create --name atlas-prod \
+            --applicationId "${{ vars.ATLAS_CLIENT_ID }}" \
+            --clientSecret "${{ secrets.ATLAS_CLIENT_SECRET }}" \
+            --tenant "${{ vars.ATLAS_TENANT_ID }}" \
+            --environment "${{ vars.ATLAS_PROD_URL }}"
+          pac org who
+
+      - name: Import (first time) or upgrade
+        run: |
+          zip="out/${SOLUTION_NAME}_managed.zip"
+          if pac solution list | grep -qw "$SOLUTION_NAME"; then
+            echo "Solution found in PROD: upgrading."
+            pac solution import --path "$zip" --settings-file "$SETTINGS_FILE" --stage-and-upgrade --async
+          else
+            echo "First deployment to PROD."
+            pac solution import --path "$zip" --settings-file "$SETTINGS_FILE" --async
+          fi
+
+      - name: Show what's installed
+        run: pac solution list | grep -i "$SOLUTION_NAME" || true

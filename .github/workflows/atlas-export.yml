@@ -1,0 +1,81 @@
+# Day 1 ATLAS: export the solution from DEV into source control.
+# Run it by hand (Actions → "ATLAS · export from dev" → Run workflow) after you've saved and
+# published your changes in Power Apps. It opens a pull request with the unpacked solution.
+name: ATLAS · export from dev
+
+on:
+  workflow_dispatch:
+    inputs:
+      note:
+        description: "What changed (goes into the PR title)"
+        required: false
+        default: "update from dev"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: atlas-export
+  cancel-in-progress: false
+
+env:
+  SOLUTION_NAME: ATLASLeadershipCalendar
+  SOLUTION_DIR: day-01-atlas-leadership-calendar/alm/solution/src
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Power Platform CLI
+        uses: microsoft/powerplatform-actions/actions-install@v1.9.2
+        with:
+          add-tools-to-path: true
+
+      - name: Sign in to DEV (service principal)
+        run: |
+          pac auth create --name atlas-dev \
+            --applicationId "${{ vars.ATLAS_CLIENT_ID }}" \
+            --clientSecret "${{ secrets.ATLAS_CLIENT_SECRET }}" \
+            --tenant "${{ vars.ATLAS_TENANT_ID }}" \
+            --environment "${{ vars.ATLAS_DEV_URL }}"
+          pac org who
+
+      - name: Export unmanaged and managed
+        run: |
+          mkdir -p out
+          pac solution export --name "$SOLUTION_NAME" --path "out/${SOLUTION_NAME}.zip" --overwrite
+          pac solution export --name "$SOLUTION_NAME" --path "out/${SOLUTION_NAME}_managed.zip" --managed --overwrite
+
+      - name: Unpack into the repo
+        run: |
+          rm -rf "$SOLUTION_DIR"
+          pac solution unpack --zipfile "out/${SOLUTION_NAME}.zip" --folder "$SOLUTION_DIR" --packagetype Both --allowDelete --allowWrite --clobber
+
+      - name: Refresh the deployment settings template
+        # Lists every environment variable and connection reference in the solution.
+        # Copy any new names into deployment-settings/prod.json.
+        run: |
+          pac solution create-settings --solution-zip "out/${SOLUTION_NAME}.zip" \
+            --settings-file day-01-atlas-leadership-calendar/alm/deployment-settings/template.generated.json
+
+      - name: Open a pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NOTE: ${{ inputs.note }}
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes since the last export."; exit 0
+          fi
+          branch="atlas/export-${GITHUB_RUN_NUMBER}"
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add day-01-atlas-leadership-calendar/alm
+          git commit -m "Day 01 ATLAS: export from dev (${NOTE})"
+          git push origin "$branch"
+          gh pr create --base main --head "$branch" \
+            --title "ATLAS: ${NOTE}" \
+            --body "Exported from DEV by run ${GITHUB_RUN_NUMBER}. Review the diff, merge, then run **ATLAS · deploy to prod**."
