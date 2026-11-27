@@ -1,0 +1,31 @@
+draft_id,direction,entity,subject_en,subject_ar,party,date,classification,owner_unit
+D030,Internal memo,Contoso Institute,Invitation to accreditation visit,دعوة لزيارة الاعتماد,Internal,2027-01-04,Confidential,Quality
+D001,Incoming,Contoso Institute,Invitation to accreditation visit,دعوة لزيارة الاعتماد,Tailspin Accreditation Board,2027-01-06,Internal,Executive office
+D010,Incoming,Contoso Institute,Annual budget submission,تقديم الميزانية السنوية,Northwind Ministry Liaison Office,2027-01-06,Confidential,Quality
+D020,Internal memo,Contoso Services,Partnership agreement draft,مسودة اتفاقية شراكة,Internal,2027-01-06,Confidential,Registry
+D026,Internal memo,Contoso Services,Request for course catalogue,طلب دليل المقررات,Internal,2027-01-07,Internal,Executive office
+D004,Incoming,Contoso Institute,Exam schedule notice,إشعار جدول الامتحانات,Wide World Importers,2027-01-09,Internal,Executive office
+D002,Internal memo,Contoso Institute,Partnership agreement draft,مسودة اتفاقية شراكة,Internal,2027-01-12,Confidential,Research
+D022,Incoming,Contoso Services,Partnership agreement draft,مسودة اتفاقية شراكة,Tailspin Accreditation Board,2027-01-13,Internal,Research
+D017,Incoming,Contoso Institute,Exam schedule notice,إشعار جدول الامتحانات,Tailspin Accreditation Board,2027-01-14,Internal,Quality
+D021,Incoming,Contoso Services,Annual budget submission,تقديم الميزانية السنوية,Northwind Ministry Liaison Office,2027-01-15,Internal,Research
+D006,Incoming,Contoso Institute,Partnership agreement draft,مسودة اتفاقية شراكة,Adventure Works Foundation,2027-01-16,Internal,Quality
+D011,Incoming,Contoso Institute,Exam schedule notice,إشعار جدول الامتحانات,Adventure Works Foundation,2027-01-16,Internal,Research
+D003,Incoming,Contoso Institute,Tender clarification,توضيح بشأن المناقصة,Adventure Works Foundation,2027-01-17,Internal,Research
+D005,Incoming,Contoso Services,Annual budget submission,تقديم الميزانية السنوية,Northwind Ministry Liaison Office,2027-01-19,Confidential,Executive office
+D007,Outgoing,Contoso Services,Exam schedule notice,إشعار جدول الامتحانات,Northwind Ministry Liaison Office,2027-01-19,Confidential,Finance
+D027,Internal memo,Contoso Institute,Invitation to accreditation visit,دعوة لزيارة الاعتماد,Internal,2027-01-20,Confidential,Research
+D015,Incoming,Contoso Services,Invitation to accreditation visit,دعوة لزيارة الاعتماد,Litware Research Council,2027-01-21,Internal,Finance
+D019,Outgoing,Contoso Services,Facilities maintenance plan,خطة صيانة المرافق,Tailspin Accreditation Board,2027-01-21,Internal,Registry
+D008,Internal memo,Contoso Institute,Invitation to accreditation visit,دعوة لزيارة الاعتماد,Internal,2027-01-24,Confidential,Research
+D012,Outgoing,Contoso Institute,Tender clarification,توضيح بشأن المناقصة,Fabrikam University,2027-01-24,Internal,Quality
+D018,Incoming,Contoso Services,Facilities maintenance plan,خطة صيانة المرافق,Fabrikam University,2027-01-24,Internal,Registry
+D023,Internal memo,Contoso Services,Exam schedule notice,إشعار جدول الامتحانات,Internal,2027-01-24,Internal,Research
+D028,Outgoing,Contoso Services,Exam schedule notice,إشعار جدول الامتحانات,Adventure Works Foundation,2027-01-24,Confidential,Quality
+D016,Outgoing,Contoso Institute,Facilities maintenance plan,خطة صيانة المرافق,Wide World Importers,2027-01-25,Internal,Finance
+D024,Outgoing,Contoso Services,Partnership agreement draft,مسودة اتفاقية شراكة,Northwind Ministry Liaison Office,2027-01-25,Internal,Registry
+D009,Internal memo,Contoso Services,Tender clarification,توضيح بشأن المناقصة,Internal,2027-01-27,Internal,Quality
+D025,Internal memo,Contoso Institute,Tender clarification,توضيح بشأن المناقصة,Internal,2027-01-27,Confidential,Quality
+D029,Incoming,Contoso Services,Request for course catalogue,طلب دليل المقررات,Northwind Ministry Liaison Office,2027-01-27,Confidential,Research
+D013,Outgoing,Contoso Institute,Visiting scholar nomination,ترشيح باحث زائر,Northwind Ministry Liaison Office,2027-01-29,Internal,Executive office
+D014,Internal memo,Contoso Services,Request for course catalogue,طلب دليل المقررات,Internal,2027-01-29,Internal,Finance

@@ -1,0 +1,31 @@
+﻿reference,draft_id,direction,entity,subject_en,subject_ar,party,date,classification,owner_unit,status
+MEMO-CI-2027-00001,D030,Internal memo,Contoso Institute,Invitation to accreditation visit,دعوة لزيارة الاعتماد,Internal,2027-01-04,Confidential,Quality,Awaiting approval
+IN-CI-2027-00001,D001,Incoming,Contoso Institute,Invitation to accreditation visit,دعوة لزيارة الاعتماد,Tailspin Accreditation Board,2027-01-06,Internal,Executive office,Registered
+IN-CI-2027-00002,D010,Incoming,Contoso Institute,Annual budget submission,تقديم الميزانية السنوية,Northwind Ministry Liaison Office,2027-01-06,Confidential,Quality,Registered
+MEMO-CS-2027-00001,D020,Internal memo,Contoso Services,Partnership agreement draft,مسودة اتفاقية شراكة,Internal,2027-01-06,Confidential,Registry,Awaiting approval
+MEMO-CS-2027-00002,D026,Internal memo,Contoso Services,Request for course catalogue,طلب دليل المقررات,Internal,2027-01-07,Internal,Executive office,Awaiting approval
+IN-CI-2027-00003,D004,Incoming,Contoso Institute,Exam schedule notice,إشعار جدول الامتحانات,Wide World Importers,2027-01-09,Internal,Executive office,Registered
+MEMO-CI-2027-00002,D002,Internal memo,Contoso Institute,Partnership agreement draft,مسودة اتفاقية شراكة,Internal,2027-01-12,Confidential,Research,Awaiting approval
+IN-CS-2027-00001,D022,Incoming,Contoso Services,Partnership agreement draft,مسودة اتفاقية شراكة,Tailspin Accreditation Board,2027-01-13,Internal,Research,Registered
+IN-CI-2027-00004,D017,Incoming,Contoso Institute,Exam schedule notice,إشعار جدول الامتحانات,Tailspin Accreditation Board,2027-01-14,Internal,Quality,Registered
+IN-CS-2027-00002,D021,Incoming,Contoso Services,Annual budget submission,تقديم الميزانية السنوية,Northwind Ministry Liaison Office,2027-01-15,Internal,Research,Registered
+IN-CI-2027-00005,D006,Incoming,Contoso Institute,Partnership agreement draft,مسودة اتفاقية شراكة,Adventure Works Foundation,2027-01-16,Internal,Quality,Registered
+IN-CI-2027-00006,D011,Incoming,Contoso Institute,Exam schedule notice,إشعار جدول الامتحانات,Adventure Works Foundation,2027-01-16,Internal,Research,Registered
+IN-CI-2027-00007,D003,Incoming,Contoso Institute,Tender clarification,توضيح بشأن المناقصة,Adventure Works Foundation,2027-01-17,Internal,Research,Registered
+IN-CS-2027-00003,D005,Incoming,Contoso Services,Annual budget submission,تقديم الميزانية السنوية,Northwind Ministry Liaison Office,2027-01-19,Confidential,Executive office,Registered
+OUT-CS-2027-00001,D007,Outgoing,Contoso Services,Exam schedule notice,إشعار جدول الامتحانات,Northwind Ministry Liaison Office,2027-01-19,Confidential,Finance,Awaiting approval
+MEMO-CI-2027-00003,D027,Internal memo,Contoso Institute,Invitation to accreditation visit,دعوة لزيارة الاعتماد,Internal,2027-01-20,Confidential,Research,Awaiting approval
+IN-CS-2027-00004,D015,Incoming,Contoso Services,Invitation to accreditation visit,دعوة لزيارة الاعتماد,Litware Research Council,2027-01-21,Internal,Finance,Registered
+OUT-CS-2027-00002,D019,Outgoing,Contoso Services,Facilities maintenance plan,خطة صيانة المرافق,Tailspin Accreditation Board,2027-01-21,Internal,Registry,Awaiting approval
+MEMO-CI-2027-00004,D008,Internal memo,Contoso Institute,Invitation to accreditation visit,دعوة لزيارة الاعتماد,Internal,2027-01-24,Confidential,Research,Awaiting approval
+OUT-CI-2027-00001,D012,Outgoing,Contoso Institute,Tender clarification,توضيح بشأن المناقصة,Fabrikam University,2027-01-24,Internal,Quality,Awaiting approval
+IN-CS-2027-00005,D018,Incoming,Contoso Services,Facilities maintenance plan,خطة صيانة المرافق,Fabrikam University,2027-01-24,Internal,Registry,Registered
+MEMO-CS-2027-00003,D023,Internal memo,Contoso Services,Exam schedule notice,إشعار جدول الامتحانات,Internal,2027-01-24,Internal,Research,Awaiting approval
+OUT-CS-2027-00003,D028,Outgoing,Contoso Services,Exam schedule notice,إشعار جدول الامتحانات,Adventure Works Foundation,2027-01-24,Confidential,Quality,Awaiting approval
+OUT-CI-2027-00002,D016,Outgoing,Contoso Institute,Facilities maintenance plan,خطة صيانة المرافق,Wide World Importers,2027-01-25,Internal,Finance,Awaiting approval
+OUT-CS-2027-00004,D024,Outgoing,Contoso Services,Partnership agreement draft,مسودة اتفاقية شراكة,Northwind Ministry Liaison Office,2027-01-25,Internal,Registry,Awaiting approval
+MEMO-CS-2027-00004,D009,Internal memo,Contoso Services,Tender clarification,توضيح بشأن المناقصة,Internal,2027-01-27,Internal,Quality,Awaiting approval
+MEMO-CI-2027-00005,D025,Internal memo,Contoso Institute,Tender clarification,توضيح بشأن المناقصة,Internal,2027-01-27,Confidential,Quality,Awaiting approval
+IN-CS-2027-00006,D029,Incoming,Contoso Services,Request for course catalogue,طلب دليل المقررات,Northwind Ministry Liaison Office,2027-01-27,Confidential,Research,Registered
+OUT-CI-2027-00003,D013,Outgoing,Contoso Institute,Visiting scholar nomination,ترشيح باحث زائر,Northwind Ministry Liaison Office,2027-01-29,Internal,Executive office,Awaiting approval
+MEMO-CS-2027-00005,D014,Internal memo,Contoso Services,Request for course catalogue,طلب دليل المقررات,Internal,2027-01-29,Internal,Finance,Awaiting approval

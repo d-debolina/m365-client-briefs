@@ -1,0 +1,72 @@
+{
+  "tenant": "contosoinstitute.example",
+  "languages": {
+    "default": "en",
+    "extra": [
+      "ar"
+    ],
+    "note": "Default language can't be changed after creation; pick it per site on purpose"
+  },
+  "hubs": [
+    {
+      "name": "Home",
+      "type": "communication",
+      "multilingual": true,
+      "sites": [
+        "Policies",
+        "News"
+      ]
+    },
+    {
+      "name": "Governance",
+      "type": "communication",
+      "multilingual": true,
+      "sites": [
+        "Board (private team)",
+        "Strategy"
+      ]
+    },
+    {
+      "name": "Records",
+      "type": "team",
+      "multilingual": false,
+      "sites": [
+        "Correspondence",
+        "Archive"
+      ]
+    },
+    {
+      "name": "Operations",
+      "type": "communication",
+      "multilingual": true,
+      "sites": [
+        "HR",
+        "Finance",
+        "Procurement",
+        "Service desk"
+      ]
+    },
+    {
+      "name": "Academic",
+      "type": "communication",
+      "multilingual": true,
+      "sites": [
+        "Programmes",
+        "Research",
+        "Student affairs",
+        "Quality"
+      ]
+    },
+    {
+      "name": "Knowledge",
+      "type": "communication",
+      "multilingual": true,
+      "sites": []
+    }
+  ],
+  "entities": [
+    "Contoso Institute (academic)",
+    "Contoso Services (commercial)"
+  ],
+  "entity_split": "Entity is a managed-metadata column + Entra security groups, not separate tenants"
+}

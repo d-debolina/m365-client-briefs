@@ -1,0 +1,6 @@
+doc_type,entity,stage1,stage2,stage3,escalate_after_days
+Outgoing letter,Contoso Institute,Head of unit,Secretary-General's office,,2
+Outgoing letter,Contoso Services,Head of unit,Managing director,,2
+Incoming letter,*,Registry clerk (assign),,,1
+Internal memo,*,Head of unit,,,3
+Policy,*,Policy owner,Legal,Executive board,5
