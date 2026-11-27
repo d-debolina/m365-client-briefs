@@ -1,0 +1,37 @@
+{
+  "roles": {
+    "Reader": [
+      "search_files",
+      "get_file_info",
+      "list_variables"
+    ],
+    "Operator": [
+      "search_files",
+      "get_file_info",
+      "list_variables",
+      "set_variable"
+    ],
+    "Admin": [
+      "search_files",
+      "get_file_info",
+      "list_variables",
+      "set_variable",
+      "run_script"
+    ]
+  },
+  "workspaces": {
+    "Contoso Ltd": [
+      "finance-exports",
+      "nightly-jobs"
+    ],
+    "Northwind Traders": [
+      "orders"
+    ]
+  },
+  "approved_scripts": [
+    "refresh-cache.ps1",
+    "export-daily-report.ps1"
+  ],
+  "confirmation_ttl_seconds": 120,
+  "max_result_bytes": 60000
+}

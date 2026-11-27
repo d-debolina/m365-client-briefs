@@ -1,0 +1,27 @@
+digraph G {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=20, labelloc=t, pad=0.4, nodesep=0.45, ranksep=0.7, bgcolor="white",
+         label=<<b>Day 35 · TETHER — Tunnelled, Entra-Trusted Host Execution Relay</b><br/><font point-size="13" color="#6B7280">Microsoft Copilot calls a local Windows app's MCP server through Azure Relay, with no inbound ports and a confirm step for every change<br/><font point-size="11"><font color="#7C3AED">■ Power Platform</font>   <font color="#0369A1">■ Microsoft 365</font>   <font color="#0F766E">■ Azure</font>   <font color="#C2410C">■ Copilot / AI</font>   <font color="#A16207">■ Repo files / outputs</font></font></font>>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, margin="0.18,0.10", penwidth=1.4];
+  edge  [fontname="Helvetica", fontsize=10, color="#4B5563", fontcolor="#374151", arrowsize=0.7];
+  user [label=<<b>Customer user</b><br/><font point-size="10">Reader · Operator · Admin</font>>, fillcolor="#F3F4F6", color="#6B7280"];
+  subgraph cluster_cs { label=<<b>Microsoft Copilot (customer tenant)</b>>; fontsize=13; style="rounded,dashed"; color="#C2410C"; fontcolor="#C2410C";
+  m365c [label=<<b>Microsoft 365 Copilot</b><br/><font point-size="10">declarative agent + MCP plugin</font>>, fillcolor="#FFF1E6", color="#C2410C"];
+  mcs [label=<<b>Copilot Studio agent</b><br/><font point-size="10">MCP tool · OAuth 2.0</font>>, fillcolor="#FFF1E6", color="#C2410C"];
+  }
+  entra [label=<<b>Entra ID</b><br/><font point-size="10">Tether.Invoke scope · app roles</font>>, fillcolor="#E0F2FE", color="#0369A1"];
+  subgraph cluster_az { label=<<b>Azure (vendor subscription)</b>>; fontsize=13; style="rounded,dashed"; color="#0F766E"; fontcolor="#0F766E";
+  apim [label=<<b>API Management</b><br/><font point-size="10">validate token · tid → relay<br/>rate limit · SAS signing</font>>, fillcolor="#E0F7F4", color="#0F766E"];
+  relay [label=<<b>Azure Relay</b><br/><font point-size="10">one Hybrid Connection<br/>per customer install</font>>, fillcolor="#E0F7F4", color="#0F766E"];
+  kv [label=<<b>Key Vault</b><br/><font point-size="10">relay Send key</font>>, fillcolor="#E0F7F4", color="#0F766E"];
+  }
+  subgraph cluster_onprem { label=<<b>Customer machine (no inbound ports)</b>>; fontsize=13; style="rounded,dashed"; color="#6B7280"; fontcolor="#6B7280";
+  bridge [label=<<b>TETHER bridge service</b><br/><font point-size="10">role filter · fences<br/>two-step confirm · audit</font>>, fillcolor="#FEF9C3", color="#A16207"];
+  app [label=<<b>Windows app MCP server</b><br/><font point-size="10">127.0.0.1 · search · file info<br/>variables · scripts</font>>, fillcolor="#F3F4F6", color="#6B7280"];
+  }
+  user -> m365c; user -> mcs;
+  m365c -> entra [style=dashed, label="sign-in"]; mcs -> entra [style=dashed];
+  m365c -> apim [label="MCP (streamable HTTP)"]; mcs -> apim [label="MCP"];
+  kv -> apim [style=dotted]; apim -> relay [label="HTTPS + SAS"];
+  bridge -> relay [label="outbound 443 listener", dir=back];
+  bridge -> app [label="localhost only"];
+}

@@ -1,0 +1,64 @@
+[
+  {
+    "name": "search_files",
+    "title": "Search files",
+    "description": "Find files under an approved workspace folder by name or text.",
+    "annotations": {
+      "readOnlyHint": true
+    },
+    "args": [
+      "workspace",
+      "query"
+    ]
+  },
+  {
+    "name": "get_file_info",
+    "title": "Get file info",
+    "description": "Return size, modified date, owner and hash of one file in an approved workspace.",
+    "annotations": {
+      "readOnlyHint": true
+    },
+    "args": [
+      "workspace",
+      "path"
+    ]
+  },
+  {
+    "name": "list_variables",
+    "title": "List variables",
+    "description": "List automation variables for a workspace.",
+    "annotations": {
+      "readOnlyHint": true
+    },
+    "args": [
+      "workspace"
+    ]
+  },
+  {
+    "name": "set_variable",
+    "title": "Update a variable",
+    "description": "Change the value of one automation variable. Changes data.",
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": false
+    },
+    "args": [
+      "workspace",
+      "name",
+      "value"
+    ]
+  },
+  {
+    "name": "run_script",
+    "title": "Run an approved script",
+    "description": "Run one script from the approved script catalogue. Changes data.",
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": true
+    },
+    "args": [
+      "workspace",
+      "script"
+    ]
+  }
+]

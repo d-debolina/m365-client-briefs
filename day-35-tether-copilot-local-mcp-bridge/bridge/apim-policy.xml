@@ -1,0 +1,58 @@
+<!--
+  TETHER cloud front door (Azure API Management) — UNTESTED SKETCH, check every element against
+  Microsoft Learn before use. It does three jobs:
+   1. validates the user's Entra ID token that Copilot Studio / Microsoft 365 Copilot sends (OAuth 2.0),
+   2. picks the customer's Hybrid Connection from the token's tenant (tid) claim,
+   3. signs the request for Azure Relay with a SAS token kept in an APIM named value (from Key Vault),
+      and passes the signed-in user to the local bridge in a header the bridge trusts ONLY via the relay.
+  The Windows machine never opens an inbound port: its listener dials out to Azure Relay on 443.
+-->
+<policies>
+  <inbound>
+    <base />
+    <validate-azure-ad-token tenant-id="{{tether-home-tenant-id}}" header-name="Authorization"
+                             failed-validation-httpcode="401" output-token-variable-name="jwt">
+      <!-- multi-tenant app: list the customer tenants you've onboarded, or validate issuer in code -->
+      <audiences><audience>api://tether-mcp</audience></audiences>
+      <required-claims>
+        <claim name="scp" match="any"><value>Tether.Invoke</value></claim>
+      </required-claims>
+    </validate-azure-ad-token>
+
+    <set-variable name="tid" value="@(((Jwt)context.Variables["jwt"]).Claims.GetValueOrDefault("tid", ""))" />
+    <set-variable name="upn" value="@(((Jwt)context.Variables["jwt"]).Claims.GetValueOrDefault("preferred_username", ""))" />
+    <!-- customer onboarding writes tid -> hybrid connection name into this named value (JSON map) -->
+    <set-variable name="hc" value="@{
+        var map = Newtonsoft.Json.Linq.JObject.Parse("{{tether-tenant-map}}");
+        return (string)map[(string)context.Variables["tid"]] ?? "";
+    }" />
+    <choose>
+      <when condition="@(string.IsNullOrEmpty((string)context.Variables["hc"]))">
+        <return-response><set-status code="403" reason="Tenant not onboarded" /></return-response>
+      </when>
+    </choose>
+
+    <!-- never trust a user header from outside; overwrite it with the validated claim -->
+    <set-header name="x-tether-user" exists-action="override"><value>@((string)context.Variables["upn"])</value></set-header>
+    <set-header name="Authorization" exists-action="delete" />
+
+    <!-- SAS token for Azure Relay (Send right on that one hybrid connection) -->
+    <set-header name="ServiceBusAuthorization" exists-action="override">
+      <value>@{
+        string resource = "https://{{relay-namespace}}.servicebus.windows.net/" + (string)context.Variables["hc"];
+        string encoded = System.Net.WebUtility.UrlEncode(resource);
+        long expiry = DateTimeOffset.UtcNow.AddMinutes(5).ToUnixTimeSeconds();
+        string toSign = encoded + "\n" + expiry;
+        using (var h = new System.Security.Cryptography.HMACSHA256(System.Text.Encoding.UTF8.GetBytes("{{relay-send-key}}"))) {
+          string sig = System.Net.WebUtility.UrlEncode(Convert.ToBase64String(h.ComputeHash(System.Text.Encoding.UTF8.GetBytes(toSign))));
+          return "SharedAccessSignature sr=" + encoded + "&sig=" + sig + "&se=" + expiry + "&skn=tether-send";
+        }
+      }</value>
+    </set-header>
+    <set-backend-service base-url="@("https://{{relay-namespace}}.servicebus.windows.net/" + (string)context.Variables["hc"])" />
+    <rate-limit-by-key calls="60" renewal-period="60" counter-key="@((string)context.Variables["upn"])" />
+  </inbound>
+  <backend><forward-request timeout="55" /></backend>
+  <outbound><base /></outbound>
+  <on-error><base /></on-error>
+</policies>

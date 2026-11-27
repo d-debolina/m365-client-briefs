@@ -1,0 +1,5 @@
+{"at": 1795758388, "user": "aisha.rahman@contoso.example", "tool": "search_files", "args": {"workspace": "finance-exports", "query": "march"}, "outcome": "allowed"}
+{"at": 1795758388, "user": "aisha.rahman@contoso.example", "tool": "set_variable", "args": {"workspace": "nightly-jobs", "name": "RETRY_LIMIT", "value": "5"}, "outcome": "needs_confirmation"}
+{"at": 1795758388, "user": "aisha.rahman@contoso.example", "tool": "set_variable", "args": {"workspace": "nightly-jobs", "name": "RETRY_LIMIT", "value": "9"}, "outcome": "denied"}
+{"at": 1795758388, "user": "aisha.rahman@contoso.example", "tool": "set_variable", "args": {"workspace": "nightly-jobs", "name": "RETRY_LIMIT", "value": "5"}, "outcome": "allowed"}
+{"at": 1795758388, "user": "aisha.rahman@contoso.example", "tool": "search_files", "args": {"workspace": "orders", "query": "*"}, "outcome": "denied"}

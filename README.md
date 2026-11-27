@@ -44,6 +44,8 @@ seen on a freelance marketplace and rebuilds it with Microsoft 365, Power Platfo
 | 32 | **HAUL** – Hash-checked, App-only, Unattended, Logged | Unattended file uploads from many RMM-managed PCs to one SharePoint library: certificate auth, write on one library only, hash-based skip, exit codes | `day-32-haul-rmm-files-to-sharepoint` |
 | 33 | **DOCKET** – Document sets, Oversight, Cases, Keys, External access, Tracking | Client, retainer and case hub on SharePoint: document set per case, ethical wall, guest-only share site, allocation dashboard | `day-33-docket-client-case-hub` |
 | 34 | **SWITCH** – Scope, Wave-pilot, Import, Test, Cut over, Hand over | Google Workspace to Microsoft 365 Business Premium for six people: EAC Gmail batch, Migration Manager, one-user pilot, rollback, security baseline, proven backup restore | `day-34-switch-google-to-m365` |
+| 35 | **TETHER** – Tunnelled, Entra-Trusted Host Execution Relay | A Windows app's local MCP server in Microsoft 365 Copilot and Copilot Studio through API Management and Azure Relay: no inbound ports, role-filtered tools, two-step confirmation for changes | `day-35-tether-copilot-local-mcp-bridge` |
+| 36 | **ATRIUM** – Approvals, Templates, Records, Institutional knowledge, Unified hubs, Modules | Bilingual institution-wide platform on SharePoint hubs and Power Platform: one information model, one approval engine, gap-free correspondence numbers, AI last | `day-36-atrium-institutional-platform` |
 
 ## Licence
 Content: CC BY 4.0. Code: MIT.
